@@ -16,8 +16,6 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 ### kmon
 
-* [![AUR version](https://img.shields.io/aur/version/kmon-bin?color=333333&label=kmon-bin&style=flat-square)](https://aur.archlinux.org/packages/kmon-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/kmon-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kmon-bin/) [![AUR votes](https://img.shields.io/aur/votes/kmon-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kmon-bin/) [![AUR license](https://img.shields.io/aur/license/kmon-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kmon-bin/)
-
 * [![AUR version](https://img.shields.io/aur/version/kmon-git?color=333333&label=kmon-git&style=flat-square)](https://aur.archlinux.org/packages/kmon-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/kmon-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kmon-git/) [![AUR votes](https://img.shields.io/aur/votes/kmon-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kmon-git/) [![AUR license](https://img.shields.io/aur/license/kmon-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kmon-git/)
 
 ### zps
