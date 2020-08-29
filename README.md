@@ -68,6 +68,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/passwall-desktop-git?color=333333&label=passwall-desktop-git&style=flat-square)](https://aur.archlinux.org/packages/passwall-desktop-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/passwall-desktop-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/passwall-desktop-git/) [![AUR votes](https://img.shields.io/aur/votes/passwall-desktop-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/passwall-desktop-git/) [![AUR license](https://img.shields.io/aur/license/passwall-desktop-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/passwall-desktop-git/)
 
+### gfold
+
+* [![AUR version](https://img.shields.io/aur/version/gfold?color=333333&label=gfold&style=flat-square)](https://aur.archlinux.org/packages/gfold/) [![AUR last modified](https://img.shields.io/aur/last-modified/gfold?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold/) [![AUR votes](https://img.shields.io/aur/votes/gfold?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold/) [![AUR license](https://img.shields.io/aur/license/gfold?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold/)
+
+* [![AUR version](https://img.shields.io/aur/version/gfold-git?color=333333&label=gfold-git&style=flat-square)](https://aur.archlinux.org/packages/gfold-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/gfold-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold-git/) [![AUR votes](https://img.shields.io/aur/votes/gfold-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold-git/) [![AUR license](https://img.shields.io/aur/license/gfold-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
