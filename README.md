@@ -74,6 +74,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/gfold-git?color=333333&label=gfold-git&style=flat-square)](https://aur.archlinux.org/packages/gfold-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/gfold-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold-git/) [![AUR votes](https://img.shields.io/aur/votes/gfold-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold-git/) [![AUR license](https://img.shields.io/aur/license/gfold-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gfold-git/)
 
+### jilu
+
+* [![AUR version](https://img.shields.io/aur/version/jilu?color=333333&label=jilu&style=flat-square)](https://aur.archlinux.org/packages/jilu/) [![AUR last modified](https://img.shields.io/aur/last-modified/jilu?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu/) [![AUR votes](https://img.shields.io/aur/votes/jilu?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu/) [![AUR license](https://img.shields.io/aur/license/jilu?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu/)
+
+* [![AUR version](https://img.shields.io/aur/version/jilu-bin?color=333333&label=jilu-bin&style=flat-square)](https://aur.archlinux.org/packages/jilu-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/jilu-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-bin/) [![AUR votes](https://img.shields.io/aur/votes/jilu-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-bin/) [![AUR license](https://img.shields.io/aur/license/jilu-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/jilu-git?color=333333&label=jilu-git&style=flat-square)](https://aur.archlinux.org/packages/jilu-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/jilu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-git/) [![AUR votes](https://img.shields.io/aur/votes/jilu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-git/) [![AUR license](https://img.shields.io/aur/license/jilu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
