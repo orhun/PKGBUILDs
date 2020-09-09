@@ -82,6 +82,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/jilu-git?color=333333&label=jilu-git&style=flat-square)](https://aur.archlinux.org/packages/jilu-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/jilu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-git/) [![AUR votes](https://img.shields.io/aur/votes/jilu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-git/) [![AUR license](https://img.shields.io/aur/license/jilu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/jilu-git/)
 
+### wtftw
+
+* [![AUR version](https://img.shields.io/aur/version/wtftw?color=333333&label=wtftw&style=flat-square)](https://aur.archlinux.org/packages/wtftw/) [![AUR last modified](https://img.shields.io/aur/last-modified/wtftw?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw/) [![AUR votes](https://img.shields.io/aur/votes/wtftw?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw/) [![AUR license](https://img.shields.io/aur/license/wtftw?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw/)
+
+* [![AUR version](https://img.shields.io/aur/version/wtftw-git?color=333333&label=wtftw-git&style=flat-square)](https://aur.archlinux.org/packages/wtftw-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/wtftw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw-git/) [![AUR votes](https://img.shields.io/aur/votes/wtftw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw-git/) [![AUR license](https://img.shields.io/aur/license/wtftw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
