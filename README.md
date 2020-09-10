@@ -88,6 +88,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/wtftw-git?color=333333&label=wtftw-git&style=flat-square)](https://aur.archlinux.org/packages/wtftw-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/wtftw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw-git/) [![AUR votes](https://img.shields.io/aur/votes/wtftw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw-git/) [![AUR license](https://img.shields.io/aur/license/wtftw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/wtftw-git/)
 
+### hadlock
+
+* [![AUR version](https://img.shields.io/aur/version/hadlock?color=333333&label=hadlock&style=flat-square)](https://aur.archlinux.org/packages/hadlock/) [![AUR last modified](https://img.shields.io/aur/last-modified/hadlock?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock/) [![AUR votes](https://img.shields.io/aur/votes/hadlock?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock/) [![AUR license](https://img.shields.io/aur/license/hadlock?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock/)
+
+* [![AUR version](https://img.shields.io/aur/version/hadlock-bin?color=333333&label=hadlock-bin&style=flat-square)](https://aur.archlinux.org/packages/hadlock-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/hadlock-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-bin/) [![AUR votes](https://img.shields.io/aur/votes/hadlock-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-bin/) [![AUR license](https://img.shields.io/aur/license/hadlock-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/hadlock-git?color=333333&label=hadlock-git&style=flat-square)](https://aur.archlinux.org/packages/hadlock-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/hadlock-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-git/) [![AUR votes](https://img.shields.io/aur/votes/hadlock-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-git/) [![AUR license](https://img.shields.io/aur/license/hadlock-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
