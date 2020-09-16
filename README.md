@@ -96,6 +96,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/hadlock-git?color=333333&label=hadlock-git&style=flat-square)](https://aur.archlinux.org/packages/hadlock-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/hadlock-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-git/) [![AUR votes](https://img.shields.io/aur/votes/hadlock-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-git/) [![AUR license](https://img.shields.io/aur/license/hadlock-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hadlock-git/)
 
+### mmwm
+
+* [![AUR version](https://img.shields.io/aur/version/mmwm-git?color=333333&label=mmwm-git&style=flat-square)](https://aur.archlinux.org/packages/mmwm-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/mmwm-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/mmwm-git/) [![AUR votes](https://img.shields.io/aur/votes/mmwm-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/mmwm-git/) [![AUR license](https://img.shields.io/aur/license/mmwm-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/mmwm-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
