@@ -104,6 +104,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/frankenwm?color=333333&label=frankenwm&style=flat-square)](https://aur.archlinux.org/packages/frankenwm/) [![AUR last modified](https://img.shields.io/aur/last-modified/frankenwm?color=333333&style=flat-square)](https://aur.archlinux.org/packages/frankenwm/) [![AUR votes](https://img.shields.io/aur/votes/frankenwm?color=333333&style=flat-square)](https://aur.archlinux.org/packages/frankenwm/) [![AUR license](https://img.shields.io/aur/license/frankenwm?color=333333&style=flat-square)](https://aur.archlinux.org/packages/frankenwm/)
 
+### conserve
+
+* [![AUR version](https://img.shields.io/aur/version/conserve?color=333333&label=conserve&style=flat-square)](https://aur.archlinux.org/packages/conserve/) [![AUR last modified](https://img.shields.io/aur/last-modified/conserve?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve/) [![AUR votes](https://img.shields.io/aur/votes/conserve?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve/) [![AUR license](https://img.shields.io/aur/license/conserve?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve/)
+
+* [![AUR version](https://img.shields.io/aur/version/conserve-git?color=333333&label=conserve-git&style=flat-square)](https://aur.archlinux.org/packages/conserve-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/conserve-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve-git/) [![AUR votes](https://img.shields.io/aur/votes/conserve-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve-git/) [![AUR license](https://img.shields.io/aur/license/conserve-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
