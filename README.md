@@ -118,6 +118,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/stegano-git?color=333333&label=stegano-git&style=flat-square)](https://aur.archlinux.org/packages/stegano-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/stegano-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano-git/) [![AUR votes](https://img.shields.io/aur/votes/stegano-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano-git/) [![AUR license](https://img.shields.io/aur/license/stegano-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano-git/)
 
+### stegify
+
+* [![AUR version](https://img.shields.io/aur/version/stegify?color=333333&label=stegify&style=flat-square)](https://aur.archlinux.org/packages/stegify/) [![AUR last modified](https://img.shields.io/aur/last-modified/stegify?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify/) [![AUR votes](https://img.shields.io/aur/votes/stegify?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify/) [![AUR license](https://img.shields.io/aur/license/stegify?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify/)
+
+* [![AUR version](https://img.shields.io/aur/version/stegify-git?color=333333&label=stegify-git&style=flat-square)](https://aur.archlinux.org/packages/stegify-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/stegify-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify-git/) [![AUR votes](https://img.shields.io/aur/votes/stegify-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify-git/) [![AUR license](https://img.shields.io/aur/license/stegify-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
