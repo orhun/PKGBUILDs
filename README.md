@@ -26,7 +26,9 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/zps-git?color=333333&label=zps-git&style=flat-square)](https://aur.archlinux.org/packages/zps-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/zps-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/zps-git/) [![AUR votes](https://img.shields.io/aur/votes/zps-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/zps-git/) [![AUR license](https://img.shields.io/aur/license/zps-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/zps-git/)
 
-### pkgtop-git
+### pkgtop
+
+* [![AUR version](https://img.shields.io/aur/version/pkgtop?color=333333&label=pkgtop&style=flat-square)](https://aur.archlinux.org/packages/pkgtop/) [![AUR last modified](https://img.shields.io/aur/last-modified/pkgtop?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pkgtop/) [![AUR votes](https://img.shields.io/aur/votes/pkgtop?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pkgtop/) [![AUR license](https://img.shields.io/aur/license/pkgtop?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pkgtop/)
 
 * [![AUR version](https://img.shields.io/aur/version/pkgtop-git?color=333333&label=pkgtop-git&style=flat-square)](https://aur.archlinux.org/packages/pkgtop-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/pkgtop-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pkgtop-git/) [![AUR votes](https://img.shields.io/aur/votes/pkgtop-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pkgtop-git/) [![AUR license](https://img.shields.io/aur/license/pkgtop-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pkgtop-git/)
 
