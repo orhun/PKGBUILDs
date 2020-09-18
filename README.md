@@ -112,6 +112,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/conserve-git?color=333333&label=conserve-git&style=flat-square)](https://aur.archlinux.org/packages/conserve-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/conserve-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve-git/) [![AUR votes](https://img.shields.io/aur/votes/conserve-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve-git/) [![AUR license](https://img.shields.io/aur/license/conserve-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/conserve-git/)
 
+### stegano
+
+* [![AUR version](https://img.shields.io/aur/version/stegano?color=333333&label=stegano&style=flat-square)](https://aur.archlinux.org/packages/stegano/) [![AUR last modified](https://img.shields.io/aur/last-modified/stegano?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano/) [![AUR votes](https://img.shields.io/aur/votes/stegano?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano/) [![AUR license](https://img.shields.io/aur/license/stegano?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano/)
+
+* [![AUR version](https://img.shields.io/aur/version/stegano-git?color=333333&label=stegano-git&style=flat-square)](https://aur.archlinux.org/packages/stegano-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/stegano-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano-git/) [![AUR votes](https://img.shields.io/aur/votes/stegano-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano-git/) [![AUR license](https://img.shields.io/aur/license/stegano-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegano-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
