@@ -124,6 +124,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/stegify-git?color=333333&label=stegify-git&style=flat-square)](https://aur.archlinux.org/packages/stegify-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/stegify-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify-git/) [![AUR votes](https://img.shields.io/aur/votes/stegify-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify-git/) [![AUR license](https://img.shields.io/aur/license/stegify-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/stegify-git/)
 
+### kbtui
+
+* [![AUR version](https://img.shields.io/aur/version/kbtui?color=333333&label=kbtui&style=flat-square)](https://aur.archlinux.org/packages/kbtui/) [![AUR last modified](https://img.shields.io/aur/last-modified/kbtui?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui/) [![AUR votes](https://img.shields.io/aur/votes/kbtui?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui/) [![AUR license](https://img.shields.io/aur/license/kbtui?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui/)
+
+* [![AUR version](https://img.shields.io/aur/version/kbtui-git?color=333333&label=kbtui-git&style=flat-square)](https://aur.archlinux.org/packages/kbtui-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/kbtui-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui-git/) [![AUR votes](https://img.shields.io/aur/votes/kbtui-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui-git/) [![AUR license](https://img.shields.io/aur/license/kbtui-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
