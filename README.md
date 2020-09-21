@@ -130,6 +130,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/kbtui-git?color=333333&label=kbtui-git&style=flat-square)](https://aur.archlinux.org/packages/kbtui-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/kbtui-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui-git/) [![AUR votes](https://img.shields.io/aur/votes/kbtui-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui-git/) [![AUR license](https://img.shields.io/aur/license/kbtui-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbtui-git/)
 
+### ali
+
+* [![AUR version](https://img.shields.io/aur/version/ali?color=333333&label=ali&style=flat-square)](https://aur.archlinux.org/packages/ali/) [![AUR last modified](https://img.shields.io/aur/last-modified/ali?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali/) [![AUR votes](https://img.shields.io/aur/votes/ali?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali/) [![AUR license](https://img.shields.io/aur/license/ali?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali/)
+
+* [![AUR version](https://img.shields.io/aur/version/ali-bin?color=333333&label=ali-bin&style=flat-square)](https://aur.archlinux.org/packages/ali-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/ali-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-bin/) [![AUR votes](https://img.shields.io/aur/votes/ali-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-bin/) [![AUR license](https://img.shields.io/aur/license/ali-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/ali-git?color=333333&label=ali-git&style=flat-square)](https://aur.archlinux.org/packages/ali-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/ali-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-git/) [![AUR votes](https://img.shields.io/aur/votes/ali-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-git/) [![AUR license](https://img.shields.io/aur/license/ali-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
