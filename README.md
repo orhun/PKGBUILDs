@@ -138,6 +138,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/ali-git?color=333333&label=ali-git&style=flat-square)](https://aur.archlinux.org/packages/ali-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/ali-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-git/) [![AUR votes](https://img.shields.io/aur/votes/ali-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-git/) [![AUR license](https://img.shields.io/aur/license/ali-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ali-git/)
 
+### lipl
+
+* [![AUR version](https://img.shields.io/aur/version/lipl?color=333333&label=lipl&style=flat-square)](https://aur.archlinux.org/packages/lipl/) [![AUR last modified](https://img.shields.io/aur/last-modified/lipl?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl/) [![AUR votes](https://img.shields.io/aur/votes/lipl?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl/) [![AUR license](https://img.shields.io/aur/license/lipl?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl/)
+
+* [![AUR version](https://img.shields.io/aur/version/lipl-bin?color=333333&label=lipl-bin&style=flat-square)](https://aur.archlinux.org/packages/lipl-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/lipl-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-bin/) [![AUR votes](https://img.shields.io/aur/votes/lipl-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-bin/) [![AUR license](https://img.shields.io/aur/license/lipl-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/lipl-git?color=333333&label=lipl-git&style=flat-square)](https://aur.archlinux.org/packages/lipl-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/lipl-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-git/) [![AUR votes](https://img.shields.io/aur/votes/lipl-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-git/) [![AUR license](https://img.shields.io/aur/license/lipl-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
