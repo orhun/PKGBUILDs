@@ -146,6 +146,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/lipl-git?color=333333&label=lipl-git&style=flat-square)](https://aur.archlinux.org/packages/lipl-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/lipl-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-git/) [![AUR votes](https://img.shields.io/aur/votes/lipl-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-git/) [![AUR license](https://img.shields.io/aur/license/lipl-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lipl-git/)
 
+### shy
+
+* [![AUR version](https://img.shields.io/aur/version/shy?color=333333&label=shy&style=flat-square)](https://aur.archlinux.org/packages/shy/) [![AUR last modified](https://img.shields.io/aur/last-modified/shy?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy/) [![AUR votes](https://img.shields.io/aur/votes/shy?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy/) [![AUR license](https://img.shields.io/aur/license/shy?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy/)
+
+* [![AUR version](https://img.shields.io/aur/version/shy-bin?color=333333&label=shy-bin&style=flat-square)](https://aur.archlinux.org/packages/shy-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/shy-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-bin/) [![AUR votes](https://img.shields.io/aur/votes/shy-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-bin/) [![AUR license](https://img.shields.io/aur/license/shy-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/shy-git?color=333333&label=shy-git&style=flat-square)](https://aur.archlinux.org/packages/shy-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/shy-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-git/) [![AUR votes](https://img.shields.io/aur/votes/shy-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-git/) [![AUR license](https://img.shields.io/aur/license/shy-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
