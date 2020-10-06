@@ -154,6 +154,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/shy-git?color=333333&label=shy-git&style=flat-square)](https://aur.archlinux.org/packages/shy-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/shy-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-git/) [![AUR votes](https://img.shields.io/aur/votes/shy-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-git/) [![AUR license](https://img.shields.io/aur/license/shy-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/shy-git/)
 
+### kbs2
+
+* [![AUR version](https://img.shields.io/aur/version/kbs2?color=333333&label=kbs2&style=flat-square)](https://aur.archlinux.org/packages/kbs2/) [![AUR last modified](https://img.shields.io/aur/last-modified/kbs2?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbs2/) [![AUR votes](https://img.shields.io/aur/votes/kbs2?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbs2/) [![AUR license](https://img.shields.io/aur/license/kbs2?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbs2/)
+
+* [![AUR version](https://img.shields.io/aur/version/kbs2-git?color=333333&label=kbs2-git&style=flat-square)](https://aur.archlinux.org/packages/kbs2-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/kbs2-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbs2-git/) [![AUR votes](https://img.shields.io/aur/votes/kbs2-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbs2-git/) [![AUR license](https://img.shields.io/aur/license/kbs2-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/kbs2-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
