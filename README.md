@@ -40,7 +40,7 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/notp-git?color=333333&label=notp-git&style=flat-square)](https://aur.archlinux.org/packages/notp-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/notp-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/notp-git/) [![AUR votes](https://img.shields.io/aur/votes/notp-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/notp-git/) [![AUR license](https://img.shields.io/aur/license/notp-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/notp-git/)
 
-### god-git
+### god
 
 * [![AUR version](https://img.shields.io/aur/version/god-git?color=333333&label=god-git&style=flat-square)](https://aur.archlinux.org/packages/god-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/god-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god-git/) [![AUR votes](https://img.shields.io/aur/votes/god-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god-git/) [![AUR license](https://img.shields.io/aur/license/god-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god-git/)
 
