@@ -42,6 +42,8 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 ### god
 
+* [![AUR version](https://img.shields.io/aur/version/god?color=333333&label=god&style=flat-square)](https://aur.archlinux.org/packages/god/) [![AUR last modified](https://img.shields.io/aur/last-modified/god?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god/) [![AUR votes](https://img.shields.io/aur/votes/god?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god/) [![AUR license](https://img.shields.io/aur/license/god?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god/)
+
 * [![AUR version](https://img.shields.io/aur/version/god-git?color=333333&label=god-git&style=flat-square)](https://aur.archlinux.org/packages/god-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/god-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god-git/) [![AUR votes](https://img.shields.io/aur/votes/god-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god-git/) [![AUR license](https://img.shields.io/aur/license/god-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/god-git/)
 
 ### graphenex
