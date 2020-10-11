@@ -38,11 +38,9 @@ github = "orhun/god"
 use_latest_release = true
 prefix = "v"
 
-[grapheneX]
-source = "github"
-github = "grapheneX/grapheneX"
-use_latest_release = true
-prefix = "v"
+[graphenex]
+source = "pypi"
+pypi = "graphenex"
 
 [i3-workspace-brightness]
 source = "github"
