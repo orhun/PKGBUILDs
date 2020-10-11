@@ -18,5 +18,5 @@
 *.bak
 
 # nvchecker files
-old.txt
-new.txt
+old_ver.json
+new_ver.json

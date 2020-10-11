@@ -1,0 +1,118 @@
+[__config__]
+oldver = "old_ver.json"
+newver = "new_ver.json"
+
+[kmon]
+source = "github"
+github = "orhun/kmon"
+use_latest_release = true
+
+[kermit]
+source = "github"
+github = "orhun/kermit"
+use_latest_release = true
+
+[zps]
+source = "github"
+github = "orhun/zps"
+use_latest_release = true
+
+[pkgtop]
+source = "github"
+github = "orhun/pkgtop"
+use_latest_release = true
+
+[notp]
+source = "github"
+github = "kondanta/notp"
+use_latest_release = true
+
+[god]
+source = "github"
+github = "orhun/god"
+use_latest_release = true
+
+[grapheneX]
+source = "github"
+github = "grapheneX/grapheneX"
+use_latest_release = true
+
+[i3-workspace-brightness]
+source = "github"
+github = "orhun/i3-workspace-brightness"
+use_latest_release = true
+
+[passwall-server]
+source = "github"
+github = "passwall/passwall-server"
+use_latest_release = true
+
+[passwall-desktop]
+source = "github"
+github = "passwall/passwall-desktop"
+use_latest_release = true
+
+[gfold]
+source = "github"
+github = "nickgerace/gfold"
+use_latest_release = true
+
+[jilu]
+source = "github"
+github = "rustic-games/jilu"
+use_latest_release = true
+
+[wtftw]
+source = "github"
+github = "Kintaro/wtftw"
+use_max_tag = true
+
+[hadlock]
+source = "github"
+github = "AdaShoelace/hadlock"
+use_latest_release = true
+
+[frankenwm]
+source = "github"
+github = "sulami/FrankenWM"
+use_max_tag = true
+
+[conserve]
+source = "github"
+github = "sourcefrog/conserve"
+use_latest_release = true
+
+[stegano]
+source = "github"
+github = "steganogram/stegano-rs"
+use_max_tag = true
+
+[stegify]
+source = "github"
+github = "DimitarPetrov/stegify"
+use_latest_release = true
+
+[kbtui]
+source = "github"
+github = "Rudi9719/kbtui"
+use_latest_release = true
+
+[ali]
+source = "github"
+github = "nakabonne/ali"
+use_latest_release = true
+
+[lipl]
+source = "github"
+github = "yxdunc/lipl"
+use_latest_release = true
+
+[shy]
+source = "github"
+github = "xvxx/shy"
+use_max_tag = true
+
+[kbs2]
+source = "github"
+github = "woodruffw/kbs2"
+use_latest_release = true
