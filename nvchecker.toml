@@ -6,113 +6,136 @@ newver = "new_ver.json"
 source = "github"
 github = "orhun/kmon"
 use_latest_release = true
+prefix = "v"
 
 [kermit]
 source = "github"
 github = "orhun/kermit"
 use_latest_release = true
+prefix = "v"
 
 [zps]
 source = "github"
 github = "orhun/zps"
 use_latest_release = true
+prefix = "v"
 
 [pkgtop]
 source = "github"
 github = "orhun/pkgtop"
 use_latest_release = true
+prefix = "v"
 
 [notp]
 source = "github"
 github = "kondanta/notp"
 use_latest_release = true
+prefix = "v"
 
 [god]
 source = "github"
 github = "orhun/god"
 use_latest_release = true
+prefix = "v"
 
 [grapheneX]
 source = "github"
 github = "grapheneX/grapheneX"
 use_latest_release = true
+prefix = "v"
 
 [i3-workspace-brightness]
 source = "github"
 github = "orhun/i3-workspace-brightness"
 use_latest_release = true
+prefix = "v"
 
 [passwall-server]
 source = "github"
 github = "passwall/passwall-server"
 use_latest_release = true
+prefix = "v"
 
 [passwall-desktop]
 source = "github"
 github = "passwall/passwall-desktop"
 use_latest_release = true
+prefix = "v"
 
 [gfold]
 source = "github"
 github = "nickgerace/gfold"
 use_latest_release = true
+prefix = "v"
 
 [jilu]
 source = "github"
 github = "rustic-games/jilu"
 use_latest_release = true
+prefix = "v"
 
 [wtftw]
 source = "github"
 github = "Kintaro/wtftw"
 use_max_tag = true
+prefix = "v"
 
 [hadlock]
 source = "github"
 github = "AdaShoelace/hadlock"
 use_latest_release = true
+prefix = "v"
 
 [frankenwm]
 source = "github"
 github = "sulami/FrankenWM"
 use_max_tag = true
+prefix = "v"
 
 [conserve]
 source = "github"
 github = "sourcefrog/conserve"
 use_latest_release = true
+prefix = "v"
 
 [stegano]
 source = "github"
 github = "steganogram/stegano-rs"
 use_max_tag = true
+prefix = "v"
 
 [stegify]
 source = "github"
 github = "DimitarPetrov/stegify"
 use_latest_release = true
+prefix = "v"
 
 [kbtui]
 source = "github"
 github = "Rudi9719/kbtui"
 use_latest_release = true
+prefix = "v"
 
 [ali]
 source = "github"
 github = "nakabonne/ali"
 use_latest_release = true
+prefix = "v"
 
 [lipl]
 source = "github"
 github = "yxdunc/lipl"
 use_latest_release = true
+prefix = "v"
 
 [shy]
 source = "github"
 github = "xvxx/shy"
 use_max_tag = true
+prefix = "v"
 
 [kbs2]
 source = "github"
 github = "woodruffw/kbs2"
 use_latest_release = true
+prefix = "v"
