@@ -1,6 +1,7 @@
 [__config__]
 oldver = "old_ver.json"
 newver = "new_ver.json"
+# keyfile = "apikey"
 
 [kmon]
 source = "github"
@@ -135,5 +136,11 @@ prefix = "v"
 [kbs2]
 source = "github"
 github = "woodruffw/kbs2"
+use_latest_release = true
+prefix = "v"
+
+[suckit]
+source = "github"
+github = "Skallwar/suckit"
 use_latest_release = true
 prefix = "v"
