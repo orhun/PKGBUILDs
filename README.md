@@ -172,6 +172,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/suckit-git?color=333333&label=suckit-git&style=flat-square)](https://aur.archlinux.org/packages/suckit-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/suckit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/suckit-git/) [![AUR votes](https://img.shields.io/aur/votes/suckit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/suckit-git/) [![AUR license](https://img.shields.io/aur/license/suckit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/suckit-git/)
 
+### funkicrab
+
+* [![AUR version](https://img.shields.io/aur/version/funkicrab-git?color=333333&label=funkicrab-git&style=flat-square)](https://aur.archlinux.org/packages/funkicrab-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/funkicrab-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/funkicrab-git/) [![AUR votes](https://img.shields.io/aur/votes/funkicrab-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/funkicrab-git/) [![AUR license](https://img.shields.io/aur/license/funkicrab-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/funkicrab-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
