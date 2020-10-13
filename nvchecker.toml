@@ -144,3 +144,9 @@ source = "github"
 github = "Skallwar/suckit"
 use_latest_release = true
 prefix = "v"
+
+[fhc]
+source = "github"
+github = "Edu4rdSHL/fhc"
+use_latest_release = true
+prefix = "v"

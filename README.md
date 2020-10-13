@@ -176,6 +176,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/funkicrab-git?color=333333&label=funkicrab-git&style=flat-square)](https://aur.archlinux.org/packages/funkicrab-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/funkicrab-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/funkicrab-git/) [![AUR votes](https://img.shields.io/aur/votes/funkicrab-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/funkicrab-git/) [![AUR license](https://img.shields.io/aur/license/funkicrab-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/funkicrab-git/)
 
+### fhc
+
+* [![AUR version](https://img.shields.io/aur/version/fhc?color=333333&label=fhc&style=flat-square)](https://aur.archlinux.org/packages/fhc/) [![AUR last modified](https://img.shields.io/aur/last-modified/fhc?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc/) [![AUR votes](https://img.shields.io/aur/votes/fhc?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc/) [![AUR license](https://img.shields.io/aur/license/fhc?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc/)
+
+* [![AUR version](https://img.shields.io/aur/version/fhc-bin?color=333333&label=fhc-bin&style=flat-square)](https://aur.archlinux.org/packages/fhc-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/fhc-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-bin/) [![AUR votes](https://img.shields.io/aur/votes/fhc-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-bin/) [![AUR license](https://img.shields.io/aur/license/fhc-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/fhc-git?color=333333&label=fhc-git&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR votes](https://img.shields.io/aur/votes/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR license](https://img.shields.io/aur/license/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
