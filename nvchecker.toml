@@ -150,3 +150,15 @@ source = "github"
 github = "Edu4rdSHL/fhc"
 use_latest_release = true
 prefix = "v"
+
+[rusolver]
+source = "github"
+github = "Edu4rdSHL/rusolver"
+use_latest_release = true
+prefix = "v"
+
+[unimap]
+source = "github"
+github = "Edu4rdSHL/unimap"
+use_latest_release = true
+prefix = "v"
