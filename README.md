@@ -184,6 +184,28 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/fhc-git?color=333333&label=fhc-git&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR votes](https://img.shields.io/aur/votes/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR license](https://img.shields.io/aur/license/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/)
 
+### lfs
+
+* [![AUR version](https://img.shields.io/aur/version/lfs-git?color=333333&label=lfs-git&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR votes](https://img.shields.io/aur/votes/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR license](https://img.shields.io/aur/license/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/)
+
+### eva
+
+* [![AUR version](https://img.shields.io/aur/version/eva-git?color=333333&label=eva-git&style=flat-square)](https://aur.archlinux.org/packages/eva-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/eva-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/eva-git/) [![AUR votes](https://img.shields.io/aur/votes/eva-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/eva-git/) [![AUR license](https://img.shields.io/aur/license/eva-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/eva-git/)
+
+### rusolver
+
+* [![AUR version](https://img.shields.io/aur/version/rusolver?color=333333&label=rusolver&style=flat-square)](https://aur.archlinux.org/packages/rusolver/) [![AUR last modified](https://img.shields.io/aur/last-modified/rusolver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver/) [![AUR votes](https://img.shields.io/aur/votes/rusolver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver/) [![AUR license](https://img.shields.io/aur/license/rusolver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver/)
+
+* [![AUR version](https://img.shields.io/aur/version/rusolver-bin?color=333333&label=rusolver-bin&style=flat-square)](https://aur.archlinux.org/packages/rusolver-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/rusolver-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver-bin/) [![AUR votes](https://img.shields.io/aur/votes/rusolver-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver-bin/) [![AUR license](https://img.shields.io/aur/license/rusolver-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/rusolver-git?color=333333&label=rusolver-git&style=flat-square)](https://aur.archlinux.org/packages/rusolver-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/rusolver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver-git/) [![AUR votes](https://img.shields.io/aur/votes/rusolver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver-git/) [![AUR license](https://img.shields.io/aur/license/rusolver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusolver-git/)
+
+### unimap
+
+* [![AUR version](https://img.shields.io/aur/version/unimap?color=333333&label=unimap&style=flat-square)](https://aur.archlinux.org/packages/unimap/) [![AUR last modified](https://img.shields.io/aur/last-modified/unimap?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap/) [![AUR votes](https://img.shields.io/aur/votes/unimap?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap/) [![AUR license](https://img.shields.io/aur/license/unimap?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap/)
+
+* [![AUR version](https://img.shields.io/aur/version/unimap-git?color=333333&label=unimap-git&style=flat-square)](https://aur.archlinux.org/packages/unimap-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/unimap-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap-git/) [![AUR votes](https://img.shields.io/aur/votes/unimap-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap-git/) [![AUR license](https://img.shields.io/aur/license/unimap-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
