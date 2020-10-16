@@ -162,3 +162,9 @@ source = "github"
 github = "Edu4rdSHL/unimap"
 use_latest_release = true
 prefix = "v"
+
+[lfs]
+source = "github"
+github = "Canop/lfs"
+use_latest_release = true
+prefix = "v"

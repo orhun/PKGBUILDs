@@ -184,10 +184,6 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/fhc-git?color=333333&label=fhc-git&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR votes](https://img.shields.io/aur/votes/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/) [![AUR license](https://img.shields.io/aur/license/fhc-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fhc-git/)
 
-### lfs
-
-* [![AUR version](https://img.shields.io/aur/version/lfs-git?color=333333&label=lfs-git&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR votes](https://img.shields.io/aur/votes/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR license](https://img.shields.io/aur/license/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/)
-
 ### eva
 
 * [![AUR version](https://img.shields.io/aur/version/eva-git?color=333333&label=eva-git&style=flat-square)](https://aur.archlinux.org/packages/eva-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/eva-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/eva-git/) [![AUR votes](https://img.shields.io/aur/votes/eva-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/eva-git/) [![AUR license](https://img.shields.io/aur/license/eva-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/eva-git/)
@@ -205,6 +201,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 * [![AUR version](https://img.shields.io/aur/version/unimap?color=333333&label=unimap&style=flat-square)](https://aur.archlinux.org/packages/unimap/) [![AUR last modified](https://img.shields.io/aur/last-modified/unimap?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap/) [![AUR votes](https://img.shields.io/aur/votes/unimap?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap/) [![AUR license](https://img.shields.io/aur/license/unimap?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap/)
 
 * [![AUR version](https://img.shields.io/aur/version/unimap-git?color=333333&label=unimap-git&style=flat-square)](https://aur.archlinux.org/packages/unimap-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/unimap-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap-git/) [![AUR votes](https://img.shields.io/aur/votes/unimap-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap-git/) [![AUR license](https://img.shields.io/aur/license/unimap-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/unimap-git/)
+
+### lfs
+
+* [![AUR version](https://img.shields.io/aur/version/lfs?color=333333&label=lfs&style=flat-square)](https://aur.archlinux.org/packages/lfs/) [![AUR last modified](https://img.shields.io/aur/last-modified/lfs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs/) [![AUR votes](https://img.shields.io/aur/votes/lfs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs/) [![AUR license](https://img.shields.io/aur/license/lfs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs/)
+
+* [![AUR version](https://img.shields.io/aur/version/lfs-git?color=333333&label=lfs-git&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR votes](https://img.shields.io/aur/votes/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR license](https://img.shields.io/aur/license/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/)
 
 ## License
 
