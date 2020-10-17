@@ -208,6 +208,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/lfs-git?color=333333&label=lfs-git&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR votes](https://img.shields.io/aur/votes/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/) [![AUR license](https://img.shields.io/aur/license/lfs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lfs-git/)
 
+### rusty-krab-manager
+
+* [![AUR version](https://img.shields.io/aur/version/rusty-krab-manager?color=333333&label=rusty-krab-manager&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager/) [![AUR last modified](https://img.shields.io/aur/last-modified/rusty-krab-manager?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager/) [![AUR votes](https://img.shields.io/aur/votes/rusty-krab-manager?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager/) [![AUR license](https://img.shields.io/aur/license/rusty-krab-manager?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager/)
+
+* [![AUR version](https://img.shields.io/aur/version/rusty-krab-manager-git?color=333333&label=rusty-krab-manager-git&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/rusty-krab-manager-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager-git/) [![AUR votes](https://img.shields.io/aur/votes/rusty-krab-manager-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager-git/) [![AUR license](https://img.shields.io/aur/license/rusty-krab-manager-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))

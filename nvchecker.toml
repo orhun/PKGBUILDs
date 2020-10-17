@@ -168,3 +168,9 @@ source = "github"
 github = "Canop/lfs"
 use_latest_release = true
 prefix = "v"
+
+[rusty-krab-manager]
+source = "github"
+github = "aryakaul/rusty-krab-manager"
+use_latest_release = true
+prefix = "v"
