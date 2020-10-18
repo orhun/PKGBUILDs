@@ -214,6 +214,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/rusty-krab-manager-git?color=333333&label=rusty-krab-manager-git&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/rusty-krab-manager-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager-git/) [![AUR votes](https://img.shields.io/aur/votes/rusty-krab-manager-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager-git/) [![AUR license](https://img.shields.io/aur/license/rusty-krab-manager-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/rusty-krab-manager-git/)
 
+### huniq
+
+* [![AUR version](https://img.shields.io/aur/version/huniq-git?color=333333&label=huniq-git&style=flat-square)](https://aur.archlinux.org/packages/huniq-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/huniq-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/huniq-git/) [![AUR votes](https://img.shields.io/aur/votes/huniq-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/huniq-git/) [![AUR license](https://img.shields.io/aur/license/huniq-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/huniq-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
