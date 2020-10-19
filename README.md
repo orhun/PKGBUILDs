@@ -218,6 +218,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/huniq-git?color=333333&label=huniq-git&style=flat-square)](https://aur.archlinux.org/packages/huniq-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/huniq-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/huniq-git/) [![AUR votes](https://img.shields.io/aur/votes/huniq-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/huniq-git/) [![AUR license](https://img.shields.io/aur/license/huniq-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/huniq-git/)
 
+### slicer
+
+* [![AUR version](https://img.shields.io/aur/version/slicer?color=333333&label=slicer&style=flat-square)](https://aur.archlinux.org/packages/slicer/) [![AUR last modified](https://img.shields.io/aur/last-modified/slicer?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer/) [![AUR votes](https://img.shields.io/aur/votes/slicer?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer/) [![AUR license](https://img.shields.io/aur/license/slicer?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer/)
+
+* [![AUR version](https://img.shields.io/aur/version/slicer-bin?color=333333&label=slicer-bin&style=flat-square)](https://aur.archlinux.org/packages/slicer-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/slicer-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-bin/) [![AUR votes](https://img.shields.io/aur/votes/slicer-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-bin/) [![AUR license](https://img.shields.io/aur/license/slicer-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/slicer-git?color=333333&label=slicer-git&style=flat-square)](https://aur.archlinux.org/packages/slicer-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/slicer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-git/) [![AUR votes](https://img.shields.io/aur/votes/slicer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-git/) [![AUR license](https://img.shields.io/aur/license/slicer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))

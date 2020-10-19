@@ -174,3 +174,9 @@ source = "github"
 github = "aryakaul/rusty-krab-manager"
 use_latest_release = true
 prefix = "v"
+
+[slicer]
+source = "github"
+github = "mzfr/slicer"
+use_latest_release = true
+prefix = "v"
