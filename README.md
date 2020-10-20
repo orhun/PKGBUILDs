@@ -230,6 +230,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/pwninit-git?color=333333&label=pwninit-git&style=flat-square)](https://aur.archlinux.org/packages/pwninit-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/pwninit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pwninit-git/) [![AUR votes](https://img.shields.io/aur/votes/pwninit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pwninit-git/) [![AUR license](https://img.shields.io/aur/license/pwninit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pwninit-git/)
 
+### typeracer
+
+* [![AUR version](https://img.shields.io/aur/version/typeracer-bin?color=333333&label=typeracer-bin&style=flat-square)](https://aur.archlinux.org/packages/typeracer-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/typeracer-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-bin/) [![AUR votes](https://img.shields.io/aur/votes/typeracer-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-bin/) [![AUR license](https://img.shields.io/aur/license/typeracer-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/typeracer-git?color=333333&label=typeracer-git&style=flat-square)](https://aur.archlinux.org/packages/typeracer-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/typeracer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-git/) [![AUR votes](https://img.shields.io/aur/votes/typeracer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-git/) [![AUR license](https://img.shields.io/aur/license/typeracer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
