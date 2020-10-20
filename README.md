@@ -226,6 +226,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/slicer-git?color=333333&label=slicer-git&style=flat-square)](https://aur.archlinux.org/packages/slicer-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/slicer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-git/) [![AUR votes](https://img.shields.io/aur/votes/slicer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-git/) [![AUR license](https://img.shields.io/aur/license/slicer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/slicer-git/)
 
+### pwninit
+
+* [![AUR version](https://img.shields.io/aur/version/pwninit-git?color=333333&label=pwninit-git&style=flat-square)](https://aur.archlinux.org/packages/pwninit-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/pwninit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pwninit-git/) [![AUR votes](https://img.shields.io/aur/votes/pwninit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pwninit-git/) [![AUR license](https://img.shields.io/aur/license/pwninit-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/pwninit-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
