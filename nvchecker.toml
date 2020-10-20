@@ -162,6 +162,8 @@ prefix = "v"
 [eva]
 source = "github"
 github = "NerdyPepper/eva"
+use_latest_release = true
+prefix = "v"
 
 [rusolver]
 source = "github"
@@ -200,3 +202,11 @@ prefix = "v"
 [pwninit]
 source = "github"
 github = "io12/pwninit"
+use_latest_release = true
+prefix = "v"
+
+[typeracer]
+source = "gitlab"
+gitlab = "ttyperacer/terminal-typeracer"
+use_max_tag = true
+prefix = "v"
