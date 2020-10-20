@@ -85,6 +85,10 @@ github = "AdaShoelace/hadlock"
 use_latest_release = true
 prefix = "v"
 
+[mmwm]
+source = "github"
+github = "kaugm/mmwm"
+
 [frankenwm]
 source = "github"
 github = "sulami/FrankenWM"
@@ -145,11 +149,19 @@ github = "Skallwar/suckit"
 use_latest_release = true
 prefix = "v"
 
+[funkicrab]
+source = "github"
+github = "zesterer/funkicrab"
+
 [fhc]
 source = "github"
 github = "Edu4rdSHL/fhc"
 use_latest_release = true
 prefix = "v"
+
+[eva]
+source = "github"
+github = "NerdyPepper/eva"
 
 [rusolver]
 source = "github"
@@ -175,8 +187,16 @@ github = "aryakaul/rusty-krab-manager"
 use_latest_release = true
 prefix = "v"
 
+[huniq]
+source = "github"
+github = "koraa/huniq"
+
 [slicer]
 source = "github"
 github = "mzfr/slicer"
 use_latest_release = true
 prefix = "v"
+
+[pwninit]
+source = "github"
+github = "io12/pwninit"
