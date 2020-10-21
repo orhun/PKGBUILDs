@@ -236,6 +236,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/typeracer-git?color=333333&label=typeracer-git&style=flat-square)](https://aur.archlinux.org/packages/typeracer-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/typeracer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-git/) [![AUR votes](https://img.shields.io/aur/votes/typeracer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-git/) [![AUR license](https://img.shields.io/aur/license/typeracer-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/typeracer-git/)
 
+### termimage
+
+* [![AUR version](https://img.shields.io/aur/version/termimage?color=333333&label=termimage&style=flat-square)](https://aur.archlinux.org/packages/termimage/) [![AUR last modified](https://img.shields.io/aur/last-modified/termimage?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage/) [![AUR votes](https://img.shields.io/aur/votes/termimage?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage/) [![AUR license](https://img.shields.io/aur/license/termimage?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage/)
+
+* [![AUR version](https://img.shields.io/aur/version/termimage-bin?color=333333&label=termimage-bin&style=flat-square)](https://aur.archlinux.org/packages/termimage-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/termimage-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-bin/) [![AUR votes](https://img.shields.io/aur/votes/termimage-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-bin/) [![AUR license](https://img.shields.io/aur/license/termimage-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/termimage-git?color=333333&label=termimage-git&style=flat-square)](https://aur.archlinux.org/packages/termimage-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/termimage-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-git/) [![AUR votes](https://img.shields.io/aur/votes/termimage-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-git/) [![AUR license](https://img.shields.io/aur/license/termimage-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))

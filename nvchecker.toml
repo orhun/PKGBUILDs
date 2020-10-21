@@ -210,3 +210,9 @@ source = "gitlab"
 gitlab = "ttyperacer/terminal-typeracer"
 use_max_tag = true
 prefix = "v"
+
+[termimage]
+source = "github"
+github = "nabijaczleweli/termimage"
+use_latest_release = true
+prefix = "v"
