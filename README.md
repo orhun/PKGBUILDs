@@ -244,6 +244,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/termimage-git?color=333333&label=termimage-git&style=flat-square)](https://aur.archlinux.org/packages/termimage-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/termimage-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-git/) [![AUR votes](https://img.shields.io/aur/votes/termimage-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-git/) [![AUR license](https://img.shields.io/aur/license/termimage-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termimage-git/)
 
+### taskwarrior-tui
+
+* [![AUR version](https://img.shields.io/aur/version/taskwarrior-tui?color=333333&label=taskwarrior-tui&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui/) [![AUR last modified](https://img.shields.io/aur/last-modified/taskwarrior-tui?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui/) [![AUR votes](https://img.shields.io/aur/votes/taskwarrior-tui?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui/) [![AUR license](https://img.shields.io/aur/license/taskwarrior-tui?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui/)
+
+* [![AUR version](https://img.shields.io/aur/version/taskwarrior-tui-bin?color=333333&label=taskwarrior-tui-bin&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/taskwarrior-tui-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui-bin/) [![AUR votes](https://img.shields.io/aur/votes/taskwarrior-tui-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui-bin/) [![AUR license](https://img.shields.io/aur/license/taskwarrior-tui-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui-bin/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))

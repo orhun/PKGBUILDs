@@ -216,3 +216,9 @@ source = "github"
 github = "nabijaczleweli/termimage"
 use_latest_release = true
 prefix = "v"
+
+[taskwarrior-tui]
+source = "github"
+github = "kdheepak/taskwarrior-tui"
+use_latest_release = true
+prefix = "v"
