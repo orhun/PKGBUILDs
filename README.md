@@ -254,6 +254,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/imgcat?color=333333&label=imgcat&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR last modified](https://img.shields.io/aur/last-modified/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR votes](https://img.shields.io/aur/votes/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR license](https://img.shields.io/aur/license/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/)
 
+### silver
+
+* [![AUR version](https://img.shields.io/aur/version/silver?color=333333&label=silver&style=flat-square)](https://aur.archlinux.org/packages/silver/) [![AUR last modified](https://img.shields.io/aur/last-modified/silver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver/) [![AUR votes](https://img.shields.io/aur/votes/silver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver/) [![AUR license](https://img.shields.io/aur/license/silver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))

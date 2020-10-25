@@ -228,3 +228,9 @@ source = "github"
 github = "trashhalo/imgcat"
 use_latest_release = true
 prefix = "v"
+
+[silver]
+source = "github"
+github = "reujab/silver"
+use_latest_release = true
+prefix = "v"
