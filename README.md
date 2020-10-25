@@ -250,6 +250,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/taskwarrior-tui-bin?color=333333&label=taskwarrior-tui-bin&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/taskwarrior-tui-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui-bin/) [![AUR votes](https://img.shields.io/aur/votes/taskwarrior-tui-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui-bin/) [![AUR license](https://img.shields.io/aur/license/taskwarrior-tui-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/taskwarrior-tui-bin/)
 
+### imgcat
+
+* [![AUR version](https://img.shields.io/aur/version/imgcat?color=333333&label=imgcat&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR last modified](https://img.shields.io/aur/last-modified/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR votes](https://img.shields.io/aur/votes/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR license](https://img.shields.io/aur/license/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
