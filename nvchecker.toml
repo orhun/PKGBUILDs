@@ -234,3 +234,9 @@ source = "github"
 github = "reujab/silver"
 use_latest_release = true
 prefix = "v"
+
+[muffet]
+source = "github"
+github = "raviqqe/muffet"
+use_latest_release = true
+prefix = "v"

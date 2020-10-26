@@ -260,6 +260,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/silver-git?color=333333&label=silver-git&style=flat-square)](https://aur.archlinux.org/packages/silver-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/silver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver-git/) [![AUR votes](https://img.shields.io/aur/votes/silver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver-git/) [![AUR license](https://img.shields.io/aur/license/silver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver-git/)
 
+### muffet
+
+* [![AUR version](https://img.shields.io/aur/version/muffet?color=333333&label=muffet&style=flat-square)](https://aur.archlinux.org/packages/muffet/) [![AUR last modified](https://img.shields.io/aur/last-modified/muffet?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet/) [![AUR votes](https://img.shields.io/aur/votes/muffet?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet/) [![AUR license](https://img.shields.io/aur/license/muffet?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet/)
+
+* [![AUR version](https://img.shields.io/aur/version/muffet-bin?color=333333&label=muffet-bin&style=flat-square)](https://aur.archlinux.org/packages/muffet-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/muffet-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-bin/) [![AUR votes](https://img.shields.io/aur/votes/muffet-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-bin/) [![AUR license](https://img.shields.io/aur/license/muffet-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/muffet-git?color=333333&label=muffet-git&style=flat-square)](https://aur.archlinux.org/packages/muffet-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/muffet-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-git/) [![AUR votes](https://img.shields.io/aur/votes/muffet-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-git/) [![AUR license](https://img.shields.io/aur/license/muffet-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
