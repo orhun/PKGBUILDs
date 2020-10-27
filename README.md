@@ -268,6 +268,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/muffet-git?color=333333&label=muffet-git&style=flat-square)](https://aur.archlinux.org/packages/muffet-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/muffet-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-git/) [![AUR votes](https://img.shields.io/aur/votes/muffet-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-git/) [![AUR license](https://img.shields.io/aur/license/muffet-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet-git/)
 
+### onefetch
+
+* [![AUR version](https://img.shields.io/aur/version/onefetch-bin?color=333333&label=onefetch-bin&style=flat-square)](https://aur.archlinux.org/packages/onefetch-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/onefetch-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/onefetch-bin/) [![AUR votes](https://img.shields.io/aur/votes/onefetch-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/onefetch-bin/) [![AUR license](https://img.shields.io/aur/license/onefetch-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/onefetch-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/onefetch-git?color=333333&label=onefetch-git&style=flat-square)](https://aur.archlinux.org/packages/onefetch-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/onefetch-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/onefetch-git/) [![AUR votes](https://img.shields.io/aur/votes/onefetch-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/onefetch-git/) [![AUR license](https://img.shields.io/aur/license/onefetch-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/onefetch-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
