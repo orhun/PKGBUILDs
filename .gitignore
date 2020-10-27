@@ -2,6 +2,9 @@
 *.tar*
 *.tgz
 *.zip
+*-LICENSE*
+*-README*
+*-man*
 
 # signed sources
 *.asc
