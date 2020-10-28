@@ -246,3 +246,9 @@ source = "github"
 github = "o2sh/onefetch"
 use_latest_release = true
 prefix = "v"
+
+[termchat]
+source = "github"
+github = "lemunozm/termchat"
+use_max_tag = true
+prefix = "v"
