@@ -250,7 +250,7 @@ prefix = "v"
 [termchat]
 source = "github"
 github = "lemunozm/termchat"
-use_max_tag = true
+use_latest_release = true
 prefix = "v"
 
 [viu]
