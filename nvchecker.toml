@@ -252,3 +252,9 @@ source = "github"
 github = "lemunozm/termchat"
 use_max_tag = true
 prefix = "v"
+
+[viu]
+source = "github"
+github = "atanunq/viu"
+use_latest_release = true
+prefix = "v"
