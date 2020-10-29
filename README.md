@@ -279,6 +279,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 * [![AUR version](https://img.shields.io/aur/version/termchat?color=333333&label=termchat&style=flat-square)](https://aur.archlinux.org/packages/termchat/) [![AUR last modified](https://img.shields.io/aur/last-modified/termchat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termchat/) [![AUR votes](https://img.shields.io/aur/votes/termchat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termchat/) [![AUR license](https://img.shields.io/aur/license/termchat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termchat/)
 
 * [![AUR version](https://img.shields.io/aur/version/termchat-git?color=333333&label=termchat-git&style=flat-square)](https://aur.archlinux.org/packages/termchat-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/termchat-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termchat-git/) [![AUR votes](https://img.shields.io/aur/votes/termchat-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termchat-git/) [![AUR license](https://img.shields.io/aur/license/termchat-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/termchat-git/)
+  
+### viu
+
+* [![AUR version](https://img.shields.io/aur/version/viu?color=333333&label=viu&style=flat-square)](https://aur.archlinux.org/packages/viu/) [![AUR last modified](https://img.shields.io/aur/last-modified/viu?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu/) [![AUR votes](https://img.shields.io/aur/votes/viu?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu/) [![AUR license](https://img.shields.io/aur/license/viu?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu/)
+
+* [![AUR version](https://img.shields.io/aur/version/viu-git?color=333333&label=viu-git&style=flat-square)](https://aur.archlinux.org/packages/viu-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/viu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu-git/) [![AUR votes](https://img.shields.io/aur/votes/viu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu-git/) [![AUR license](https://img.shields.io/aur/license/viu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu-git/)
 
 ## License
 
