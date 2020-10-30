@@ -304,6 +304,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/goat-bin?color=333333&label=goat-bin&style=flat-square)](https://aur.archlinux.org/packages/goat-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/goat-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/goat-bin/) [![AUR votes](https://img.shields.io/aur/votes/goat-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/goat-bin/) [![AUR license](https://img.shields.io/aur/license/goat-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/goat-bin/)
 
+### sic
+
+* [![AUR version](https://img.shields.io/aur/version/sic-image-cli?color=333333&label=sic-image-cli&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli/) [![AUR last modified](https://img.shields.io/aur/last-modified/sic-image-cli?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli/) [![AUR votes](https://img.shields.io/aur/votes/sic-image-cli?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli/) [![AUR license](https://img.shields.io/aur/license/sic-image-cli?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli/)
+
+* [![AUR version](https://img.shields.io/aur/version/sic-image-cli-bin?color=333333&label=sic-image-cli-bin&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/sic-image-cli-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli-bin/) [![AUR votes](https://img.shields.io/aur/votes/sic-image-cli-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli-bin/) [![AUR license](https://img.shields.io/aur/license/sic-image-cli-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli-bin/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
