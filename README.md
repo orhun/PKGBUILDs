@@ -300,6 +300,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/fblog-git?color=333333&label=fblog-git&style=flat-square)](https://aur.archlinux.org/packages/fblog-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/fblog-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-git/) [![AUR votes](https://img.shields.io/aur/votes/fblog-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-git/) [![AUR license](https://img.shields.io/aur/license/fblog-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-git/)
 
+### goat
+
+* [![AUR version](https://img.shields.io/aur/version/goat-bin?color=333333&label=goat-bin&style=flat-square)](https://aur.archlinux.org/packages/goat-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/goat-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/goat-bin/) [![AUR votes](https://img.shields.io/aur/votes/goat-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/goat-bin/) [![AUR license](https://img.shields.io/aur/license/goat-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/goat-bin/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
