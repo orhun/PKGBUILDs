@@ -264,3 +264,9 @@ source = "github"
 github = "brocode/fw"
 use_latest_release = true
 prefix = "v"
+
+[fblog]
+source = "github"
+github = "brocode/fblog"
+use_latest_release = true
+prefix = "v"
