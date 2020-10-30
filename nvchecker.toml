@@ -276,3 +276,9 @@ source = "github"
 github = "brocode/goat"
 use_latest_release = true
 prefix = "v"
+
+[sic]
+source = "github"
+github = "foresterre/sic"
+use_latest_release = true
+prefix = "v"
