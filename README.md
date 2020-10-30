@@ -310,6 +310,8 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/sic-image-cli-bin?color=333333&label=sic-image-cli-bin&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/sic-image-cli-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli-bin/) [![AUR votes](https://img.shields.io/aur/votes/sic-image-cli-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli-bin/) [![AUR license](https://img.shields.io/aur/license/sic-image-cli-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-image-cli-bin/)
 
+* [![AUR version](https://img.shields.io/aur/version/sic-git?color=333333&label=sic-git&style=flat-square)](https://aur.archlinux.org/packages/sic-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/sic-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-git/) [![AUR votes](https://img.shields.io/aur/votes/sic-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-git/) [![AUR license](https://img.shields.io/aur/license/sic-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
