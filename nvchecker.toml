@@ -270,3 +270,9 @@ source = "github"
 github = "brocode/fblog"
 use_latest_release = true
 prefix = "v"
+
+[goat]
+source = "github"
+github = "brocode/goat"
+use_latest_release = true
+prefix = "v"
