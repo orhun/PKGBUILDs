@@ -288,6 +288,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/viu-git?color=333333&label=viu-git&style=flat-square)](https://aur.archlinux.org/packages/viu-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/viu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu-git/) [![AUR votes](https://img.shields.io/aur/votes/viu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu-git/) [![AUR license](https://img.shields.io/aur/license/viu-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/viu-git/)
 
+### fw
+
+* [![AUR version](https://img.shields.io/aur/version/fw-bin?color=333333&label=fw-bin&style=flat-square)](https://aur.archlinux.org/packages/fw-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/fw-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-bin/) [![AUR votes](https://img.shields.io/aur/votes/fw-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-bin/) [![AUR license](https://img.shields.io/aur/license/fw-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/fw-git?color=333333&label=fw-git&style=flat-square)](https://aur.archlinux.org/packages/fw-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/fw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-git/) [![AUR votes](https://img.shields.io/aur/votes/fw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-git/) [![AUR license](https://img.shields.io/aur/license/fw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
