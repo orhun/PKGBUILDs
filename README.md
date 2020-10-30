@@ -294,6 +294,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/fw-git?color=333333&label=fw-git&style=flat-square)](https://aur.archlinux.org/packages/fw-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/fw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-git/) [![AUR votes](https://img.shields.io/aur/votes/fw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-git/) [![AUR license](https://img.shields.io/aur/license/fw-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fw-git/)
 
+### fblog
+
+* [![AUR version](https://img.shields.io/aur/version/fblog-bin?color=333333&label=fblog-bin&style=flat-square)](https://aur.archlinux.org/packages/fblog-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/fblog-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-bin/) [![AUR votes](https://img.shields.io/aur/votes/fblog-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-bin/) [![AUR license](https://img.shields.io/aur/license/fblog-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/fblog-git?color=333333&label=fblog-git&style=flat-square)](https://aur.archlinux.org/packages/fblog-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/fblog-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-git/) [![AUR votes](https://img.shields.io/aur/votes/fblog-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-git/) [![AUR license](https://img.shields.io/aur/license/fblog-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fblog-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
