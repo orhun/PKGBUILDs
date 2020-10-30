@@ -258,3 +258,9 @@ source = "github"
 github = "atanunq/viu"
 use_latest_release = true
 prefix = "v"
+
+[fw]
+source = "github"
+github = "brocode/fw"
+use_latest_release = true
+prefix = "v"
