@@ -312,6 +312,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/sic-git?color=333333&label=sic-git&style=flat-square)](https://aur.archlinux.org/packages/sic-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/sic-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-git/) [![AUR votes](https://img.shields.io/aur/votes/sic-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-git/) [![AUR license](https://img.shields.io/aur/license/sic-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/sic-git/)
 
+### globe-cli
+
+* [![AUR version](https://img.shields.io/aur/version/globe-cli?color=333333&label=globe-cli&style=flat-square)](https://aur.archlinux.org/packages/globe-cli/) [![AUR last modified](https://img.shields.io/aur/last-modified/globe-cli?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli/) [![AUR votes](https://img.shields.io/aur/votes/globe-cli?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli/) [![AUR license](https://img.shields.io/aur/license/globe-cli?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli/)
+
+* [![AUR version](https://img.shields.io/aur/version/globe-cli-git?color=333333&label=globe-cli-git&style=flat-square)](https://aur.archlinux.org/packages/globe-cli-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/globe-cli-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli-git/) [![AUR votes](https://img.shields.io/aur/votes/globe-cli-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli-git/) [![AUR license](https://img.shields.io/aur/license/globe-cli-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
