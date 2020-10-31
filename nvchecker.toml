@@ -282,3 +282,9 @@ source = "github"
 github = "foresterre/sic"
 use_latest_release = true
 prefix = "v"
+
+[globe]
+source = "github"
+github = "adamsky/globe"
+use_max_tag = true
+prefix = "v"
