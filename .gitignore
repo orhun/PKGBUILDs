@@ -4,7 +4,6 @@
 *.zip
 *-LICENSE*
 *-README*
-*-man*
 
 # signed sources
 *.asc
