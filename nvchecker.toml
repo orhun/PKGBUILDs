@@ -288,3 +288,9 @@ source = "github"
 github = "adamsky/globe"
 use_max_tag = true
 prefix = "v"
+
+[cicero]
+source = "github"
+github = "eyeplum/cicero-tui"
+use_latest_release = true
+prefix = "v"
