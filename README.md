@@ -318,6 +318,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/globe-cli-git?color=333333&label=globe-cli-git&style=flat-square)](https://aur.archlinux.org/packages/globe-cli-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/globe-cli-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli-git/) [![AUR votes](https://img.shields.io/aur/votes/globe-cli-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli-git/) [![AUR license](https://img.shields.io/aur/license/globe-cli-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/globe-cli-git/)
 
+### cicero
+
+* [![AUR version](https://img.shields.io/aur/version/cicero?color=333333&label=cicero&style=flat-square)](https://aur.archlinux.org/packages/cicero/) [![AUR last modified](https://img.shields.io/aur/last-modified/cicero?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero/) [![AUR votes](https://img.shields.io/aur/votes/cicero?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero/) [![AUR license](https://img.shields.io/aur/license/cicero?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero/)
+
+* [![AUR version](https://img.shields.io/aur/version/cicero-git?color=333333&label=cicero-git&style=flat-square)](https://aur.archlinux.org/packages/cicero-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/cicero-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero-git/) [![AUR votes](https://img.shields.io/aur/votes/cicero-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero-git/) [![AUR license](https://img.shields.io/aur/license/cicero-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
