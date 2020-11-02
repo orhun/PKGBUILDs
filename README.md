@@ -324,6 +324,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/cicero-git?color=333333&label=cicero-git&style=flat-square)](https://aur.archlinux.org/packages/cicero-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/cicero-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero-git/) [![AUR votes](https://img.shields.io/aur/votes/cicero-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero-git/) [![AUR license](https://img.shields.io/aur/license/cicero-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/cicero-git/)
 
+### verco
+
+* [![AUR version](https://img.shields.io/aur/version/verco?color=333333&label=verco&style=flat-square)](https://aur.archlinux.org/packages/verco/) [![AUR last modified](https://img.shields.io/aur/last-modified/verco?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco/) [![AUR votes](https://img.shields.io/aur/votes/verco?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco/) [![AUR license](https://img.shields.io/aur/license/verco?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco/)
+
+* [![AUR version](https://img.shields.io/aur/version/verco-bin?color=333333&label=verco-bin&style=flat-square)](https://aur.archlinux.org/packages/verco-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/verco-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-bin/) [![AUR votes](https://img.shields.io/aur/votes/verco-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-bin/) [![AUR license](https://img.shields.io/aur/license/verco-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/verco-git?color=333333&label=verco-git&style=flat-square)](https://aur.archlinux.org/packages/verco-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/verco-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-git/) [![AUR votes](https://img.shields.io/aur/votes/verco-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-git/) [![AUR license](https://img.shields.io/aur/license/verco-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
