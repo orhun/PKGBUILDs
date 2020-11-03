@@ -300,3 +300,9 @@ source = "github"
 github = "matheuslessarodrigues/verco"
 use_latest_release = true
 prefix = "v"
+
+[color_blinder]
+source = "gitlab"
+gitlab = "dns2utf8/color_blinder"
+use_max_tag = true
+prefix = "v"
