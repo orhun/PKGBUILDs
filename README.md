@@ -330,6 +330,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/verco-git?color=333333&label=verco-git&style=flat-square)](https://aur.archlinux.org/packages/verco-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/verco-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-git/) [![AUR votes](https://img.shields.io/aur/votes/verco-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-git/) [![AUR license](https://img.shields.io/aur/license/verco-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/verco-git/)
 
+### color_blinder
+
+* [![AUR version](https://img.shields.io/aur/version/color_blinder?color=333333&label=color_blinder&style=flat-square)](https://aur.archlinux.org/packages/color_blinder/) [![AUR last modified](https://img.shields.io/aur/last-modified/color_blinder?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder/) [![AUR votes](https://img.shields.io/aur/votes/color_blinder?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder/) [![AUR license](https://img.shields.io/aur/license/color_blinder?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder/)
+
+* [![AUR version](https://img.shields.io/aur/version/color_blinder-git?color=333333&label=color_blinder-git&style=flat-square)](https://aur.archlinux.org/packages/color_blinder-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/color_blinder-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder-git/) [![AUR votes](https://img.shields.io/aur/votes/color_blinder-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder-git/) [![AUR license](https://img.shields.io/aur/license/color_blinder-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
