@@ -306,3 +306,9 @@ source = "gitlab"
 gitlab = "dns2utf8/color_blinder"
 use_max_tag = true
 prefix = "v"
+
+[bookmark]
+source = "github"
+github = "Szymongib/bookmark"
+use_latest_release = true
+prefix = "v"
