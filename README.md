@@ -338,6 +338,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/color_blinder-git?color=333333&label=color_blinder-git&style=flat-square)](https://aur.archlinux.org/packages/color_blinder-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/color_blinder-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder-git/) [![AUR votes](https://img.shields.io/aur/votes/color_blinder-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder-git/) [![AUR license](https://img.shields.io/aur/license/color_blinder-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/color_blinder-git/)
 
+### bookmark
+
+* [![AUR version](https://img.shields.io/aur/version/bookmark?color=333333&label=bookmark&style=flat-square)](https://aur.archlinux.org/packages/bookmark/) [![AUR last modified](https://img.shields.io/aur/last-modified/bookmark?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark/) [![AUR votes](https://img.shields.io/aur/votes/bookmark?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark/) [![AUR license](https://img.shields.io/aur/license/bookmark?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark/)
+
+* [![AUR version](https://img.shields.io/aur/version/bookmark-bin?color=333333&label=bookmark-bin&style=flat-square)](https://aur.archlinux.org/packages/bookmark-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/bookmark-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-bin/) [![AUR votes](https://img.shields.io/aur/votes/bookmark-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-bin/) [![AUR license](https://img.shields.io/aur/license/bookmark-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/bookmark-git?color=333333&label=bookmark-git&style=flat-square)](https://aur.archlinux.org/packages/bookmark-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/bookmark-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-git/) [![AUR votes](https://img.shields.io/aur/votes/bookmark-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-git/) [![AUR license](https://img.shields.io/aur/license/bookmark-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
