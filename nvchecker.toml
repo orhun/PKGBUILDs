@@ -312,3 +312,9 @@ source = "github"
 github = "Szymongib/bookmark"
 use_latest_release = true
 prefix = "v"
+
+[emptty]
+source = "github"
+github = "tvrzna/emptty"
+use_latest_release = true
+prefix = "v"
