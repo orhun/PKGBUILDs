@@ -346,6 +346,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/bookmark-git?color=333333&label=bookmark-git&style=flat-square)](https://aur.archlinux.org/packages/bookmark-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/bookmark-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-git/) [![AUR votes](https://img.shields.io/aur/votes/bookmark-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-git/) [![AUR license](https://img.shields.io/aur/license/bookmark-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/bookmark-git/)
 
+### emptty
+
+* [![AUR version](https://img.shields.io/aur/version/emptty?color=333333&label=emptty&style=flat-square)](https://aur.archlinux.org/packages/emptty/) [![AUR last modified](https://img.shields.io/aur/last-modified/emptty?color=333333&style=flat-square)](https://aur.archlinux.org/packages/emptty/) [![AUR votes](https://img.shields.io/aur/votes/emptty?color=333333&style=flat-square)](https://aur.archlinux.org/packages/emptty/) [![AUR license](https://img.shields.io/aur/license/emptty?color=333333&style=flat-square)](https://aur.archlinux.org/packages/emptty/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
