@@ -350,6 +350,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/emptty?color=333333&label=emptty&style=flat-square)](https://aur.archlinux.org/packages/emptty/) [![AUR last modified](https://img.shields.io/aur/last-modified/emptty?color=333333&style=flat-square)](https://aur.archlinux.org/packages/emptty/) [![AUR votes](https://img.shields.io/aur/votes/emptty?color=333333&style=flat-square)](https://aur.archlinux.org/packages/emptty/) [![AUR license](https://img.shields.io/aur/license/emptty?color=333333&style=flat-square)](https://aur.archlinux.org/packages/emptty/)
 
+### dog-dns
+
+* [![AUR version](https://img.shields.io/aur/version/dog-dns?color=333333&label=dog-dns&style=flat-square)](https://aur.archlinux.org/packages/dog-dns/) [![AUR last modified](https://img.shields.io/aur/last-modified/dog-dns?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns/) [![AUR votes](https://img.shields.io/aur/votes/dog-dns?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns/) [![AUR license](https://img.shields.io/aur/license/dog-dns?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns/)
+
+* [![AUR version](https://img.shields.io/aur/version/dog-dns-bin?color=333333&label=dog-dns-bin&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/dog-dns-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-bin/) [![AUR votes](https://img.shields.io/aur/votes/dog-dns-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-bin/) [![AUR license](https://img.shields.io/aur/license/dog-dns-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/dog-dns-git?color=333333&label=dog-dns-git&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/dog-dns-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-git/) [![AUR votes](https://img.shields.io/aur/votes/dog-dns-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-git/) [![AUR license](https://img.shields.io/aur/license/dog-dns-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
