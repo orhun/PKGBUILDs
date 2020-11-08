@@ -318,3 +318,9 @@ source = "github"
 github = "tvrzna/emptty"
 use_latest_release = true
 prefix = "v"
+
+[dog]
+source = "github"
+github = "ogham/dog"
+use_latest_release = true
+prefix = "v"
