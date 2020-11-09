@@ -330,3 +330,9 @@ source = "github"
 github = "pkolaczk/fclones"
 use_latest_release = true
 prefix = "v"
+
+[dotter]
+source = "github"
+github = "SuperCuber/dotter"
+use_latest_release = true
+prefix = "v"
