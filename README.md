@@ -358,6 +358,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/dog-dns-git?color=333333&label=dog-dns-git&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/dog-dns-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-git/) [![AUR votes](https://img.shields.io/aur/votes/dog-dns-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-git/) [![AUR license](https://img.shields.io/aur/license/dog-dns-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dog-dns-git/)
 
+### fclones
+
+* [![AUR version](https://img.shields.io/aur/version/fclones?color=333333&label=fclones&style=flat-square)](https://aur.archlinux.org/packages/fclones/) [![AUR last modified](https://img.shields.io/aur/last-modified/fclones?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones/) [![AUR votes](https://img.shields.io/aur/votes/fclones?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones/) [![AUR license](https://img.shields.io/aur/license/fclones?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones/)
+
+* [![AUR version](https://img.shields.io/aur/version/fclones-bin?color=333333&label=fclones-bin&style=flat-square)](https://aur.archlinux.org/packages/fclones-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/fclones-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones-bin/) [![AUR votes](https://img.shields.io/aur/votes/fclones-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones-bin/) [![AUR license](https://img.shields.io/aur/license/fclones-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones-bin/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
