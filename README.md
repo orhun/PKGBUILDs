@@ -364,6 +364,14 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/fclones-bin?color=333333&label=fclones-bin&style=flat-square)](https://aur.archlinux.org/packages/fclones-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/fclones-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones-bin/) [![AUR votes](https://img.shields.io/aur/votes/fclones-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones-bin/) [![AUR license](https://img.shields.io/aur/license/fclones-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/fclones-bin/)
 
+### dotter-rs
+
+* [![AUR version](https://img.shields.io/aur/version/dotter-rs?color=333333&label=dotter-rs&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs/) [![AUR last modified](https://img.shields.io/aur/last-modified/dotter-rs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs/) [![AUR votes](https://img.shields.io/aur/votes/dotter-rs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs/) [![AUR license](https://img.shields.io/aur/license/dotter-rs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs/)
+
+* [![AUR version](https://img.shields.io/aur/version/dotter-rs-bin?color=333333&label=dotter-rs-bin&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/dotter-rs-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-bin/) [![AUR votes](https://img.shields.io/aur/votes/dotter-rs-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-bin/) [![AUR license](https://img.shields.io/aur/license/dotter-rs-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-bin/)
+
+* [![AUR version](https://img.shields.io/aur/version/dotter-rs-git?color=333333&label=dotter-rs-git&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/dotter-rs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-git/) [![AUR votes](https://img.shields.io/aur/votes/dotter-rs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-git/) [![AUR license](https://img.shields.io/aur/license/dotter-rs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
