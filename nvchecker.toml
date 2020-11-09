@@ -324,3 +324,9 @@ source = "github"
 github = "ogham/dog"
 use_latest_release = true
 prefix = "v"
+
+[fclones]
+source = "github"
+github = "pkolaczk/fclones"
+use_latest_release = true
+prefix = "v"
