@@ -372,6 +372,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/dotter-rs-git?color=333333&label=dotter-rs-git&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/dotter-rs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-git/) [![AUR votes](https://img.shields.io/aur/votes/dotter-rs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-git/) [![AUR license](https://img.shields.io/aur/license/dotter-rs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/dotter-rs-git/)
 
+### faint
+
+* [![AUR version](https://img.shields.io/aur/version/faint?color=333333&label=faint&style=flat-square)](https://aur.archlinux.org/packages/faint/) [![AUR last modified](https://img.shields.io/aur/last-modified/faint?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint/) [![AUR votes](https://img.shields.io/aur/votes/faint?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint/) [![AUR license](https://img.shields.io/aur/license/faint?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint/)
+
+* [![AUR version](https://img.shields.io/aur/version/faint-git?color=333333&label=faint-git&style=flat-square)](https://aur.archlinux.org/packages/faint-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/faint-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint-git/) [![AUR votes](https://img.shields.io/aur/votes/faint-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint-git/) [![AUR license](https://img.shields.io/aur/license/faint-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
