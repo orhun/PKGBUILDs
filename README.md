@@ -378,6 +378,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/faint-git?color=333333&label=faint-git&style=flat-square)](https://aur.archlinux.org/packages/faint-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/faint-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint-git/) [![AUR votes](https://img.shields.io/aur/votes/faint-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint-git/) [![AUR license](https://img.shields.io/aur/license/faint-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/faint-git/)
 
+### gping
+
+* [![AUR version](https://img.shields.io/aur/version/gping?color=333333&label=gping&style=flat-square)](https://aur.archlinux.org/packages/gping/) [![AUR last modified](https://img.shields.io/aur/last-modified/gping?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping/) [![AUR votes](https://img.shields.io/aur/votes/gping?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping/) [![AUR license](https://img.shields.io/aur/license/gping?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping/)
+
+* [![AUR version](https://img.shields.io/aur/version/gping-bin?color=333333&label=gping-bin&style=flat-square)](https://aur.archlinux.org/packages/gping-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/gping-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping-bin/) [![AUR votes](https://img.shields.io/aur/votes/gping-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping-bin/) [![AUR license](https://img.shields.io/aur/license/gping-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping-bin/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
