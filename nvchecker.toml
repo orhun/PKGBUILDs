@@ -342,3 +342,9 @@ source = "github"
 github = "salman-abedin/faint"
 use_latest_release = true
 prefix = "v"
+
+[gping]
+source = "github"
+github = "orf/gping"
+use_latest_release = true
+prefix = "v"
