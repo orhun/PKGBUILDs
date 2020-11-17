@@ -348,3 +348,9 @@ source = "github"
 github = "orf/gping"
 use_latest_release = true
 prefix = "v"
+
+[hx]
+source = "github"
+github = "sitkevij/hex"
+use_latest_release = true
+prefix = "v"
