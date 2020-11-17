@@ -384,6 +384,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/gping-bin?color=333333&label=gping-bin&style=flat-square)](https://aur.archlinux.org/packages/gping-bin/) [![AUR last modified](https://img.shields.io/aur/last-modified/gping-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping-bin/) [![AUR votes](https://img.shields.io/aur/votes/gping-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping-bin/) [![AUR license](https://img.shields.io/aur/license/gping-bin?color=333333&style=flat-square)](https://aur.archlinux.org/packages/gping-bin/)
 
+### hx
+
+* [![AUR version](https://img.shields.io/aur/version/hx-git?color=333333&label=hx-git&style=flat-square)](https://aur.archlinux.org/packages/hx-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/hx-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hx-git/) [![AUR votes](https://img.shields.io/aur/votes/hx-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hx-git/) [![AUR license](https://img.shields.io/aur/license/hx-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hx-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
