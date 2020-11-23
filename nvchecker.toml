@@ -27,9 +27,9 @@ github = "orhun/pkgtop"
 use_latest_release = true
 prefix = "v"
 
-[notp]
+[menyoki]
 source = "github"
-github = "kondanta/notp"
+github = "orhun/menyoki"
 use_latest_release = true
 prefix = "v"
 
@@ -46,6 +46,12 @@ pypi = "graphenex"
 [i3-workspace-brightness]
 source = "github"
 github = "orhun/i3-workspace-brightness"
+use_latest_release = true
+prefix = "v"
+
+[notp]
+source = "github"
+github = "kondanta/notp"
 use_latest_release = true
 prefix = "v"
 
