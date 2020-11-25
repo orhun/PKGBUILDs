@@ -39,10 +39,6 @@ github = "orhun/god"
 use_latest_release = true
 prefix = "v"
 
-[graphenex]
-source = "pypi"
-pypi = "graphenex"
-
 [i3-workspace-brightness]
 source = "github"
 github = "orhun/i3-workspace-brightness"
@@ -52,18 +48,6 @@ prefix = "v"
 [notp]
 source = "github"
 github = "kondanta/notp"
-use_latest_release = true
-prefix = "v"
-
-[passwall-server]
-source = "github"
-github = "passwall/passwall-server"
-use_latest_release = true
-prefix = "v"
-
-[passwall-desktop]
-source = "github"
-github = "passwall/passwall-desktop"
 use_latest_release = true
 prefix = "v"
 
