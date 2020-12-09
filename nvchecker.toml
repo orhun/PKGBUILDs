@@ -63,12 +63,6 @@ github = "rustic-games/jilu"
 use_latest_release = true
 prefix = "v"
 
-[wtftw]
-source = "github"
-github = "Kintaro/wtftw"
-use_max_tag = true
-prefix = "v"
-
 [hadlock]
 source = "github"
 github = "AdaShoelace/hadlock"
