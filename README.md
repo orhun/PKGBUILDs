@@ -236,12 +236,6 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/imgcat?color=333333&label=imgcat&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR last modified](https://img.shields.io/aur/last-modified/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR votes](https://img.shields.io/aur/votes/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/) [![AUR license](https://img.shields.io/aur/license/imgcat?color=333333&style=flat-square)](https://aur.archlinux.org/packages/imgcat/)
 
-### silver
-
-* [![AUR version](https://img.shields.io/aur/version/silver?color=333333&label=silver&style=flat-square)](https://aur.archlinux.org/packages/silver/) [![AUR last modified](https://img.shields.io/aur/last-modified/silver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver/) [![AUR votes](https://img.shields.io/aur/votes/silver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver/) [![AUR license](https://img.shields.io/aur/license/silver?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver/)
-
-* [![AUR version](https://img.shields.io/aur/version/silver-git?color=333333&label=silver-git&style=flat-square)](https://aur.archlinux.org/packages/silver-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/silver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver-git/) [![AUR votes](https://img.shields.io/aur/votes/silver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver-git/) [![AUR license](https://img.shields.io/aur/license/silver-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/silver-git/)
-
 ### muffet
 
 * [![AUR version](https://img.shields.io/aur/version/muffet?color=333333&label=muffet&style=flat-square)](https://aur.archlinux.org/packages/muffet/) [![AUR last modified](https://img.shields.io/aur/last-modified/muffet?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet/) [![AUR votes](https://img.shields.io/aur/votes/muffet?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet/) [![AUR license](https://img.shields.io/aur/license/muffet?color=333333&style=flat-square)](https://aur.archlinux.org/packages/muffet/)
