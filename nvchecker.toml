@@ -321,12 +321,6 @@ github = "SuperCuber/dotter"
 use_latest_release = true
 prefix = "v"
 
-[faint]
-source = "github"
-github = "salman-abedin/faint"
-use_latest_release = true
-prefix = "v"
-
 [gping]
 source = "github"
 github = "orf/gping"
