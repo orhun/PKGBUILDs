@@ -326,3 +326,9 @@ source = "github"
 github = "sitkevij/hex"
 use_latest_release = true
 prefix = "v"
+
+[ctree]
+source = "github"
+github = "Matt-Gleich/ctree"
+use_latest_release = true
+prefix = "v"
