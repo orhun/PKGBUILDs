@@ -356,6 +356,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/hx-git?color=333333&label=hx-git&style=flat-square)](https://aur.archlinux.org/packages/hx-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/hx-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hx-git/) [![AUR votes](https://img.shields.io/aur/votes/hx-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hx-git/) [![AUR license](https://img.shields.io/aur/license/hx-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/hx-git/)
 
+### ctree
+
+* [![AUR version](https://img.shields.io/aur/version/ctree?color=333333&label=ctree&style=flat-square)](https://aur.archlinux.org/packages/ctree/) [![AUR last modified](https://img.shields.io/aur/last-modified/ctree?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree/) [![AUR votes](https://img.shields.io/aur/votes/ctree?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree/) [![AUR license](https://img.shields.io/aur/license/ctree?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree/)
+
+* [![AUR version](https://img.shields.io/aur/version/ctree-git?color=333333&label=ctree-git&style=flat-square)](https://aur.archlinux.org/packages/ctree-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/ctree-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree-git/) [![AUR votes](https://img.shields.io/aur/votes/ctree-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree-git/) [![AUR license](https://img.shields.io/aur/license/ctree-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
