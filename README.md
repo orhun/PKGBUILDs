@@ -362,6 +362,12 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/ctree-git?color=333333&label=ctree-git&style=flat-square)](https://aur.archlinux.org/packages/ctree-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/ctree-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree-git/) [![AUR votes](https://img.shields.io/aur/votes/ctree-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree-git/) [![AUR license](https://img.shields.io/aur/license/ctree-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/ctree-git/)
 
+### prs
+
+* [![AUR version](https://img.shields.io/aur/version/prs?color=333333&label=prs&style=flat-square)](https://aur.archlinux.org/packages/prs/) [![AUR last modified](https://img.shields.io/aur/last-modified/prs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/prs/) [![AUR votes](https://img.shields.io/aur/votes/prs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/prs/) [![AUR license](https://img.shields.io/aur/license/prs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/prs/)
+
+* [![AUR version](https://img.shields.io/aur/version/prs-git?color=333333&label=prs-git&style=flat-square)](https://aur.archlinux.org/packages/prs-git/) [![AUR last modified](https://img.shields.io/aur/last-modified/prs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/prs-git/) [![AUR votes](https://img.shields.io/aur/votes/prs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/prs-git/) [![AUR license](https://img.shields.io/aur/license/prs-git?color=333333&style=flat-square)](https://aur.archlinux.org/packages/prs-git/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
