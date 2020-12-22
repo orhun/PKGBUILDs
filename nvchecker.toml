@@ -338,3 +338,9 @@ source = "gitlab"
 gitlab = "timvisee/prs"
 use_max_tag = true
 prefix = "v"
+
+[tickrs]
+source = "github"
+github = "tarkah/tickrs"
+use_latest_release = true
+prefix = "v"
