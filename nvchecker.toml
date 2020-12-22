@@ -332,3 +332,9 @@ source = "github"
 github = "Matt-Gleich/ctree"
 use_latest_release = true
 prefix = "v"
+
+[prs]
+source = "gitlab"
+gitlab = "timvisee/prs"
+use_max_tag = true
+prefix = "v"
