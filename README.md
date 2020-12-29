@@ -372,6 +372,10 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 * [![AUR version](https://img.shields.io/aur/version/tickrs?color=333333&label=tickrs&style=flat-square)](https://aur.archlinux.org/packages/tickrs/) [![AUR last modified](https://img.shields.io/aur/last-modified/tickrs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/tickrs/) [![AUR votes](https://img.shields.io/aur/votes/tickrs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/tickrs/) [![AUR license](https://img.shields.io/aur/license/tickrs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/tickrs/)
 
+### lychee-rs
+
+* [![AUR version](https://img.shields.io/aur/version/lychee-rs?color=333333&label=lychee-rs&style=flat-square)](https://aur.archlinux.org/packages/lychee-rs/) [![AUR last modified](https://img.shields.io/aur/last-modified/lychee-rs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lychee-rs/) [![AUR votes](https://img.shields.io/aur/votes/lychee-rs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lychee-rs/) [![AUR license](https://img.shields.io/aur/license/lychee-rs?color=333333&style=flat-square)](https://aur.archlinux.org/packages/lychee-rs/)
+
 ## License
 
 GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
