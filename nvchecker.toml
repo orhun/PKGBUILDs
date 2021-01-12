@@ -345,7 +345,7 @@ github = "tarkah/tickrs"
 use_latest_release = true
 prefix = "v"
 
-[lychee]
+[lychee-rs]
 source = "github"
 github = "lycheeverse/lychee"
 use_latest_release = true
