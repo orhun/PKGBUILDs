@@ -350,3 +350,9 @@ source = "github"
 github = "lycheeverse/lychee"
 use_latest_release = true
 prefix = "v"
+
+[tarpaulin]
+source = "github"
+github = "xd009642/tarpaulin"
+use_max_tag = true
+prefix = "v"
