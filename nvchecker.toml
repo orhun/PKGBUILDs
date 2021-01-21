@@ -11,13 +11,19 @@ github = "orhun/kmon"
 use_latest_release = true
 prefix = "v"
 
+[menyoki]
+source = "github"
+github = "orhun/menyoki"
+use_latest_release = true
+prefix = "v"
+
 [lychee-rs]
 source = "github"
 github = "lycheeverse/lychee"
 use_latest_release = true
 prefix = "v"
 
-[tarpaulin]
+[cargo-tarpaulin]
 source = "github"
 github = "xd009642/tarpaulin"
 use_max_tag = true
@@ -53,12 +59,22 @@ github = "nakabonne/ali"
 use_latest_release = true
 prefix = "v"
 
-# AUR #
-
-[kermit]
+[gping]
 source = "github"
-github = "orhun/kermit"
+github = "orf/gping"
 use_latest_release = true
+prefix = "v"
+
+[dog]
+source = "github"
+github = "ogham/dog"
+use_latest_release = true
+prefix = "v"
+
+[dumb]
+source = "github"
+github = "kode54/dumb"
+use_max_tag = true
 prefix = "v"
 
 [zps]
@@ -67,15 +83,29 @@ github = "orhun/zps"
 use_latest_release = true
 prefix = "v"
 
-[pkgtop]
+[cargo-spellcheck]
 source = "github"
-github = "orhun/pkgtop"
+github = "drahnr/cargo-spellcheck"
 use_latest_release = true
 prefix = "v"
 
-[menyoki]
+[shy]
 source = "github"
-github = "orhun/menyoki"
+github = "xvxx/shy"
+use_max_tag = true
+prefix = "v"
+
+# AUR #
+
+[kermit]
+source = "github"
+github = "orhun/kermit"
+use_latest_release = true
+prefix = "v"
+
+[pkgtop]
+source = "github"
+github = "orhun/pkgtop"
 use_latest_release = true
 prefix = "v"
 
@@ -153,12 +183,6 @@ prefix = "v"
 source = "github"
 github = "yxdunc/lipl"
 use_latest_release = true
-prefix = "v"
-
-[shy]
-source = "github"
-github = "xvxx/shy"
-use_max_tag = true
 prefix = "v"
 
 [kbs2]
@@ -325,12 +349,6 @@ github = "tvrzna/emptty"
 use_latest_release = true
 prefix = "v"
 
-[dog]
-source = "github"
-github = "ogham/dog"
-use_latest_release = true
-prefix = "v"
-
 [fclones]
 source = "github"
 github = "pkolaczk/fclones"
@@ -340,12 +358,6 @@ prefix = "v"
 [dotter]
 source = "github"
 github = "SuperCuber/dotter"
-use_latest_release = true
-prefix = "v"
-
-[gping]
-source = "github"
-github = "orf/gping"
 use_latest_release = true
 prefix = "v"
 
