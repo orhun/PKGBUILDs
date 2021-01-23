@@ -95,6 +95,36 @@ github = "xvxx/shy"
 use_max_tag = true
 prefix = "v"
 
+[mari0]
+source = "github"
+github = "Stabyourself/mari0"
+use_latest_release = true
+prefix = "v"
+
+[mdp]
+source = "github"
+github = "visit1985/mdp"
+use_max_tag = true
+prefix = "v"
+
+[racer]
+source = "github"
+github = "racer-rust/racer"
+use_latest_release = true
+prefix = "v"
+
+[tokei]
+source = "github"
+github = "XAMPPRocky/tokei"
+use_latest_release = true
+prefix = "v"
+
+[hex]
+source = "github"
+github = "sitkevij/hex"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -358,12 +388,6 @@ prefix = "v"
 [dotter]
 source = "github"
 github = "SuperCuber/dotter"
-use_latest_release = true
-prefix = "v"
-
-[hx]
-source = "github"
-github = "sitkevij/hex"
 use_latest_release = true
 prefix = "v"
 
