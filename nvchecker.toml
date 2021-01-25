@@ -408,3 +408,9 @@ source = "github"
 github = "tarkah/tickrs"
 use_latest_release = true
 prefix = "v"
+
+[t-rec]
+source = "github"
+github = "sassman/t-rec-rs"
+use_latest_release = true
+prefix = "v"
