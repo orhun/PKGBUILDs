@@ -125,6 +125,24 @@ github = "sitkevij/hex"
 use_latest_release = true
 prefix = "v"
 
+[lsd]
+source = "github"
+github = "Peltoche/lsd"
+use_latest_release = true
+prefix = "v"
+
+[hexyl]
+source = "github"
+github = "sharkdp/hexyl"
+use_latest_release = true
+prefix = "v"
+
+[scrot]
+source = "github"
+github = "resurrecting-open-source-projects/scrot"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
