@@ -143,6 +143,24 @@ github = "resurrecting-open-source-projects/scrot"
 use_latest_release = true
 prefix = "v"
 
+[cargo-outdated]
+source = "github"
+github = "kbknapp/cargo-outdated"
+use_latest_tag = true
+prefix = "v"
+
+[cargo-edit]
+source = "github"
+github = "killercup/cargo-edit"
+use_latest_release = true
+prefix = "v"
+
+[procs]
+source = "github"
+github = "dalance/procs"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
