@@ -29,6 +29,41 @@ github = "xd009642/tarpaulin"
 use_max_tag = true
 prefix = "v"
 
+[cargo-spellcheck]
+source = "github"
+github = "drahnr/cargo-spellcheck"
+use_latest_release = true
+prefix = "v"
+
+[cargo-outdated]
+source = "github"
+github = "kbknapp/cargo-outdated"
+use_latest_tag = true
+prefix = "v"
+
+[cargo-edit]
+source = "github"
+github = "killercup/cargo-edit"
+use_latest_release = true
+prefix = "v"
+
+[cargo-bloat]
+source = "github"
+github = "RazrFalcon/cargo-bloat"
+use_max_tag = true
+prefix = "v"
+
+[cargo-udeps]
+source = "github"
+github = "est31/cargo-udeps"
+use_latest_release = true
+prefix = "v"
+
+[cargo-depgraph]
+source = "regex"
+url = "https://git.sr.ht/~jplatte/cargo-depgraph"
+regex = "<dt>v(.*)</dt>"
+
 [onefetch]
 source = "github"
 github = "o2sh/onefetch"
@@ -80,12 +115,6 @@ prefix = "v"
 [zps]
 source = "github"
 github = "orhun/zps"
-use_latest_release = true
-prefix = "v"
-
-[cargo-spellcheck]
-source = "github"
-github = "drahnr/cargo-spellcheck"
 use_latest_release = true
 prefix = "v"
 
@@ -143,21 +172,15 @@ github = "resurrecting-open-source-projects/scrot"
 use_latest_release = true
 prefix = "v"
 
-[cargo-outdated]
-source = "github"
-github = "kbknapp/cargo-outdated"
-use_latest_tag = true
-prefix = "v"
-
-[cargo-edit]
-source = "github"
-github = "killercup/cargo-edit"
-use_latest_release = true
-prefix = "v"
-
 [procs]
 source = "github"
 github = "dalance/procs"
+use_latest_release = true
+prefix = "v"
+
+[task]
+source = "github"
+github = "GothenburgBitFactory/taskwarrior"
 use_latest_release = true
 prefix = "v"
 
