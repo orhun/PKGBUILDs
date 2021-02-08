@@ -190,6 +190,18 @@ github = "kdheepak/taskwarrior-tui"
 use_latest_release = true
 prefix = "v"
 
+[lnav]
+source = "github"
+github = "tstack/lnav"
+use_latest_release = true
+prefix = "v"
+
+[ht]
+source = "github"
+github = "ducaale/ht"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
