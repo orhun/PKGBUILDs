@@ -196,9 +196,9 @@ github = "tstack/lnav"
 use_latest_release = true
 prefix = "v"
 
-[ht]
+[xh]
 source = "github"
-github = "ducaale/ht"
+github = "ducaale/xh"
 use_latest_release = true
 prefix = "v"
 
