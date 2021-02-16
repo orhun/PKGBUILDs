@@ -408,7 +408,7 @@ github = "brocode/goat"
 use_latest_release = true
 prefix = "v"
 
-[sic]
+[sic-image-cli]
 source = "github"
 github = "foresterre/sic"
 use_latest_release = true
