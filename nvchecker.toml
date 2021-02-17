@@ -202,6 +202,12 @@ github = "ducaale/xh"
 use_latest_release = true
 prefix = "v"
 
+[pueue]
+source = "github"
+github = "nukesor/pueue"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
