@@ -485,3 +485,15 @@ source = "github"
 github = "sassman/t-rec-rs"
 use_latest_release = true
 prefix = "v"
+
+[rdfm]
+source = "github"
+github = "Wafelack/rdfm"
+use_latest_release = true
+prefix = "v"
+
+[cns]
+source = "github"
+github = "adamsky/cns"
+use_max_tag = true
+prefix = "v"
