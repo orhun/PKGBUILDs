@@ -208,6 +208,18 @@ github = "nukesor/pueue"
 use_latest_release = true
 prefix = "v"
 
+[aws-vault]
+source = "github"
+github = "99designs/aws-vault"
+use_latest_release = true
+prefix = "v"
+
+[alicloud-vault]
+source = "github"
+github = "arafato/alicloud-vault"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
