@@ -22,3 +22,6 @@
 # nvchecker files
 old_ver.json
 new_ver.json
+
+# user repository
+.repo
