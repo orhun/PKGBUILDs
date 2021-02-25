@@ -2,7 +2,7 @@
 # https://github.com/orhun/pkgbuilds
 
 pkgname=prs-git
-pkgver=0.1.6.r0.g0f8642c
+pkgver=0.2.1.r0.g4c5a95c
 pkgrel=1
 pkgdesc="Secure, fast & convenient password manager CLI using GPG and git to sync (git)"
 arch=('x86_64')
