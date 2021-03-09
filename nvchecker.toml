@@ -220,6 +220,12 @@ github = "arafato/alicloud-vault"
 use_latest_release = true
 prefix = "v"
 
+[aliyun-cli]
+source = "github"
+github = "aliyun/aliyun-cli"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -474,7 +480,7 @@ github = "pkolaczk/fclones"
 use_latest_release = true
 prefix = "v"
 
-[dotter]
+[dotter-rs]
 source = "github"
 github = "SuperCuber/dotter"
 use_latest_release = true
