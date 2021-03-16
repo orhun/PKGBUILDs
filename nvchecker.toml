@@ -521,3 +521,9 @@ source = "github"
 github = "adamsky/cns"
 use_max_tag = true
 prefix = "v"
+
+[tz]
+source = "github"
+github = "oz/tz"
+use_latest_release = true
+prefix = "v"
