@@ -6,10 +6,21 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 [![Maintainer](https://img.shields.io/static/v1?label=maintainer&message=orhun&color=333333)](https://aur.archlinux.org/account/orhun)
 
-## License
+### Pre-built packages
 
-GNU General Public License ([v3](https://www.gnu.org/licenses/gpl.txt))
+Pre-built versions of these packages are also available[*](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#orhun).
 
-## Copyright
+Add the following lines to `/etc/pacman.conf`:
 
-Copyright (c) 2020, [orhun](https://www.github.com/orhun)
+```ini
+[orhun]
+Server = https://pkgbuild.com/~orhun/repo
+```
+
+### License
+
+GNU General Public License v3.0 only ([GPL-3.0-only](https://www.gnu.org/licenses/gpl.txt))
+
+### Copyright
+
+Copyright © 2019-2021, [Orhun Parmaksız](mailto:orhunparmaksiz@gmail.com)
