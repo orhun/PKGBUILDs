@@ -527,3 +527,9 @@ source = "github"
 github = "oz/tz"
 use_latest_release = true
 prefix = "v"
+
+[miro]
+source = "github"
+github = "o2sh/miro"
+use_latest_release = true
+prefix = "v"
