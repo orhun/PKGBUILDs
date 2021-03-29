@@ -8,7 +8,7 @@ Powered by [nvchecker](https://github.com/lilydjwg/nvchecker/) & [aurpublish](ht
 
 ### Pre-built packages
 
-Pre-built versions of these packages are also available[*](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#orhun).
+Pre-built versions of these packages are also [available](https://wiki.archlinux.org/index.php/Unofficial_user_repositories#orhun).
 
 Add the following lines to `/etc/pacman.conf`:
 
