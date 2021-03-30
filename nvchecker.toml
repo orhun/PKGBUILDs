@@ -261,7 +261,7 @@ prefix = "v"
 [gfold]
 source = "github"
 github = "nickgerace/gfold"
-use_latest_release = true
+use_max_tag = true
 prefix = "v"
 
 [jilu]
