@@ -226,6 +226,18 @@ github = "aliyun/aliyun-cli"
 use_latest_release = true
 prefix = "v"
 
+[wezterm]
+source = "github"
+github = "wez/wezterm"
+use_latest_release = true
+prefix = "v"
+
+[tickrs]
+source = "github"
+github = "tarkah/tickrs"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -496,12 +508,6 @@ prefix = "v"
 source = "gitlab"
 gitlab = "timvisee/prs"
 use_max_tag = true
-prefix = "v"
-
-[tickrs]
-source = "github"
-github = "tarkah/tickrs"
-use_latest_release = true
 prefix = "v"
 
 [t-rec]
