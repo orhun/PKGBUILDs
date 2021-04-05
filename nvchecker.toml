@@ -545,3 +545,9 @@ source = "github"
 github = "soywod/himalaya"
 use_latest_release = true
 prefix = "v"
+
+[xplr]
+source = "github"
+github = "sayanarijit/xplr"
+use_latest_release = true
+prefix = "v"
