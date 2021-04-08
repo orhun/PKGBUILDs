@@ -238,6 +238,18 @@ github = "tarkah/tickrs"
 use_latest_release = true
 prefix = "v"
 
+[coreutils]
+source = "github"
+github = "uutils/coreutils"
+use_latest_release = true
+prefix = "v"
+
+[innernet]
+source = "github"
+github = "tonarino/innernet"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
