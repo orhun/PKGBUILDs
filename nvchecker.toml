@@ -17,7 +17,7 @@ github = "orhun/menyoki"
 use_latest_release = true
 prefix = "v"
 
-[lychee-rs]
+[lychee-link-checker]
 source = "github"
 github = "lycheeverse/lychee"
 use_latest_release = true
