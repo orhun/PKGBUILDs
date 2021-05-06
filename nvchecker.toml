@@ -563,3 +563,9 @@ source = "github"
 github = "sayanarijit/xplr"
 use_latest_release = true
 prefix = "v"
+
+[cargo-msrv]
+source = "github"
+github = "foresterre/cargo-msrv"
+use_latest_release = true
+prefix = "v"
