@@ -250,6 +250,12 @@ github = "tonarino/innernet"
 use_latest_release = true
 prefix = "v"
 
+[xplr]
+source = "github"
+github = "sayanarijit/xplr"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -555,12 +561,6 @@ prefix = "v"
 [himalaya]
 source = "github"
 github = "soywod/himalaya"
-use_latest_release = true
-prefix = "v"
-
-[xplr]
-source = "github"
-github = "sayanarijit/xplr"
 use_latest_release = true
 prefix = "v"
 
