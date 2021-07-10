@@ -256,6 +256,12 @@ github = "sayanarijit/xplr"
 use_latest_release = true
 prefix = "v"
 
+[lucky-commit]
+source = "github"
+github = "not-an-aardvark/lucky-commit"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
