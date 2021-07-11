@@ -238,7 +238,7 @@ github = "tarkah/tickrs"
 use_latest_release = true
 prefix = "v"
 
-[coreutils]
+[uutils-coreutils]
 source = "github"
 github = "uutils/coreutils"
 use_latest_release = true
