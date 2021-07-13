@@ -262,6 +262,18 @@ github = "not-an-aardvark/lucky-commit"
 use_max_tag = true
 prefix = "v"
 
+[lfs]
+source = "github"
+github = "Canop/lfs"
+use_latest_release = true
+prefix = "v"
+
+[rhit]
+source = "github"
+github = "Canop/rhit"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -389,12 +401,6 @@ prefix = "v"
 [unimap]
 source = "github"
 github = "Edu4rdSHL/unimap"
-use_latest_release = true
-prefix = "v"
-
-[lfs]
-source = "github"
-github = "Canop/lfs"
 use_latest_release = true
 prefix = "v"
 
