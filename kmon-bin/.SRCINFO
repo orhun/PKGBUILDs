@@ -1,0 +1,20 @@
+pkgbase = kmon-bin
+	pkgdesc = Linux kernel manager and activity monitor
+	pkgver = 1.4.0
+	pkgrel = 1
+	url = https://github.com/orhun/kmon
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	depends = libxcb
+	conflicts = kmon
+	conflicts = kmon-git
+	options = zipman
+	source = https://github.com/orhun/kmon/releases/download/v1.4.0/kmon-1.4.0.tar.gz
+	source = https://github.com/orhun/kmon/releases/download/v1.4.0/kmon-1.4.0.tar.gz.sig
+	validpgpkeys = C4B2D24CF87CD188C79D00BB485B7C52E9EC0DC6
+	sha512sums = 1dc841640c4d2291de5c45c7a7e115c39bdc00ad3d4950e1b17e71998195d0d88fd5ffbf4cfb5756aee5ff689386986e5c30bd2590ef674025af0915a4ed9153
+	sha512sums = SKIP
+
+pkgname = kmon-bin
+
