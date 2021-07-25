@@ -274,6 +274,12 @@ github = "Canop/rhit"
 use_latest_release = true
 prefix = "v"
 
+[cargo-expand]
+source = "github"
+github = "dtolnay/cargo-expand"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
