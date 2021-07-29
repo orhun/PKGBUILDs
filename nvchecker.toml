@@ -280,6 +280,12 @@ github = "dtolnay/cargo-expand"
 use_latest_release = true
 prefix = "v"
 
+[helix]
+source = "github"
+github = "helix-editor/helix"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
