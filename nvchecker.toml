@@ -286,6 +286,12 @@ github = "helix-editor/helix"
 use_latest_release = true
 prefix = "v"
 
+[rpg-cli]
+source = "github"
+github = "facundoolano/rpg-cli"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
