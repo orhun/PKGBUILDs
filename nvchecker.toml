@@ -292,6 +292,12 @@ github = "facundoolano/rpg-cli"
 use_latest_release = true
 prefix = "v"
 
+[cargo-generate]
+source = "github"
+github = "cargo-generate/cargo-generate"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
