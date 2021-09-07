@@ -298,6 +298,12 @@ github = "cargo-generate/cargo-generate"
 use_latest_release = true
 prefix = "v"
 
+[songrec]
+source = "github"
+github = "marin-m/SongRec"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
