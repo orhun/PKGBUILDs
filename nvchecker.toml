@@ -611,3 +611,9 @@ source = "github"
 github = "foresterre/cargo-msrv"
 use_latest_release = true
 prefix = "v"
+
+[cocogitto]
+source = "github"
+github = "oknozor/cocogitto"
+use_latest_release = true
+prefix = "v"
