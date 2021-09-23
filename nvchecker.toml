@@ -617,3 +617,9 @@ source = "github"
 github = "oknozor/cocogitto"
 use_latest_release = true
 prefix = "v"
+
+[termusic]
+source = "github"
+github = "tramhao/termusic"
+use_max_tag = true
+prefix = "v"
