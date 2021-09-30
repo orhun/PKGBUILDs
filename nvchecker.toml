@@ -623,3 +623,9 @@ source = "github"
 github = "tramhao/termusic"
 use_max_tag = true
 prefix = "v"
+
+[zellij]
+source = "github"
+github = "zellij-org/zellij"
+use_latest_release = true
+prefix = "v"
