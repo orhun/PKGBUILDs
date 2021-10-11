@@ -304,6 +304,12 @@ github = "marin-m/SongRec"
 use_latest_release = true
 prefix = "v"
 
+[git-absorb]
+source = "github"
+github = "tummychow/git-absorb"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
