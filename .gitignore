@@ -25,3 +25,6 @@ new_ver.json
 
 # user repository
 .repo
+
+# lock file
+pkg.lock
