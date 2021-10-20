@@ -1,18 +1,17 @@
 pkgbase = rusolver-bin
 	pkgdesc = Fast and accurate DNS resolver
-	pkgver = 0.6.1
+	pkgver = 0.7.0
 	pkgrel = 1
 	url = https://github.com/Edu4rdSHL/rusolver
 	arch = x86_64
 	license = GPL3
 	provides = rusolver
 	conflicts = rusolver
-	source_x86_64 = rusolver-bin-0.6.1::https://github.com/Edu4rdSHL/rusolver/releases/download/0.6.1/rusolver-linux
-	source_x86_64 = rusolver-bin-0.6.1-README.md::https://github.com/Edu4rdSHL/rusolver/raw/0.6.1/README.md
-	source_x86_64 = rusolver-bin-0.6.1-man.1::https://github.com/Edu4rdSHL/rusolver/raw/0.6.1/rusolver.1
-	sha256sums_x86_64 = 68c1966546ea3a07c9e4268ee97b6c4e1d5a9af2cdf04d5b67dc5a27981bbf0c
-	sha256sums_x86_64 = 9da7191675073eb69dfd6e8f0c78c590afeed2c7ccfc468171d9746391410a80
-	sha256sums_x86_64 = e4eca6425b71a9c9b2e5d4e5b9e339abd88a4ac6ff35d312d690fd9e553cd50b
+	source_x86_64 = rusolver-bin-0.7.0::https://github.com/Edu4rdSHL/rusolver/releases/download/0.7.0/rusolver-linux
+	source_x86_64 = rusolver-bin-0.7.0-README.md::https://github.com/Edu4rdSHL/rusolver/raw/0.7.0/README.md
+	source_x86_64 = rusolver-bin-0.7.0-man.1::https://github.com/Edu4rdSHL/rusolver/raw/0.7.0/rusolver.1
+	sha256sums_x86_64 = ed486554dbc2b6767ad127450634c16157403f450bf37a99ff21ed23b320ac36
+	sha256sums_x86_64 = 461a673b77c2b0f5f697a8d60fa321cb377b135a6f1b2a2a3a870414b860b411
+	sha256sums_x86_64 = 6dc409395d4024a5a470ebde3fea0c97492311cfb61e7583f55ed6d0dac14d73
 
 pkgname = rusolver-bin
-
