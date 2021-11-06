@@ -641,3 +641,9 @@ source = "github"
 github = "EmbarkStudios/cargo-about"
 use_latest_release = true
 prefix = "v"
+
+[cargo-binstall]
+source = "github"
+github = "ryankurte/cargo-binstall"
+use_latest_release = true
+prefix = "v"
