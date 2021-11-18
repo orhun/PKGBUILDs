@@ -310,6 +310,12 @@ github = "tummychow/git-absorb"
 use_latest_release = true
 prefix = "v"
 
+[binocle]
+source = "github"
+github = "sharkdp/binocle"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
