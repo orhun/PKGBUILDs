@@ -653,3 +653,9 @@ source = "github"
 github = "ryankurte/cargo-binstall"
 use_latest_release = true
 prefix = "v"
+
+[cargo-sonar]
+source = "gitlab"
+gitlab = "woshilapin/cargo-sonar"
+use_max_tag = true
+prefix = "v"
