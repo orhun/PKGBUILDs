@@ -316,6 +316,12 @@ github = "sharkdp/binocle"
 use_latest_release = true
 prefix = "v"
 
+[grex]
+source = "github"
+github = "pemistahl/grex"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
