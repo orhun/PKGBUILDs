@@ -322,6 +322,12 @@ github = "pemistahl/grex"
 use_latest_release = true
 prefix = "v"
 
+[atuin]
+source = "github"
+github = "ellie/atuin"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
