@@ -328,6 +328,12 @@ github = "ellie/atuin"
 use_latest_release = true
 prefix = "v"
 
+[kubie]
+source = "github"
+github = "sbstp/kubie"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
