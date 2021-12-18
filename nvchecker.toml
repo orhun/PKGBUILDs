@@ -334,6 +334,12 @@ github = "sbstp/kubie"
 use_latest_release = true
 prefix = "v"
 
+[fishfight]
+source = "github"
+github = "fishfight/FishFight"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
