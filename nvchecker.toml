@@ -340,6 +340,12 @@ github = "fishfight/FishFight"
 use_latest_release = true
 prefix = "v"
 
+[mcfly]
+source = "github"
+github = "cantino/mcfly"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
