@@ -696,3 +696,9 @@ host = "gitlab.torproject.org"
 gitlab = "tpo/core/arti"
 use_max_tag = true
 prefix = "arti-v"
+
+[dag]
+source = "github"
+github = "devmatteini/dag"
+use_latest_release = true
+prefix = "v"
