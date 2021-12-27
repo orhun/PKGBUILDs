@@ -697,8 +697,8 @@ gitlab = "tpo/core/arti"
 use_max_tag = true
 prefix = "arti-v"
 
-[dag]
+[dra]
 source = "github"
-github = "devmatteini/dag"
+github = "devmatteini/dra"
 use_latest_release = true
 prefix = "v"
