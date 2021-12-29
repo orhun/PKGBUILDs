@@ -346,6 +346,12 @@ github = "cantino/mcfly"
 use_latest_release = true
 prefix = "v"
 
+[fq]
+source = "github"
+github = "wader/fq"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
