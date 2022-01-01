@@ -714,3 +714,10 @@ source = "github"
 github = "woodruffw/toml2json"
 use_latest_release = true
 prefix = "v"
+
+[rustfilt]
+source = "github"
+github = "luser/rustfilt"
+use_latest_release = true
+prefix = "v"
+
