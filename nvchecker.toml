@@ -708,3 +708,9 @@ source = "github"
 github = "devmatteini/dra"
 use_latest_release = true
 prefix = "v"
+
+[toml2json]
+source = "github"
+github = "woodruffw/toml2json"
+use_latest_release = true
+prefix = "v"
