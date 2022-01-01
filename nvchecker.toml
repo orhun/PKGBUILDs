@@ -720,4 +720,3 @@ source = "github"
 github = "luser/rustfilt"
 use_latest_release = true
 prefix = "v"
-
