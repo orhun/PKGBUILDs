@@ -720,3 +720,9 @@ source = "github"
 github = "luser/rustfilt"
 use_latest_release = true
 prefix = "v"
+
+[rathole]
+source = "github"
+github = "rapiz1/rathole"
+use_latest_release = true
+prefix = "v"
