@@ -352,6 +352,12 @@ github = "wader/fq"
 use_latest_release = true
 prefix = "v"
 
+[rathole]
+source = "github"
+github = "rapiz1/rathole"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -718,11 +724,5 @@ prefix = "v"
 [rustfilt]
 source = "github"
 github = "luser/rustfilt"
-use_latest_release = true
-prefix = "v"
-
-[rathole]
-source = "github"
-github = "rapiz1/rathole"
 use_latest_release = true
 prefix = "v"
