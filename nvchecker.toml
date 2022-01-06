@@ -358,6 +358,12 @@ github = "rapiz1/rathole"
 use_latest_release = true
 prefix = "v"
 
+[gfold]
+source = "github"
+github = "nickgerace/gfold"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -388,12 +394,6 @@ prefix = "v"
 source = "github"
 github = "kondanta/notp"
 use_latest_release = true
-prefix = "v"
-
-[gfold]
-source = "github"
-github = "nickgerace/gfold"
-use_max_tag = true
 prefix = "v"
 
 [jilu]
