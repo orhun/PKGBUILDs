@@ -364,6 +364,12 @@ github = "nickgerace/gfold"
 use_max_tag = true
 prefix = "v"
 
+[gifski]
+source = "github"
+github = "ImageOptim/gifski"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
