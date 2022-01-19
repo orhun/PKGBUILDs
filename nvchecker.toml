@@ -376,6 +376,12 @@ github = "rustwasm/wasm-pack"
 use_latest_release = true
 prefix = "v"
 
+[cocogitto]
+source = "github"
+github = "oknozor/cocogitto"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -675,12 +681,6 @@ prefix = "v"
 [cargo-msrv]
 source = "github"
 github = "foresterre/cargo-msrv"
-use_latest_release = true
-prefix = "v"
-
-[cocogitto]
-source = "github"
-github = "oknozor/cocogitto"
 use_latest_release = true
 prefix = "v"
 
