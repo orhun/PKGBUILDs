@@ -382,6 +382,12 @@ github = "oknozor/cocogitto"
 use_latest_release = true
 prefix = "v"
 
+[gsmartcontrol]
+source = "github"
+github = "ashaduri/gsmartcontrol"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
