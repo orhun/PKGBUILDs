@@ -388,6 +388,12 @@ github = "ashaduri/gsmartcontrol"
 use_latest_release = true
 prefix = "v"
 
+[broot]
+source = "github"
+github = "Canop/broot"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
