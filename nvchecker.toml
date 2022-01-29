@@ -394,6 +394,12 @@ github = "Canop/broot"
 use_latest_release = true
 prefix = "v"
 
+[rnote]
+source = "github"
+github = "flxzt/rnote"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
