@@ -400,6 +400,18 @@ github = "flxzt/rnote"
 use_latest_release = true
 prefix = "v"
 
+[himalaya]
+source = "github"
+github = "soywod/himalaya"
+use_latest_release = true
+prefix = "v"
+
+[cargo-msrv]
+source = "github"
+github = "foresterre/cargo-msrv"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -687,18 +699,6 @@ prefix = "v"
 [miro]
 source = "github"
 github = "o2sh/miro"
-use_latest_release = true
-prefix = "v"
-
-[himalaya]
-source = "github"
-github = "soywod/himalaya"
-use_latest_release = true
-prefix = "v"
-
-[cargo-msrv]
-source = "github"
-github = "foresterre/cargo-msrv"
 use_latest_release = true
 prefix = "v"
 
