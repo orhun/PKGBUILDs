@@ -426,6 +426,12 @@ cmd = "curl -s --location --header \"Accept: application/rdf+xml\" https://www.j
 source = "cmd"
 cmd = "curl -s --location --header \"Accept: application/rdf+xml\" https://www.jetbrains.com/updates/updates.xml | xmllint --xpath \"string(/products/product[@name='PyCharm']/channel[@status='release']/build/@fullNumber)\" -"
 
+[kooha]
+source = "github"
+github = "SeaDve/Kooha"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
