@@ -432,6 +432,12 @@ github = "SeaDve/Kooha"
 use_latest_release = true
 prefix = "v"
 
+[handlr]
+source = "github"
+github = "chmln/handlr"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
