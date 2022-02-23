@@ -444,6 +444,12 @@ github = "crev-dev/cargo-crev"
 use_latest_release = true
 prefix = "v"
 
+[cargo-zigbuild]
+source = "github"
+github = "messense/cargo-zigbuild"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
