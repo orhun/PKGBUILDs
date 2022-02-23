@@ -800,3 +800,9 @@ source = "github"
 github = "luser/rustfilt"
 use_latest_release = true
 prefix = "v"
+
+[cargo-workspaces]
+source = "github"
+github = "pksunkara/cargo-workspaces"
+use_max_tag = true
+prefix = "v"
