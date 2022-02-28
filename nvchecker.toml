@@ -456,6 +456,12 @@ github = "editorconfig-checker/editorconfig-checker"
 use_latest_release = true
 prefix = "v"
 
+[cargo-deny]
+source = "github"
+github = "EmbarkStudios/cargo-deny"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
