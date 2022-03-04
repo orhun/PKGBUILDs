@@ -468,6 +468,12 @@ github = "nextest-rs/nextest"
 use_latest_release = true
 prefix = "cargo-nextest-"
 
+[jless]
+source = "github"
+github = "PaulJuliusMartinez/jless"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
