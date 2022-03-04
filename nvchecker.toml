@@ -462,6 +462,12 @@ github = "EmbarkStudios/cargo-deny"
 use_latest_release = true
 prefix = "v"
 
+[cargo-nextest]
+source = "github"
+github = "nextest-rs/nextest"
+use_latest_release = true
+prefix = "cargo-nextest-"
+
 # AUR #
 
 [kermit]
