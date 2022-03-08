@@ -465,8 +465,9 @@ prefix = "v"
 [cargo-nextest]
 source = "github"
 github = "nextest-rs/nextest"
-use_latest_release = true
+use_latest_tag = true
 prefix = "cargo-nextest-"
+query = "cargo-nextest"
 
 [jless]
 source = "github"
