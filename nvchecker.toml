@@ -475,6 +475,12 @@ github = "PaulJuliusMartinez/jless"
 use_max_tag = true
 prefix = "v"
 
+[dart]
+source = "github"
+github = "dart-lang/sdk"
+use_max_tag = true
+exclude_regex = ".*\\.dev$"
+
 # AUR #
 
 [kermit]
