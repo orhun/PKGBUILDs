@@ -481,6 +481,12 @@ github = "dart-lang/sdk"
 use_max_tag = true
 exclude_regex = ".*\\.dev$"
 
+[wasm-bindgen]
+source = "github"
+github = "rustwasm/wasm-bindgen"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
