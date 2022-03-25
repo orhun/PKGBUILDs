@@ -487,6 +487,12 @@ github = "rustwasm/wasm-bindgen"
 use_latest_release = true
 prefix = "v"
 
+[hyperfine]
+source = "github"
+github = "sharkdp/hyperfine"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
