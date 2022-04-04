@@ -493,6 +493,12 @@ github = "sharkdp/hyperfine"
 use_latest_release = true
 prefix = "v"
 
+[eva]
+source = "github"
+github = "NerdyPepper/eva"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -596,12 +602,6 @@ github = "zesterer/funkicrab"
 [fhc]
 source = "github"
 github = "Edu4rdSHL/fhc"
-use_latest_release = true
-prefix = "v"
-
-[eva]
-source = "github"
-github = "NerdyPepper/eva"
 use_latest_release = true
 prefix = "v"
 
