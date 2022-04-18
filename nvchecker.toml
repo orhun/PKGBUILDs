@@ -855,3 +855,9 @@ source = "github"
 github = "hisbaan/didyoumean"
 use_latest_release = true
 prefix = "v"
+
+[argc]
+source = "github"
+github = "sigoden/argc"
+use_latest_release = true
+prefix = "v"
