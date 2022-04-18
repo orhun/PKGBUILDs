@@ -849,3 +849,9 @@ source = "github"
 github = "ekzhang/bore"
 use_latest_release = true
 prefix = "v"
+
+[didyoumean]
+source = "github"
+github = "hisbaan/didyoumean"
+use_latest_release = true
+prefix = "v"
