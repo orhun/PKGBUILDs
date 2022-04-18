@@ -499,6 +499,12 @@ github = "NerdyPepper/eva"
 use_latest_release = true
 prefix = "v"
 
+[bore]
+source = "github"
+github = "ekzhang/bore"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -842,12 +848,6 @@ prefix = "v"
 source = "github"
 github = "pksunkara/cargo-workspaces"
 use_max_tag = true
-prefix = "v"
-
-[bore]
-source = "github"
-github = "ekzhang/bore"
-use_latest_release = true
 prefix = "v"
 
 [didyoumean]
