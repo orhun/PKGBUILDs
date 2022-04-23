@@ -511,6 +511,12 @@ github = "fornwall/rust-script"
 use_latest_release = true
 prefix = "v"
 
+[jwt-cli]
+source = "github"
+github = "mike-engel/jwt-cli"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
