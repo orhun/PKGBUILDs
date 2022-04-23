@@ -505,6 +505,12 @@ github = "ekzhang/bore"
 use_latest_release = true
 prefix = "v"
 
+[rust-script]
+source = "github"
+github = "fornwall/rust-script"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
