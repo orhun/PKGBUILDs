@@ -873,3 +873,9 @@ source = "github"
 github = "sigoden/argc"
 use_latest_release = true
 prefix = "v"
+
+[spotify-tui]
+source = "github"
+github = "Rigellute/spotify-tui"
+use_latest_release = true
+prefix = "v"
