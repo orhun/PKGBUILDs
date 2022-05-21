@@ -26,7 +26,7 @@
   "cargo-spellcheck": "0.11.2",
   "cargo-tarpaulin": "0.20.0",
   "cargo-udeps": "0.1.29",
-  "cargo-workspaces": "0.2.32",
+  "cargo-workspaces": "0.2.33",
   "cargo-zigbuild": "0.8.7",
   "cicero": "0.3.0",
   "cns": "0.1.1",
