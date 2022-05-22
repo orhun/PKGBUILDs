@@ -22,6 +22,7 @@
   "cargo-msrv": "0.15.1",
   "cargo-nextest": "0.9.14",
   "cargo-outdated": "0.11.1",
+  "cargo-patch": "0.1.14",
   "cargo-sonar": "0.11.0",
   "cargo-spellcheck": "0.11.2",
   "cargo-tarpaulin": "0.20.0",

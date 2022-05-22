@@ -879,3 +879,9 @@ source = "github"
 github = "Rigellute/spotify-tui"
 use_latest_release = true
 prefix = "v"
+
+[cargo-patch]
+source = "github"
+github = "mettke/cargo-patch"
+use_latest_release = true
+prefix = "v"
