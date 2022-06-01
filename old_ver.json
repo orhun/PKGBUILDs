@@ -11,7 +11,7 @@
   "bore": "0.4.0",
   "broot": "1.13.1",
   "cargo-about": "0.5.1",
-  "cargo-binstall": "0.7.0",
+  "cargo-binstall": "0.8.0",
   "cargo-bloat": "0.11.0",
   "cargo-crev": "0.23.2",
   "cargo-deny": "0.12.1",

@@ -517,6 +517,13 @@ github = "mike-engel/jwt-cli"
 use_latest_release = true
 prefix = "v"
 
+[cargo-hakari]
+source = "github"
+github = "facebookincubator/cargo-guppy"
+use_latest_tag = true
+prefix = "cargo-hakari-"
+query = "cargo-hakari"
+
 # AUR #
 
 [kermit]
