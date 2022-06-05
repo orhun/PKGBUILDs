@@ -524,6 +524,12 @@ use_latest_tag = true
 prefix = "cargo-hakari-"
 query = "cargo-hakari"
 
+[httplz]
+source = "github"
+github = "thecoshman/http"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
