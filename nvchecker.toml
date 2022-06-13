@@ -530,6 +530,12 @@ github = "thecoshman/http"
 use_latest_release = true
 prefix = "v"
 
+[grcov]
+source = "github"
+github = "mozilla/grcov"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
