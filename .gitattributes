@@ -1,2 +1,3 @@
 [attr]crypt filter=git-crypt diff=git-crypt
 *.crypt crypt
+*.json linguist-generated=true
