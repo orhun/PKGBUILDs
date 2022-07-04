@@ -25,6 +25,7 @@
   "cargo-outdated": "0.11.1",
   "cargo-patch": "0.2.2",
   "cargo-sonar": "0.11.0",
+  "cargo-sort": "1.0.7",
   "cargo-spellcheck": "0.11.2",
   "cargo-tarpaulin": "0.20.1",
   "cargo-udeps": "0.1.29",

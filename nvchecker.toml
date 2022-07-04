@@ -542,6 +542,12 @@ github = "wezm/git-grab"
 use_latest_release = true
 prefix = "v"
 
+[cargo-sort]
+source = "github"
+github = "DevinR528/cargo-sort"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
