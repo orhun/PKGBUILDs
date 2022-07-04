@@ -536,6 +536,12 @@ github = "mozilla/grcov"
 use_latest_release = true
 prefix = "v"
 
+[git-grab]
+source = "github"
+github = "wezm/git-grab"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
