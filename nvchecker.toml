@@ -548,6 +548,12 @@ github = "DevinR528/cargo-sort"
 use_latest_release = true
 prefix = "v"
 
+[libsixel]
+source = "github"
+github = "libsixel/libsixel"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
