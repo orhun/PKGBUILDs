@@ -554,6 +554,13 @@ github = "libsixel/libsixel"
 use_latest_release = true
 prefix = "v"
 
+[tauri-cli]
+source = "github"
+github = "tauri-apps/tauri"
+use_latest_release = true
+prefix = "v"
+query = "v"
+
 # AUR #
 
 [kermit]
