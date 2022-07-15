@@ -28,6 +28,7 @@
   "cargo-sort": "1.0.7",
   "cargo-spellcheck": "0.11.2",
   "cargo-tarpaulin": "0.20.1",
+  "cargo-tauri": "1.0.4",
   "cargo-udeps": "0.1.30",
   "cargo-workspaces": "0.2.34",
   "cargo-zigbuild": "0.11.1",
