@@ -936,3 +936,9 @@ github = "MarcoIeni/release-plz"
 use_max_tag = true
 prefix = "release-plz-v"
 include_regex = "release-plz-v.*"
+
+[perseus-cli]
+source = "github"
+github = "arctic-hen7/perseus"
+use_latest_release = true
+prefix = "v"
