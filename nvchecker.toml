@@ -334,9 +334,9 @@ github = "sbstp/kubie"
 use_latest_release = true
 prefix = "v"
 
-[fishfight]
+[jumpy]
 source = "github"
-github = "fishfight/FishFight"
+github = "fishfight/jumpy"
 use_latest_release = true
 prefix = "v"
 
