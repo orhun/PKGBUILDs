@@ -14,7 +14,7 @@
   "cargo-binstall": "0.11.1",
   "cargo-bloat": "0.11.1",
   "cargo-crev": "0.23.2",
-  "cargo-deny": "0.12.1",
+  "cargo-deny": "0.12.2",
   "cargo-depgraph": "1.2.5",
   "cargo-edit": "0.10.4",
   "cargo-expand": "1.0.29",
