@@ -865,7 +865,7 @@ prefix = "v"
 
 [cargo-binstall]
 source = "github"
-github = "ryankurte/cargo-binstall"
+github = "cargo-bins/cargo-binstall"
 use_latest_release = true
 prefix = "v"
 

@@ -31,7 +31,7 @@
   "cargo-tauri": "1.0.5",
   "cargo-udeps": "0.1.30",
   "cargo-workspaces": "0.2.35",
-  "cargo-zigbuild": "0.11.3",
+  "cargo-zigbuild": "0.12.0",
   "cicero": "0.3.0",
   "cns": "0.1.1",
   "cocogitto": "5.1.0",
