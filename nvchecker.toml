@@ -942,3 +942,9 @@ source = "github"
 github = "arctic-hen7/perseus"
 use_latest_release = true
 prefix = "v"
+
+[bonnie]
+source = "github"
+github = "arctic-hen7/bonnie"
+use_latest_release = true
+prefix = "v"
