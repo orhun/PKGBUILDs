@@ -954,3 +954,9 @@ source = "github"
 github = "arctic-hen7/bonnie"
 use_latest_release = true
 prefix = "v"
+
+[igrep]
+source = "github"
+github = "konradsz/igrep"
+use_max_tag = true
+prefix = "v"
