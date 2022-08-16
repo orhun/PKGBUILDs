@@ -561,6 +561,12 @@ use_latest_release = true
 prefix = "v"
 query = "v"
 
+[tealdeer]
+source = "github"
+github = "dbrgn/tealdeer"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
