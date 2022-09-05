@@ -567,6 +567,12 @@ github = "dbrgn/tealdeer"
 use_latest_release = true
 prefix = "v"
 
+[arti]
+source = "gitlab"
+host = "gitlab.torproject.org"
+gitlab = "tpo/core/arti"
+use_max_tag = true
+
 # AUR #
 
 [kermit]
@@ -880,13 +886,6 @@ source = "gitlab"
 gitlab = "woshilapin/cargo-sonar"
 use_max_tag = true
 prefix = "v"
-
-[arti]
-source = "gitlab"
-host = "gitlab.torproject.org"
-gitlab = "tpo/core/arti"
-use_max_tag = true
-prefix = "arti-v"
 
 [dra]
 source = "github"
