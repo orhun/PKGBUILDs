@@ -136,12 +136,6 @@ github = "visit1985/mdp"
 use_max_tag = true
 prefix = "v"
 
-[racer]
-source = "github"
-github = "racer-rust/racer"
-use_latest_release = true
-prefix = "v"
-
 [tokei]
 source = "github"
 github = "XAMPPRocky/tokei"
@@ -958,4 +952,10 @@ prefix = "v"
 source = "github"
 github = "konradsz/igrep"
 use_max_tag = true
+prefix = "v"
+
+[rust-racer]
+source = "github"
+github = "racer-rust/racer"
+use_latest_release = true
 prefix = "v"
