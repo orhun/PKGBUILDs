@@ -35,7 +35,7 @@
   "cargo-zigbuild": "0.12.0",
   "cicero": "0.3.0",
   "cns": "0.1.1",
-  "cocogitto": "5.1.0",
+  "cocogitto": "5.2.0",
   "color_blinder": "1.0.2",
   "conserve": "0.6.16",
   "coreutils": "0.0.6",
@@ -176,6 +176,6 @@
   "xdo": "0.5.7",
   "xh": "0.16.1",
   "xplr": "0.19.0",
-  "zellij": "0.31.3",
+  "zellij": "0.31.4",
   "zps": "1.2.7"
 }
