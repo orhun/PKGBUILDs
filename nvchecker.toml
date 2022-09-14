@@ -959,3 +959,9 @@ source = "github"
 github = "racer-rust/racer"
 use_latest_release = true
 prefix = "v"
+
+[codevis]
+source = "github"
+github = "sloganking/codevis"
+use_max_tag = true
+prefix = "v"
