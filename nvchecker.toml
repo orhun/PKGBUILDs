@@ -552,8 +552,8 @@ prefix = "v"
 source = "github"
 github = "tauri-apps/tauri"
 use_latest_release = true
-prefix = "v"
-query = "v"
+prefix = "tauri-v"
+query = "tauri-v"
 
 [tealdeer]
 source = "github"
