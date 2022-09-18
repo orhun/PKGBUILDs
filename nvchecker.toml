@@ -567,6 +567,12 @@ host = "gitlab.torproject.org"
 gitlab = "tpo/core/arti"
 use_max_tag = true
 
+[cargo-binstall]
+source = "github"
+github = "cargo-bins/cargo-binstall"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -866,12 +872,6 @@ prefix = "v"
 [cargo-about]
 source = "github"
 github = "EmbarkStudios/cargo-about"
-use_latest_release = true
-prefix = "v"
-
-[cargo-binstall]
-source = "github"
-github = "cargo-bins/cargo-binstall"
 use_latest_release = true
 prefix = "v"
 
