@@ -965,3 +965,9 @@ source = "github"
 github = "sloganking/codevis"
 use_max_tag = true
 prefix = "v"
+
+[uwuifyy]
+source = "github"
+github = "sgoudham/uwuifyy"
+use_latest_release = true
+prefix = "v"
