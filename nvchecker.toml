@@ -573,6 +573,12 @@ github = "cargo-bins/cargo-binstall"
 use_latest_release = true
 prefix = "v"
 
+[yank]
+source = "github"
+github = "mptre/yank"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
