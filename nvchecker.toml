@@ -977,3 +977,9 @@ source = "github"
 github = "sgoudham/uwuifyy"
 use_latest_release = true
 prefix = "v"
+
+[cargo-careful]
+source = "github"
+github = "RalfJung/cargo-careful"
+use_max_tag = true
+prefix = "v"
