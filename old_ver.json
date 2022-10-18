@@ -14,6 +14,7 @@
   "cargo-about": "0.5.1",
   "cargo-binstall": "0.16.0",
   "cargo-bloat": "0.11.1",
+  "cargo-careful": "0.2.4",
   "cargo-crev": "0.23.3",
   "cargo-deny": "0.12.2",
   "cargo-depgraph": "1.3.0",
