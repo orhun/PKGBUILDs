@@ -579,6 +579,12 @@ github = "mptre/yank"
 use_latest_release = true
 prefix = "v"
 
+[tere]
+source = "github"
+github = "mgunyho/tere"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
