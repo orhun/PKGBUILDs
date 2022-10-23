@@ -585,6 +585,12 @@ github = "mgunyho/tere"
 use_latest_release = true
 prefix = "v"
 
+[rust-bindgen]
+source = "github"
+github = "rust-lang/rust-bindgen"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
