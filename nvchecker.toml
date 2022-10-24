@@ -597,6 +597,13 @@ github = "rust-secure-code/cargo-auditable"
 use_max_tag = true
 prefix = "v"
 
+[cargo-audit]
+source = "github"
+github = "rustsec/rustsec"
+use_latest_release = true
+prefix = "cargo-audit/v"
+query = "cargo-audit/v"
+
 # AUR #
 
 [kermit]
