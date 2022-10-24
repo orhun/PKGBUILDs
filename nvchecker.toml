@@ -591,6 +591,12 @@ github = "rust-lang/rust-bindgen"
 use_max_tag = true
 prefix = "v"
 
+[cargo-auditable]
+source = "github"
+github = "rust-secure-code/cargo-auditable"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
