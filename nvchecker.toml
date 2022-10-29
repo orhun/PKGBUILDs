@@ -604,6 +604,12 @@ use_latest_release = true
 prefix = "cargo-audit/v"
 query = "cargo-audit/v"
 
+[cargo-geiger]
+source = "github"
+github = "rust-secure-code/cargo-geiger"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
