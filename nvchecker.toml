@@ -608,7 +608,7 @@ query = "cargo-audit/v"
 source = "github"
 github = "rust-secure-code/cargo-geiger"
 use_latest_release = true
-prefix = "v"
+prefix = "cargo-geiger-"
 
 # AUR #
 
