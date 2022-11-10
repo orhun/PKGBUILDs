@@ -29,6 +29,7 @@
   "cargo-nextest": "0.9.43",
   "cargo-outdated": "0.11.1",
   "cargo-patch": "0.2.8",
+  "cargo-public-api": "0.21.0",
   "cargo-sonar": "0.14.1",
   "cargo-sort": "1.0.9",
   "cargo-spellcheck": "0.12.2",

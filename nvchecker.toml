@@ -1014,3 +1014,9 @@ source = "github"
 github = "RalfJung/cargo-careful"
 use_max_tag = true
 prefix = "v"
+
+[cargo-public-api]
+source = "github"
+github = "Enselic/cargo-public-api"
+use_latest_release = true
+prefix = "v"
