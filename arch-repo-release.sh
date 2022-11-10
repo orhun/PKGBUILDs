@@ -9,7 +9,7 @@ DO_REFRESH=0
 DO_UPLOAD=0
 READ_PKGBUILD=0
 
-staging_repo="${PKGBUILDS}/.repo"
+staging_repo="${AUR_PKGS}/.repo"
 repo_name="${USER}"
 build_script="PKGBUILD"
 remote_repo="homedir.archlinux.org:public_html/repo"
