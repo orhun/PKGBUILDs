@@ -610,6 +610,12 @@ github = "rust-secure-code/cargo-geiger"
 use_latest_release = true
 prefix = "cargo-geiger-"
 
+[dra]
+source = "github"
+github = "devmatteini/dra"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -916,12 +922,6 @@ prefix = "v"
 source = "gitlab"
 gitlab = "woshilapin/cargo-sonar"
 use_max_tag = true
-prefix = "v"
-
-[dra]
-source = "github"
-github = "devmatteini/dra"
-use_latest_release = true
 prefix = "v"
 
 [toml2json]
