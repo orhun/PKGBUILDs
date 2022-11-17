@@ -616,6 +616,12 @@ github = "devmatteini/dra"
 use_latest_release = true
 prefix = "v"
 
+[typos]
+source = "github"
+github = "crate-ci/typos"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
