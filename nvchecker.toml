@@ -1026,3 +1026,9 @@ source = "github"
 github = "Enselic/cargo-public-api"
 use_latest_release = true
 prefix = "v"
+
+[bob]
+source = "github"
+github = "MordechaiHadad/bob"
+use_latest_release = true
+prefix = "v"
