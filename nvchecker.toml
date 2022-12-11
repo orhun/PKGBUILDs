@@ -98,7 +98,7 @@ prefix = "v"
 source = "github"
 github = "orf/gping"
 use_latest_release = true
-prefix = "v"
+prefix = "gping-v"
 
 [dog]
 source = "github"
