@@ -622,6 +622,12 @@ github = "crate-ci/typos"
 use_latest_release = true
 prefix = "v"
 
+[trippy]
+source = "github"
+github = "fujiapple852/trippy"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
