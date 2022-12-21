@@ -1038,3 +1038,9 @@ source = "github"
 github = "MordechaiHadad/bob"
 use_latest_release = true
 prefix = "v"
+
+[html-query]
+source = "github"
+github = "orf/hq"
+use_max_tag = true
+prefix = "v"
