@@ -1044,3 +1044,9 @@ source = "github"
 github = "orf/hq"
 use_max_tag = true
 prefix = "v"
+
+[hwatch]
+source = "github"
+github = "blacknon/hwatch"
+use_latest_release = true
+prefix = "v"
