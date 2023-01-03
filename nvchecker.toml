@@ -1050,3 +1050,9 @@ source = "github"
 github = "blacknon/hwatch"
 use_latest_release = true
 prefix = "v"
+
+[hoard]
+source = "github"
+github = "Hyde46/hoard"
+use_latest_release = true
+prefix = "v"
