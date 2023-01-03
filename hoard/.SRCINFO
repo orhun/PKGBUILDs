@@ -1,0 +1,13 @@
+pkgbase = hoard
+	pkgdesc = Fast scalable and memory-efficient memory allocator
+	pkgver = 3.11
+	pkgrel = 1
+	url = http://www.hoard.org/
+	install = hoard.install
+	arch = i686
+	arch = x86_64
+	license = GPL
+	depends = gcc
+
+pkgname = hoard
+
