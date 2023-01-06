@@ -22,7 +22,7 @@
   "cargo-deny": "0.13.5",
   "cargo-depgraph": "1.4.0",
   "cargo-edit": "0.11.7",
-  "cargo-expand": "1.0.36",
+  "cargo-expand": "1.0.37",
   "cargo-geiger": "0.11.4",
   "cargo-generate": "0.17.4",
   "cargo-hakari": "0.9.14",
