@@ -628,6 +628,12 @@ github = "fujiapple852/trippy"
 use_latest_release = true
 prefix = "v"
 
+[mastodon-twitter-sync]
+source = "github"
+github = "klausi/mastodon-twitter-sync"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
