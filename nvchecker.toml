@@ -634,6 +634,12 @@ github = "klausi/mastodon-twitter-sync"
 use_latest_release = true
 prefix = "v"
 
+[felix-rs]
+source = "github"
+github = "kyoheiu/felix"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
