@@ -1074,3 +1074,9 @@ source = "github"
 github = "agourlay/zip-password-finder"
 use_latest_release = true
 prefix = "v"
+
+[pixel-sorter]
+source = "github"
+github = "RusticFlare/pixel-sorter"
+use_latest_release = true
+prefix = "v"
