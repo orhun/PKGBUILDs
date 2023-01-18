@@ -640,6 +640,12 @@ github = "kyoheiu/felix"
 use_latest_release = true
 prefix = "v"
 
+[cargo-llvm-cov]
+source = "github"
+github = "taiki-e/cargo-llvm-cov"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
