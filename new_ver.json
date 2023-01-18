@@ -38,6 +38,7 @@
   "cargo-tarpaulin": "0.23.1",
   "cargo-tauri": "2.0.0-alpha.2",
   "cargo-udeps": "0.1.35",
+  "cargo-update": "11.1.1",
   "cargo-workspaces": "0.2.35",
   "cargo-zigbuild": "0.14.3",
   "cicero": "0.4.0",

@@ -646,6 +646,12 @@ github = "taiki-e/cargo-llvm-cov"
 use_latest_release = true
 prefix = "v"
 
+[cargo-update]
+source = "github"
+github = "nabijaczleweli/cargo-update"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
