@@ -652,6 +652,12 @@ github = "nabijaczleweli/cargo-update"
 use_latest_release = true
 prefix = "v"
 
+[cargo-ndk]
+source = "github"
+github = "bbqsrc/cargo-ndk"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
