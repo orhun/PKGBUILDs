@@ -28,6 +28,7 @@
   "cargo-hakari": "0.9.14",
   "cargo-llvm-cov": "0.5.9",
   "cargo-msrv": "0.15.1",
+  "cargo-ndk": "2.12.2",
   "cargo-nextest": "0.9.49",
   "cargo-outdated": "0.11.1",
   "cargo-patch": "0.2.9",
