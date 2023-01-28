@@ -661,7 +661,13 @@ prefix = "v"
 [rustscan]
 source = "github"
 github = "rustscan/RustScan"
-use_max_tag = true
+use_latest_release = true
+prefix = "v"
+
+[ouch]
+source = "github"
+github = "ouch-org/ouch"
+use_latest_release = true
 prefix = "v"
 
 # AUR #
