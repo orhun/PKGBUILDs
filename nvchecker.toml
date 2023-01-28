@@ -658,6 +658,12 @@ github = "bbqsrc/cargo-ndk"
 use_max_tag = true
 prefix = "v"
 
+[rustscan]
+source = "github"
+github = "rustscan/RustScan"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

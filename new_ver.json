@@ -139,6 +139,7 @@
   "rust-racer": "2.1.36",
   "rust-script": "0.22.0",
   "rustfilt": "0.2.1",
+  "rustscan": "2.1.1",
   "rustup": "1.25.1",
   "rusty-krab-manager": "1.3",
   "scrot": "1.8.1",
