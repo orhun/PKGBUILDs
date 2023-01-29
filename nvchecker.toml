@@ -670,6 +670,12 @@ github = "ouch-org/ouch"
 use_latest_release = true
 prefix = "v"
 
+[dive]
+source = "github"
+github = "wagoodman/dive"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
