@@ -676,6 +676,12 @@ github = "wagoodman/dive"
 use_latest_release = true
 prefix = "v"
 
+[silicon]
+source = "github"
+github = "Aloxaf/silicon"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
