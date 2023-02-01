@@ -1122,3 +1122,9 @@ source = "github"
 github = "RusticFlare/pixel-sorter"
 use_latest_release = true
 prefix = "v"
+
+[oxker]
+source = "github"
+github = "mrjackwills/oxker"
+use_latest_release = true
+prefix = "v"
