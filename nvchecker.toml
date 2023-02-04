@@ -694,6 +694,12 @@ github = "EmbarkStudios/cargo-about"
 use_latest_release = true
 prefix = "v"
 
+[bingrep]
+source = "github"
+github = "m4b/bingrep"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
