@@ -42,7 +42,7 @@
   "cargo-udeps": "0.1.35",
   "cargo-update": "11.1.1",
   "cargo-workspaces": "0.2.35",
-  "cargo-zigbuild": "0.15.0",
+  "cargo-zigbuild": "0.16.0",
   "cicero": "0.4.0",
   "cns": "0.1.1",
   "cocogitto": "5.3.1",
