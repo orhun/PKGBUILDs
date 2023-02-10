@@ -1134,3 +1134,9 @@ source = "github"
 github = "mrjackwills/oxker"
 use_latest_release = true
 prefix = "v"
+
+[boxxy]
+source = "github"
+github = "queer/boxxy"
+use_latest_release = true
+prefix = "v"
