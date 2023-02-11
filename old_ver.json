@@ -23,6 +23,7 @@
   "cargo-crev": "0.23.3",
   "cargo-deny": "0.13.7",
   "cargo-depgraph": "1.4.0",
+  "cargo-dist": "0.0.2",
   "cargo-edit": "0.11.8",
   "cargo-expand": "1.0.39",
   "cargo-geiger": "0.11.5",
