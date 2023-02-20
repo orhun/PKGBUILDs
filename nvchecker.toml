@@ -700,6 +700,12 @@ github = "m4b/bingrep"
 use_max_tag = true
 prefix = "v"
 
+[zls]
+source = "github"
+github = "zigtools/zls"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

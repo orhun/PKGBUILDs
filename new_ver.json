@@ -13,7 +13,7 @@
   "bookmark": "0.1.0",
   "bore": "0.4.1",
   "boxxy": "0.3.4",
-  "broot": "1.20.1",
+  "broot": "1.20.2",
   "cargo-about": "0.5.4",
   "cargo-audit": "0.17.4",
   "cargo-auditable": "0.6.0",
@@ -187,5 +187,6 @@
   "yank": "1.3.0",
   "zellij": "0.34.4",
   "zip-password-finder": "0.6.3",
+  "zls": "0.10.0",
   "zps": "1.2.8"
 }
