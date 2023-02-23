@@ -1152,3 +1152,9 @@ source = "github"
 github = "axodotdev/cargo-dist"
 use_latest_release = true
 prefix = "v"
+
+[poketex]
+source = "github"
+github = "ckaznable/poketex"
+use_latest_release = true
+prefix = "v"
