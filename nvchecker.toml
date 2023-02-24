@@ -718,6 +718,12 @@ github = "arduino/arduino-language-server"
 use_latest_release = true
 prefix = "v"
 
+[committed]
+source = "github"
+github = "crate-ci/committed"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
