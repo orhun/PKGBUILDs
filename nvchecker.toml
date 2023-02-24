@@ -712,6 +712,12 @@ github = "konradsz/igrep"
 use_max_tag = true
 prefix = "v"
 
+[arduino-language-server]
+source = "github"
+github = "arduino/arduino-language-server"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
