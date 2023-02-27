@@ -730,6 +730,12 @@ github = "kornelski/cargo-deb"
 use_max_tag = true
 prefix = "v"
 
+[cargo-generate-rpm]
+source = "github"
+github = "cat-in-136/cargo-generate-rpm"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

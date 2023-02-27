@@ -30,6 +30,7 @@
   "cargo-expand": "1.0.39",
   "cargo-geiger": "0.11.5",
   "cargo-generate": "0.18.1",
+  "cargo-generate-rpm": "0.10.0",
   "cargo-hakari": "0.9.14",
   "cargo-llvm-cov": "0.5.10",
   "cargo-msrv": "0.15.1",
