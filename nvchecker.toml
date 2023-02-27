@@ -724,6 +724,12 @@ github = "crate-ci/committed"
 use_latest_release = true
 prefix = "v"
 
+[cargo-deb]
+source = "github"
+github = "kornelski/cargo-deb"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
