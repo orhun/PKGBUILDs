@@ -40,7 +40,7 @@
   "cargo-sonar": "0.14.1",
   "cargo-sort": "1.0.9",
   "cargo-spellcheck": "0.12.3",
-  "cargo-tarpaulin": "0.25.0",
+  "cargo-tarpaulin": "0.25.1",
   "cargo-tauri": "cli.rs-v2.0.0-alpha.2",
   "cargo-udeps": "0.1.35",
   "cargo-update": "11.1.1",
