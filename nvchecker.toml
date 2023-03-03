@@ -736,6 +736,12 @@ github = "cat-in-136/cargo-generate-rpm"
 use_latest_release = true
 prefix = "v"
 
+[bash-preexec]
+source = "github"
+github = "rcaloras/bash-preexec"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
