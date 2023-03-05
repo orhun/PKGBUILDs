@@ -768,6 +768,12 @@ github = "orhun/i3-workspace-brightness"
 use_latest_release = true
 prefix = "v"
 
+[runst]
+source = "github"
+github = "orhun/runst"
+use_latest_release = true
+prefix = "v"
+
 [notp]
 source = "github"
 github = "kondanta/notp"
