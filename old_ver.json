@@ -6,7 +6,7 @@
   "argc": "0.12.0",
   "arti": "tor-dirmgr-v0.5.1",
   "atuin": "13.0.1",
-  "aws-vault": "6.6.2",
+  "aws-vault": "7.0.0",
   "bash-preexec": "0.5.0",
   "bingrep": "0.11.0",
   "binocle": "0.3.0",
