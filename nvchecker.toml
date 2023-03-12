@@ -774,6 +774,12 @@ github = "orhun/runst"
 use_latest_release = true
 prefix = "v"
 
+[halp]
+source = "github"
+github = "orhun/halp"
+use_latest_release = true
+prefix = "v"
+
 [notp]
 source = "github"
 github = "kondanta/notp"
