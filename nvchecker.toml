@@ -17,6 +17,18 @@ github = "orhun/menyoki"
 use_latest_release = true
 prefix = "v"
 
+[runst]
+source = "github"
+github = "orhun/runst"
+use_latest_release = true
+prefix = "v"
+
+[halp]
+source = "github"
+github = "orhun/halp"
+use_latest_release = true
+prefix = "v"
+
 [lychee]
 source = "github"
 github = "lycheeverse/lychee"
@@ -771,18 +783,6 @@ prefix = "v"
 [i3-workspace-brightness]
 source = "github"
 github = "orhun/i3-workspace-brightness"
-use_latest_release = true
-prefix = "v"
-
-[runst]
-source = "github"
-github = "orhun/runst"
-use_latest_release = true
-prefix = "v"
-
-[halp]
-source = "github"
-github = "orhun/halp"
 use_latest_release = true
 prefix = "v"
 
