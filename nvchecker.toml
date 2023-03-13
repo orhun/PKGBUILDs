@@ -742,6 +742,12 @@ github = "rcaloras/bash-preexec"
 use_latest_release = true
 prefix = "v"
 
+[wikiman]
+source = "github"
+github = "filiparag/wikiman"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
