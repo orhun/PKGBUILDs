@@ -1206,3 +1206,8 @@ source = "github"
 github = "ckaznable/poketex"
 use_latest_release = true
 prefix = "v"
+
+[zigmod]
+source = "github"
+github = "nektro/zigmod"
+use_latest_release = true
