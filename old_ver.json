@@ -46,7 +46,7 @@
   "cargo-tarpaulin": "0.25.1",
   "cargo-tauri": "cli.rs-v2.0.0-alpha.2",
   "cargo-udeps": "0.1.35",
-  "cargo-update": "11.1.2",
+  "cargo-update": "12.0.0",
   "cargo-workspaces": "0.2.36",
   "cargo-zigbuild": "0.16.3",
   "cicero": "0.4.0",
