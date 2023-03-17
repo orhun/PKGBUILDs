@@ -760,6 +760,12 @@ github = "filiparag/wikiman"
 use_latest_release = true
 prefix = "v"
 
+[cargo-make]
+source = "github"
+github = "sagiegurari/cargo-make"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
