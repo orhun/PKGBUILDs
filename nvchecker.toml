@@ -1217,3 +1217,9 @@ prefix = "v"
 source = "github"
 github = "nektro/zigmod"
 use_latest_release = true
+
+[glicol-cli]
+source = "github"
+github = "glicol/glicol-cli"
+use_latest_release = true
+prefix = "v"
