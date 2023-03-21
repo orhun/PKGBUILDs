@@ -533,7 +533,7 @@ query = "cargo-hakari"
 [httplz]
 source = "github"
 github = "thecoshman/http"
-use_max_tag = true
+use_latest_release = true
 prefix = "v"
 
 [grcov]
