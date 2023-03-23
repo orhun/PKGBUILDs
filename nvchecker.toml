@@ -766,6 +766,12 @@ github = "sagiegurari/cargo-make"
 use_latest_release = true
 prefix = "v"
 
+[cargo-semver-checks]
+source = "github"
+github = "obi1kenobi/cargo-semver-checks"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
