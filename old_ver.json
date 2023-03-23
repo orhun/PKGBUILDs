@@ -43,7 +43,7 @@
   "cargo-public-api": "0.27.3",
   "cargo-sonar": "0.14.1",
   "cargo-sort": "1.0.9",
-  "cargo-spellcheck": "0.12.3",
+  "cargo-spellcheck": "0.12.4",
   "cargo-tarpaulin": "0.25.1",
   "cargo-tauri": "cli.rs-v2.0.0-alpha.4",
   "cargo-udeps": "0.1.35",
