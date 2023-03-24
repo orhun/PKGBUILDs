@@ -784,6 +784,12 @@ github = "alpinelinux/alpine-chroot-install"
 use_max_tag = true
 prefix = "v"
 
+[boxxy]
+source = "github"
+github = "queer/boxxy"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -1210,12 +1216,6 @@ prefix = "v"
 [oxker]
 source = "github"
 github = "mrjackwills/oxker"
-use_latest_release = true
-prefix = "v"
-
-[boxxy]
-source = "github"
-github = "queer/boxxy"
 use_latest_release = true
 prefix = "v"
 
