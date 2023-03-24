@@ -778,6 +778,12 @@ github = "bvaisvil/zenith"
 use_latest_release = true
 prefix = "v"
 
+[alpine-chroot-install]
+source = "github"
+github = "alpinelinux/alpine-chroot-install"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
