@@ -772,6 +772,12 @@ github = "obi1kenobi/cargo-semver-checks"
 use_latest_release = true
 prefix = "v"
 
+[zenith]
+source = "github"
+github = "bvaisvil/zenith"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
