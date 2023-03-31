@@ -1241,3 +1241,9 @@ source = "github"
 github = "glicol/glicol-cli"
 use_latest_release = true
 prefix = "v"
+
+[repgrep]
+source = "github"
+github = "acheronfail/repgrep"
+use_latest_release = true
+prefix = "v"
