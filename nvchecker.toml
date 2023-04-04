@@ -790,6 +790,12 @@ github = "queer/boxxy"
 use_latest_release = true
 prefix = "v"
 
+[cargo2junit]
+source = "github"
+github = "johnterickson/cargo2junit"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
