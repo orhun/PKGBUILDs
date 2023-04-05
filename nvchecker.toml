@@ -1253,3 +1253,9 @@ source = "github"
 github = "acheronfail/repgrep"
 use_latest_release = true
 prefix = "v"
+
+[wthrr]
+source = "github"
+github = "tobealive/wthrr-the-weathercrab"
+use_latest_release = true
+prefix = "v"
