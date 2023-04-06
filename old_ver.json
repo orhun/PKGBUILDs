@@ -25,7 +25,7 @@
   "cargo-careful": "0.2.4",
   "cargo-crev": "0.23.3",
   "cargo-deb": "1.42.2",
-  "cargo-deny": "0.13.7",
+  "cargo-deny": "0.13.8",
   "cargo-depgraph": "1.4.0",
   "cargo-dist": "0.0.5",
   "cargo-edit": "0.11.9",
