@@ -174,7 +174,7 @@
   "rusolver": "0.9.1",
   "rust-bindgen": "0.64.0",
   "rust-racer": "2.1.36",
-  "rust-script": "0.24.0",
+  "rust-script": "0.25.0",
   "rustfilt": "0.2.1",
   "rustscan": "2.1.1",
   "rustup": "1.25.2",
