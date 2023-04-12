@@ -47,7 +47,7 @@
   "cargo-sort": "1.0.9",
   "cargo-spellcheck": "0.12.4",
   "cargo-tarpaulin": "0.25.2",
-  "cargo-tauri": "2.0.0-alpha.6",
+  "cargo-tauri": "cli.rs-v2.0.0-alpha.7",
   "cargo-udeps": "0.1.35",
   "cargo-update": "13.0.1",
   "cargo-workspaces": "0.2.36",
