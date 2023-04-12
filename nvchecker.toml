@@ -539,7 +539,7 @@ prefix = "v"
 [grcov]
 source = "github"
 github = "mozilla/grcov"
-use_latest_release = true
+use_max_tag = true
 prefix = "v"
 
 [git-grab]
