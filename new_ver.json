@@ -34,7 +34,7 @@
   "cargo-generate": "0.18.2",
   "cargo-generate-rpm": "0.10.2",
   "cargo-hakari": "0.9.14",
-  "cargo-llvm-cov": "0.5.14",
+  "cargo-llvm-cov": "0.5.15",
   "cargo-make": "0.36.6",
   "cargo-msrv": "0.15.1",
   "cargo-ndk": "3.0.1",
@@ -157,7 +157,7 @@
   "rusolver": "0.9.1",
   "rust-bindgen": "0.65.1",
   "rust-racer": "2.1.36",
-  "rust-script": "0.25.0",
+  "rust-script": "0.26.0",
   "rustfilt": "0.2.1",
   "rustscan": "2.1.1",
   "rustup": "1.25.2",
@@ -204,7 +204,7 @@
   "zellij": "0.36.0",
   "zenith": "0.14.0",
   "zigmod": "r84",
-  "zip-password-finder": "0.6.3",
+  "zip-password-finder": "0.6.4",
   "zls": "0.10.0",
   "zps": "1.2.8"
 }
