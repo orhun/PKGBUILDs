@@ -802,6 +802,12 @@ github = "johnterickson/cargo2junit"
 use_max_tag = true
 prefix = "v"
 
+[navi]
+source = "github"
+github = "denisidoro/navi"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
