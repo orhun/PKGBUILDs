@@ -34,7 +34,7 @@
   "cargo-generate": "0.18.2",
   "cargo-generate-rpm": "0.10.2",
   "cargo-hakari": "0.9.14",
-  "cargo-llvm-cov": "0.5.16",
+  "cargo-llvm-cov": "0.5.17",
   "cargo-make": "0.36.6",
   "cargo-msrv": "0.15.1",
   "cargo-ndk": "3.0.1",
