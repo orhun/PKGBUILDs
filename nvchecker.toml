@@ -815,6 +815,12 @@ use_max_tag = true
 prefix = "release-plz-v"
 include_regex = "release-plz-v.*"
 
+[spicy-launcher]
+source = "github"
+github = "spicylobstergames/SpicyLauncher"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
