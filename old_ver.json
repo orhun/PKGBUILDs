@@ -22,7 +22,7 @@
   "cargo-auditable": "0.6.1",
   "cargo-binstall": "0.23.0",
   "cargo-bloat": "0.11.1",
-  "cargo-careful": "0.3.3",
+  "cargo-careful": "0.3.4",
   "cargo-crev": "0.23.3",
   "cargo-deb": "1.43.0",
   "cargo-deny": "0.13.9",
