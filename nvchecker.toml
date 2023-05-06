@@ -821,6 +821,12 @@ github = "spicylobstergames/SpicyLauncher"
 use_latest_release = true
 prefix = "v"
 
+[sniffnet]
+source = "github"
+github = "GyulyVGC/sniffnet"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
