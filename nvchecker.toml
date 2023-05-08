@@ -827,6 +827,12 @@ github = "GyulyVGC/sniffnet"
 use_latest_release = true
 prefix = "v"
 
+[kondo]
+source = "github"
+github = "tbillington/kondo"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
