@@ -833,6 +833,12 @@ github = "tbillington/kondo"
 use_latest_release = true
 prefix = "v"
 
+[lurk]
+source = "github"
+github = "JakWai01/lurk"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
