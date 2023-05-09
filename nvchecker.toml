@@ -570,8 +570,8 @@ prefix = "v"
 source = "github"
 github = "tauri-apps/tauri"
 use_latest_release = true
-prefix = "tauri-v"
-query = "tauri-v"
+prefix = "cli.rs-v"
+query = "cli.rs-v"
 
 [tealdeer]
 source = "github"
