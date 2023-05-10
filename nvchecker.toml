@@ -839,6 +839,12 @@ github = "JakWai01/lurk"
 use_latest_release = true
 prefix = "v"
 
+[cargo-shuttle]
+source = "github"
+github = "shuttle-hq/shuttle"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
