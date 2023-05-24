@@ -845,6 +845,12 @@ github = "shuttle-hq/shuttle"
 use_latest_release = true
 prefix = "v"
 
+[rye]
+source = "github"
+github = "mitsuhiko/rye"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
