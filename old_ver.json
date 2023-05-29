@@ -29,7 +29,7 @@
   "cargo-depgraph": "1.4.0",
   "cargo-dist": "0.0.7",
   "cargo-edit": "0.12.0",
-  "cargo-expand": "1.0.51",
+  "cargo-expand": "1.0.52",
   "cargo-geiger": "0.11.6",
   "cargo-generate": "0.18.3",
   "cargo-generate-rpm": "0.11.0",
