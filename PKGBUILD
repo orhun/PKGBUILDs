@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=taskwarrior-tui
-pkgver=0.24.1
+pkgver=0.24.2
 pkgrel=1
 pkgdesc="A terminal user interface for taskwarrior"
 arch=('x86_64')
@@ -11,7 +11,7 @@ depends=('task')
 makedepends=('cargo' 'git')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz"
         "git+https://github.com/kdheepak/taskwarrior-testdata")
-sha256sums=('e946be5d92b0b108e884601a7a8b1ddd310d7f15e749740e613a76f04b575db3'
+sha256sums=('6f567acd8f0ba6009f20d9ba60078e2b999fddb0fdbcffa75f088c62679b2dc3'
             'SKIP')
 
 prepare() {
