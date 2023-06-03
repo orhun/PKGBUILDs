@@ -51,7 +51,7 @@
   "cargo-tauri": "2.0.0-alpha.9",
   "cargo-udeps": "0.1.39",
   "cargo-update": "13.0.4",
-  "cargo-workspaces": "0.2.41",
+  "cargo-workspaces": "0.2.42",
   "cargo-zigbuild": "0.16.10",
   "cargo2junit": "0.1.13",
   "cicero": "0.4.0",
