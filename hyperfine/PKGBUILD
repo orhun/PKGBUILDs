@@ -1,0 +1,44 @@
+# Maintainer: Sven-Hendrik Haase <svenstaro@archlinux.org>
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Contributor: cauebs <cauebs@pm.me>
+
+pkgname=hyperfine
+pkgver=1.17.0
+pkgrel=1
+pkgdesc="A command-line benchmarking tool"
+url="https://github.com/sharkdp/hyperfine"
+arch=("x86_64")
+license=("APACHE" "MIT")
+depends=(gcc-libs)
+makedepends=(cargo)
+source=("$pkgname-$pkgver.tar.gz::https://github.com/sharkdp/$pkgname/archive/v$pkgver.tar.gz")
+options=(zipman)
+sha256sums=('3dcd86c12e96ab5808d5c9f3cec0fcc04192a87833ff009063c4a491d5487b58')
+
+prepare() {
+  cd "$srcdir/$pkgname-$pkgver"
+  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+  cd "$srcdir/$pkgname-$pkgver"
+  cargo build --release --frozen
+}
+
+check() {
+  cd "$srcdir/$pkgname-$pkgver"
+  cargo test --frozen
+}
+
+package() {
+  cd "$srcdir/$pkgname-$pkgver"
+  install -Dm644 "LICENSE-APACHE" "$pkgdir/usr/share/licenses/$pkgname/LICENSE-APACHE"
+  install -Dm644 "LICENSE-MIT" "$pkgdir/usr/share/licenses/$pkgname/LICENSE-MIT"
+  install -Dm755 "target/release/$pkgname" "$pkgdir/usr/bin/$pkgname"
+
+  install -Dm644 target/release/build/hyperfine-*/out/hyperfine.bash "$pkgdir/usr/share/bash-completion/completions/hyperfine"
+  install -Dm644 target/release/build/hyperfine-*/out/hyperfine.fish "$pkgdir/usr/share/fish/vendor_completions.d/hyperfine.fish"
+  install -Dm644 target/release/build/hyperfine-*/out/_hyperfine "$pkgdir/usr/share/zsh/site-functions/_hyperfine"
+
+  install -Dm644 doc/hyperfine.1 "$pkgdir/usr/share/man/man1/hyperfine.1"
+}
