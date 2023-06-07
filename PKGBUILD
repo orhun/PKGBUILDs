@@ -2,7 +2,7 @@
 
 pkgname=repgrep
 _pkgname=rgr
-pkgver=0.12.4
+pkgver=0.13.0
 pkgrel=1
 pkgdesc="An interactive command line replacer for ripgrep"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT' 'Apache' 'Unlicense')
 depends=('gcc-libs' 'ripgrep')
 makedepends=('cargo' 'asciidoctor')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('2221bd4111a7c1e226e1a6ad63ed588cb0f9dc501ddb6868f19c4fe67d428de17d3a57983cd9f73be1faa0dd4e5942550870625f689317158df9b0546df56f20')
+sha512sums=('dda24d4c94a3d4567a69f48a170c645209baf3a34b487e82da0e8e1bfea5675ba89ad73ee7d60ca947aa32921d5363da621e916b5410dbe92733ff198fd1fb72')
 
 prepare() {
   cd "$pkgname-$pkgver"
