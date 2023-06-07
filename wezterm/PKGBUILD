@@ -1,0 +1,100 @@
+# Maintainer:  Orhun Parmaksız <orhun@archlinux.org>
+
+pkgbase=wezterm
+pkgname=(wezterm wezterm-terminfo wezterm-shell-integration)
+pkgver=20230408.112425.69ae8472
+_gitcommit=69ae847273aa2b0a64bdb07cf19d3f6fbaaa6b71
+pkgrel=2
+pkgdesc="A GPU-accelerated cross-platform terminal emulator and multiplexer"
+arch=('x86_64')
+url="https://github.com/wez/wezterm"
+license=('MIT')
+depends=(
+  'fontconfig'
+  'hicolor-icon-theme'
+  'wayland'
+  'libx11'
+  'libxkbcommon-x11'
+  'xcb-util-keysyms'
+  'xcb-util-wm'
+  'xcb-util-image'
+  'openssl'
+)
+makedepends=('cargo' 'cmake' 'git' 'pkgconf' 'python' 'libssh2')
+source=(
+  "${pkgname}::git+$url#commit=$_gitcommit"
+  "${pkgname}-freetype2::git+https://github.com/wez/freetype2.git"
+  "${pkgname}-zlib::git+https://github.com/madler/zlib.git"
+  "${pkgname}-harfbuzz::git+https://github.com/harfbuzz/harfbuzz.git"
+  "${pkgname}-libpng::git+https://github.com/glennrp/libpng.git"
+)
+sha256sums=('SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP'
+            'SKIP')
+options=('!lto')
+
+prepare() {
+  [[ "${_gitcommit}" == "${pkgver##*.}"* ]] || exit 1
+  cd "$pkgname"
+  git submodule init
+
+  git config submodule."harfbuzz/harfbuzz".url "${srcdir}/${pkgname}"-harfbuzz
+  git config submodule."freetype/libpng".url "${srcdir}/${pkgname}"-libpng
+  git config submodule."deps/freetype/zlib".url "${srcdir}/${pkgname}"-zlib
+  git config submodule."freetype2".url "${srcdir}/${pkgname}"-freetype2
+
+  git -c protocol.file.allow=always submodule update --init --recursive
+  sed -i 's/"vendored-fonts", //' wezterm-gui/Cargo.toml
+  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+  cd "$pkgname"
+  LIBSSH2_SYS_USE_PKG_CONFIG=1 cargo build --frozen --release --features distro-defaults
+}
+
+check() {
+  cd "$pkgname"
+  LIBSSH2_SYS_USE_PKG_CONFIG=1 cargo test --frozen -- --skip "e2e::sftp"
+}
+
+package_wezterm() {
+  depends+=('libssh2' 'ttf-jetbrains-mono' 'ttf-roboto' 'wezterm-terminfo' 'wezterm-shell-integration')
+  optdepends=(
+    'python-nautilus: WezTerm context menu in Nautilus'
+    'ttf-nerd-fonts-symbols-mono'
+    'noto-fonts-emoji'
+  )
+
+  cd "$pkgname"
+  install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
+  install -Dm 755 "target/release/$pkgname-gui" -t "$pkgdir/usr/bin"
+  install -Dm 755 "target/release/$pkgname-mux-server" -t "$pkgdir/usr/bin"
+  install -Dm 755 "target/release/strip-ansi-escapes" -t "$pkgdir/usr/bin"
+  install -Dm 644 "assets/icon/terminal.png" "$pkgdir/usr/share/icons/hicolor/128x128/apps/org.wezfurlong.$pkgname.png"
+  install -Dm 644 "assets/$pkgname.desktop" "$pkgdir/usr/share/applications/org.wezfurlong.$pkgname.desktop"
+  install -Dm 644 "assets/$pkgname.appdata.xml" "$pkgdir/usr/share/metainfo/org.wezfurlong.$pkgname.appdata.xml"
+  install -Dm 644 "assets/$pkgname-nautilus.py" "$pkgdir/usr/share/nautilus-python/extensions/$pkgname-nautilus.py"
+  install -Dm 755 "assets/open-$pkgname-here" -t "$pkgdir/usr/bin"
+  install -Dm 644 LICENSE.md -t "$pkgdir/usr/share/licenses/$pkgname"
+  install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
+  install -Dm 644 assets/shell-completion/bash "$pkgdir/usr/share/bash-completion/completions/$pkgname"
+  install -Dm 644 assets/shell-completion/fish "$pkgdir/usr/share/fish/vendor_completions.d/$pkgname.fish"
+  install -Dm 644 assets/shell-completion/zsh "$pkgdir/usr/share/zsh/site-functions/_$pkgname"
+}
+
+package_wezterm-terminfo() {
+  pkgdesc='Terminfo for wezterm'
+  depends=('ncurses')
+  mkdir -p "$pkgdir/usr/share/terminfo"
+  tic -x -o "$pkgdir/usr/share/terminfo" "$pkgbase/termwiz/data/$pkgbase.terminfo"
+}
+
+package_wezterm-shell-integration() {
+  pkgdesc='Shell integration scripts for wezterm'
+  install -Dm 644 "$pkgbase"/assets/shell-integration/* -t "$pkgdir/etc/profile.d"
+}
+
+# vim: ts=2 sw=2 et:
