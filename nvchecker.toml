@@ -851,6 +851,12 @@ github = "mitsuhiko/rye"
 use_latest_release = true
 prefix = "v"
 
+[cargo-machete]
+source = "github"
+github = "bnjbvr/cargo-machete"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
