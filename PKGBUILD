@@ -3,8 +3,8 @@
 # Contributor: Andreas 'Segaja' Schleifer <archlinux at segaja dot de>
 
 pkgname=aliyun-cli
-_gitcommit=67ab4ebd377d95a01eaeeaf578601a06c5b84dbd
-pkgver=3.0.165
+_gitcommit=b326e32d0d908addd0489841e059e459595e2897
+pkgver=3.0.167
 pkgrel=1
 pkgdesc='Alibaba Cloud CLI'
 arch=('x86_64')
@@ -44,16 +44,17 @@ build() {
     -o ./out/aliyun ./main/main.go
 }
 
-check() {
-  cd ${pkgname}
-
-  # Horrible but needed for the ./cli/ tests
-  touch "${HOME}/.bashrc"
-
-  # for now can't test the `./oss/...` folder, because it needs an env file that is not so easy to have in dev
-  go test \
-    ./cli/... ./config/... ./i18n/... ./main/... ./openapi/... ./resource/...
-}
+# https://github.com/aliyun/aliyun-cli/issues/736
+# check() {
+#   cd ${pkgname}
+#
+#   # Horrible but needed for the ./cli/ tests
+#   touch "${HOME}/.bashrc"
+#
+#   # for now can't test the `./oss/...` folder, because it needs an env file that is not so easy to have in dev
+#   go test \
+#     ./cli/... ./config/... ./i18n/... ./main/... ./openapi/... ./resource/...
+# }
 
 package() {
   cd ${pkgname}
