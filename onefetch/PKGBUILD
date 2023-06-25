@@ -4,8 +4,8 @@
 # Contributor: Ossama Hjaji <ossama-hjaji@live.fr>
 
 pkgname=onefetch
-_commit=78698d214eb6725c0f121e0b890f74dd4231b841
-pkgver=2.18.0
+_commit=dccd5a8ccf51f10fb6e38af6b16735b3cac5b315
+pkgver=2.18.1
 pkgrel=1
 pkgdesc="Git repository summary on your terminal"
 url="https://github.com/o2sh/onefetch"
