@@ -78,9 +78,10 @@ use_latest_release = true
 prefix = "v"
 
 [cargo-depgraph]
-source = "regex"
-url = "https://git.sr.ht/~jplatte/cargo-depgraph"
-regex = "<dt>v(.*)</dt>"
+source = "github"
+github = "jplatte/cargo-depgraph"
+use_max_tag = true
+prefix = "v"
 
 [onefetch]
 source = "github"
