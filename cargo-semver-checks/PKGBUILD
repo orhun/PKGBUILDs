@@ -2,7 +2,7 @@
 # Contributor: KokaKiwi <kokakiwi+aur at kokakiwi dot net>
 
 pkgname=cargo-semver-checks
-pkgver=0.22.0
+pkgver=0.22.1
 pkgrel=1
 pkgdesc='Scan your Rust crate for semver violations'
 url='https://github.com/obi1kenobi/cargo-semver-checks'
@@ -10,7 +10,7 @@ license=('Apache' 'MIT')
 arch=('x86_64')
 depends=('gcc-libs' 'glibc' 'libgit2' 'openssl' 'zlib')
 makedepends=('cargo' 'git')
-_commit=cbfbad811393bc8d04890d1d287926c90dc4eca0
+_commit=7a0ee5d4788996fb07f8a3b4d0f5f475d9490aae
 source=(
   "$pkgname::git+$url.git#commit=$_commit"
   "$pkgname-0.21.0-downgrade_git2.patch"
