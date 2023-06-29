@@ -1,0 +1,54 @@
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+
+pkgname=linuxwave
+pkgver=0.1.4
+_gitcommit=86bbfc48a0e0b117ab693cdf6c0e6bb40c60c46d
+pkgrel=1
+pkgdesc="Generate music from the entropy of Linux"
+arch=('x86_64')
+url="https://github.com/orhun/linuxwave"
+license=('MIT')
+makedepends=('zig' 'git')
+source=(
+  "${pkgname}::git+$url#commit=$_gitcommit"
+  "${pkgname}-zig-clap::git+https://github.com/Hejsil/zig-clap"
+)
+sha256sums=('SKIP'
+            'SKIP')
+
+prepare() {
+  cd "${pkgname}"
+  git submodule init
+  git config submodule."libs/zig-clap".url "${srcdir}/${pkgname}"-zig-clap
+  git -c protocol.file.allow=always submodule update --init --recursive
+}
+
+build() {
+  cd "$pkgname"
+  DESTDIR="build" zig build \
+    --prefix /usr \
+    --search-prefix /usr \
+    -Dtarget=native-linux.5.15-gnu \
+    -Dcpu=baseline \
+    -Drelease-safe \
+    -Dpie=true \
+    -Drelro=true
+}
+
+check() {
+  cd "$pkgname"
+  zig build test \
+    -Dtarget=native-linux.5.15-gnu \
+    -Dcpu=baseline \
+    -Drelease-safe
+}
+
+package() {
+  cd "$pkgname"
+  cp -a build/* "$pkgdir"
+  install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
+  install -Dm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+  install -Dm 644 "man/$pkgname.1" -t "$pkgdir/usr/share/man/man1"
+}
+
+# vim: ts=2 sw=2 et:
