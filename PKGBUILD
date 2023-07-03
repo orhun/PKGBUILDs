@@ -3,8 +3,8 @@
 # Contributor: Andreas 'Segaja' Schleifer <archlinux at segaja dot de>
 
 pkgname=aliyun-cli
-_gitcommit=b326e32d0d908addd0489841e059e459595e2897
-pkgver=3.0.167
+_gitcommit=502716b336cee534e107518f74a42d688c756014
+pkgver=3.0.168
 pkgrel=1
 pkgdesc='Alibaba Cloud CLI'
 arch=('x86_64')
