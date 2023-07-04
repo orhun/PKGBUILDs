@@ -275,9 +275,9 @@ github = "not-an-aardvark/lucky-commit"
 use_max_tag = true
 prefix = "v"
 
-[lfs]
+[dysk]
 source = "github"
-github = "Canop/lfs"
+github = "Canop/dysk"
 use_latest_release = true
 prefix = "v"
 
