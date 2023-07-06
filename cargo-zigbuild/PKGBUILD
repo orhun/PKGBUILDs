@@ -2,7 +2,7 @@
 # Contributor: KokaKiwi <kokakiwi+aur at kokakiwi dot net>
 
 pkgname=cargo-zigbuild
-pkgver=0.16.11
+pkgver=0.16.12
 pkgrel=1
 pkgdesc="Compile Cargo project with zig as linker"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('gcc-libs' 'zig')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('7bea3d74cc646d9a191b80035c6800c28aff1d0f4cd3e77ec98db68e333d5a6f')
+sha256sums=('1cb8253043d5c9acd0b12fa98fc30dc7970fa07240a9014dc8f9dc87742e19c8')
 
 prepare() {
   cd "$pkgname-$pkgver"
