@@ -2,9 +2,9 @@
 
 pkgbase=wezterm
 pkgname=(wezterm wezterm-terminfo wezterm-shell-integration)
-pkgver=20230408.112425.69ae8472
-_gitcommit=69ae847273aa2b0a64bdb07cf19d3f6fbaaa6b71
-pkgrel=2
+pkgver=20230712.072601.f4abf8fd
+_gitcommit=f4abf8fde7d45ccdee443ea162b6bd23862b8e32
+pkgrel=1
 pkgdesc="A GPU-accelerated cross-platform terminal emulator and multiplexer"
 arch=('x86_64')
 url="https://github.com/wez/wezterm"
