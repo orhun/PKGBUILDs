@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-binstall
-pkgver=1.1.0
+pkgver=1.1.1
 pkgrel=1
 pkgdesc="Binary installation for Rust projects"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('GPL3')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('041818319414611467ec201e34fc45e023a7f056c4b3576a71d4787c55c59901')
+sha256sums=('33242301d03ace0dca0f4a1fe86df6fe96f20d6516bb10e95c862c4367fede15')
 
 prepare() {
   cd "$pkgname-$pkgver"
