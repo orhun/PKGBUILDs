@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=dysk
-pkgver=2.6.1
+pkgver=2.7.1
 pkgrel=1
 pkgdesc="Get information on your mounted filesystems"
 arch=('x86_64')
@@ -11,7 +11,7 @@ depends=('gcc-libs')
 makedepends=('cargo')
 replaces=('lfs')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('0a08c2ec0da83f54c1c4a9f59d93183ac05bfbeba4d2fd0f6273e118c0e270588befb20d6d39648e3025d94a07c86664698f647624f05bbbcc5a0f2c857a8ad9')
+sha512sums=('3ce6b6082041bf78f88de741a895cf4df391908cb9cff28ebf62b9da62935c895a8b9bd3f6b0389f28adebca8e986fbb40591e31b9d0ef77a5b81519739d7d00')
 
 prepare() {
   cd "$pkgname-$pkgver"
@@ -28,6 +28,11 @@ package() {
   install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
   install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
   install -Dm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+  out_dir=$(find target -type f -name "$pkgname.bash" -exec dirname {} \;)
+  install -Dm 644 "$out_dir/$pkgname.bash" "$pkgdir/usr/share/bash-completion/completions/$pkgname"
+  install -Dm 644 "$out_dir/$pkgname.fish" "$pkgdir/usr/share/fish/vendor_completions.d/$pkgname.fish"
+  install -Dm 644 "$out_dir/_$pkgname" "$pkgdir/usr/share/zsh/site-functions/_$pkgname"
+  install -Dm 644 "$out_dir/$pkgname.1" -t "$pkgdir/usr/share/man/man1"
 }
 
 # vim: ts=2 sw=2 et:
