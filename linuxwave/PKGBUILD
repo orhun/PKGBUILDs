@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=linuxwave
-pkgver=0.1.4
+pkgver=0.1.5
 _gitcommit=86bbfc48a0e0b117ab693cdf6c0e6bb40c60c46d
 pkgrel=1
 pkgdesc="Generate music from the entropy of Linux"
