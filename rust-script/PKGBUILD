@@ -3,7 +3,7 @@
 # Contributor: Wenxuan Zhang <wenxuangm@gmail.com>
 
 pkgname=rust-script
-pkgver=0.29.0
+pkgver=0.30.0
 pkgrel=1
 pkgdesc='Run Rust files and expressions as scripts without any setup or compilation'
 arch=('x86_64')
@@ -12,7 +12,7 @@ license=('MIT' 'Apache')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/fornwall/rust-script/archive/$pkgver.tar.gz")
-sha256sums=('d1092bd93ccc25f98ba92735b8a23b80c130d4c2ca367d44fce93c4669ffb446')
+sha256sums=('236defffa6baf9d7b69b6ec5429cd7fb0ecd797134e5382773d3e781c3778ca5')
 
 prepare() {
   cd "$pkgname-$pkgver"
