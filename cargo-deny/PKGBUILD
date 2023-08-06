@@ -3,8 +3,8 @@
 # Contributor: Vlad Frolov <frolvlad@gmail.com>
 
 pkgname=cargo-deny
-pkgver=0.14.0
-pkgrel=1
+pkgver=0.14.1
+pkgrel=2
 pkgdesc='Cargo plugin for linting your dependencies'
 arch=('x86_64')
 url='https://github.com/EmbarkStudios/cargo-deny'
