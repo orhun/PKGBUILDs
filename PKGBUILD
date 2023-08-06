@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=kubie
-pkgver=0.21.1
+pkgver=0.21.2
 pkgrel=1
 pkgdesc="A more powerful alternative to kubectx and kubens"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('custom:zlib')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('1398f0bf42cc2ea46844f2ec1a9a6a751a5d8817fca34f7d889a95c2449ad6ff24d7905c736abc348195e69f1377b1a833df8c3dfe83e57ad105ce031e07c5ce')
+sha512sums=('a067f66756f3de831e979bdaf9af98e6492e180233097604584ef50acb701d451070b3f56b18e8ef6441eb8304f02f2f3e22a85f34bfb85cd7e6b6df3b287371')
 options=('!lto')
 
 prepare() {
