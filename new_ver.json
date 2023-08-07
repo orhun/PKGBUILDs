@@ -161,6 +161,7 @@
   "rpg-cli": "1.0.1",
   "runst": "0.1.4",
   "rusolver": "0.9.1",
+  "rust-analyzer": "2023-08-07",
   "rust-bindgen": "0.66.1",
   "rust-racer": "2.1.36",
   "rust-script": "0.31.0",
