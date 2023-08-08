@@ -2,7 +2,7 @@
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=committed
-pkgver=1.0.19
+pkgver=1.0.20
 pkgrel=1
 pkgdesc="Nitpicking your commit history"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('Apache' 'MIT')
 depends=('gcc-libs' 'libgit2.so')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('fa8881f32336ebfed0a344cb0bdabab65c45141d2a3b716652de901fb2e46969')
+sha256sums=('bb89632260499ae9dbbf1b2cd43dc9d43337e75259f84f762f821b1eb358849b')
 
 prepare() {
   cd "$pkgname-$pkgver"
