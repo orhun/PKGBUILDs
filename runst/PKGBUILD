@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=runst
-pkgver=0.1.4
+pkgver=0.1.5
 pkgrel=1
 pkgdesc="A dead simple notification daemon"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT' 'Apache')
 depends=('dbus' 'pango')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('0aeba254699203167c78c83fe961a9a309a0102b16f7a6e0bfe0ee82a904c176baefcfb5b89f0343c90b906726e5a51f61589a3240caf5bfcc85f36b86374355')
+sha512sums=('341a33c66d6b77dc660686283cdaf816fbbcf75c1a2cb661936d345d90b91e919ae8f91a6ba6fd17a7bf1053349c695c1514829015478d1cfbbe4dcccfb74a72')
 
 prepare() {
   cd "$pkgname-$pkgver"
