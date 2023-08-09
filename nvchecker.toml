@@ -1326,3 +1326,9 @@ source = "github"
 github = "tobealive/wthrr-the-weathercrab"
 use_latest_release = true
 prefix = "v"
+
+[cargo-unused-features]
+source = "github"
+github = "TimonPost/cargo-unused-features"
+use_latest_release = true
+prefix = "v"
