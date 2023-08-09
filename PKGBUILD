@@ -2,7 +2,7 @@
 # Contributor: Ellie Huxtable <e@elm.sh>
 
 pkgname=atuin
-pkgver=15.0.0
+pkgver=16.0.0
 pkgrel=1
 pkgdesc="Magical shell history"
 arch=('x86_64')
@@ -12,7 +12,7 @@ depends=('gcc-libs')
 makedepends=('cargo')
 optdepends=('bash-preexec: bash integration')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('ad5236aa1352b469ed108486efa448bd73ea2670432cf66de043aabfadb04b89')
+sha256sums=('28d469e452086481f64293390ba0736a082623d49b5064a01b2e2106cc1e8fef')
 options=('!lto')
 
 prepare() {
@@ -31,7 +31,7 @@ build() {
 
 check() {
   cd "$pkgname-$pkgver"
-  cargo test --frozen --all-features --workspace
+  cargo test --frozen --all-features --workspace --lib
 }
 
 package() {
