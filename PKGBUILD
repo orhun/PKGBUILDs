@@ -2,7 +2,7 @@
 # Maintainer: George Rawlinson <grawlinson@archlinux.org>
 
 pkgname=cargo-make
-pkgver=0.36.12
+pkgver=0.36.13
 pkgrel=1
 pkgdesc='Rust task runner and build tool'
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('Apache')
 depends=('gcc-libs' 'openssl' 'bzip2')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha256sums=('3b98bff2309bb99a48ece36afe83807441c0c2bcdee78a696a53ca527d78cc74')
+sha256sums=('a5a530221bee15d7d72a4ee092970e660a8344e29118d476c178fce05e42e622')
 options=('!lto')
 
 prepare() {
