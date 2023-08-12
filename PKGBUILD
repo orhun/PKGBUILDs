@@ -3,7 +3,7 @@
 
 pkgname='rustypaste-cli'
 pkgdesc="A CLI tool for rustypaste"
-pkgver=0.6.0
+pkgver=0.7.0
 pkgrel=1
 arch=('x86_64')
 url="https://github.com/orhun/rustypaste-cli"
@@ -12,7 +12,7 @@ depends=('gcc-libs')
 makedepends=('cargo')
 provides=('rpaste')
 source=(${pkgname}-${pkgver}.tar.gz::"${url}/archive/v${pkgver}.tar.gz")
-sha256sums=('a63e3deaa4c0ab9cb8dfe91d267157f4e2a75c7aeb47a798e351b4d948b1e4d6')
+sha256sums=('935a66611e08e155dd4c6c23960080881fe654bd6ca3225db891d4157de708f7')
 
 prepare() {
   cd "${pkgname}-${pkgver}"
