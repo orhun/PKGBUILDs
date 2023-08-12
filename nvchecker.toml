@@ -870,6 +870,12 @@ github = "rust-lang/rust-analyzer"
 use_latest_release = true
 prefix = "v"
 
+[cargo-dist]
+source = "github"
+github = "axodotdev/cargo-dist"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -1289,12 +1295,6 @@ prefix = "v"
 [oxker]
 source = "github"
 github = "mrjackwills/oxker"
-use_latest_release = true
-prefix = "v"
-
-[cargo-dist]
-source = "github"
-github = "axodotdev/cargo-dist"
 use_latest_release = true
 prefix = "v"
 
