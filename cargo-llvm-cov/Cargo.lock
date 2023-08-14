@@ -65,7 +65,7 @@ dependencies = [
 
 [[package]]
 name = "cargo-llvm-cov"
-version = "0.5.26"
+version = "0.5.27"
 dependencies = [
  "anyhow",
  "camino",
