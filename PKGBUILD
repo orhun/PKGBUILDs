@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=release-plz
-pkgver=0.3.17
+pkgver=0.3.18
 pkgrel=1
 pkgdesc="Release Rust packages without using the command line"
 arch=('x86_64')
@@ -12,7 +12,7 @@ checkdepends=('git')
 makedepends=('cargo')
 optdepends=('cargo-semver-checks: check for API breaking changes')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgname-v$pkgver.tar.gz")
-sha512sums=('49ac51ebb05c7574150327ee43e77b55b3d6a9106be78fc62195d3c047f3ccdfd6c227d84aeec23a67eaa02d895d6fc75cb6e09b6e0da4abe6ba572cff788a9f')
+sha512sums=('c69a24971b147c0f84b4a6026c15ec82cc9a2e4e9edd4cf54badc3f0bed32ef90b1a28f2d355c2218e4e1539d8bab9dfb67257389c53c91ed8c1fa363258d13f')
 options=('!lto')
 
 prepare() {
@@ -33,7 +33,10 @@ build() {
 
 check() {
 	cd "$pkgname-$pkgver"
-	cargo test --frozen
+	# https://github.com/MarcoIeni/release-plz/issues/911
+	cargo test --frozen -- \
+	  --skip "changelog::release_plz_adds_changelog_on_new_project" \
+	  --skip "helpers::gitea"
 }
 
 package() {
