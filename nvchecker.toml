@@ -876,6 +876,12 @@ github = "axodotdev/cargo-dist"
 use_latest_release = true
 prefix = "v"
 
+[tui-journal]
+source = "github"
+github = "AmmarAbouZor/tui-journal"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
