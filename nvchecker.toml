@@ -1338,3 +1338,9 @@ source = "github"
 github = "TimonPost/cargo-unused-features"
 use_latest_release = true
 prefix = "v"
+
+[fzf-make]
+source = "github"
+github = "kyu08/fzf-make"
+use_latest_release = true
+prefix = "v"
