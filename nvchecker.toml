@@ -888,6 +888,12 @@ github = "MordechaiHadad/bob"
 use_latest_release = true
 prefix = "v"
 
+[cargo-modules]
+source = "github"
+github = "regexident/cargo-modules"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

@@ -37,6 +37,7 @@
   "cargo-llvm-cov": "0.5.27",
   "cargo-machete": "0.5.0",
   "cargo-make": "0.36.13",
+  "cargo-modules": "0.9.2",
   "cargo-msrv": "0.15.1",
   "cargo-ndk": "3.3.0",
   "cargo-nextest": "0.9.57",
