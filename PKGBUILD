@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=dysk
-pkgver=2.7.2
+pkgver=2.8.0
 pkgrel=1
 pkgdesc="Get information on your mounted filesystems"
 arch=('x86_64')
@@ -11,7 +11,7 @@ depends=('gcc-libs')
 makedepends=('cargo')
 replaces=('lfs')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('69535b5d7ceacad4b350a90b0c16c7f59fab4b229db3bf3fd5782cc3c14d26ea6c1a8d3ffcf8225f1d02550eca0083e3d2ef9544b9db6b58a45779ec8084a54b')
+sha512sums=('236e076523295ae074f585bf8f9699f1d150efdace76bd0433b97b63a86abc04d95f8c28ca7653f78e56707afcd4433ccf70007250aa333a6f90985ad7ea91b8')
 
 prepare() {
   cd "$pkgname-$pkgver"
