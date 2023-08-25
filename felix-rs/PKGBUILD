@@ -3,7 +3,7 @@
 
 pkgname=felix-rs
 _pkgname=felix
-pkgver=2.7.0
+pkgver=2.8.1
 pkgrel=1
 pkgdesc="A TUI file manager with Vim-like key mapping"
 arch=('x86_64')
@@ -15,12 +15,15 @@ optdepends=('chafa: preview images'
             'zoxide: jump to directories')
 checkdepends=('zoxide')
 install="$pkgname.install"
-source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('f51dbd0fa1c2f35f58015ee76a16ac58b808341b4944b429b9e7b3bd577ade26045868929d91e2bd06dc23c9d6cc7dbea159bb199ddeba337be8561872f7f467')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz"
+        "$pkgname-$pkgver-cargo-lock.patch::$url/commit/f6696fc5ddeeac791a562b7c27517eed0fd9ee15.patch")
+sha512sums=('7ca339be09a16306894a25a0d773bd3109048363743276629cf1749ac99f9b242616699cd22e02bf35ce53273c69628769f9633ecce2be3aea48ba0d868418c1'
+            '350dab9229e3ec638989f1f5aa63ef4a996da3cedf8f6186a84aca317864b994c7355e2faa51385099aae923d2d062084440b755db04cdd5f7967af953720b33')
 options=('!lto')
 
 prepare() {
   cd "$_pkgname-$pkgver"
+  patch -Np1 -i "../$pkgname-$pkgver-cargo-lock.patch"
   cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
 }
 
