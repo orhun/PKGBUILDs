@@ -3,15 +3,16 @@
 # Contributor: Oleksandr Natalenko <oleksandr@natalenko.name>
 
 pkgname=tere
-pkgver=1.5.0
+pkgver=1.5.1
 pkgrel=1
 pkgdesc="A terminal file explorer"
 arch=('x86_64')
 url="https://github.com/mgunyho/tere"
 license=("custom:EUPL")
+depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('84195f45b738fb7c805d7b348185658d0dc58aa26e7f92fcad9578bc7bd694bf')
+sha256sums=('d7f657371ffbd469c4d8855c2a2734c20b53ae632fe3cbf9bb7cab94bd726326')
 
 prepare() {
   cd "$srcdir/$pkgname-$pkgver"
@@ -28,7 +29,12 @@ build() {
 check() {
 	cd "$srcdir/$pkgname-$pkgver"
 
-	cargo test --frozen
+  # https://github.com/mgunyho/tere/issues/93
+	cargo test --frozen -- \
+	  --skip "first_run_prompt_accept" \
+	  --skip "output_on_exit_without_cd" \
+	  --skip "first_run_prompt_cancel" \
+	  --skip "basic_run"
 }
 
 package() {
