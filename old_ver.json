@@ -43,7 +43,7 @@
   "cargo-nextest": "0.9.57",
   "cargo-outdated": "0.13.1",
   "cargo-patch": "0.3.2",
-  "cargo-public-api": "0.31.3",
+  "cargo-public-api": "0.32.0",
   "cargo-semver-checks": "0.22.1",
   "cargo-shuttle": "0.24.0",
   "cargo-sonar": "0.20.0",
