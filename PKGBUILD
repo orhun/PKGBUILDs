@@ -2,7 +2,7 @@
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=himalaya
-pkgver=0.8.4
+pkgver=0.9.0
 pkgrel=1
 pkgdesc="A CLI email client"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('BSD')
 depends=('gcc-libs' 'notmuch' 'openssl')
 makedepends=('cargo')
 source=("$url/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
-sha512sums=('7b67bee9ebfd5fdfefd6dc2caa4337fb9174d81d2fed13e124ca8e8de538e87f8a39fd93f7c81bf560f5bcaddc1d7408af4be58ee551cd29bb259ca1cfa12645')
+sha512sums=('0233289968a80672e39d7cd133f14bb9cd27129f389fccc4b366844389395a5bbfb89184e4d2b2ef2ecbbcaaf959a679f937f4b4b7c6018a52269a196c4af551')
 
 prepare() {
   cd "$pkgname-$pkgver"
