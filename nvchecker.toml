@@ -894,6 +894,12 @@ github = "regexident/cargo-modules"
 use_max_tag = true
 prefix = "v"
 
+[rio]
+source = "github"
+github = "raphamorim/rio"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
