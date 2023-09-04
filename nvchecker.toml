@@ -906,6 +906,12 @@ github = "ndd7xv/heh"
 use_max_tag = true
 prefix = "v"
 
+[cargo-hack]
+source = "github"
+github = "taiki-e/cargo-hack"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
