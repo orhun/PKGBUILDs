@@ -900,6 +900,12 @@ github = "raphamorim/rio"
 use_max_tag = true
 prefix = "v"
 
+[heh]
+source = "github"
+github = "ndd7xv/heh"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
