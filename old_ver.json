@@ -33,6 +33,7 @@
   "cargo-geiger": "0.11.6",
   "cargo-generate": "0.18.4",
   "cargo-generate-rpm": "0.12.1",
+  "cargo-hack": "0.6.5",
   "cargo-hakari": "0.9.14",
   "cargo-llvm-cov": "0.5.31",
   "cargo-machete": "0.5.0",

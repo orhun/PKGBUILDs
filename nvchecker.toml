@@ -912,6 +912,12 @@ github = "taiki-e/cargo-hack"
 use_max_tag = true
 prefix = "v"
 
+[evcxr_repl]
+source = "github"
+github = "evcxr/evcxr"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
