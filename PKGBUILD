@@ -2,7 +2,7 @@
 # Contributor: Sematre <sematre at gmx dot de>
 
 pkgname=cargo-deb
-pkgver=1.44.0
+pkgver=1.44.1
 pkgrel=1
 pkgdesc="Cargo subcommand that generates Debian packages"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('xz')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('86a4ba1e4461a2dd416992fab65908f4f42c29a4ffbc38c482a256790cc1228f')
+sha256sums=('01cc2dfb62270ad69a0a6a7956b28d5e263b6b5614f821e10121f8df5beef0ba')
 
 prepare() {
   cd "$pkgname-$pkgver"
@@ -26,7 +26,11 @@ build() {
 
 check() {
   cd "$pkgname-$pkgver"
-  cargo test --frozen -- --skip "dependencies::resolve_test"
+  # https://github.com/kornelski/cargo-deb/issues/111
+  cargo test --frozen -- \
+    --skip "dependencies::resolve_test" \
+    --skip "manifest::tests" \
+    --skip "control::tests"
 }
 
 package() {
