@@ -56,7 +56,7 @@
   "cargo-unused-features": "0.2.0",
   "cargo-update": "13.0.4",
   "cargo-workspaces": "0.2.44",
-  "cargo-zigbuild": "0.17.1",
+  "cargo-zigbuild": "0.17.2",
   "cargo2junit": "0.1.13",
   "cicero": "0.4.0",
   "cns": "0.1.1",
