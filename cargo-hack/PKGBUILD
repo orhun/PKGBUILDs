@@ -3,7 +3,7 @@
 # Contributor: Vlad Frolov <frolvlad@gmail.com>
 
 pkgname=cargo-hack
-pkgver=0.6.6
+pkgver=0.6.7
 pkgrel=1
 pkgdesc="A cargo subcommand to provide various options useful for testing and CI"
 arch=('x86_64')
@@ -13,8 +13,8 @@ depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz"
         "Cargo.lock")
-sha512sums=('ac26e76d4f8e8f024697cd16b313cee1d7bab9814bd2b0bbf8db117abb63426ab7877f907862cceccf1976f060fe8a731fa05729c9e08c7f8eb28611115bbfd7'
-            'bdab73661fd04ec35592b97279896c4473ae85b9a59d46bc94d3d90ee0d8116b86c34f4be984706802850c3a4028afcc032063792d8db801cb371664460e62f7')
+sha512sums=('337fecbf33c725a84d046e0a1b0506842960079d666e3d519dd172575d42c7a69f39b4e31ca59b930b31daf23af63107c2b63547ff311f96b2f95d5988f8da29'
+            'fb5ef7f770ac40660f648c9df7f7f1087b357c632b0ca49bebed3c5e986f40f11fd01bb7e340c2d461a27b3b39754f1362d4386ce240e9fca245772ad99af73d')
 
 prepare() {
   cd "$pkgname-$pkgver"
