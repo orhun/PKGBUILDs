@@ -918,6 +918,12 @@ github = "evcxr/evcxr"
 use_max_tag = true
 prefix = "v"
 
+[eza]
+source = "github"
+github = "eza-community/eza"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
