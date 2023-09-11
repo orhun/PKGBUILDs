@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=arti
-pkgver=1.1.7
+pkgver=1.1.8
 pkgrel=1
 pkgdesc="An implementation of Tor in Rust"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT' 'Apache')
 depends=('sqlite' 'openssl' 'xz')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/-/archive/$pkgname-v$pkgver/$pkgname-$pkgname-v$pkgver.tar.gz")
-sha256sums=('44932ea66a775e12fbedf75db37a55053ccee516e66adc36046bb68e3801c7d0')
+sha256sums=('8ad12358086a65d2c41fb3be31b09e0324ef41e2669e6c596753589c4155ee2d')
 options=('!lto')
 
 prepare() {
