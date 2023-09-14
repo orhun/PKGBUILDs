@@ -2,7 +2,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=eza
-pkgver=0.11.1
+pkgver=0.12.0
 pkgrel=1
 pkgdesc="A modern replacement for ls (community fork of exa)"
 url="https://github.com/eza-community/eza"
@@ -14,12 +14,11 @@ conflicts=('exa')
 depends=('libgit2.so')
 makedepends=("cargo" "pandoc")
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/eza-community/eza/archive/v${pkgver}.tar.gz")
-sha256sums=('dbc2ee7c8c20383ab2ad5daeadd0ed4624ba41fea1791a6698ce1309bba1e27a')
-b2sums=('e642be77d3402e4b42235cf13767fcef7279bc232c3e0b62bd012026293faae4a6dcaacf19f565f5f4f46f8e412d8f47921f8e1c8192f4bd642d17b1b91e950d')
+sha256sums=('766e754c9f4632b92e4a773ac496dee8b6b83fdc9b8ed9514750058039fc5a83')
+b2sums=('ab284c0758515e738fc102ceacd238ef7315627a6c9cb6a712b9ff107ebba7e282768a5ccfd73061aee54838dba194d89ba5b35850f1de78bd3f6aaab65efdb1')
 
 prepare() {
   cd "${pkgname}-${pkgver}"
-  sed -i 's/"vendored-libgit2"//' Cargo.toml
   cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
 }
 
