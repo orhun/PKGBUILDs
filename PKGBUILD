@@ -1,0 +1,23 @@
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Contributor: Filip Parag <aur@filiparag.com>
+
+pkgname=wikiman
+pkgver=2.13.2
+pkgrel=1
+pkgdesc="Offline search engine for manual pages, Arch Wiki, Gentoo Wiki and other documentation"
+arch=('any')
+url="https://github.com/filiparag/wikiman"
+license=('MIT')
+makedepends=('make')
+depends=('man' 'fzf' 'ripgrep' 'awk' 'w3m' 'findutils' 'coreutils' 'sed' 'grep' 'parallel')
+optdepends=('arch-wiki-docs: enable Arch Wiki')
+source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/${pkgver}.tar.gz")
+sha256sums=('f9d76ff056e152b70259c35377cfd85a1d506b096955037b2303e548ba5106b7')
+backup=('etc/wikiman.conf')
+
+package() {
+  cd "${pkgname}-${pkgver}"
+  make prefix=${pkgdir} install
+}
+
+# vim: ts=2 sw=2 et:
