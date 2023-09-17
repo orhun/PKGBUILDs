@@ -2,7 +2,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-tarpaulin
-pkgver=0.26.1
+pkgver=0.27.0
 pkgrel=1
 pkgdesc='Tool to analyse test coverage of cargo projects'
 arch=(x86_64)
@@ -23,18 +23,13 @@ makedepends=(
 )
 _tag=2b79e6c966f632b612995f032f9b16dc94aa85c7
 source=(git+https://github.com/xd009642/tarpaulin.git#tag=${_tag})
-b2sums=(SKIP)
+b2sums=('SKIP')
 
 prepare() {
   cargo fetch \
     --locked \
     --target $CARCH-unknown-linux-gnu \
     --manifest-path tarpaulin/Cargo.toml
-}
-
-pkgver() {
-  cd tarpaulin
-  git describe --tags
 }
 
 build() {
