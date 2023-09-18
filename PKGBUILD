@@ -3,7 +3,8 @@
 
 pkgname=cargo-tarpaulin
 pkgver=0.27.0
-pkgrel=1
+pkgrel=2
+_tag=d3f7cb1685b09f3ed1b2eb750e883173b7164471
 pkgdesc='Tool to analyse test coverage of cargo projects'
 arch=(x86_64)
 url=https://github.com/xd009642/tarpaulin
@@ -21,7 +22,6 @@ makedepends=(
   git
   rust
 )
-_tag=2b79e6c966f632b612995f032f9b16dc94aa85c7
 source=(git+https://github.com/xd009642/tarpaulin.git#tag=${_tag})
 b2sums=('SKIP')
 
@@ -30,6 +30,11 @@ prepare() {
     --locked \
     --target $CARCH-unknown-linux-gnu \
     --manifest-path tarpaulin/Cargo.toml
+}
+
+pkgver() {
+  cd tarpaulin
+  git describe --tags
 }
 
 build() {
