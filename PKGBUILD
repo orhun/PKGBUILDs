@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-machete
-pkgver=0.5.0
+pkgver=0.6.0
 pkgrel=1
 pkgdesc="Remove unused Rust dependencies"
 arch=('x86_64')
@@ -9,7 +9,7 @@ url="https://github.com/bnjbvr/cargo-machete"
 license=('MIT')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('17dec610b7e3c246bdda53e21c6f54a4eda6925981079ce068f21455eae27a86')
+sha256sums=('a13fab0c5ff64907e6b39dee054e5e9c4278fbe06065ff5bfcb160a5c1d204ea')
 
 prepare() {
   cd "$pkgname-$pkgver"
