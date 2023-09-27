@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-dist
-pkgver=0.2.0
+pkgver=0.3.0
 pkgrel=1
 pkgdesc="Shippable application packaging for Rust"
 arch=('x86_64')
@@ -11,7 +11,7 @@ depends=('xz' 'bzip2')
 makedepends=('cargo')
 checkdepends=('git')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('c7b4dfac3bf024f74022706a051b76fb8d337f91d6e4829d8004f08cef56bc80')
+sha256sums=('f984e405aed951b785944af8080fbb47e81c2b7a6c912c906691e7aa771c85fe')
 options=('!lto')
 
 prepare() {
