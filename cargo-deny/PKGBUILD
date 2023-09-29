@@ -3,8 +3,8 @@
 # Contributor: Vlad Frolov <frolvlad@gmail.com>
 
 pkgname=cargo-deny
-pkgver=0.14.1
-pkgrel=2
+pkgver=0.14.3
+pkgrel=1
 pkgdesc='Cargo plugin for linting your dependencies'
 arch=('x86_64')
 url='https://github.com/EmbarkStudios/cargo-deny'
@@ -13,7 +13,7 @@ depends=('gcc-libs')
 makedepends=('cargo' 'git')
 options=(!lto)
 source=("$pkgname-$pkgver::git+$url.git#tag=$pkgver"
-	"$pkgname-advisory-db::git+https://github.com/rustsec/advisory-db"
+  "$pkgname-advisory-db::git+https://github.com/rustsec/advisory-db"
   "$pkgname-test-advisory-db::git+https://github.com/EmbarkStudios/test-advisory-db")
 sha256sums=('SKIP'
             'SKIP'
@@ -35,7 +35,7 @@ build() {
 
 check() {
   cd "$pkgname-$pkgver"
-  cargo test --frozen -- --skip "detects_yanked"
+  cargo test --frozen
 }
 
 package() {
