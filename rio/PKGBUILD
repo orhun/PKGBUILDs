@@ -4,7 +4,7 @@
 
 pkgbase=rio
 pkgname=('rio' 'rio-terminfo')
-pkgver=0.0.19
+pkgver=0.0.21
 pkgrel=1
 pkgdesc="A hardware-accelerated GPU terminal emulator powered by WebGPU"
 arch=('x86_64')
@@ -21,7 +21,7 @@ depends=(
 )
 makedepends=('cargo' 'cmake' 'desktop-file-utils')
 source=("${pkgbase}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
-sha512sums=('de4c5606a9defad0b54aea6229274120b742cc1acb9ca53894093eba35b65598c42c90944dd47ae5835e0790255f6dce7b479b74adbb0fbfc37ecc6c3740b872')
+sha512sums=('7ccd9bed233a60df233c3350821b47be63027613348e88da4428694e7dc3f309f6f6ee099c0d3b9d027a2aa8f0644f8dc9be6c25b308a062180fee5d97db4482')
 
 prepare() {
   cd "${pkgbase}-${pkgver}"
@@ -46,7 +46,7 @@ package_rio() {
   install -Dm0644 -t "${pkgdir}/usr/share/doc/${pkgbase}/" "README.md"
   install -Dm0644 -t "${pkgdir}/usr/share/licenses/${pkgbase}/" "LICENSE"
   desktop-file-install -m 644 --dir "${pkgdir}/usr/share/applications/" "misc/${pkgbase}.desktop"
-  install -Dm0644 "rio/src/screen/window/resources/images/logo-macos.png" "${pkgdir}/usr/share/pixmaps/${pkgbase}.png"
+  install -Dm0644 "docs/static/assets/${pkgbase}-logo-512-512.png" "$pkgdir/usr/share/icons/hicolor/512x512/apps/${pkgbase}.png"
 }
 
 package_rio-terminfo() {
