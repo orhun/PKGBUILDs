@@ -29,6 +29,12 @@ github = "orhun/halp"
 use_latest_release = true
 prefix = "v"
 
+[daktilo]
+source = "github"
+github = "orhun/daktilo"
+use_latest_release = true
+prefix = "v"
+
 [linuxwave]
 source = "github"
 github = "orhun/linuxwave"
