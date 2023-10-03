@@ -2,9 +2,9 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-tarpaulin
-pkgver=0.27.0
-pkgrel=2
-_tag=d3f7cb1685b09f3ed1b2eb750e883173b7164471
+pkgver=0.27.1
+pkgrel=1
+_tag=ba971a1dd04b961b7454c653fa1b2595dbee96af
 pkgdesc='Tool to analyse test coverage of cargo projects'
 arch=(x86_64)
 url=https://github.com/xd009642/tarpaulin
