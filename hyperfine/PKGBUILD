@@ -3,7 +3,7 @@
 # Contributor: cauebs <cauebs@pm.me>
 
 pkgname=hyperfine
-pkgver=1.17.0
+pkgver=1.18.0
 pkgrel=1
 pkgdesc="A command-line benchmarking tool"
 url="https://github.com/sharkdp/hyperfine"
@@ -13,7 +13,7 @@ depends=(gcc-libs)
 makedepends=(cargo)
 source=("$pkgname-$pkgver.tar.gz::https://github.com/sharkdp/$pkgname/archive/v$pkgver.tar.gz")
 options=(zipman)
-sha256sums=('3dcd86c12e96ab5808d5c9f3cec0fcc04192a87833ff009063c4a491d5487b58')
+sha256sums=('fea7b92922117ed04b9c84bb9998026264346768804f66baa40743c5528bed6b')
 
 prepare() {
   cd "$srcdir/$pkgname-$pkgver"
