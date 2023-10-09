@@ -2,28 +2,23 @@
 # Contributor: KokaKiwi <kokakiwi+aur at kokakiwi dot net>
 
 pkgname=cargo-semver-checks
-pkgver=0.23.0
+pkgver=0.24.0
+_commit=93baddc2a65a5055117ca670fe156dc761403fa5
 pkgrel=1
 pkgdesc='Scan your Rust crate for semver violations'
 url='https://github.com/obi1kenobi/cargo-semver-checks'
 license=('Apache' 'MIT')
 arch=('x86_64')
-depends=('gcc-libs' 'glibc' 'libgit2' 'openssl' 'zlib')
-makedepends=('cargo' 'git')
-_commit=7a0ee5d4788996fb07f8a3b4d0f5f475d9490aae
+depends=('gcc-libs' 'glibc' 'openssl' 'zlib')
+makedepends=('cargo' 'git' 'cmake')
 source=(
   "$pkgname::git+$url.git#commit=$_commit"
-  "$pkgname-0.21.0-downgrade_git2.patch"
 )
-sha512sums=('SKIP'
-            '7bbbfaf1bc7eb1462a5ad6f8b955a90d57c5c2f1fd1cbb1e701b7b4225896f11d0afca6a03f75fdb038b474dd7508406c70600cfabff4b3b2cc2c126c9e1941e')
+sha512sums=('SKIP')
 options=('!lto')
 
 prepare() {
   cd "$pkgname"
-  # downgrade git2 dependency, as it breaks index retrieval:
-  # https://github.com/obi1kenobi/cargo-semver-checks/issues/468
-  patch -Np1 -i ../"$pkgname-0.21.0-downgrade_git2.patch"
   cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
 }
 
