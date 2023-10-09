@@ -1,0 +1,13 @@
+pkgbase = cargo-binstall
+	pkgdesc = Binary installation for Rust projects
+	pkgver = 1.4.3
+	pkgrel = 1
+	url = https://github.com/cargo-bins/cargo-binstall
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	depends = gcc-libs
+	source = cargo-binstall-1.4.3.tar.gz::https://github.com/cargo-bins/cargo-binstall/archive/v1.4.3.tar.gz
+	sha256sums = c64579b95ed3c2e47182cd32e96741dcb451ede1190a1cbba2f27c9dd482faf8
+
+pkgname = cargo-binstall
