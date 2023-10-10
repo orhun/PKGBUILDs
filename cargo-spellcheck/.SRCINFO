@@ -1,0 +1,17 @@
+pkgbase = cargo-spellcheck
+	pkgdesc = Checks all your documentation for spelling and grammar mistakes
+	pkgver = 0.13.1
+	pkgrel = 1
+	url = https://github.com/drahnr/cargo-spellcheck
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	makedepends = clang
+	makedepends = hunspell-en_US
+	depends = hunspell
+	options = !lto
+	source = cargo-spellcheck-0.13.1.tar.gz::https://github.com/drahnr/cargo-spellcheck/archive/v0.13.1.tar.gz
+	sha256sums = cd861ca0dc982e69d94fa4c39a5a3983480f67c51a3484b78f82dc1264bd09bb
+
+pkgname = cargo-spellcheck
