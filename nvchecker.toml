@@ -936,6 +936,12 @@ github = "sxyazi/yazi"
 use_max_tag = true
 prefix = "v"
 
+[oxipng]
+source = "github"
+github = "shssoichiro/oxipng"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
