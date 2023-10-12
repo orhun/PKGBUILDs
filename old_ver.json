@@ -1,7 +1,7 @@
 {
   "ali": "0.7.5",
   "alicloud-vault": "1.3.4",
-  "aliyun-cli": "3.0.181",
+  "aliyun-cli": "3.0.183",
   "alpine-chroot-install": "0.14.0",
   "arduino-language-server": "0.7.5",
   "argc": "1.10.0",
@@ -164,6 +164,7 @@
   "notp": "2.1.0",
   "onefetch": "2.18.1",
   "ouch": "0.4.2",
+  "oxipng": "9.0.0",
   "oxker": "0.3.2",
   "passwall-desktop": "1.0.0",
   "passwall-server": "1.1.5",
