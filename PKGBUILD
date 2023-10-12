@@ -3,7 +3,7 @@
 # Contributor: Jian Zeng <anonymousknight96 AT gmail.com>
 
 pkgname=cargo-expand
-pkgver=1.0.72
+pkgver=1.0.73
 pkgrel=1
 pkgdesc="Subcommand to show result of macro expansion"
 arch=('x86_64')
@@ -12,7 +12,7 @@ license=('MIT' 'Apache')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha256sums=('b84507c90c823091992fe7893bf3dcbc5b5329c53eb967cdaeccfdef3e403749')
+sha256sums=('2fdffe2ecbc44e3e41f180779add8c0198815cb0ca8bb60166cc0f7d7a6de6e2')
 options=('!lto')
 
 prepare() {
