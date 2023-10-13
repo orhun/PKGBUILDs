@@ -1,0 +1,24 @@
+pkgbase = kooha
+	pkgdesc = Elegantly record your screen
+	pkgver = 2.2.4
+	pkgrel = 1
+	url = https://github.com/SeaDve/Kooha
+	arch = x86_64
+	license = GPL3
+	checkdepends = appstream-glib
+	checkdepends = xorg-server-xvfb
+	makedepends = cargo
+	makedepends = meson
+	depends = gst-plugin-pipewire
+	depends = gstreamer-vaapi
+	depends = gst-plugins-ugly
+	depends = gtk4
+	depends = libadwaita
+	depends = x264
+	depends = xdg-desktop-portal
+	depends = libpulse
+	optdepends = gst-plugins-good: Encode captures as mp4
+	source = kooha-2.2.4.tar.gz::https://github.com/SeaDve/Kooha/archive/v2.2.4.tar.gz
+	sha256sums = f5109ec1bf534fd7bf9387795ade5b2c5faf9c08f8bd72776e4931993b4fbca4
+
+pkgname = kooha
