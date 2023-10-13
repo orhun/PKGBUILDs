@@ -1,0 +1,39 @@
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Maintainer: Caleb Maclennan <caleb@alerque.com>
+# Contributor: Mark Wagie <mark dot wagie at tutanota dot com>
+
+pkgname=kooha
+pkgver=2.2.4
+pkgrel=1
+pkgdesc="Elegantly record your screen"
+arch=('x86_64')
+url="https://github.com/SeaDve/Kooha"
+license=('GPL3')
+depends=('gst-plugin-pipewire' 'gstreamer-vaapi' 'gst-plugins-ugly' 'gtk4' 'libadwaita'
+         'x264' 'xdg-desktop-portal' 'libpulse')
+makedepends=('cargo' 'meson')
+checkdepends=('appstream-glib' 'xorg-server-xvfb')
+optdepends=('gst-plugins-good: Encode captures as mp4')
+sha256sums=('f5109ec1bf534fd7bf9387795ade5b2c5faf9c08f8bd72776e4931993b4fbca4')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
+
+prepare() {
+  cd Kooha-$pkgver
+  cargo fetch --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+  arch-meson Kooha-$pkgver build
+  meson compile -C build
+}
+
+# https://github.com/SeaDve/Kooha/issues/197
+#check() {
+#  xvfb-run meson test -C build --print-errorlogs
+#}
+
+package() {
+  meson install -C build --destdir "$pkgdir"
+}
+
+# vim: ts=2 sw=2 et:
