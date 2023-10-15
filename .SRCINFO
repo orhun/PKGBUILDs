@@ -1,6 +1,6 @@
 pkgbase = daktilo
 	pkgdesc = Turn your keyboard into a typewriter
-	pkgver = 0.3.1
+	pkgver = 0.4.0
 	pkgrel = 1
 	url = https://github.com/orhun/daktilo
 	arch = x86_64
@@ -11,7 +11,7 @@ pkgbase = daktilo
 	depends = alsa-lib
 	depends = libxtst
 	depends = libxi
-	source = daktilo-0.3.1.tar.gz::https://github.com/orhun/daktilo/archive/v0.3.1.tar.gz
-	sha512sums = f64373668a153bd4bf984ed60f6231b497f3947ea34f4c90de8713badde1b745ce3cddd146342fa61336312bed0772b25460c8b5ac9e7b2823f2a8eadb1542dd
+	source = daktilo-0.4.0.tar.gz::https://github.com/orhun/daktilo/archive/v0.4.0.tar.gz
+	sha512sums = 402f971f9c03b34ed142e5dd96ccfce744fd9a2c3e1469996cebdd778f6a6153165f21bfda58f76c1d6a3ff9f9a04c819f95b1ed6a2b8bf099a87b23a029b39b
 
 pkgname = daktilo
