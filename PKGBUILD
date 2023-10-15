@@ -2,7 +2,7 @@
 
 pkgname=tui-journal
 _pkgname=tjournal
-pkgver=0.3.3
+pkgver=0.4.0
 pkgrel=1
 pkgdesc="Write and manage journals/notes from the terminal"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('gcc-libs' 'zlib')
 makedepends=('cargo' 'openssl')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('608649b200a849ec6575664b13906a746c37bc32d25f43184cbf36b6aa4a4b975e4bd80f6a2cebb504eb5e9bcd86fcccaf729d4323584f95e9caf440de05aa17')
+sha512sums=('263b2f68be76982dccd12bb811e8007f2c4562fda19315706066d191befaa209127e405e82b5afbfe4661b7bae406b13635920d0f0fcb92ede85c9f4ab1d7eac')
 options=('!lto')
 
 prepare() {
