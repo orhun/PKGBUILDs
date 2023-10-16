@@ -1,0 +1,15 @@
+pkgbase = rust-analyzer
+	pkgdesc = Rust compiler front-end for IDEs
+	pkgver = 20231016
+	pkgrel = 1
+	url = https://rust-analyzer.github.io/
+	arch = x86_64
+	license = Apache
+	license = MIT
+	makedepends = git
+	depends = gcc-libs
+	depends = rust-src
+	source = git+https://github.com/rust-lang/rust-analyzer.git#tag=2023-10-16
+	b2sums = SKIP
+
+pkgname = rust-analyzer
