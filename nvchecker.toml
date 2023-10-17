@@ -942,6 +942,12 @@ github = "shssoichiro/oxipng"
 use_max_tag = true
 prefix = "v"
 
+[watchbind]
+source = "github"
+github = "fritzrehde/watchbind"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
