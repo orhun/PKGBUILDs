@@ -2,7 +2,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-crev
-pkgver=0.25.0
+pkgver=0.25.3
 pkgrel=1
 pkgdesc="Scalable, social, Code REView and recommendation system that we desperately need"
 url="https://github.com/crev-dev/cargo-crev"
@@ -12,8 +12,8 @@ arch=('x86_64')
 license=('MPL' 'Apache' 'MIT')
 options=('!lto')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/crev-dev/cargo-crev/archive/v${pkgver}.tar.gz")
-sha512sums=('258c00dd29700fb28528c57f0f77264edc986e331aa976648e8c1150360471a5bdcc57e862c44b75005bfe7d749f64e6a661fa81edea785a2495b807c5955507')
-b2sums=('cdcd7738fa19f0c1957cd8b00f79a7e00bfc09a265f30a15d6da01efcc4b53fb7e7bda2ba105c11050564ba652a13a56d504fade932f575c8ca45127dcad76df')
+sha512sums=('a72ec2f3c3350fbb10c4441824d6ac7daaddac48632c038b63856faf2f0ea729ef094d483966af5fc385f075cce4ccc6c98c5f9ca772c39b35d566c8fe3cc9d8')
+b2sums=('a8e1c199acee83b3f94ca7829dda20986c6dec94ecc743255ccd80d804e462c22e61c7b426767261f0ecfab9de74fdb33f73384d4a19d8a6d83297c36e321db0')
 
 prepare() {
   cd "${pkgname}-${pkgver}"
