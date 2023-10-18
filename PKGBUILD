@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=daktilo
-pkgver=0.4.0
+pkgver=0.5.0
 pkgrel=1
 pkgdesc="Turn your keyboard into a typewriter"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT' 'Apache')
 depends=('gcc-libs' 'alsa-lib' 'libxtst' 'libxi')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('402f971f9c03b34ed142e5dd96ccfce744fd9a2c3e1469996cebdd778f6a6153165f21bfda58f76c1d6a3ff9f9a04c819f95b1ed6a2b8bf099a87b23a029b39b')
+sha512sums=('059318cba86996f08540167c77ac5711aa470083ab92415dab3a37b82be3d22426450609b6dc9dad133d4bc8be58aaea1c56e017d501c79ff80eb4afa55d5826')
 
 prepare() {
   cd "$pkgname-$pkgver"
