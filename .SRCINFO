@@ -1,0 +1,17 @@
+pkgbase = cargo-hack
+	pkgdesc = A cargo subcommand to provide various options useful for testing and CI
+	pkgver = 0.6.12
+	pkgrel = 1
+	url = https://github.com/taiki-e/cargo-hack
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	makedepends = git
+	depends = gcc-libs
+	source = cargo-hack::git+https://github.com/taiki-e/cargo-hack.git#commit=2e5813b1ae0788ab26f3d7a31257fab35b54075a
+	source = Cargo.lock
+	sha512sums = SKIP
+	sha512sums = bf605d95ac4397382c2223054a2e45225f4b5221f5d505df1fe5efd534e959ef7a10c23f5f4b89bf8d66e5c6540e4e295f76a6f3c9279af7827409e6e6327bb2
+
+pkgname = cargo-hack
