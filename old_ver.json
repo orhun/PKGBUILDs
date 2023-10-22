@@ -20,7 +20,7 @@
   "cargo-about": "0.5.7",
   "cargo-audit": "0.17.6",
   "cargo-auditable": "0.6.1",
-  "cargo-binstall": "1.4.3",
+  "cargo-binstall": "1.4.4",
   "cargo-bloat": "0.11.1",
   "cargo-careful": "0.4.0",
   "cargo-crev": "0.25.3",
