@@ -1,0 +1,19 @@
+pkgbase = felix-rs
+	pkgdesc = A TUI file manager with Vim-like key mapping
+	pkgver = 2.9.0
+	pkgrel = 1
+	url = https://github.com/kyoheiu/felix
+	install = felix-rs.install
+	arch = x86_64
+	license = MIT
+	checkdepends = zoxide
+	makedepends = cargo
+	depends = gcc-libs
+	depends = bzip2
+	optdepends = chafa: preview images
+	optdepends = zoxide: jump to directories
+	options = !lto
+	source = felix-rs-2.9.0.tar.gz::https://github.com/kyoheiu/felix/archive/v2.9.0.tar.gz
+	sha512sums = 9144f9d2526b162ce5de7e550cf14c5e9e18a0b077990ace825e0893d2dc629b6d246fd1ccbe194c7ce14739617a70af9310803286266f5806df929b121ae7c1
+
+pkgname = felix-rs
