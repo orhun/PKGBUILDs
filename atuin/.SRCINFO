@@ -1,0 +1,15 @@
+pkgbase = atuin
+	pkgdesc = Magical shell history
+	pkgver = 17.0.0
+	pkgrel = 1
+	url = https://github.com/atuinsh/atuin
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	optdepends = bash-preexec: bash integration
+	options = !lto
+	source = https://github.com/atuinsh/atuin/archive/v17.0.0/atuin-17.0.0.tar.gz
+	sha256sums = 9c1bd5e180f53dd98248f582a36a4ead0670d3e155874a7217ec87cab3cea51a
+
+pkgname = atuin

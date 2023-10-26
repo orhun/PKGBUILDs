@@ -1,18 +1,19 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Maintainer: Caleb Maclennan <caleb@alerque.com>
 # Contributor: Ellie Huxtable <e@elm.sh>
 
 pkgname=atuin
-pkgver=16.0.0
+pkgver=17.0.0
 pkgrel=1
 pkgdesc="Magical shell history"
 arch=('x86_64')
-url="https://github.com/ellie/atuin"
+url="https://github.com/atuinsh/atuin"
 license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 optdepends=('bash-preexec: bash integration')
-source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('28d469e452086481f64293390ba0736a082623d49b5064a01b2e2106cc1e8fef')
+source=("$url/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
+sha256sums=('9c1bd5e180f53dd98248f582a36a4ead0670d3e155874a7217ec87cab3cea51a')
 options=('!lto')
 
 prepare() {
