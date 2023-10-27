@@ -2,7 +2,7 @@
 # Contributor: Arne Beer <privat@arne.beer>
 
 pkgname=pueue
-pkgver=3.3.0
+pkgver=3.3.1
 pkgrel=1
 pkgdesc="A CLI tool for managing long running shell commands"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('95f9c2744c6b9c43cf9e78864fcc05478aad65527786cb9ab5c58c2b998547de')
+sha256sums=('92a6cd4aa11966cb1eedb4678e8269a184cbd04fb07216013c73cbb6a0b45e08')
 
 prepare() {
   cd "$pkgname-$pkgver"
