@@ -948,6 +948,12 @@ github = "fritzrehde/watchbind"
 use_max_tag = true
 prefix = "v"
 
+[actionlint]
+source = "github"
+github = "rhysd/actionlint"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
