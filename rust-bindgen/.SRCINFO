@@ -1,0 +1,14 @@
+pkgbase = rust-bindgen
+	pkgdesc = Automatically generates Rust FFI bindings to C (and some C++) libraries
+	pkgver = 0.69.0
+	pkgrel = 1
+	url = https://github.com/rust-lang/rust-bindgen
+	arch = x86_64
+	license = BSD
+	makedepends = cargo
+	depends = gcc-libs
+	depends = clang
+	source = rust-bindgen-0.69.0.tar.gz::https://github.com/rust-lang/rust-bindgen/archive/v0.69.0.tar.gz
+	sha512sums = 4ec403283cf26e09fb46182b35e2690bec7085bafb2469b4c3222c7b487eacf7000b4094acf8e85a98ae7c51988679f965359cae7abe07ef0ee6f5d9238ad8cc
+
+pkgname = rust-bindgen
