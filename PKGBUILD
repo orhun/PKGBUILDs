@@ -3,7 +3,7 @@
 
 pkgname=rust-bindgen
 _pkgname=bindgen
-pkgver=0.68.1
+pkgver=0.69.0
 pkgrel=1
 pkgdesc='Automatically generates Rust FFI bindings to C (and some C++) libraries'
 url='https://github.com/rust-lang/rust-bindgen'
@@ -12,7 +12,7 @@ makedepends=('cargo')
 arch=('x86_64')
 license=('BSD')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/rust-lang/rust-bindgen/archive/v$pkgver.tar.gz")
-sha512sums=('da7af58cef17c68563205fbaa00a54c40842a0d3d76cc723eccca72689c4ab8664b374ea45dcb9f518d54b2fb6c61af08243e44628b351af9e9558c8acf49db4')
+sha512sums=('4ec403283cf26e09fb46182b35e2690bec7085bafb2469b4c3222c7b487eacf7000b4094acf8e85a98ae7c51988679f965359cae7abe07ef0ee6f5d9238ad8cc')
 
 prepare() {
   cd $pkgname-$pkgver
@@ -23,10 +23,11 @@ prepare() {
 build() {
   cd $pkgname-$pkgver
   cargo build --release --frozen
+  # https://github.com/rust-lang/rust-bindgen/issues/2677
   local _completion="target/release/$_pkgname --generate-shell-completions"
-  $_completion bash > "completions/$_pkgname"
-  $_completion fish > "completions/$_pkgname.fish"
-  $_completion zsh  > "completions/_$_pkgname"
+  $_completion bash "x" > "completions/$_pkgname"
+  $_completion fish "x" > "completions/$_pkgname.fish"
+  $_completion zsh  "x" > "completions/_$_pkgname"
 }
 
 package() {
