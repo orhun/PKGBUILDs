@@ -48,7 +48,7 @@
   "cargo-public-api": "0.32.0",
   "cargo-semver-checks": "0.24.2",
   "cargo-shuttle": "0.31.0",
-  "cargo-sonar": "1.0.0",
+  "cargo-sonar": "1.1.0",
   "cargo-sort": "1.0.9",
   "cargo-spellcheck": "0.13.1",
   "cargo-tarpaulin": "0.27.1",
