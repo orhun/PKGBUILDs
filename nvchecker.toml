@@ -954,6 +954,12 @@ github = "rhysd/actionlint"
 use_max_tag = true
 prefix = "v"
 
+[cargo-show-asm]
+source = "github"
+github = "pacak/cargo-show-asm"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
