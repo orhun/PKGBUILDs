@@ -3,7 +3,7 @@
 # Contributor: Mikaela Szekely <qyriad@gmail.com>
 
 pkgname=cargo-update
-pkgver=13.1.0
+pkgver=13.2.0
 pkgrel=1
 pkgdesc="A cargo subcommand for checking and applying updates to installed executables"
 arch=('x86_64')
@@ -13,8 +13,8 @@ depends=('gcc-libs' 'zlib' 'openssl')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz"
         "Cargo.lock")
-sha256sums=('f7623883f332162531c90a517e2733e61387d479000c928c62c061ec06584b94'
-            '94b86ee66ad182a3c1bf376848ecbde403309ef596b032cb962b3618cc6e86b9')
+sha256sums=('0c2495b7f9cf1409b13f54615a07a71c09d5099f71c2c00ce7c26ccc88112691'
+            '5a34f38b04f0d780ef68da3fa0b6cb3068641222dca59f30dad7851c10f3ba33')
 options=('!lto')
 
 prepare() {
