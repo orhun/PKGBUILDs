@@ -1,12 +1,12 @@
 pkgbase = cargo-modules
 	pkgdesc = A cargo plugin for showing an overview of a crate's modules
-	pkgver = 0.10.3
+	pkgver = 0.10.4
 	pkgrel = 1
 	url = https://github.com/regexident/cargo-modules
 	arch = x86_64
 	license = MPL2
 	depends = cargo
-	source = cargo-modules-0.10.3.tar.gz::https://github.com/regexident/cargo-modules/archive/0.10.3.tar.gz
-	sha256sums = cad9706a956eb36922d02fa896fbe7c65c1e04fe67a0cb438a99ed9034d97f4b
+	source = cargo-modules-0.10.4.tar.gz::https://github.com/regexident/cargo-modules/archive/0.10.4.tar.gz
+	sha256sums = 3752bdf258f5afdd16d00a8c00c31a0c31e5ea61b76f87276181d6ff937e5dfa
 
 pkgname = cargo-modules
