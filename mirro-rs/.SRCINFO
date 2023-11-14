@@ -1,0 +1,15 @@
+pkgbase = mirro-rs
+	pkgdesc = An Arch Linux mirrorlist manager with a TUI
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/rtkay123/mirro-rs
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	source = mirro-rs-0.2.0.tar.gz::https://github.com/rtkay123/mirro-rs/archive/v0.2.0.tar.gz
+	sha512sums = 7f414928b99f1d9b3550fc11c6ee84630709be033daa7653be1b64a20bbe983ff20ab4a43ebf8545bb08cb23b8d2252729d88e50cc61d8f0c70cdb71dd62eea7
+
+pkgname = mirro-rs
