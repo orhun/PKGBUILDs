@@ -1422,3 +1422,9 @@ source = "github"
 github = "kyu08/fzf-make"
 use_latest_release = true
 prefix = "v"
+
+[pixi]
+source = "github"
+github = "prefix-dev/pixi"
+use_latest_release = true
+prefix = "v"
