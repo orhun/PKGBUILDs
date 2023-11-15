@@ -1348,9 +1348,9 @@ prefix = "v"
 
 [html-query]
 source = "github"
-github = "orf/hq"
-use_max_tag = true
-prefix = "v"
+github = "orf/html-query"
+use_latest_release = true
+prefix = "html-query-v"
 
 [hwatch]
 source = "github"
