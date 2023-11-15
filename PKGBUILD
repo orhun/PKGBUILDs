@@ -4,7 +4,7 @@
 
 _pkgname=coreutils
 pkgname=uutils-$_pkgname
-pkgver=0.0.22
+pkgver=0.0.23
 pkgrel=1
 pkgdesc='Cross-platform Rust rewrite of the GNU coreutils'
 arch=('x86_64')
@@ -13,7 +13,7 @@ license=('MIT')
 depends=('glibc' 'gcc-libs')
 makedepends=('rust' 'cargo' 'python-sphinx')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('1ffbafa0967470ae442741a6d5a89d37561914d1b472ac6e23573599cd58956196656c0c760aaaa4dfc645270387eb3f9f7122e1cb15cff5470bef1e8b8e8ca3')
+sha512sums=('79458ebff1e01668103c300947d487d77e73239983d071ea3a75f7d371b253e0c3048bd4ff117bfa2250b1ddce34fe4770c336ad237420a9ba1e8dd4cc368a56')
 options=('!lto')
 
 prepare() {
