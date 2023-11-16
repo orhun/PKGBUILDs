@@ -1,0 +1,106 @@
+# Maintainer: George Rawlinson <grawlinson@archlinux.org>
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Contributor: Christian Muehlhaeuser <muesli at gmail dot com>
+
+pkgname=soft-serve
+pkgver=0.7.2
+pkgrel=1
+pkgdesc='A self-hosted Git server for the command line'
+arch=('x86_64')
+url='https://github.com/charmbracelet/soft-serve'
+license=('MIT')
+depends=('glibc' 'git')
+makedepends=('go')
+backup=('etc/soft-serve.conf')
+options=('!lto')
+_commit='e0148ca697c9617a36dc96d806720644c38f87a6'
+source=(
+  "git+$url.git#commit=$_commit"
+  'soft-serve.conf'
+  'systemd.service'
+  'sysusers.conf'
+  'tmpfiles.conf'
+)
+sha512sums=('SKIP'
+            'dbb0cb5d5e6c20ddb178c4659e52412ddf386b9938e095ecf9135f5e72791b2ec784466b9387c38576acd6319cd67365f772263926fcecae3abe52d82ae073a5'
+            '44704f5a55f9fa8376ee278775f7894fc7489a65ec2caea649abff3b19a37ec5aea77758248d1e18bea1e3a894c8f26016e00b0d0fecac99dcefd3fbe4d4d221'
+            '81fd8d61cdadb194a224eb3d3f293968fd9d78e0488399eff933f2b376eb927e29d8d083c4d76b92eb7ef313a513023866dc80f651ff5d1f5d2a1573fd4f02e9'
+            'ece4b43029ac22bbac3b2afebab134df5781d92deed5ef24a96d720da3a0f1a033f0cf3a4a5f6ab40d379f5fb4d10730e8873b1ef94943876cdca8f209b89a59')
+b2sums=('SKIP'
+        '9cf6dd9d3296bffa2047209e73801328877cefacbf5ce1feaeefbdcffb11ed86531a762299d7d379efe4e6401b135cd8200b506b2f8ac66d032a9d0bddce37e7'
+        '8c1f734d414f22efe201dacafe31b8f4a4aea49698c9fa52c567d4398b45c0c8670d0d3da122e2c099524e88c04dca6270b9a81f38f2e95a8c6336a267ccefcd'
+        '7e8593e368507d96bdfd7cf8a4b73bb02f473deba3d99017101487fb0843161e14e929f5641f66c1bec015aa4f4505708d26453a7d0bcc1f23a4daa47e009393'
+        '9866f155a948357582b464e4a5ea79464ed06c4067add77c444378f4bfc7aab57e7afc455e23a51725e1c0d2ceecda087d811dae3f49178e07ae60afc7361b8b')
+
+pkgver() {
+  cd "$pkgname"
+
+  git describe --tags | sed 's/^v//'
+}
+
+prepare() {
+  cd "$pkgname"
+
+  # create directory for build output
+  mkdir build
+
+  # download dependencies
+  export GOPATH="${srcdir}"
+  go mod download
+}
+
+build() {
+  cd "$pkgname"
+
+  # set Go flags
+  export CGO_CPPFLAGS="${CPPFLAGS}"
+  export CGO_CFLAGS="${CFLAGS}"
+  export CGO_CXXFLAGS="${CXXFLAGS}"
+  export GOPATH="${srcdir}"
+
+  go build -v \
+    -buildmode=pie \
+    -mod=readonly \
+    -modcacherw \
+    -ldflags "-compressdwarf=false \
+    -linkmode external \
+    -extldflags ${LDFLAGS} \
+    -X main.Version=$pkgver \
+    -X main.CommitSHA=$_commit" \
+    -o build \
+    ./cmd/...
+
+  # generate man page
+  ./build/soft man > build/soft.1
+
+  # generate shell completion
+  for shell in bash fish zsh; do
+    ./build/soft completion "$shell" > "build/$shell.completion"
+  done
+}
+
+package() {
+  # systemd integration
+  install -vDm644 systemd.service "$pkgdir/usr/lib/systemd/system/$pkgname.service"
+  install -vDm644 sysusers.conf "$pkgdir/usr/lib/sysusers.d/$pkgname.conf"
+  install -vDm644 tmpfiles.conf "$pkgdir/usr/lib/tmpfiles.d/$pkgname.conf"
+  install -vDm644 soft-serve.conf -t "$pkgdir/etc"
+
+  cd "$pkgname"
+
+  # binary
+  install -vDm755 -t "$pkgdir/usr/bin" build/soft
+
+  # shell completion
+  install -vDm644 build/bash.completion "$pkgdir/usr/share/bash-completion/completions/soft"
+  install -vDm644 build/fish.completion "$pkgdir/usr/share/fish/vendor_completions.d/soft.fish"
+  install -vDm644 build/zsh.completion "$pkgdir/usr/share/zsh/site-functions/_soft"
+
+  # man page
+  install -vDm644 -t "$pkgdir/usr/share/man/man1" build/soft.1
+
+  # license
+  install -vDm644 -t "$pkgdir/usr/share/licenses/$pkgname" LICENSE
+}
+
+# vim:set ts=2 sw=2 et:
