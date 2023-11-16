@@ -966,6 +966,12 @@ github = "rtkay123/mirro-rs"
 use_latest_release = true
 prefix = "v"
 
+[soft-serve]
+source = "github"
+github = "charmbracelet/soft-serve"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
