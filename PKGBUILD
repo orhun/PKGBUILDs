@@ -1,8 +1,9 @@
 # Maintainer: kpcyrd <kpcyrd[at]archlinux[dot]org>
+# Maintainer: Caleb Maclennan <caleb@alerque.com>
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=eza
-pkgver=0.13.1
+pkgver=0.16.0
 pkgrel=1
 pkgdesc="A modern replacement for ls (community fork of exa)"
 url="https://github.com/eza-community/eza"
@@ -14,8 +15,8 @@ conflicts=('exa')
 depends=('libgit2.so')
 makedepends=("cargo" "pandoc")
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/eza-community/eza/archive/v${pkgver}.tar.gz")
-sha256sums=('f175e21114cbea292fab35145428a54c58a69c22d871786eb6b0d7248f874ccf')
-b2sums=('5ae9b8274f3f22d72e6480db71b6817ead49bd2c181729f2e3c511f806de498179c4f0ce6eaa2bf023993fa51ea7fbdd82557d5501e4fe1789bd2844f5067dea')
+sha256sums=('611692d82618f29cfea3834fcd16a5b5e96bd14eefe0939180a2479892a88d09')
+b2sums=('a70fd23fa3cef42cdcabc431677ba23dbbf23d8e1105224ef8d2c567bdaddf4cdc5acbb83554cfd34d0f4ae8e4d16ee6537bab3750c3a0a6246c923e5f7aac98')
 
 prepare() {
   cd "${pkgname}-${pkgver}"
