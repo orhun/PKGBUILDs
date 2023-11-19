@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=watchbind
-pkgver=0.1.19
+pkgver=0.2.0
 pkgrel=1
 pkgdesc="Turn any shell command into a powerful TUI with custom keybindings"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('GPL3')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('33180d1524dee3b78a1c2cbc6a0fe8d84253f95668eeca85b90b792d6d121779')
+sha256sums=('a4e38d05b09a8980c6924188ed853d5060d86ac8974cd9a6204a3caf1e4c031a')
 
 prepare() {
   cd "$pkgname-$pkgver"
