@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=mirro-rs
-pkgver=0.2.1
+pkgver=0.2.2
 pkgrel=1
 pkgdesc="An Arch Linux mirrorlist manager with a TUI"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT' 'Apache')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('820cf0be8c270f42d40e4b844e02c8ca19b61bdf989ce4a95809d7db5f007a76b847416489436363fa0079f0075b2028e5f6eb2fd926bdf43b216786eb162975')
+sha512sums=('bcbfd6f75a7d7836715d02d6e35f83c0dbcc676ca4b6b00e529403d6f27968f7781a681c1e1dcd6d5d58d26619021c78f74651b741e85ed3f85458626e92ead5')
 options=('!lto')
 
 prepare() {
