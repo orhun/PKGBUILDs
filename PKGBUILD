@@ -3,8 +3,8 @@
 
 pkgname=felix-rs
 _pkgname=felix
-pkgver=2.10.1
-pkgrel=2
+pkgver=2.10.2
+pkgrel=1
 pkgdesc="A TUI file manager with Vim-like key mapping"
 arch=('x86_64')
 url="https://github.com/kyoheiu/felix"
@@ -17,7 +17,7 @@ optdepends=('chafa: preview images'
 checkdepends=('zoxide')
 install="$pkgname.install"
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('605a767683444a671bb78381f3dc59ed496465dfe3cf61e4fbe25be38ddfa6de895345a0501ff5507d0f83405fae0de4b562102d2b1fbd34d95f7bb3bd14d315')
+sha512sums=('9d49e1bb179f9936e096e54bdc807f26bba1aec9472f93ea26da195497be43068ada74a6242be5bff39d887d78cb3347ad0dc608671bf5c918c3adfe6ad78ef3')
 options=('!lto')
 
 prepare() {
