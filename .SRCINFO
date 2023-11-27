@@ -1,0 +1,14 @@
+pkgbase = lucky-commit
+	pkgdesc = Customize your git commit hashes
+	pkgver = 2.2.2
+	pkgrel = 1
+	url = https://github.com/not-an-aardvark/lucky-commit
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = ocl-icd
+	source = lucky-commit-2.2.2.tar.gz::https://github.com/not-an-aardvark/lucky-commit/archive/v2.2.2.tar.gz
+	sha512sums = cf382a760dd948d3cc4cef8901c97d2a8e3305e877d619cd38a9331bccfd924c6f57b294ab48c9b4cc30c6858898c1546f9aede681877ab256f9347d0e01001d
+
+pkgname = lucky-commit
