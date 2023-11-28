@@ -1,7 +1,7 @@
 pkgbase = cargo-tauri
 	pkgdesc = Command line interface for building Tauri apps
 	pkgver = 1.5.6
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/tauri-apps/tauri
 	arch = x86_64
 	license = MIT
@@ -10,6 +10,8 @@ pkgbase = cargo-tauri
 	depends = gcc-libs
 	depends = openssl
 	depends = bzip2
+	depends = libcroco
+	depends = libffi
 	options = !lto
 	source = cargo-tauri-1.5.6.tar.gz::https://github.com/tauri-apps/tauri/archive/tauri-cli-v1.5.6.tar.gz
 	sha512sums = 974ebc7bf8d7492c903cce0e70d944c332f4343b33caa5cbb1d5d0c6462918131dc30c04f01ed2ed05345e4a2c72bd4d7e1a5d127d8539cde6cff420fed7c66e
