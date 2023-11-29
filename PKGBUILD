@@ -1,0 +1,48 @@
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Maintainer: Caleb Maclennan <caleb@alerque.com>
+# Contributor: AsamK <asamk@gmx.de>
+
+pkgname=git-absorb
+pkgver=0.6.11
+pkgrel=1
+pkgdesc="git commit --fixup, but automatic"
+arch=('x86_64')
+url="https://github.com/tummychow/git-absorb"
+license=('BSD')
+depends=('libgit2')
+makedepends=('cargo')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/tummychow/git-absorb/archive/${pkgver}.tar.gz")
+sha256sums=('36c3b2c7bcd1d9db5d1dedd02d6b0ac58faaeb6fd50df7ff01f5cf87e5367b52')
+
+prepare() {
+  cd "${pkgname}-${pkgver}"
+  LIBGIT2_SYS_USE_PKG_CONFIG=1 cargo fetch --locked
+  mkdir completions/
+}
+
+build() {
+  cd "${pkgname}-${pkgver}"
+  CFLAGS+=" -ffat-lto-objects"
+  LIBGIT2_SYS_USE_PKG_CONFIG=1 cargo build --release --frozen
+  "target/release/$pkgname" --gen-completions bash > "completions/$pkgname.bash"
+  "target/release/$pkgname" --gen-completions fish > "completions/$pkgname.fish"
+  "target/release/$pkgname" --gen-completions zsh > "completions/_$pkgname"
+}
+
+check() {
+  cd "${pkgname}-${pkgver}"
+  LIBGIT2_SYS_USE_PKG_CONFIG=1 cargo test --frozen
+}
+
+package() {
+  cd "${pkgname}-${pkgver}"
+  install -Dm 755 target/release/"${pkgname}" -t "${pkgdir}/usr/bin/"
+  install -Dm 644 "README.md" "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+  install -Dm 644 "LICENSE.md" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+  install -Dm 644 "Documentation/${pkgname}.1" "${pkgdir}/usr/share/man/man1/${pkgname}.1"
+  install -Dm 644 "completions/$pkgname.bash" "${pkgdir}/usr/share/bash-completion/completions/$pkgname"
+  install -Dm 644 "completions/$pkgname.fish" -t "${pkgdir}/usr/share/fish/vendor_completions.d"
+  install -Dm 644 "completions/_$pkgname" -t "${pkgdir}/usr/share/zsh/site-functions"
+}
+
+# vim: ts=2 sw=2 et:
