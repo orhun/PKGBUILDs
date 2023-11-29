@@ -2,7 +2,7 @@
 # Contributor: Julien Nicoulaud <julien.nicoulaud@gmail.com>
 
 pkgname=zellij
-pkgver=0.39.1
+pkgver=0.39.2
 pkgrel=1
 pkgdesc="A terminal multiplexer"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo' 'mandown')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/zellij-org/${pkgname}/archive/v${pkgver}.tar.gz")
-sha512sums=('65055730159c08189f4bb95e5f5c9ef67f5cdc26f01d0e739279273fa0b978326c80a333e6f257cc9572a98e55c29ef4a2585227e61e9dd578a1e8111a39fbce')
+sha512sums=('4f77adfdad74fce1ece1abee6a354dc5fb2d81470ad798a76713b0c1c429d47d37f34a1e7c26949023c57d1ce57531f60df9f4bb1a5d5badd6fadcd62ffb4d30')
 options=('!lto')
 
 prepare() {
