@@ -2,8 +2,8 @@
 # Contributor: Stijn Seghers <stijnseghers at gmail dot com>
 
 pkgname=cargo-shuttle
-_commit=6f167685e5760584b97f6034640d833874cdb192
-pkgver=0.34.0
+_commit=e845ed08e76728addfeee563398f37fadc5b6753
+pkgver=0.34.1
 pkgrel=1
 pkgdesc='Cargo command for the shuttle platform'
 arch=('x86_64')
