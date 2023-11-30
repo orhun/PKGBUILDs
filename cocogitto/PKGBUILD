@@ -3,7 +3,7 @@
 
 pkgname=cocogitto
 _pkgname=cog
-pkgver=5.5.0
+pkgver=6.0.0
 pkgrel=1
 pkgdesc='Set of CLI tools for the conventional commit and semver specifications'
 arch=(x86_64)
@@ -16,7 +16,7 @@ depends=(git
 makedepends=(cargo)
 _archive="$pkgname-$pkgver"
 source=("$url/archive/$pkgver/$_archive.tar.gz")
-sha256sums=('709c54c6c64463af607590ac970dc5a45cbcc0236a5a15d609d9a77461f11325')
+sha256sums=('090283fe3d7ac574e87bb5ef5dedecdcc3745f25cf82353b3cc2fa9e15cf53aa')
 
 prepare() {
 	cd "$_archive"
