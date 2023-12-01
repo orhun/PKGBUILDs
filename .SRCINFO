@@ -1,6 +1,6 @@
 pkgbase = cocogitto
 	pkgdesc = Set of CLI tools for the conventional commit and semver specifications
-	pkgver = 6.0.0
+	pkgver = 6.0.1
 	pkgrel = 1
 	url = https://github.com/cocogitto/cocogitto
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = cocogitto
 	depends = gcc-libs
 	depends = libgit2.so
 	depends = zlib
-	source = https://github.com/cocogitto/cocogitto/archive/6.0.0/cocogitto-6.0.0.tar.gz
-	sha256sums = 090283fe3d7ac574e87bb5ef5dedecdcc3745f25cf82353b3cc2fa9e15cf53aa
+	source = https://github.com/cocogitto/cocogitto/archive/6.0.1/cocogitto-6.0.1.tar.gz
+	sha256sums = 2a0e332b7028ffcfeb113c734b4bf506c34362730e371b03a3e4a71142099330
 
 pkgname = cocogitto
