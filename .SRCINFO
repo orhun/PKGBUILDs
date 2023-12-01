@@ -1,0 +1,14 @@
+pkgbase = binocle
+	pkgdesc = A graphical tool to visualize binary data
+	pkgver = 0.3.2
+	pkgrel = 1
+	url = https://github.com/sharkdp/binocle
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = rust
+	depends = gcc-libs
+	source = binocle-0.3.2.tar.gz::https://github.com/sharkdp/binocle/archive/v0.3.2.tar.gz
+	sha512sums = d4d2e225723e72d991eac9dc91c0056c902eeabbe046161447c4a8a4e3200515b5dfd93dbeabf0cdd420f9eee8a3f7e0e2f0a054cfb988cfd10a3b09c43f20f3
+
+pkgname = binocle
