@@ -2,8 +2,8 @@
 
 pkgname=cargo-tauri
 _pkgname=tauri
-pkgver=1.5.6
-pkgrel=2
+pkgver=1.5.7
+pkgrel=1
 pkgdesc="Command line interface for building Tauri apps"
 arch=('x86_64')
 url="https://github.com/tauri-apps/tauri"
@@ -11,7 +11,7 @@ license=('MIT' 'Apache')
 depends=('gcc-libs' 'openssl' 'bzip2' 'libcroco' 'libffi')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/tauri-cli-v$pkgver.tar.gz")
-sha512sums=('974ebc7bf8d7492c903cce0e70d944c332f4343b33caa5cbb1d5d0c6462918131dc30c04f01ed2ed05345e4a2c72bd4d7e1a5d127d8539cde6cff420fed7c66e')
+sha512sums=('04d80920cd60283e575babfb85fe3530ee69505b974f6c02a635a951868617096f78c7d86e48bf48c3ec5218ae4c5469cd648b938f7df3dcdf1081e211538d87')
 options=('!lto')
 
 prepare() {
