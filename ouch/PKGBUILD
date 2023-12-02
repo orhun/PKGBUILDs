@@ -2,7 +2,7 @@
 # Contributor: Yigit Sever <yigit at yigitsever dot com>
 
 pkgname=ouch
-pkgver=0.4.2
+pkgver=0.5.0
 pkgrel=1
 pkgdesc="A command line utility for easily compressing and decompressing files and directories"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('xz' 'bzip2' 'zlib')
 makedepends=('cargo')
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/${pkgver}.tar.gz")
-sha256sums=('08015fa92770515cfa00570bc5f0f0a4f28f0ad238f360f3579ac043723a6ec2')
+sha256sums=('79562550203d76eecbc7ea47b80d37cccffe08d16dd7a29ac248d38e48c20580')
 options=('!lto')
 
 prepare() {
