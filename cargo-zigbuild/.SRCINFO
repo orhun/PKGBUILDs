@@ -1,6 +1,6 @@
 pkgbase = cargo-zigbuild
 	pkgdesc = Compile Cargo project with zig as linker
-	pkgver = 0.18.0
+	pkgver = 0.18.1
 	pkgrel = 1
 	url = https://github.com/rust-cross/cargo-zigbuild
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = cargo-zigbuild
 	makedepends = cargo
 	depends = gcc-libs
 	depends = zig
-	source = cargo-zigbuild-0.18.0.tar.gz::https://github.com/rust-cross/cargo-zigbuild/archive/v0.18.0.tar.gz
-	sha256sums = c5ff234f799b7ca8bc9ae5719333366cc15a7a70284a19503ae925a0a48f3f04
+	source = cargo-zigbuild-0.18.1.tar.gz::https://github.com/rust-cross/cargo-zigbuild/archive/v0.18.1.tar.gz
+	sha256sums = 2fbd69ebfc30925ccf5e7003900ad14b21fc0469b9e084827851a506900cc056
 
 pkgname = cargo-zigbuild
