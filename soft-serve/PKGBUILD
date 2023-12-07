@@ -3,7 +3,7 @@
 # Contributor: Christian Muehlhaeuser <muesli at gmail dot com>
 
 pkgname=soft-serve
-pkgver=0.7.3
+pkgver=0.7.4
 pkgrel=1
 pkgdesc='A self-hosted Git server for the command line'
 arch=('x86_64')
@@ -13,7 +13,7 @@ depends=('glibc' 'git')
 makedepends=('go')
 backup=('etc/soft-serve.conf')
 options=('!lto')
-_commit=63786d05e03f584f80d32f56bc77f4a8a87e4d2f
+_commit=d483565987dc127bab80191666411966fe27dde4
 source=(
   "git+$url.git#commit=$_commit"
   'soft-serve.conf'
