@@ -1,6 +1,6 @@
 pkgbase = soft-serve
 	pkgdesc = A self-hosted Git server for the command line
-	pkgver = 0.7.3
+	pkgver = 0.7.4
 	pkgrel = 1
 	url = https://github.com/charmbracelet/soft-serve
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = soft-serve
 	depends = git
 	options = !lto
 	backup = etc/soft-serve.conf
-	source = git+https://github.com/charmbracelet/soft-serve.git#commit=63786d05e03f584f80d32f56bc77f4a8a87e4d2f
+	source = git+https://github.com/charmbracelet/soft-serve.git#commit=d483565987dc127bab80191666411966fe27dde4
 	source = soft-serve.conf
 	source = systemd.service
 	source = sysusers.conf
