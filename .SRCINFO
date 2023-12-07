@@ -1,0 +1,15 @@
+pkgbase = cargo-depgraph
+	pkgdesc = Creates dependency graphs for cargo projects using cargo metadata and graphviz
+	pkgver = 1.6.0
+	pkgrel = 1
+	url = https://github.com/jplatte/cargo-depgraph
+	arch = x86_64
+	license = GPL3
+	makedepends = cargo
+	depends = gcc-libs
+	source = cargo-depgraph-1.6.0.tar.gz::https://github.com/jplatte/cargo-depgraph/archive/v1.6.0.tar.gz
+	source = cargo-depgraph-1.6.0-lockfile.patch::https://github.com/jplatte/cargo-depgraph/commit/a66ac0aa6741aaf58424161dbb5e6117c026872e.patch
+	sha256sums = d447316253217e0157af027c50bca10e84eba9f27b4f7c9642bcf38ad36d4766
+	sha256sums = 26400accd08e0d9b579f1f1f9d3d10048d55d3c0e2965f03403ce0aeca1a7f03
+
+pkgname = cargo-depgraph
