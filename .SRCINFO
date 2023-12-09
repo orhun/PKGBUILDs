@@ -1,6 +1,6 @@
 pkgbase = rnote
 	pkgdesc = A simple drawing application to create handwritten notes
-	pkgver = 0.9.2
+	pkgver = 0.9.3
 	pkgrel = 1
 	url = https://github.com/flxzt/rnote
 	arch = x86_64
@@ -17,7 +17,7 @@ pkgbase = rnote
 	depends = gstreamer
 	depends = alsa-lib
 	options = !lto
-	source = rnote-0.9.2.tar.gz::https://github.com/flxzt/rnote/archive/v0.9.2.tar.gz
-	b2sums = d5aa07fedc92873458a94005c6937711ed3ca7d8334452bffffb6d2c89e6b88a6551ab62033a69c5c1be7bb6be421c3531e98f3297d360b6c092eb8bdaa91101
+	source = rnote-0.9.3.tar.gz::https://github.com/flxzt/rnote/archive/v0.9.3.tar.gz
+	b2sums = 9a662cd81decbdd91f5d7b76f5d2066b3fe661d4f3f0c118ba237ce3b22e5b6b9f6a13d29adb1660229546117a22cdbb4207235cc4a91bbf440bab114005bdd5
 
 pkgname = rnote
