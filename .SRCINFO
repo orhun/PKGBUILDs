@@ -1,0 +1,14 @@
+pkgbase = navi
+	pkgdesc = An interactive cheatsheet tool for the command-line
+	pkgver = 2.23.0
+	pkgrel = 1
+	url = https://github.com/denisidoro/navi
+	arch = x86_64
+	license = Apache
+	makedepends = cargo
+	depends = fzf
+	optdepends = skim: drop-in replacement for fzf
+	source = navi-2.23.0.tar.gz::https://github.com/denisidoro/navi/archive/v2.23.0.tar.gz
+	sha256sums = 579a72814e7ba07dae697a58dc13b0f7d853532ec07229aff07a11e5828f3799
+
+pkgname = navi
