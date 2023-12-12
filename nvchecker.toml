@@ -1434,3 +1434,9 @@ source = "github"
 github = "prefix-dev/pixi"
 use_latest_release = true
 prefix = "v"
+
+[cargo-docs-rs]
+source = "github"
+github = "dtolnay/cargo-docs-rs"
+use_latest_release = true
+prefix = "v"
