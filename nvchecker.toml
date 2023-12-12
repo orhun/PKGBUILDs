@@ -1440,3 +1440,9 @@ source = "github"
 github = "dtolnay/cargo-docs-rs"
 use_latest_release = true
 prefix = "v"
+
+[cargo-semver-bump]
+source = "github"
+github = "markhaehnel/cargo-semver-bump"
+use_max_tag = true
+prefix = "v"

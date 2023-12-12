@@ -47,6 +47,7 @@
   "cargo-outdated": "0.14.0",
   "cargo-patch": "0.3.2",
   "cargo-public-api": "0.33.1",
+  "cargo-semver-bump": "0.1.0",
   "cargo-semver-checks": "0.26.0",
   "cargo-show-asm": "0.2.23",
   "cargo-shuttle": "0.35.0",
