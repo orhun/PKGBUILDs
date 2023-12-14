@@ -1,0 +1,16 @@
+pkgbase = cargo-geiger
+	pkgdesc = Detects usage of unsafe Rust in a Rust crate and its dependencies
+	pkgver = 0.11.7
+	pkgrel = 1
+	url = https://github.com/rust-secure-code/cargo-geiger
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	depends = openssl
+	depends = curl
+	options = !lto
+	source = cargo-geiger-0.11.7.tar.gz::https://github.com/rust-secure-code/cargo-geiger/archive/cargo-geiger@v0.11.7.tar.gz
+	sha256sums = 6ddc447b0b8a46ee2b303897fbe2d416df794942cd23984c44b0ee69c4675bad
+
+pkgname = cargo-geiger
