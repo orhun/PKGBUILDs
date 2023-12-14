@@ -972,6 +972,12 @@ github = "charmbracelet/soft-serve"
 use_latest_release = true
 prefix = "v"
 
+[cargo-clone]
+source = "github"
+github = "JanLikar/cargo-clone"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
