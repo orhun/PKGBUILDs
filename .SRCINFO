@@ -1,6 +1,6 @@
 pkgbase = cargo-generate
 	pkgdesc = Use pre-existing git repositories as templates
-	pkgver = 0.18.5
+	pkgver = 0.19.0
 	pkgrel = 1
 	url = https://github.com/cargo-generate/cargo-generate
 	arch = x86_64
@@ -11,7 +11,7 @@ pkgbase = cargo-generate
 	depends = libgit2
 	depends = libssh2
 	depends = openssl
-	source = cargo-generate-0.18.5.tar.gz::https://github.com/cargo-generate/cargo-generate/archive/v0.18.5.tar.gz
-	sha256sums = 5fe95e356744fbfb1ab83c049439604e47c9587553a2a0b73ed65c89064fb0c2
+	source = cargo-generate-0.19.0.tar.gz::https://github.com/cargo-generate/cargo-generate/archive/v0.19.0.tar.gz
+	sha256sums = 520e7a98bf82f368e911c14e774f8ef16a4c8ffd785d492c9d518ee563dc3864
 
 pkgname = cargo-generate
