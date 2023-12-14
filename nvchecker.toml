@@ -1452,3 +1452,9 @@ source = "github"
 github = "markhaehnel/cargo-semver-bump"
 use_max_tag = true
 prefix = "v"
+
+[cargo-information]
+source = "github"
+github = "hi-rustin/cargo-information"
+use_latest_release = true
+prefix = "v"
