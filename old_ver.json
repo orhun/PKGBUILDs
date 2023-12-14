@@ -24,6 +24,7 @@
   "cargo-binstall": "1.4.7",
   "cargo-bloat": "0.11.1",
   "cargo-careful": "0.4.0",
+  "cargo-clone": "1.2.1",
   "cargo-crev": "0.25.5",
   "cargo-deb": "2.0.0",
   "cargo-deny": "0.14.3",
