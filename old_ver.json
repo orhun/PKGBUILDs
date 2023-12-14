@@ -38,6 +38,7 @@
   "cargo-generate-rpm": "0.13.0",
   "cargo-hack": "0.6.14",
   "cargo-hakari": "0.9.14",
+  "cargo-information": "0.2.1",
   "cargo-llvm-cov": "0.5.38",
   "cargo-machete": "0.6.0",
   "cargo-make": "0.37.4",
