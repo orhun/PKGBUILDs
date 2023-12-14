@@ -1,0 +1,24 @@
+pkgbase = spicy-launcher
+	pkgdesc = The launcher for Spicy Lobster games
+	pkgver = 0.3.1
+	pkgrel = 1
+	url = https://github.com/spicylobstergames/SpicyLauncher
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	makedepends = yarn
+	makedepends = npm
+	depends = pkg-config
+	depends = mesa-libgl
+	depends = alsa-lib
+	depends = systemd-libs
+	depends = libudev.so
+	depends = gtk3
+	depends = libsoup
+	depends = webkit2gtk
+	options = !lto
+	source = spicy-launcher-0.3.1.tar.gz::https://github.com/spicylobstergames/SpicyLauncher/archive/v0.3.1.tar.gz
+	sha512sums = b1e9db094471b7a4d3e3a645faf5b9ed1240a7bf98d03c3cb39ebe04d6fa0b81fc4d046c85cebcc4952119e3d4186692f67902539faa27e075d89ea8dad0bc9c
+
+pkgname = spicy-launcher
