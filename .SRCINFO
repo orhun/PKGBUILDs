@@ -1,12 +1,12 @@
 pkgbase = cargo-tauri
 	pkgdesc = Command line interface for building Tauri apps
 	pkgver = 1.5.8
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/tauri-apps/tauri
 	arch = x86_64
 	license = MIT
 	license = Apache
-	makedepends = cargo
+	depends = cargo
 	depends = gcc-libs
 	depends = openssl
 	depends = bzip2
