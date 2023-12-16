@@ -2,7 +2,7 @@
 # Contributor: kleintux <reg-archlinux AT klein DOT tuxli DOT ch>
 
 pkgname=jumpy
-pkgver=0.8.2
+pkgver=0.9.0
 pkgrel=1
 pkgdesc="Tactical 2D shooter in fishy pixels style"
 arch=('x86_64')
@@ -13,8 +13,8 @@ makedepends=('cargo' 'systemd')
 replaces=('fishfight')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/fishfight/jumpy/archive/v$pkgver.tar.gz"
         "$pkgname.sh")
-sha512sums=('492cd8945eb8b487152c635884618a7004fa09e1628f3bbc86f04faa096daab231aef278fd21cf4779caf5240e1e6fb940a7c802c3d917c905860080abb76d96'
-            '182567c5b24c2a10a233d6b5e17ef9a0c28893e966f5f9536fb5b64acbae68312e96867f3648d4b694d011d020d8e25e2616d699df5c3dbd8d66d5902eaafbe7')
+sha512sums=('6ee46987c56f40afdfac986c5b9a00d98064a749532f93f457fd68b8cbc63b7b6ebbb4c421b9b5cc55e7f48f10cc1011aa7f796bb217e58b362ce2518a9e45b5'
+            'c03ee6a44bcbd06618526005f87b4afc8247d6bc08f5a56cc1932546067cc7e4ec0de2def92f427e86888d994f5496bf40187beaca8777b92b2499c306246c71')
 options=('!lto')
 
 prepare() {
@@ -39,6 +39,7 @@ package() {
 
   mkdir -p "$pkgdir/opt/$pkgname"
   cp -r "assets" "$pkgdir/opt/$pkgname/"
+  cp -r "packs" "$pkgdir/opt/$pkgname/"
   find "$pkgdir/opt/$pkgname/assets/music/" -type f -exec chmod 444 {} \;
   find "$pkgdir/opt/$pkgname/assets/player/sounds/" -type f -exec chmod 444 {} \;
 
