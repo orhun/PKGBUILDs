@@ -3,13 +3,12 @@
 
 pkgname=cargo-generate
 pkgver=0.19.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Use pre-existing git repositories as templates"
 arch=('x86_64')
 url="https://github.com/cargo-generate/cargo-generate"
 license=('MIT' 'Apache')
-depends=('curl' 'libgit2' 'libssh2' 'openssl')
-makedepends=('cargo')
+depends=('cargo' 'curl' 'libgit2' 'libssh2' 'openssl')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 sha256sums=('520e7a98bf82f368e911c14e774f8ef16a4c8ffd785d492c9d518ee563dc3864')
 
