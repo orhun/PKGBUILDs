@@ -3,13 +3,12 @@
 
 pkgname=cargo-make
 pkgver=0.37.5
-pkgrel=1
+pkgrel=2
 pkgdesc='Rust task runner and build tool'
 arch=('x86_64')
 url='https://github.com/sagiegurari/cargo-make'
 license=('Apache')
-depends=('gcc-libs' 'openssl' 'bzip2')
-makedepends=('cargo')
+depends=('cargo' 'gcc-libs' 'openssl' 'bzip2')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
 sha256sums=('d235f81d06c7f00fe8cd3359e967c7c3a5e81b26e91adcb00b951e6927cc91df')
 options=('!lto')

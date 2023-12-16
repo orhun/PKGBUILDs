@@ -1,11 +1,11 @@
 pkgbase = cargo-make
 	pkgdesc = Rust task runner and build tool
 	pkgver = 0.37.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/sagiegurari/cargo-make
 	arch = x86_64
 	license = Apache
-	makedepends = cargo
+	depends = cargo
 	depends = gcc-libs
 	depends = openssl
 	depends = bzip2
