@@ -2,13 +2,12 @@
 
 pkgname=cargo-dist
 pkgver=0.5.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Shippable application packaging for Rust"
 arch=('x86_64')
 url="https://github.com/axodotdev/cargo-dist"
 license=('Apache' 'MIT')
-depends=('xz' 'bzip2')
-makedepends=('cargo')
+depends=('cargo' 'xz' 'bzip2')
 checkdepends=('git')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 sha256sums=('238c2ead04d6cb28757b8b88eb4c3017b2a1ef202642478de16b57bb7031a90f')
