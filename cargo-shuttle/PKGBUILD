@@ -4,13 +4,13 @@
 pkgname=cargo-shuttle
 _commit=fa0fce6eb44218551ef71e7fe3a2fa67b03009f1
 pkgver=0.35.1
-pkgrel=1
+pkgrel=2
 pkgdesc='Cargo command for the shuttle platform'
 arch=('x86_64')
 url="https://github.com/shuttle-hq/shuttle"
 license=('Apache')
-depends=('gcc-libs' 'zlib' 'curl')
-makedepends=('cargo' 'git')
+depends=('cargo' 'gcc-libs' 'zlib' 'curl')
+makedepends=('git')
 source=("$pkgname::git+$url.git#commit=$_commit"
         "$pkgname-examples::git+https://github.com/shuttle-hq/examples.git")
 sha512sums=('SKIP'
