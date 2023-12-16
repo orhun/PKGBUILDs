@@ -1,0 +1,37 @@
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Contributor: kpcyrd <git@rxv.cc>
+
+pkgname=cargo-bloat
+pkgver=0.11.1
+pkgrel=2
+pkgdesc="Find out what takes most of the space in your executable"
+url="https://github.com/RazrFalcon/cargo-bloat"
+depends=('cargo' 'gcc-libs')
+arch=('x86_64')
+license=('MIT')
+source=("${pkgname}-${pkgver}.tar.gz::$url/archive/v$pkgver.tar.gz")
+sha256sums=('4f338c1a7f7ee6bcac150f7856ed1f32cf8d9009cfd513ca6c1aac1e6685c35f')
+
+prepare() {
+  cd "${pkgname}-${pkgver}"
+  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+  cd "${pkgname}-${pkgver}"
+  cargo build --release --frozen
+}
+
+check() {
+  cd "${pkgname}-${pkgver}"
+  cargo test --frozen
+}
+
+package() {
+  cd "${pkgname}-${pkgver}"
+  install -Dm 755 "target/release/${pkgname}" "${pkgdir}/usr/bin/${pkgname}"
+  install -Dm 644 README.md -t "${pkgdir}/usr/share/doc/${pkgname}"
+  install -Dm 644 LICENSE -t "${pkgdir}/usr/share/licenses/${pkgname}"
+}
+
+# vim:set ts=2 sw=2 et:
