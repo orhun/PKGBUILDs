@@ -3,14 +3,14 @@
 
 pkgname=cargo-clone
 pkgver=1.2.1
-pkgrel=2
+pkgrel=3
 pkgdesc="A cargo subcommand to fetch the source code of a Rust crate"
 arch=('x86_64')
 url="https://github.com/JanLikar/cargo-clone"
 license=('Apache' 'MIT')
 depends=('libgit2' 'curl')
-checkdepends=('git')
-makedepends=('cargo' 'libssh2')
+checkdepends=('cargo' 'git')
+makedepends=('libssh2')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 sha256sums=('c82a54b7651419664e92c106e3eeacff5080cca10faed6bef5931129a7bde182')
 
