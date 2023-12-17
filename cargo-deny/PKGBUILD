@@ -4,13 +4,13 @@
 
 pkgname=cargo-deny
 pkgver=0.14.3
-pkgrel=1
+pkgrel=2
 pkgdesc='Cargo plugin for linting your dependencies'
 arch=('x86_64')
 url='https://github.com/EmbarkStudios/cargo-deny'
 license=('MIT' 'Apache')
-depends=('gcc-libs')
-makedepends=('cargo' 'git')
+depends=('cargo' 'gcc-libs')
+makedepends=('git')
 options=(!lto)
 source=("$pkgname-$pkgver::git+$url.git#tag=$pkgver"
   "$pkgname-advisory-db::git+https://github.com/rustsec/advisory-db"
