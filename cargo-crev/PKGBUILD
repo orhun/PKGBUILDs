@@ -3,11 +3,11 @@
 
 pkgname=cargo-crev
 pkgver=0.25.5
-pkgrel=1
+pkgrel=2
 pkgdesc="Scalable, social, Code REView and recommendation system that we desperately need"
 url="https://github.com/crev-dev/cargo-crev"
-depends=('openssl' 'libcurl.so' 'libgit2.so')
-makedepends=('cargo' 'clang')
+depends=('cargo' 'openssl' 'libcurl.so' 'libgit2.so')
+makedepends=('clang')
 arch=('x86_64')
 license=('MPL' 'Apache' 'MIT')
 options=('!lto')
