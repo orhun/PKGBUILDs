@@ -1,14 +1,14 @@
 pkgbase = cargo-crev
 	pkgdesc = Scalable, social, Code REView and recommendation system that we desperately need
 	pkgver = 0.25.5
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/crev-dev/cargo-crev
 	arch = x86_64
 	license = MPL
 	license = Apache
 	license = MIT
-	makedepends = cargo
 	makedepends = clang
+	depends = cargo
 	depends = openssl
 	depends = libcurl.so
 	depends = libgit2.so
