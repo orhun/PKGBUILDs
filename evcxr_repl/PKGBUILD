@@ -3,7 +3,7 @@
 
 pkgname=evcxr_repl
 _pkgname=evcxr
-pkgver=0.16.0
+pkgver=0.17.0
 pkgrel=1
 pkgdesc="A Rust REPL based on evcxr"
 arch=('x86_64')
@@ -11,7 +11,7 @@ url="https://github.com/evcxr/evcxr"
 license=('Apache')
 depends=('gcc-libs' 'rust-src')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('ecd00c839a487cea5260bfc75c78ceba51e7215044b962081d7641c1292643bf')
+sha256sums=('372cee9626d547409d8482116a04a5d59db84ad2faf59468f55e141d21785cd5')
 options=('!lto')
 
 prepare() {
