@@ -1,13 +1,13 @@
 pkgbase = cargo-tarpaulin
 	pkgdesc = Tool to analyse test coverage of cargo projects
 	pkgver = 0.27.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/xd009642/tarpaulin
 	arch = x86_64
 	license = Apache
 	license = MIT
 	makedepends = git
-	makedepends = rust
+	depends = cargo
 	depends = gcc-libs
 	depends = glibc
 	depends = libcurl.so
