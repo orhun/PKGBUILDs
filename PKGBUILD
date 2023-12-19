@@ -3,13 +3,12 @@
 
 pkgname=cargo-geiger
 pkgver=0.11.7
-pkgrel=1
+pkgrel=2
 pkgdesc="Detects usage of unsafe Rust in a Rust crate and its dependencies"
 arch=('x86_64')
 url="https://github.com/rust-secure-code/cargo-geiger"
 license=('MIT' 'Apache')
-depends=('openssl' 'curl')
-makedepends=('cargo')
+depends=('cargo' 'openssl' 'curl')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgname@v$pkgver.tar.gz")
 sha256sums=('6ddc447b0b8a46ee2b303897fbe2d416df794942cd23984c44b0ee69c4675bad')
 options=('!lto')
