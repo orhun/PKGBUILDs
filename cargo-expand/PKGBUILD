@@ -4,13 +4,12 @@
 
 pkgname=cargo-expand
 pkgver=1.0.74
-pkgrel=1
+pkgrel=2
 pkgdesc="Subcommand to show result of macro expansion"
 arch=('x86_64')
 url='https://github.com/dtolnay/cargo-expand'
 license=('MIT' 'Apache')
-depends=('gcc-libs')
-makedepends=('cargo')
+depends=('cargo' 'gcc-libs')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
 sha256sums=('aa53dd3f32ef49591e2109f4edb3067be86db7e11f0a3a275a7e8bb524e81ef4')
 options=('!lto')
