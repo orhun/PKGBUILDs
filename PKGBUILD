@@ -5,7 +5,7 @@
 pkgname=cargo-hack
 pkgver=0.6.15
 _commit=1a55c2b403a482f85072d50206648f0c1193f912
-pkgrel=1
+pkgrel=2
 pkgdesc="A cargo subcommand to provide various options useful for testing and CI"
 arch=('x86_64')
 url="https://github.com/taiki-e/cargo-hack"
@@ -41,6 +41,7 @@ package() {
   install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
   install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
   install -Dm 644 LICENSE-MIT -t "$pkgdir/usr/share/licenses/$pkgname"
+  depends+=(rustup)
 }
 
 # vim: ts=2 sw=2 et:
