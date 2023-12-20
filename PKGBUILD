@@ -4,13 +4,12 @@
 
 pkgname=cargo-update
 pkgver=13.3.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A cargo subcommand for checking and applying updates to installed executables"
 arch=('x86_64')
 url="https://github.com/nabijaczleweli/cargo-update"
 license=('MIT')
-depends=('gcc-libs' 'zlib' 'openssl')
-makedepends=('cargo')
+depends=('cargo' 'gcc-libs' 'zlib' 'openssl')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz"
         "Cargo.lock")
 sha256sums=('cd06ef015c3698ee567807f47f0940802cd35a668dd4b949cf28b7559bdea68a'

@@ -1,11 +1,11 @@
 pkgbase = cargo-update
 	pkgdesc = A cargo subcommand for checking and applying updates to installed executables
 	pkgver = 13.3.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/nabijaczleweli/cargo-update
 	arch = x86_64
 	license = MIT
-	makedepends = cargo
+	depends = cargo
 	depends = gcc-libs
 	depends = zlib
 	depends = openssl
