@@ -1,0 +1,21 @@
+pkgbase = cargo-msrv
+	pkgdesc = Find the minimum supported Rust version (MSRV) for your project
+	pkgver = 0.15.1
+	pkgrel = 4
+	url = https://github.com/foresterre/cargo-msrv
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	depends = gcc-libs
+	depends = openssl
+	depends = rustup
+	options = !lto
+	source = cargo-msrv-0.15.1.tar.gz::https://github.com/foresterre/cargo-msrv/archive/v0.15.1.tar.gz
+	sha256sums = 58c54cc718cfe9653a0b506b9f85eb688583e0aa4a8b8df02738050b69460762
+
+pkgname = cargo-msrv
+	depends = gcc-libs
+	depends = openssl
+	depends = rustup
+	depends = rustup
