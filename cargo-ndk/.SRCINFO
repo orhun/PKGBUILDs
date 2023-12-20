@@ -1,0 +1,16 @@
+pkgbase = cargo-ndk
+	pkgdesc = Compile Rust projects against the Android NDK without hassle
+	pkgver = 3.4.0
+	pkgrel = 2
+	url = https://github.com/bbqsrc/cargo-ndk
+	arch = x86_64
+	license = MIT
+	license = Apache
+	makedepends = cargo
+	depends = gcc-libs
+	source = cargo-ndk-3.4.0.tar.gz::https://github.com/bbqsrc/cargo-ndk/archive/v3.4.0.tar.gz
+	sha256sums = 7756f00ff040030c64e6590ec6ffe59245165b9c78350462d960e5ff6fe12dcd
+
+pkgname = cargo-ndk
+	depends = gcc-libs
+	depends = rustup

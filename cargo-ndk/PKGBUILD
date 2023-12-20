@@ -2,7 +2,7 @@
 
 pkgname=cargo-ndk
 pkgver=3.4.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Compile Rust projects against the Android NDK without hassle"
 arch=('x86_64')
 url="https://github.com/bbqsrc/cargo-ndk"
@@ -32,6 +32,7 @@ package() {
   install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
   install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
   install -Dm 644 LICENSE-MIT -t "$pkgdir/usr/share/licenses/$pkgname"
+  depends+=('rustup')
 }
 
 # vim:set ts=2 sw=2 et:
