@@ -1,7 +1,7 @@
 pkgbase = cargo-udeps
 	pkgdesc = Find unused dependencies in Cargo.toml
 	pkgver = 0.1.43
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/est31/cargo-udeps
 	arch = x86_64
 	license = MIT
@@ -14,3 +14,6 @@ pkgbase = cargo-udeps
 	sha256sums = d2c286f696f1d1314fcbef03ffa3c1a365992021529ead1caf533cbe92c3deb9
 
 pkgname = cargo-udeps
+	depends = curl
+	depends = libgit2
+	depends = rustup

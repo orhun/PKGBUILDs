@@ -3,7 +3,7 @@
 
 pkgname=cargo-udeps
 pkgver=0.1.43
-pkgrel=1
+pkgrel=2
 pkgdesc="Find unused dependencies in Cargo.toml"
 arch=('x86_64')
 url="https://github.com/est31/cargo-udeps"
@@ -36,6 +36,7 @@ package() {
   install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
   install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
   install -Dm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
+  depends+=('rustup')
 }
 
 # vim:set ts=2 sw=2 et:
