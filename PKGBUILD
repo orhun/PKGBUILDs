@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=boxxy
-pkgver=0.8.3
+pkgver=0.8.4
 pkgrel=1
 pkgdesc="Put bad Linux applications in a box with only their files"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('ada0bf8c3a1de2427dbe134d0c7dc028c04d4eadb9a6e213766fe3d702afa9fc')
+sha256sums=('caa65a26bbb20890ef2ff6217cda049c2a5741a008389187d22f6772c29c3536')
 options=('!lto')
 
 prepare() {
