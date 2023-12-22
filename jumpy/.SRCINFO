@@ -1,6 +1,6 @@
 pkgbase = jumpy
 	pkgdesc = Tactical 2D shooter in fishy pixels style
-	pkgver = 0.9.0
+	pkgver = 0.9.1
 	pkgrel = 1
 	url = https://fishfolk.org/games/jumpy
 	arch = x86_64
@@ -15,9 +15,9 @@ pkgbase = jumpy
 	depends = libudev.so
 	replaces = fishfight
 	options = !lto
-	source = jumpy-0.9.0.tar.gz::https://github.com/fishfight/jumpy/archive/v0.9.0.tar.gz
+	source = jumpy-0.9.1.tar.gz::https://github.com/fishfight/jumpy/archive/v0.9.1.tar.gz
 	source = jumpy.sh
-	sha512sums = 6ee46987c56f40afdfac986c5b9a00d98064a749532f93f457fd68b8cbc63b7b6ebbb4c421b9b5cc55e7f48f10cc1011aa7f796bb217e58b362ce2518a9e45b5
+	sha512sums = bcafe9103fe81c348f0097852132d69bbf99c715fe80b3eb7d21ff34ff32b57cb6ee917ae315cb5c8cc93c5231756cd478c6b31a7f944da44b7e1c03ea413333
 	sha512sums = c03ee6a44bcbd06618526005f87b4afc8247d6bc08f5a56cc1932546067cc7e4ec0de2def92f427e86888d994f5496bf40187beaca8777b92b2499c306246c71
 
 pkgname = jumpy

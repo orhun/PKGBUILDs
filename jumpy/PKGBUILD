@@ -2,7 +2,7 @@
 # Contributor: kleintux <reg-archlinux AT klein DOT tuxli DOT ch>
 
 pkgname=jumpy
-pkgver=0.9.0
+pkgver=0.9.1
 pkgrel=1
 pkgdesc="Tactical 2D shooter in fishy pixels style"
 arch=('x86_64')
@@ -13,7 +13,7 @@ makedepends=('cargo' 'systemd')
 replaces=('fishfight')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/fishfight/jumpy/archive/v$pkgver.tar.gz"
         "$pkgname.sh")
-sha512sums=('6ee46987c56f40afdfac986c5b9a00d98064a749532f93f457fd68b8cbc63b7b6ebbb4c421b9b5cc55e7f48f10cc1011aa7f796bb217e58b362ce2518a9e45b5'
+sha512sums=('bcafe9103fe81c348f0097852132d69bbf99c715fe80b3eb7d21ff34ff32b57cb6ee917ae315cb5c8cc93c5231756cd478c6b31a7f944da44b7e1c03ea413333'
             'c03ee6a44bcbd06618526005f87b4afc8247d6bc08f5a56cc1932546067cc7e4ec0de2def92f427e86888d994f5496bf40187beaca8777b92b2499c306246c71')
 options=('!lto')
 
