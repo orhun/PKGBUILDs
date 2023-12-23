@@ -1,0 +1,15 @@
+pkgbase = samply
+	pkgdesc = A command-line sampling profiler for macOS and Linux
+	pkgver = 0.11.0
+	pkgrel = 2
+	url = https://github.com/mstange/samply
+	arch = x86_64
+	license = Apache
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	source = samply-0.11.0.tar.gz::https://github.com/mstange/samply/archive/samply-v0.11.0.tar.gz
+	sha512sums = 4def63bab3ab11cd0b02a725ae0fd477ba1d0147d30218b023868a930889b9c21507284b5b5168a3b519a5194d9ee2436ed712aaf4fd6f0f8a91405afc6fc54f
+
+pkgname = samply
