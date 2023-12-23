@@ -988,7 +988,7 @@ prefix = "v"
 source = "github"
 github = "mstange/samply"
 use_latest_release = true
-prefix = "v"
+prefix = "samply-v"
 
 # AUR #
 
