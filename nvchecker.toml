@@ -984,6 +984,12 @@ github = "imsnif/bandwhich"
 use_latest_release = true
 prefix = "v"
 
+[samply]
+source = "github"
+github = "mstange/samply"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

@@ -53,7 +53,7 @@
   "cargo-semver-bump": "0.1.0",
   "cargo-semver-checks": "0.26.0",
   "cargo-show-asm": "0.2.23",
-  "cargo-shuttle": "0.35.1",
+  "cargo-shuttle": "0.35.2",
   "cargo-sonar": "1.2.0",
   "cargo-sort": "1.0.9",
   "cargo-spellcheck": "0.13.1",
