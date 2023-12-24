@@ -190,6 +190,7 @@
   "rustup": "1.26.0",
   "rusty-krab-manager": "1.3",
   "rye": "0.16.0",
+  "samply": "0.11.0",
   "scrot": "1.10",
   "shy": "0.1.10",
   "sic-image-cli": "0.22.4",
