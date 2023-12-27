@@ -2,7 +2,7 @@
 
 _pkgname=SongRec
 pkgname=songrec
-pkgver=0.3.3
+pkgver=0.4.0
 pkgrel=1
 pkgdesc='An open-source, unofficial Shazam client for Linux'
 arch=('x86_64')
@@ -12,7 +12,7 @@ makedepends=('cargo' 'pkgconf' 'git')
 depends=('gtk3' 'alsa-lib' 'openssl' 'ffmpeg')
 optdepends=('libpulse: PulseAudio support')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha256sums=('9925fd808393f895ca2e83a2fe283198162d99133d1e76455e43876fa513cd49')
+sha256sums=('0aef29e2269f1fbbb12c29a5505917551809534501f792043e0d209f0c226c7e')
 options=('!lto')
 
 prepare() {
