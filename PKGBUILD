@@ -3,8 +3,8 @@
 
 pkgname=cargo-show-asm
 _binname=cargo-asm
-pkgver=0.2.23
-pkgrel=2
+pkgver=0.2.24
+pkgrel=1
 pkgdesc='Cargo subcommand to display ASM, LLVM-IR and MIR for Rust source code'
 arch=('x86_64')
 url='https://github.com/pacak/cargo-show-asm'
@@ -12,7 +12,7 @@ license=('Apache' 'MIT')
 depends=('cargo' 'rust-src' 'gcc-libs')
 conflicts=('cargo-asm')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha256sums=('db9ab7fb3d47c1bafd21f9d7cacb0be26e54406d119d3f6988b5b634879282ed')
+sha256sums=('3431e77a0ecd4abe079f36a79183d355353db279a5192068a60c8691c987fc62')
 
 prepare() {
   cd "$pkgname-$pkgver"
