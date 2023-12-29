@@ -990,6 +990,12 @@ github = "mstange/samply"
 use_latest_release = true
 prefix = "samply-v"
 
+[tailspin]
+source = "github"
+github = "bensadeh/tailspin"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
