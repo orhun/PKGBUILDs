@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=spicy-launcher
-pkgver=0.3.1
+pkgver=0.4.1
 pkgrel=1
 pkgdesc="The launcher for Spicy Lobster games"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT' 'Apache')
 depends=('pkg-config' 'mesa-libgl' 'alsa-lib' 'systemd-libs' 'libudev.so' 'gtk3' 'libsoup' 'webkit2gtk')
 makedepends=('cargo' 'yarn' 'npm')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('b1e9db094471b7a4d3e3a645faf5b9ed1240a7bf98d03c3cb39ebe04d6fa0b81fc4d046c85cebcc4952119e3d4186692f67902539faa27e075d89ea8dad0bc9c')
+sha512sums=('cdaa4ddf2184f77daa88a93217ffb5fff8c81bf55bd92fc9f7eeee2657cbd421dbf537f13828d56c70b68a978626d74845a60451a1382d6b8be60dc8cd02faec')
 options=('!lto')
 
 prepare() {
