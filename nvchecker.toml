@@ -996,6 +996,12 @@ github = "bensadeh/tailspin"
 use_latest_release = true
 prefix = "v"
 
+[cargo-run-bin]
+source = "github"
+github = "dustinblackman/cargo-run-bin"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
