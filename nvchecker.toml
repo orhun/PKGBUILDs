@@ -1465,6 +1465,12 @@ github = "prefix-dev/pixi"
 use_latest_release = true
 prefix = "v"
 
+[rattler-build]
+source = "github"
+github = "prefix-dev/rattler-build"
+use_latest_release = true
+prefix = "v"
+
 [cargo-docs-rs]
 source = "github"
 github = "dtolnay/cargo-docs-rs"
