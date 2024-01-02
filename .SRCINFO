@@ -1,13 +1,13 @@
 pkgbase = cargo-run-bin
 	pkgdesc = Build, cache, and run CLI tools scoped in Cargo.toml
-	pkgver = 1.7.0
+	pkgver = 1.7.1
 	pkgrel = 1
 	url = https://github.com/dustinblackman/cargo-run-bin
 	arch = x86_64
 	license = MIT
 	depends = cargo
 	depends = gcc-libs
-	source = cargo-run-bin-1.7.0.tar.gz::https://github.com/dustinblackman/cargo-run-bin/archive/v1.7.0.tar.gz
-	sha256sums = 97e202125f40753a2a2cc40fe3d4d96dedf9d3ead98cae3f7b2cfbe93da2fbce
+	source = cargo-run-bin-1.7.1.tar.gz::https://github.com/dustinblackman/cargo-run-bin/archive/v1.7.1.tar.gz
+	sha256sums = 094b533df34b180f4520fd5c64a8bf4dccece29b0c4a902688ce903ad0e89886
 
 pkgname = cargo-run-bin
