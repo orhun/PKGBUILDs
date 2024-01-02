@@ -3,7 +3,7 @@
 
 pkgname=hex
 _pkgname=hx
-pkgver=0.5.0
+pkgver=0.6.0
 pkgrel=1
 pkgdesc="Futuristic take on hexdump"
 arch=('x86_64')
@@ -12,7 +12,7 @@ license=(MIT)
 depends=('gcc-libs')
 makedepends=('cargo')
 source=($pkgname-$pkgver.tar.gz::https://github.com/sitkevij/hex/archive/v${pkgver}.tar.gz)
-sha512sums=('f69f55a911a7417ac80b7e6a3d53efba5af9f086045547a7f8308692624a4757b9171f7cd8b815b15fe4461c9318df17185e0d423b9b8dde571088947fa8f8fd')
+sha512sums=('d5d787a34f1602c9ee1543844b59da83f81d70c1da16397b09ea96205e96f29fffd44a38d5a7f5655cf38626f3d3c73539afcde23d81e8f550758746f9dfc444')
 
 prepare() {
   cd "$srcdir/$pkgname-$pkgver"
