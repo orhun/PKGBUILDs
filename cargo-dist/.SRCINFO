@@ -1,6 +1,6 @@
 pkgbase = cargo-dist
 	pkgdesc = Shippable application packaging for Rust
-	pkgver = 0.6.2
+	pkgver = 0.6.3
 	pkgrel = 1
 	url = https://github.com/axodotdev/cargo-dist
 	arch = x86_64
@@ -11,7 +11,7 @@ pkgbase = cargo-dist
 	depends = xz
 	depends = bzip2
 	options = !lto
-	source = cargo-dist-0.6.2.tar.gz::https://github.com/axodotdev/cargo-dist/archive/v0.6.2.tar.gz
-	sha256sums = 4f3e2ea514f8e744c54fa89c3c672b9ccfab08814029f487f7e09259650cbca2
+	source = cargo-dist-0.6.3.tar.gz::https://github.com/axodotdev/cargo-dist/archive/v0.6.3.tar.gz
+	sha256sums = 36f6f21e9de0b3a5da217c769e7ce7d098209bfed4d6b48ac3554603ef076211
 
 pkgname = cargo-dist
