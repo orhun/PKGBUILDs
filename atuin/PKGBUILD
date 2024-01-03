@@ -3,7 +3,7 @@
 # Contributor: Ellie Huxtable <e@elm.sh>
 
 pkgname=atuin
-pkgver=17.1.0
+pkgver=17.2.1
 pkgrel=1
 pkgdesc="Magical shell history"
 arch=('x86_64')
@@ -13,12 +13,12 @@ depends=('gcc-libs')
 makedepends=('cargo')
 optdepends=('bash-preexec: bash integration')
 source=("$url/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
-sha256sums=('6a0b1542e7061e6a5bcdf3c284d3ad386e3504e040fcfa1500f530a5125b37b8')
+sha256sums=('5bad59af24317adfa1d56fce39e231c85836fb91ac3d468830f9bb0884b320ca')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir completions/
 }
 
