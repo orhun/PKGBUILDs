@@ -1002,6 +1002,12 @@ github = "dustinblackman/cargo-run-bin"
 use_latest_release = true
 prefix = "v"
 
+[cargo-bundle-licenses]
+source = "github"
+github = "sstadick/cargo-bundle-licenses"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
