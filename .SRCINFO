@@ -1,0 +1,15 @@
+pkgbase = cargo-bundle-licenses
+	pkgdesc = Bundle licensing of Rust dependencies
+	pkgver = 1.3.0
+	pkgrel = 1
+	url = https://github.com/sstadick/cargo-bundle-licenses
+	arch = x86_64
+	license = Apache
+	license = MIT
+	depends = cargo
+	depends = gcc-libs
+	source = cargo-bundle-licenses-1.3.0.tar.gz::https://crates.io/api/v1/crates/cargo-bundle-licenses/1.3.0/download
+	sha256sums = b3033398d3b96d932d8bb3187ff59f123ad472d76be935be11aae6e76be6937c
+	b2sums = 7d0efdaac3e9902ef9df564bf5041cb0975d67af4895ef9b14f3923561a7ab9c4599f4229ef3f5795d77f1823af380ea13455bb602e980a65a452c8ff159e8aa
+
+pkgname = cargo-bundle-licenses
