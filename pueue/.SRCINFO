@@ -1,13 +1,13 @@
 pkgbase = pueue
 	pkgdesc = A CLI tool for managing long running shell commands
-	pkgver = 3.3.2
+	pkgver = 3.3.3
 	pkgrel = 1
 	url = https://github.com/nukesor/pueue
 	arch = x86_64
 	license = MIT
 	makedepends = cargo
 	depends = gcc-libs
-	source = pueue-3.3.2.tar.gz::https://github.com/nukesor/pueue/archive/v3.3.2.tar.gz
-	sha256sums = 5d880731b7911dcc01c84ad547d703d4d438a95a64396d3610829d0c05bb1e37
+	source = pueue-3.3.3.tar.gz::https://github.com/nukesor/pueue/archive/v3.3.3.tar.gz
+	sha256sums = ad7b760d4bed5a946acbdb6e3985d94d03944e3c0eb2221aea65da0aa001c636
 
 pkgname = pueue
