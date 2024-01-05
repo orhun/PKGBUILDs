@@ -3,7 +3,7 @@
 pkgname=cargo-run-bin
 _pkgname=cargo-bin
 pkgver=1.7.2
-pkgrel=1
+pkgrel=2
 pkgdesc="Build, cache, and run CLI tools scoped in Cargo.toml"
 arch=('x86_64')
 url='https://github.com/dustinblackman/cargo-run-bin'
@@ -14,7 +14,7 @@ sha256sums=('3c580be430a16970144adc1790c0e282ee580e78dac02e5ed1955e6000701e25')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {

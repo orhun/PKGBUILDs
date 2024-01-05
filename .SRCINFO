@@ -1,7 +1,7 @@
 pkgbase = cargo-run-bin
 	pkgdesc = Build, cache, and run CLI tools scoped in Cargo.toml
 	pkgver = 1.7.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/dustinblackman/cargo-run-bin
 	arch = x86_64
 	license = MIT
