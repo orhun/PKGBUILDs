@@ -1,0 +1,21 @@
+pkgbase = lychee
+	pkgdesc = Fast, async, resource-friendly link checker written in Rust
+	pkgver = 0.14.0
+	pkgrel = 1
+	url = https://lychee.cli.rs
+	arch = x86_64
+	license = Apache
+	license = MIT
+	checkdepends = cargo-nextest
+	makedepends = rust
+	depends = gcc-libs
+	depends = openssl
+	conflicts = lychee-link-checker
+	conflicts = lychee-rs
+	replaces = lychee-link-checker
+	replaces = lychee-rs
+	options = !lto
+	source = lychee-0.14.0.tar.gz::https://github.com/lycheeverse/lychee/archive/v0.14.0/lychee-0.14.0.tar.gz
+	b2sums = c83ed96c228e71ad09c7d01c9ba72729ee8cc55c3aabdb12cd81a8923b7796b921f41b0acd75115391f3e92d91bd59ca1dea136d2dcefd050cc379f8397b19fc
+
+pkgname = lychee
