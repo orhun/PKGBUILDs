@@ -2,8 +2,8 @@
 # Contributor: Sanpi <sanpi+aur@homecomputing.fr>
 
 pkgname=cargo-spellcheck
-pkgver=0.13.1
-pkgrel=3
+pkgver=0.13.2
+pkgrel=1
 pkgdesc="Checks all your documentation for spelling and grammar mistakes"
 arch=('x86_64')
 url="https://github.com/drahnr/cargo-spellcheck"
@@ -11,7 +11,7 @@ license=('MIT' 'Apache')
 depends=('cargo' 'hunspell')
 makedepends=('clang' 'hunspell-en_US')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('cd861ca0dc982e69d94fa4c39a5a3983480f67c51a3484b78f82dc1264bd09bb')
+sha256sums=('b567614f5dcb9e0a9f39b18f59266363b0b24713b0a576eaec9553218e6f9332')
 options=('!lto')
 
 prepare() {
