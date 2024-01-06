@@ -1008,6 +1008,12 @@ github = "sstadick/cargo-bundle-licenses"
 use_latest_release = true
 prefix = "v"
 
+[dua-cli]
+source = "github"
+github = "Byron/dua-cli"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
