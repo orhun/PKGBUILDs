@@ -1,7 +1,7 @@
 pkgbase = cargo-crev
 	pkgdesc = Scalable, social, Code REView and recommendation system that we desperately need
-	pkgver = 0.25.5
-	pkgrel = 2
+	pkgver = 0.25.6
+	pkgrel = 1
 	url = https://github.com/crev-dev/cargo-crev
 	arch = x86_64
 	license = MPL
@@ -13,11 +13,8 @@ pkgbase = cargo-crev
 	depends = libcurl.so
 	depends = libgit2.so
 	options = !lto
-	source = cargo-crev-0.25.5.tar.gz::https://github.com/crev-dev/cargo-crev/archive/v0.25.5.tar.gz
-	source = index-guix-dep.patch
-	sha512sums = 621447b0f5e32ed11af3d4e985d77986e94ceb6d6e0359880e70c20120698fb685b64062824fbd0bfffd9de565a6d5894788996c74637444d7bbdb47ed8e3807
-	sha512sums = 7e1b4dfe843bd1b349598cdb9d6dae66b940a3f71f77965c45f976b9cc259385bd0832d3cdafeef90d5e2dee494e9d13785abaa0626790acc45ba8939b47e5b2
-	b2sums = da2bb5518d1bc9205f8a39827a85e07ada793262ac3050e44cef181629360eb4c6db6db17cdabe35eda0ca3926c1ae2bcd19905559322d11df560612681f1cf0
-	b2sums = 16279527f28cf5e2b0d48c697e3e4d8219ed671f5a0d08601d1b8b0b1b94ea6cc6198bb8a635beac0d24e0a95ec5b683b3f452c1688b2dfbbb3e56d5311c541e
+	source = cargo-crev-0.25.6.tar.gz::https://github.com/crev-dev/cargo-crev/archive/v0.25.6.tar.gz
+	sha512sums = dc3eb97e2ba6cb6d2460499ccb8eb6c965f8464157670a162a32d4786406d9928ac7d5441c74c741bf64c2bd470ff08f008ab737c418b37e00a85ac8242f43c7
+	b2sums = 9283889f89866bec26ced21076b2c423dc0e8556034897e0f7417365fe2ebc680fab9055589263dbd527e1db8b609bf3bffe53031b480296f83fdc6f6d3e50c0
 
 pkgname = cargo-crev
