@@ -2,21 +2,21 @@
 # Contributor: Alexander Bruegmann <mail[at]abruegmann[dot]eu>
 
 pkgname=cargo-generate-rpm
-pkgver=0.13.0
-pkgrel=2
+pkgver=0.14.0
+pkgrel=1
 pkgdesc='Cargo helper command to generate a binary RPM package'
 arch=('x86_64')
 url="https://github.com/cat-in-136/cargo-generate-rpm"
 license=('MIT')
 depends=('cargo' 'gcc-libs')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('fa27b584df345ea38b34894a2cd276e23ff3e82257f0509cb07c976faea4bedc')
+sha256sums=('36616e7bb967f459325c9b01651aef7a4250d04b274f50c55b3759a9ab86d76a')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
   # https://github.com/cat-in-136/cargo-generate-rpm/issues/60
-  cargo fetch --target "$CARCH-unknown-linux-gnu" # --locked
+  cargo fetch --target "$(rustc -vV | sed -n 's/host: //p')" # --locked
 }
 
 build() {
