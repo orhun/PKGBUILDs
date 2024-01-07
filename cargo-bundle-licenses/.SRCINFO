@@ -1,7 +1,7 @@
 pkgbase = cargo-bundle-licenses
 	pkgdesc = Bundle licensing of Rust dependencies
 	pkgver = 1.3.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/sstadick/cargo-bundle-licenses
 	arch = x86_64
 	license = Apache

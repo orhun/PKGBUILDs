@@ -2,7 +2,7 @@
 
 pkgname=cargo-bundle-licenses
 pkgver=1.3.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Bundle licensing of Rust dependencies"
 url="https://github.com/sstadick/cargo-bundle-licenses"
 arch=('x86_64')
@@ -14,7 +14,7 @@ b2sums=('7d0efdaac3e9902ef9df564bf5041cb0975d67af4895ef9b14f3923561a7ab9c4599f42
 
 prepare() {
   cd "${pkgname}-${pkgver}"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
