@@ -2,22 +2,22 @@
 # Contributor: KokaKiwi <kokakiwi+aur at kokakiwi dot net>
 
 pkgname=cargo-nextest
-pkgver=0.9.66
-pkgrel=2
+pkgver=0.9.67
+pkgrel=1
 pkgdesc="A next-generation test runner for Rust."
 arch=('x86_64')
 url="https://github.com/nextest-rs/nextest"
 license=('Apache' 'MIT')
 depends=('cargo' 'gcc-libs')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/cargo-nextest-$pkgver.tar.gz")
-sha256sums=('2525fa66c6945821fc5b957b5cc41922c6879731bca8711f577f8794ef0b389d')
-b2sums=('8e6a2a3c03af5bf62543d1e036c812a1c123c43c93e8fedba32adac8191c948469a3105583df29925612627dab3d18b57285d639c186974e46fdb923bebc2872')
+sha256sums=('42d00268b0e75669ade4aa28ffa0e7084c06497e46fce097bb2db21b7be998ec')
+b2sums=('7c0ab6a3e53dadbc8bcb5a07d4e1d6daa0bc3b8e0ac9da13ff81ca2c28118254708551850e4eea8107c825f818fa9edda4622bd45c0c152955b1f7574e507931')
 options=('!lto')
 
 prepare() {
   mv "nextest-$pkgname-$pkgver" "$pkgname-$pkgver"
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
