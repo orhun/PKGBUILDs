@@ -2,8 +2,8 @@
 # Contributor: Stijn Seghers <stijnseghers at gmail dot com>
 
 pkgname=cargo-shuttle
-_commit=bc81eca3cc1c67b908090536cdf5ff70a9535d99
-pkgver=0.35.2
+_commit=ad0f0440be272de9d5b9114ae2beea79477723c3
+pkgver=0.36.0
 pkgrel=1
 pkgdesc='Cargo command for the shuttle platform'
 arch=('x86_64')
@@ -26,7 +26,7 @@ prepare() {
   mkdir man
 
   cd "$pkgname"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
