@@ -2,19 +2,19 @@
 # Contributor: Sematre <sematre at gmx dot de>
 
 pkgname=cargo-deb
-pkgver=2.0.0
-pkgrel=2
+pkgver=2.0.3
+pkgrel=1
 pkgdesc="Cargo subcommand that generates Debian packages"
 arch=('x86_64')
 url="https://github.com/kornelski/cargo-deb"
 license=('MIT')
 depends=('cargo' 'xz')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('e6e8ec698542acbd158ba42465d0736d011abd9052b0f39f0eeec807657647d2')
+sha256sums=('4ef83556ab7a824272c3187f28ffe986dc5f000d0584de6a667c78fa9f049ea3')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
