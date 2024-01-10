@@ -1,6 +1,6 @@
 pkgbase = cargo-shuttle
 	pkgdesc = Cargo command for the shuttle platform
-	pkgver = 0.35.2
+	pkgver = 0.36.0
 	pkgrel = 1
 	url = https://github.com/shuttle-hq/shuttle
 	arch = x86_64
@@ -11,7 +11,7 @@ pkgbase = cargo-shuttle
 	depends = zlib
 	depends = curl
 	options = !lto
-	source = cargo-shuttle::git+https://github.com/shuttle-hq/shuttle.git#commit=bc81eca3cc1c67b908090536cdf5ff70a9535d99
+	source = cargo-shuttle::git+https://github.com/shuttle-hq/shuttle.git#commit=ad0f0440be272de9d5b9114ae2beea79477723c3
 	source = cargo-shuttle-examples::git+https://github.com/shuttle-hq/examples.git
 	sha512sums = SKIP
 	sha512sums = SKIP
