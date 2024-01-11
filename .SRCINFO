@@ -1,16 +1,12 @@
 pkgbase = tailspin
 	pkgdesc = A log file highlighter
-	pkgver = 2.3.0
+	pkgver = 2.4.0
 	pkgrel = 1
 	url = https://github.com/bensadeh/tailspin
 	arch = x86_64
-	arch = aarch64
-	arch = arm
-	arch = armv7h
-	arch = armv6h
 	license = MIT
 	makedepends = cargo
-	source = https://github.com/bensadeh/tailspin/archive/2.3.0/tailspin-2.3.0.tar.gz
-	sha256sums = f523a9ccf59e6d5ae4bb66a5b0a4d480832f604c09a3c2f4dd00b5efc8f1b03d
+	source = tailspin-2.4.0.tar.gz::https://github.com/bensadeh/tailspin/archive/2.4.0/tailspin-2.4.0.tar.gz
+	sha256sums = ce86f2fd96543c62446f016ce332cd381d63d89c7094263459093ef2133a70a3
 
 pkgname = tailspin
