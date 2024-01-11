@@ -1,17 +1,18 @@
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
+# Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 # Contributor: Justin ! <just1602@riseup.net>
 
 pkgname=tailspin
-pkgver=2.3.0
+pkgver=2.4.0
 pkgrel=1
 pkgdesc='A log file highlighter'
 url="https://github.com/bensadeh/$pkgname"
-arch=(x86_64 aarch64 arm armv7h armv6h)
-license=(MIT)
-makedepends=(cargo)
+arch=('x86_64')
+license=('MIT')
+makedepends=('cargo')
 _archive="$pkgname-$pkgver"
-source=("$url/archive/$pkgver/$_archive.tar.gz")
-sha256sums=('f523a9ccf59e6d5ae4bb66a5b0a4d480832f604c09a3c2f4dd00b5efc8f1b03d')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver/$_archive.tar.gz")
+sha256sums=('ce86f2fd96543c62446f016ce332cd381d63d89c7094263459093ef2133a70a3')
 
 prepare() {
 	cd "$_archive"
