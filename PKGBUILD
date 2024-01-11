@@ -3,7 +3,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=eza
-pkgver=0.16.2
+pkgver=0.17.1
 pkgrel=1
 pkgdesc="A modern replacement for ls (community fork of exa)"
 url="https://github.com/eza-community/eza"
@@ -15,12 +15,12 @@ conflicts=('exa')
 depends=('libgit2.so')
 makedepends=("cargo" "pandoc")
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/eza-community/eza/archive/v${pkgver}.tar.gz")
-sha256sums=('4eef35467095f6006eb5c0431e6cafa514a885f571dcf9fef7c7d5952e90688f')
-b2sums=('5f7f7c5c0ff2d9822efd640f19dd11231dc7234c12359e8e3925cd2be7f65c0c2df53afb6fe2b6ce65a223f256b680e2cc5af355b0370af6e71295ce48adaa19')
+sha256sums=('78f56a35fc6707297f422647988b963f39bcef023bf55f6f2f5e7cd4be659a2a')
+b2sums=('973ba81af8db663673a0b62d67bec4078886156303ecbd2315a03399c0eee9db79d0e2cf216bc479467e672dbe1bc5559b753b5564967e6b6bfd4e4a689a05d1')
 
 prepare() {
   cd "${pkgname}-${pkgver}"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
