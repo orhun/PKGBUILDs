@@ -1014,6 +1014,12 @@ github = "Byron/dua-cli"
 use_latest_release = true
 prefix = "v"
 
+[cargo-insta]
+source = "github"
+github = "mitsuhiko/insta"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
