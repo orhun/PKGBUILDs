@@ -1,6 +1,6 @@
 pkgbase = wasm-bindgen
 	pkgdesc = Interoperating JS and Rust code
-	pkgver = 0.2.89
+	pkgver = 0.2.90
 	pkgrel = 1
 	url = https://github.com/rustwasm/wasm-bindgen
 	arch = x86_64
@@ -11,9 +11,9 @@ pkgbase = wasm-bindgen
 	depends = nodejs
 	replaces = wasm-bindgen-cli
 	options = !lto
-	source = wasm-bindgen-0.2.89.tar.gz::https://github.com/rustwasm/wasm-bindgen/archive/0.2.89.tar.gz
+	source = wasm-bindgen-0.2.90.tar.gz::https://github.com/rustwasm/wasm-bindgen/archive/0.2.90.tar.gz
 	source = Cargo.lock
-	sha256sums = 7d7c5b7867b12aee74abf37130b7473404f4556f366fe0572e985ca497188d3b
-	sha256sums = dff0c463cee0a605b7b6fc562fb95adf26a3ae3f044e283e1d38a4d7de0e3da3
+	sha256sums = 067c31c2f03e9c6f8365c62d162d19d00e3ebd9bd5fe95586995615c3d820514
+	sha256sums = 9cb3407da4f16302d19289697c80c5a2fab7ebdb649927a88f5825f893fba526
 
 pkgname = wasm-bindgen
