@@ -1,7 +1,7 @@
 pkgbase = cargo-tarpaulin
 	pkgdesc = Tool to analyse test coverage of cargo projects
-	pkgver = 0.27.2
-	pkgrel = 2
+	pkgver = 0.27.3
+	pkgrel = 1
 	url = https://github.com/xd009642/tarpaulin
 	arch = x86_64
 	license = Apache
@@ -15,7 +15,7 @@ pkgbase = cargo-tarpaulin
 	depends = libssh2
 	depends = libgit2
 	depends = zlib
-	source = git+https://github.com/xd009642/tarpaulin.git#tag=669e0b4d0e1f880f118ea481b43e309bd6c9154c
+	source = git+https://github.com/xd009642/tarpaulin.git#tag=18796042f0df5d5b75a4dbb30cb5d20fb7e0d821
 	b2sums = SKIP
 
 pkgname = cargo-tarpaulin
