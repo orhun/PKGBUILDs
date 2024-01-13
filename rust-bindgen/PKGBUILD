@@ -3,7 +3,7 @@
 
 pkgname=rust-bindgen
 _pkgname=bindgen
-pkgver=0.69.1
+pkgver=0.69.2
 pkgrel=1
 pkgdesc='Automatically generates Rust FFI bindings to C (and some C++) libraries'
 url='https://github.com/rust-lang/rust-bindgen'
@@ -12,11 +12,11 @@ makedepends=('cargo')
 arch=('x86_64')
 license=('BSD')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/rust-lang/rust-bindgen/archive/v$pkgver.tar.gz")
-sha512sums=('09189531f097ad7b27220150dac1dae8b042c3b6cd7cf1444388d25a0fb10c1116fec329540ccd18296d5be196cda2dc63f34d06c778a4a9c929a5ea0b0e7471')
+sha512sums=('2ed9ea21b1ae5a86eea851eba1aa2cb5e96fded8be6cf1305c9d3d2d7066cd417bb54fc793768843045af65995b7d282984f6b1e390f677df53fa65c446f8386')
 
 prepare() {
   cd $pkgname-$pkgver
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir -p completions
 }
 
