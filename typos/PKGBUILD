@@ -2,7 +2,7 @@
 # Contributor: Sematre <sematre at gmx dot de>
 
 pkgname=typos
-pkgver=1.17.0
+pkgver=1.17.1
 pkgrel=1
 pkgdesc="Source code spell checker"
 arch=('x86_64')
@@ -11,11 +11,11 @@ license=('MIT' 'Apache')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('3a1fb3ba5c4c5669cdd6b43c506a388888f9bb454212a5adad8ab405e93f226d')
+sha256sums=('69ba70ac73c29cb016764c0081541e852b45b764b25747cc4b12a5d86ee6cc7a')
 
 prepare() {
   cd "${pkgname}-${pkgver}"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
