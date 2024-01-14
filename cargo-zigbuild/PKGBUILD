@@ -2,19 +2,19 @@
 # Contributor: KokaKiwi <kokakiwi+aur at kokakiwi dot net>
 
 pkgname=cargo-zigbuild
-pkgver=0.18.1
-pkgrel=2
+pkgver=0.18.2
+pkgrel=1
 pkgdesc="Compile Cargo project with zig as linker"
 arch=('x86_64')
 url="https://github.com/rust-cross/cargo-zigbuild"
 license=('MIT')
 depends=('cargo' 'zig' 'gcc-libs')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('2fbd69ebfc30925ccf5e7003900ad14b21fc0469b9e084827851a506900cc056')
+sha256sums=('a43eab1ec15496e4fddf01fcf348e86402d6a85cf4a378f9f316344d8159df3c')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
