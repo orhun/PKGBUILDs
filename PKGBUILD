@@ -2,7 +2,7 @@
 
 _pkgname=SongRec
 pkgname=songrec
-pkgver=0.4.0
+pkgver=0.4.1
 pkgrel=1
 pkgdesc='An open-source, unofficial Shazam client for Linux'
 arch=('x86_64')
@@ -12,12 +12,12 @@ makedepends=('cargo' 'pkgconf' 'git')
 depends=('gtk3' 'alsa-lib' 'openssl' 'ffmpeg')
 optdepends=('libpulse: PulseAudio support')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha256sums=('0aef29e2269f1fbbb12c29a5505917551809534501f792043e0d209f0c226c7e')
+sha256sums=('4f6fa72663adec8b1cb2bfd85d5807d1e1203a10c0f5774c50943837cc3c79ac')
 options=('!lto')
 
 prepare() {
   cd "$_pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
