@@ -2,7 +2,7 @@
 # Contributor: Sematre <sematre at gmx dot de>
 
 pkgname=cargo-deb
-pkgver=2.0.3
+pkgver=2.0.4
 pkgrel=1
 pkgdesc="Cargo subcommand that generates Debian packages"
 arch=('x86_64')
@@ -10,7 +10,7 @@ url="https://github.com/kornelski/cargo-deb"
 license=('MIT')
 depends=('cargo' 'xz')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('4ef83556ab7a824272c3187f28ffe986dc5f000d0584de6a667c78fa9f049ea3')
+sha256sums=('79b256f53df147f4e1bf57edeed98f4140b2cecde256ca6f08470afe8310b636')
 
 prepare() {
   cd "$pkgname-$pkgver"
