@@ -2,8 +2,8 @@
 # Contributor: Mahor Foruzesh <mahor1221 at gmail dot com>
 
 pkgname=rye
-_commit=c003223d5db575276d3ef52d31590580f3b1e97f
-pkgver=0.16.0
+_commit=500d8c4e6695ee924639fa249f417f59389eb203
+pkgver=0.17.0
 pkgrel=1
 pkgdesc="An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch"
 arch=('x86_64')
@@ -23,7 +23,7 @@ options=('!lto')
 
 prepare() {
 	cd "$pkgname"
-	cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+	cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
