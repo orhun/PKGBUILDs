@@ -1,24 +1,24 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=release-plz
-pkgver=0.3.38
+pkgver=0.3.39
 pkgrel=1
 pkgdesc="Release Rust packages without using the command line"
 arch=('x86_64')
 url="https://github.com/MarcoIeni/release-plz"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('gcc-libs' 'curl')
 checkdepends=('git')
 makedepends=('cargo')
 optdepends=('cargo-semver-checks: check for API breaking changes')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgname-v$pkgver.tar.gz")
-sha512sums=('3688dfdb5ebe53fd7ce7329f0fbdf7f5fd52ccdf95ec8eecc983e8e022a42c70cedcefc5bca0c664df4aaf27aac660f0adbc6ac7e4c86d93615069cc5f6c97c0')
+sha512sums=('191601faa244e1768c55f67478f38ca5902cf462f260e178dd0ea318cb11c07afae23f5010a3bcdaf3d7cb32eb760ed68c2c9be2f80a42ba568a750dc47f076c')
 options=('!lto')
 
 prepare() {
 	mv "$pkgname-$pkgname-v$pkgver" "$pkgname-$pkgver"
 	cd "$pkgname-$pkgver"
-	cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+	cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 	mkdir completions
 }
 
