@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=bob
-pkgver=2.7.0
+pkgver=2.8.0
 pkgrel=1
 pkgdesc="A version manager for neovim"
 arch=('x86_64')
@@ -10,12 +10,12 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('ac9297395cd9d24b41aa7c5fbb9292ea46a4412ff6270447b19bda9cb4eb80ab')
+sha256sums=('623b4482c2ea5c0d89251190a9e2f717270adab7090b5b05efcb17b4d2b2b854')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir completions
 }
 
