@@ -1,16 +1,16 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=zps
-pkgver=1.2.9
+pkgver=2.0.0
 pkgrel=1
 pkgdesc="A small utility for listing and cleaning up zombie processes"
 arch=('x86_64')
 url="https://github.com/orhun/zps"
-license=('GPL3')
+license=('GPL-3.0-only')
 depends=('glibc')
 makedepends=('cmake')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('fd3a7b7d15ce738687631b23cc0fe5ae52e5958102d6a940d9c0d16fefeb69fab6d8c50db26838408642151d3d6c9d8a108f41e6821421bc6469516b2645d669')
+sha512sums=('235e31e3e19abd015e21aeb9483784658e03218381890044e0fb63f2d7687328fcebcc67812ba0a20b54600024200d36833860f4289ef7c9e374b7ecd272e57d')
 
 build() {
   cd "$pkgname-$pkgver"
