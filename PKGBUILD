@@ -2,16 +2,16 @@
 # Contributor: Sematre <sematre at gmx dot de>
 
 pkgname=typos
-pkgver=1.17.1
+pkgver=1.17.2
 pkgrel=1
 pkgdesc="Source code spell checker"
 arch=('x86_64')
 url="https://github.com/crate-ci/typos"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('69ba70ac73c29cb016764c0081541e852b45b764b25747cc4b12a5d86ee6cc7a')
+sha256sums=('51fbd4a7276394141ef30aae0eb9a394a4602d1e851e29ba406529f964a54053')
 
 prepare() {
   cd "${pkgname}-${pkgver}"
