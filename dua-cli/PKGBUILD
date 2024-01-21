@@ -3,7 +3,7 @@
 # Contributor: mexus <gilaldpellaeon@gmail.com>
 
 pkgname=dua-cli
-pkgver=2.27.0
+pkgver=2.27.1
 pkgrel=1
 pkgdesc="A tool to conveniently learn about the disk usage of directories, fast!"
 arch=('x86_64')
@@ -12,7 +12,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/Byron/${pkgname}/archive/v${pkgver}.tar.gz")
-sha512sums=('8c384d04287ff3445c52d429ece8ca8f54217eee68c2d3cca456883cce8c58f066ac38fdd2130c891023273a81ede7e4bb62efbdf3b1fb0c5db0bfd0df315e96')
+sha512sums=('7fa968757a1541ccb5d6e97ae7e3b9de96ed9779fbeeccd7848ae537cea32861f502dc3987e05c6109177b474803cfb8971616ffa83494986258ba8410f1852b')
 
 prepare() {
   cd "$pkgname-$pkgver"
