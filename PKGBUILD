@@ -3,12 +3,12 @@
 # Contributor: Vlad Frolov <frolvlad@gmail.com>
 
 pkgname=cargo-deny
-pkgver=0.14.3
-pkgrel=2
+pkgver=0.14.6
+pkgrel=1
 pkgdesc='Cargo plugin for linting your dependencies'
 arch=('x86_64')
 url='https://github.com/EmbarkStudios/cargo-deny'
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('cargo' 'gcc-libs')
 makedepends=('git')
 options=(!lto)
@@ -25,7 +25,7 @@ prepare() {
   git config submodule."tests/advisory-db/github.com-2f857891b7f43c59".url "${srcdir}/${pkgname}-advisory-db"
   git config submodule."tests/advisory-db/github.com-c373669cccc50ac0".url "${srcdir}/${pkgname}-test-advisory-db"
   git -c protocol.file.allow=always submodule update --init --recursive
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {

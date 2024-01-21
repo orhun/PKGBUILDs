@@ -1,16 +1,16 @@
 pkgbase = cargo-deny
 	pkgdesc = Cargo plugin for linting your dependencies
-	pkgver = 0.14.3
-	pkgrel = 2
+	pkgver = 0.14.6
+	pkgrel = 1
 	url = https://github.com/EmbarkStudios/cargo-deny
 	arch = x86_64
 	license = MIT
-	license = Apache
+	license = Apache-2.0
 	makedepends = git
 	depends = cargo
 	depends = gcc-libs
 	options = !lto
-	source = cargo-deny-0.14.3::git+https://github.com/EmbarkStudios/cargo-deny.git#tag=0.14.3
+	source = cargo-deny-0.14.6::git+https://github.com/EmbarkStudios/cargo-deny.git#tag=0.14.6
 	source = cargo-deny-advisory-db::git+https://github.com/rustsec/advisory-db
 	source = cargo-deny-test-advisory-db::git+https://github.com/EmbarkStudios/test-advisory-db
 	sha256sums = SKIP
