@@ -3,7 +3,7 @@
 # Contributor: Sergey A. <murlakatamenka@disroot.org>
 
 pkgname=rust-analyzer
-_pkgver=2024-01-15
+_pkgver=2024-01-22
 pkgver=${_pkgver//-}
 pkgrel=1
 pkgdesc='Rust compiler front-end for IDEs'
