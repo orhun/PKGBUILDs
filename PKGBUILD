@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=watchbind
-pkgver=0.2.0
+pkgver=0.2.1
 pkgrel=1
 pkgdesc="Turn any shell command into a powerful TUI with custom keybindings"
 arch=('x86_64')
@@ -10,11 +10,11 @@ license=('GPL3')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('a4e38d05b09a8980c6924188ed853d5060d86ac8974cd9a6204a3caf1e4c031a')
+sha256sums=('af91b06f03184487f0b8dd2d430c8bef0d65c1ff4d71652865d4cb2d24f1bd23')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {

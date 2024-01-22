@@ -1,13 +1,13 @@
 pkgbase = watchbind
 	pkgdesc = Turn any shell command into a powerful TUI with custom keybindings
-	pkgver = 0.2.0
+	pkgver = 0.2.1
 	pkgrel = 1
 	url = https://github.com/fritzrehde/watchbind
 	arch = x86_64
 	license = GPL3
 	makedepends = cargo
 	depends = gcc-libs
-	source = watchbind-0.2.0.tar.gz::https://github.com/fritzrehde/watchbind/archive/v0.2.0.tar.gz
-	sha256sums = a4e38d05b09a8980c6924188ed853d5060d86ac8974cd9a6204a3caf1e4c031a
+	source = watchbind-0.2.1.tar.gz::https://github.com/fritzrehde/watchbind/archive/v0.2.1.tar.gz
+	sha256sums = af91b06f03184487f0b8dd2d430c8bef0d65c1ff4d71652865d4cb2d24f1bd23
 
 pkgname = watchbind
