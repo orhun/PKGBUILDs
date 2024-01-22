@@ -1,6 +1,6 @@
 pkgbase = songrec
 	pkgdesc = An open-source, unofficial Shazam client for Linux
-	pkgver = 0.4.1
+	pkgver = 0.4.2
 	pkgrel = 1
 	url = https://github.com/marin-m/SongRec
 	arch = x86_64
@@ -14,7 +14,7 @@ pkgbase = songrec
 	depends = ffmpeg
 	optdepends = libpulse: PulseAudio support
 	options = !lto
-	source = songrec-0.4.1.tar.gz::https://github.com/marin-m/SongRec/archive/0.4.1.tar.gz
-	sha256sums = 4f6fa72663adec8b1cb2bfd85d5807d1e1203a10c0f5774c50943837cc3c79ac
+	source = songrec-0.4.2.tar.gz::https://github.com/marin-m/SongRec/archive/0.4.2.tar.gz
+	sha256sums = c453db360d76370519c7dfe3c6901d7676eb86cc975649d809afb61d2ff54388
 
 pkgname = songrec
