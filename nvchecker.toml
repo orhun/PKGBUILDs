@@ -1506,3 +1506,9 @@ source = "github"
 github = "hi-rustin/cargo-information"
 use_latest_release = true
 prefix = "v"
+
+[lobtui]
+source = "github"
+github = "pythops/lobtui"
+use_latest_release = true
+prefix = "v"
