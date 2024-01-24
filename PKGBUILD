@@ -3,7 +3,7 @@
 # Contributor: Philipp Wolfer <ph.wolfer@gmail.com>
 
 pkgname=gifski
-pkgver=1.13.0
+pkgver=1.14.1
 pkgrel=1
 pkgdesc='GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format.'
 arch=('x86_64')
@@ -12,13 +12,13 @@ license=('AGPL3')
 depends=('ffmpeg')
 makedepends=('cargo' 'clang')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/ImageOptim/$pkgname/archive/$pkgver.tar.gz")
-sha512sums=('0dec90461ce4182e30d0da061bf691b17aad873ed9f3ea68356bc4b36fd4c80b2aa8694cd539024830afd371716f6a99daeacc09094119ce8cb2d9044820d3a3')
+sha512sums=('2155c9f1c202253d653934c5a028f718a494d1dd8c4bac44cef34797e4e355161aecfe1051b2fb49946ce8a96db409cc4dbf7cf10541f3eb15ab0078346d8680')
 options=('!lto')
 
 prepare() {
   cd $pkgname-$pkgver
 
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 
