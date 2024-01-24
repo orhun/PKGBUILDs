@@ -2,13 +2,13 @@
 # Contributor: Stijn Seghers <stijnseghers at gmail dot com>
 
 pkgname=cargo-shuttle
-_commit=ad0f0440be272de9d5b9114ae2beea79477723c3
-pkgver=0.36.0
+_commit=9c1199c950f24804d23eb8ff631d92d3b289d667
+pkgver=0.37.0
 pkgrel=1
 pkgdesc='Cargo command for the shuttle platform'
 arch=('x86_64')
 url="https://github.com/shuttle-hq/shuttle"
-license=('Apache')
+license=('Apache-2.0')
 depends=('cargo' 'gcc-libs' 'zlib' 'curl')
 makedepends=('git')
 source=("$pkgname::git+$url.git#commit=$_commit"
