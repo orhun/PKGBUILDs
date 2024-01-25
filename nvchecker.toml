@@ -1512,3 +1512,9 @@ source = "github"
 github = "pythops/lobtui"
 use_latest_release = true
 prefix = "v"
+
+[cargo-compete]
+source = "github"
+github = "qryxip/cargo-compete"
+use_latest_release = true
+prefix = "v"
