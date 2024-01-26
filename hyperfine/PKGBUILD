@@ -1,16 +1,20 @@
 # Maintainer: Sven-Hendrik Haase <svenstaro@archlinux.org>
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 # Contributor: cauebs <cauebs@pm.me>
+# Contributor: cyqsimon <669-cyqsimon@users.noreply.gitlab.archlinux.org>
 
 pkgname=hyperfine
 pkgver=1.18.0
-pkgrel=1
+pkgrel=2
 pkgdesc="A command-line benchmarking tool"
 url="https://github.com/sharkdp/hyperfine"
 arch=("x86_64")
 license=("APACHE" "MIT")
 depends=(gcc-libs)
 makedepends=(cargo)
+optdepends=('python-numpy: run data analysis scripts'
+            'python-matplotlib: run data analysis scripts'
+            'python-scipy: run data analysis scripts')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/sharkdp/$pkgname/archive/v$pkgver.tar.gz")
 options=(zipman)
 sha256sums=('fea7b92922117ed04b9c84bb9998026264346768804f66baa40743c5528bed6b')
@@ -41,4 +45,6 @@ package() {
   install -Dm644 target/release/build/hyperfine-*/out/_hyperfine "$pkgdir/usr/share/zsh/site-functions/_hyperfine"
 
   install -Dm644 doc/hyperfine.1 "$pkgdir/usr/share/man/man1/hyperfine.1"
+
+  install -Dm755 -t "$pkgdir/usr/lib/$pkgname/scripts" scripts/*.py
 }

@@ -1,0 +1,18 @@
+pkgbase = hyperfine
+	pkgdesc = A command-line benchmarking tool
+	pkgver = 1.18.0
+	pkgrel = 2
+	url = https://github.com/sharkdp/hyperfine
+	arch = x86_64
+	license = APACHE
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	optdepends = python-numpy: run data analysis scripts
+	optdepends = python-matplotlib: run data analysis scripts
+	optdepends = python-scipy: run data analysis scripts
+	options = zipman
+	source = hyperfine-1.18.0.tar.gz::https://github.com/sharkdp/hyperfine/archive/v1.18.0.tar.gz
+	sha256sums = fea7b92922117ed04b9c84bb9998026264346768804f66baa40743c5528bed6b
+
+pkgname = hyperfine
