@@ -2,12 +2,12 @@
 # Contributor: KokaKiwi <kokakiwi+aur at kokakiwi dot net>
 
 pkgname=cargo-semver-checks
-pkgver=0.27.0
-_commit=94a491f0854f0bdbccbb301099db119201bff181
+pkgver=0.28.0
+_commit=6c30d585db5ffeadfa68fee5a1341a0d9286f90f
 pkgrel=1
 pkgdesc='Scan your Rust crate for semver violations'
 url='https://github.com/obi1kenobi/cargo-semver-checks'
-license=('Apache' 'MIT')
+license=('Apache-2.0' 'MIT')
 arch=('x86_64')
 depends=('cargo' 'gcc-libs' 'glibc' 'openssl' 'zlib')
 makedepends=('git' 'cmake')
@@ -19,7 +19,7 @@ options=('!lto')
 
 prepare() {
   cd "$pkgname"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
