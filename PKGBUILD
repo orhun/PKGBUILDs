@@ -3,7 +3,7 @@
 
 pkgname=felix-rs
 _pkgname=felix
-pkgver=2.11.1
+pkgver=2.12.0
 pkgrel=1
 pkgdesc="A TUI file manager with Vim-like key mapping"
 arch=('x86_64')
@@ -17,12 +17,12 @@ optdepends=('chafa: preview images'
 checkdepends=('zoxide')
 install="$pkgname.install"
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('f195b02429fed91552be5c0f712543239e54c549d7944bab3ed743f64b91564366943c36920ee4051ea81103bf3f94ab9b126dd95aaea73adf0905cfe9574ed1')
+sha512sums=('4b5e51daf2dfc9aa6d2cb55254cbc073060947f1f2b35d0380d627c7f7be9aadcb3d729dca0435489c4e99aa6f4a928cffe45b2726e0446678d4e78fcf30475f')
 options=('!lto')
 
 prepare() {
   cd "$_pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
