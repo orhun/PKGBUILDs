@@ -1020,6 +1020,12 @@ github = "mitsuhiko/insta"
 use_max_tag = true
 prefix = "v"
 
+[clipcat]
+source = "github"
+github = "xrelkd/clipcat"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
