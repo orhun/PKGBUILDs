@@ -2,8 +2,8 @@
 
 pkgbase=wezterm
 pkgname=(wezterm wezterm-terminfo wezterm-shell-integration)
-pkgver=20230712.072601.f4abf8fd
-_gitcommit=f4abf8fde7d45ccdee443ea162b6bd23862b8e32
+pkgver=20240127.113634.bbcac864
+_gitcommit=bbcac86436fe31c98ad411ae880886619512fe94
 pkgrel=1
 pkgdesc="A GPU-accelerated cross-platform terminal emulator and multiplexer"
 arch=('x86_64')
@@ -47,7 +47,7 @@ prepare() {
 
   git -c protocol.file.allow=always submodule update --init --recursive
   sed -i 's/"vendored-fonts", //' wezterm-gui/Cargo.toml
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
