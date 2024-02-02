@@ -355,7 +355,7 @@ prefix = "v"
 
 [jumpy]
 source = "github"
-github = "fishfight/jumpy"
+github = "fishfolk/jumpy"
 use_latest_release = true
 prefix = "v"
 
@@ -1522,5 +1522,11 @@ prefix = "v"
 [cargo-compete]
 source = "github"
 github = "qryxip/cargo-compete"
+use_latest_release = true
+prefix = "v"
+
+[rebels-in-the-sky]
+source = "github"
+github = "ricott1/rebels-in-the-sky"
 use_latest_release = true
 prefix = "v"
