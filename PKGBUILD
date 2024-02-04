@@ -4,7 +4,7 @@
 # Contributor: David Stark <david@starkers.org>
 
 pkgname=dive
-pkgver=0.11.0
+pkgver=0.12.0
 pkgrel=1
 pkgdesc="A tool for exploring layers in a docker image"
 arch=('x86_64')
@@ -14,7 +14,7 @@ depends=('glibc')
 makedepends=('go')
 checkdepends=('python')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('e91d3ce4b2dd292a72effea9c7dbde0f92a05f29a4e4c89fd46ed1d7f6aaed97')
+sha256sums=('2b69b8d28220c66e2575a782a370a0c05077936ae3ce69180525412fcca09230')
 
 build() {
   cd $pkgname-$pkgver
