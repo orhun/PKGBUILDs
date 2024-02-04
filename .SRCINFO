@@ -1,13 +1,13 @@
 pkgbase = cargo-binstall
 	pkgdesc = Binary installation for Rust projects
-	pkgver = 1.6.1
+	pkgver = 1.6.2
 	pkgrel = 1
 	url = https://github.com/cargo-bins/cargo-binstall
 	arch = x86_64
 	license = GPL3
 	depends = cargo
 	depends = gcc-libs
-	source = cargo-binstall-1.6.1.tar.gz::https://github.com/cargo-bins/cargo-binstall/archive/v1.6.1.tar.gz
-	sha256sums = eb8c0db03dd410d0ef5417a1cdb9b387e2ee0d3ba8c2e2d1a489a990b865e53f
+	source = cargo-binstall-1.6.2.tar.gz::https://github.com/cargo-bins/cargo-binstall/archive/v1.6.2.tar.gz
+	sha256sums = 4f8e74af5207e769f5cbd8c9c26e6cc08b8471ffd4211984e7f8ea73a53bc1d7
 
 pkgname = cargo-binstall
