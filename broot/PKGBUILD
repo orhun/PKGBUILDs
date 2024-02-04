@@ -4,7 +4,7 @@
 # Contributor: Daniel M. Capella <polyzen@archlinux.org>
 
 pkgname=broot
-pkgver=1.32.0
+pkgver=1.33.1
 pkgrel=1
 pkgdesc='Fuzzy Search + tree + cd'
 arch=('x86_64')
@@ -14,11 +14,11 @@ depends=('gcc-libs' 'zlib' 'libgit2' 'libxcb')
 makedepends=('rust')
 options=('!lto')
 source=("https://github.com/Canop/broot/archive/v$pkgver/$pkgname-v$pkgver.tar.gz")
-sha256sums=('0b9bf4a0dfa8a9cdcefcf18222dba4025379a8fa19190075835a99a507ae3d73')
+sha256sums=('d54f6f29caa12d1cb1e66dc83f1ed4671567c13535eecb4242b7e0210519fecc')
 
 prepare() {
   cd $pkgname-$pkgver
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
