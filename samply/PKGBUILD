@@ -3,7 +3,7 @@
 
 pkgname=samply
 pkgver=0.11.0
-pkgrel=2
+pkgrel=3
 pkgdesc="A command-line sampling profiler for macOS and Linux"
 arch=('x86_64')
 url="https://github.com/mstange/samply"
@@ -17,7 +17,7 @@ options=('!lto')
 prepare() {
   mv "$pkgname-$pkgname-v$pkgver" "$pkgname-$pkgver"
   cd "$pkgname-$pkgver/$pkgname"
-  cargo fetch --target "$CARCH-unknown-linux-gnu" # --locked
+  cargo fetch --target "$(rustc -vV | sed -n 's/host: //p')" # --locked
 }
 
 build() {
