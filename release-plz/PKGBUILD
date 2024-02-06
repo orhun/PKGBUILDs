@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=release-plz
-pkgver=0.3.42
+pkgver=0.3.43
 pkgrel=1
 pkgdesc="Release Rust packages without using the command line"
 arch=('x86_64')
@@ -12,7 +12,7 @@ checkdepends=('git')
 makedepends=('cargo')
 optdepends=('cargo-semver-checks: check for API breaking changes')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgname-v$pkgver.tar.gz")
-sha512sums=('faca69bf2e28746a405def0f7fbd9046aac61a391604bf2f6991482b2978b39a5a62a0efdcf14d5291e5f93e943ac27e98e914ed242c3a08ee5c6be577a84d22')
+sha512sums=('838c9cb56a0343d5533b4deadaff6fd97e2a2a7e5ae8ddb2a5378c4c54566b618728e0e817aedf98a25defe730ae917f090af24f1c8ad8a557e1cb887823b15d')
 options=('!lto')
 
 prepare() {
