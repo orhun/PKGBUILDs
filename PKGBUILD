@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=arduino-language-server
-pkgver=0.7.5
+pkgver=0.7.6
 pkgrel=1
 pkgdesc="An Arduino Language Server based on Clangd to Arduino code autocompletion"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('AGPL3')
 depends=('glibc' 'arduino-cli' 'clang')
 makedepends=('go')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('ad8dfa5edfc577d718065687dafa5a3d3bdf6f5f571b1314f6cc8b710c08e49c4920624c2cddfd09ff425536888005cc868414ec5d56032513695a6fec19bc29')
+sha512sums=('fb8c2d4df3337caecd3352cadc0a3ce780ae1f94a2b40ed8ebbda93cd5054fcebefaf049d24f2a11ac7b6fdc9e2b90817da0ebf36772a2ca055dda8e0a5e7be8')
 
 build() {
   cd "$pkgname-$pkgver"
