@@ -2,7 +2,7 @@
 # Maintainer: Daniel M. Capella <polyzen@archlinux.org>
 
 pkgname=lychee
-pkgver=0.14.2
+pkgver=0.14.3
 pkgrel=1
 pkgdesc='Fast, async, resource-friendly link checker written in Rust'
 arch=('x86_64')
@@ -15,14 +15,14 @@ conflicts=('lychee-link-checker' 'lychee-rs')
 replaces=('lychee-link-checker' 'lychee-rs')
 options=('!lto')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/lycheeverse/lychee/archive/v$pkgver/$pkgname-$pkgver.tar.gz"
-        "$pkgname-$pkgver-fix-tests.patch::https://github.com/lycheeverse/lychee/commit/351e433abc2516b597496f54a668daa4bade6121.patch")
-b2sums=('862e542d482633117725fc4dd9a7387df2560fe689d83026211e0f309724bd4364ae995e6f11747590d54bc348f4be4d440fa8fa14a58d71bd1d27149d9d7854'
-        '369409ae656ebc59f05832adaa8cd092a79f0594973734142e4050b5fd9f2651e8c63b42e41fb9b0ef0bb750b6a7cf6232c3d37aefcc6b435479e756286a8a3f')
+        "fix-ssl-certificate-tests.patch")
+b2sums=('9e3ca4c6a1c4ca324185384886a7790d91c4f700bee971f039fc98d5c6dc11e9bb1679a866164153bf1dc8ffcc9e61e7cc7520b79a3bdca894ae4950cf27910c'
+        'cfa85d9bd9b344a4a51ff54230f19b0196436ba82e3febff85f8b72b79934dfea01e65303dbf796483b4ddaec855623ac68a6e6e3b47aa010137fe87ad176d73')
 
 prepare() {
   cd $pkgname-$pkgver
+  patch -Np1 -i "$srcdir/fix-ssl-certificate-tests.patch"
   cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
-  patch -Np1 -i "$srcdir/$pkgname-$pkgver-fix-tests.patch"
 }
 
 build() {
