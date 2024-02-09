@@ -1,6 +1,6 @@
 pkgbase = lychee
 	pkgdesc = Fast, async, resource-friendly link checker written in Rust
-	pkgver = 0.14.2
+	pkgver = 0.14.3
 	pkgrel = 1
 	url = https://lychee.cli.rs
 	arch = x86_64
@@ -15,9 +15,9 @@ pkgbase = lychee
 	replaces = lychee-link-checker
 	replaces = lychee-rs
 	options = !lto
-	source = lychee-0.14.2.tar.gz::https://github.com/lycheeverse/lychee/archive/v0.14.2/lychee-0.14.2.tar.gz
-	source = lychee-0.14.2-fix-tests.patch::https://github.com/lycheeverse/lychee/commit/351e433abc2516b597496f54a668daa4bade6121.patch
-	b2sums = 862e542d482633117725fc4dd9a7387df2560fe689d83026211e0f309724bd4364ae995e6f11747590d54bc348f4be4d440fa8fa14a58d71bd1d27149d9d7854
-	b2sums = 369409ae656ebc59f05832adaa8cd092a79f0594973734142e4050b5fd9f2651e8c63b42e41fb9b0ef0bb750b6a7cf6232c3d37aefcc6b435479e756286a8a3f
+	source = lychee-0.14.3.tar.gz::https://github.com/lycheeverse/lychee/archive/v0.14.3/lychee-0.14.3.tar.gz
+	source = fix-ssl-certificate-tests.patch
+	b2sums = 9e3ca4c6a1c4ca324185384886a7790d91c4f700bee971f039fc98d5c6dc11e9bb1679a866164153bf1dc8ffcc9e61e7cc7520b79a3bdca894ae4950cf27910c
+	b2sums = cfa85d9bd9b344a4a51ff54230f19b0196436ba82e3febff85f8b72b79934dfea01e65303dbf796483b4ddaec855623ac68a6e6e3b47aa010137fe87ad176d73
 
 pkgname = lychee
