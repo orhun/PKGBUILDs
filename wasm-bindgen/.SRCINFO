@@ -1,7 +1,7 @@
 pkgbase = wasm-bindgen
 	pkgdesc = Interoperating JS and Rust code
 	pkgver = 0.2.91
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/rustwasm/wasm-bindgen
 	arch = x86_64
 	license = Apache-2.0
@@ -9,6 +9,7 @@ pkgbase = wasm-bindgen
 	makedepends = cargo
 	depends = rust-wasm
 	depends = nodejs
+	depends = openssl
 	replaces = wasm-bindgen-cli
 	options = !lto
 	source = wasm-bindgen-0.2.91.tar.gz::https://github.com/rustwasm/wasm-bindgen/archive/0.2.91.tar.gz
