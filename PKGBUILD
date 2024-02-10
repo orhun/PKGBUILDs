@@ -4,13 +4,13 @@
 
 pkgname=wasm-bindgen
 pkgver=0.2.91
-pkgrel=1
+pkgrel=2
 pkgdesc="Interoperating JS and Rust code"
 arch=('x86_64')
 url="https://github.com/rustwasm/wasm-bindgen"
 license=('Apache-2.0' 'MIT')
 replaces=('wasm-bindgen-cli')
-depends=('rust-wasm' 'nodejs')
+depends=('rust-wasm' 'nodejs' 'openssl')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz"
         "Cargo.lock")
@@ -27,6 +27,7 @@ prepare() {
 
 build() {
   cd "$pkgname-$pkgver/crates/cli"
+  export OPENSSL_NO_VENDOR=1
   cargo build --frozen --release --all-features
 }
 
