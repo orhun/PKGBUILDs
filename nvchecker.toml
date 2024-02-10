@@ -1530,3 +1530,9 @@ source = "github"
 github = "ricott1/rebels-in-the-sky"
 use_latest_release = true
 prefix = "v"
+
+[crates-tui]
+source = "github"
+github = "ratatui-org/crates-tui"
+use_latest_release = true
+prefix = "v"
