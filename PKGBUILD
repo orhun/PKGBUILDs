@@ -3,7 +3,7 @@
 # Contributor: Ellie Huxtable <e@elm.sh>
 
 pkgname=atuin
-pkgver=17.2.1
+pkgver=18.0.1
 pkgrel=1
 pkgdesc="Magical shell history"
 arch=('x86_64')
@@ -13,7 +13,7 @@ depends=('gcc-libs')
 makedepends=('cargo')
 optdepends=('bash-preexec: bash integration')
 source=("$url/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
-sha256sums=('5bad59af24317adfa1d56fce39e231c85836fb91ac3d468830f9bb0884b320ca')
+sha256sums=('f9e4af24a78678d9d4283912561977aae7caf10b8dbcb3a468a09efa2ffcc1a3')
 options=('!lto')
 
 prepare() {
