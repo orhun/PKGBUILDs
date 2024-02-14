@@ -3,7 +3,7 @@
 
 pkgname=lychee
 pkgver=0.14.3
-pkgrel=1
+pkgrel=2
 pkgdesc='Fast, async, resource-friendly link checker written in Rust'
 arch=('x86_64')
 url=https://lychee.cli.rs
@@ -32,6 +32,8 @@ build() {
 
 check() {
   cd $pkgname-$pkgver
+  # Avoid vendoring openssl, which is enabled by vendored-openssl feature
+  export OPENSSL_NO_VENDOR=1
   cargo nextest run --all-targets --all-features --filter-expr '!test(test_exclude_example_domains)' --test-threads 1
   cargo nextest run --filter-expr 'test(test_exclude_example_domains)' --test-threads 1
   cargo test --doc

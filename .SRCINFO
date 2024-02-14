@@ -1,7 +1,7 @@
 pkgbase = lychee
 	pkgdesc = Fast, async, resource-friendly link checker written in Rust
 	pkgver = 0.14.3
-	pkgrel = 1
+	pkgrel = 2
 	url = https://lychee.cli.rs
 	arch = x86_64
 	license = Apache-2.0
