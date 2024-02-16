@@ -5,7 +5,7 @@
 
 pkgname=yazi
 pkgver=0.2.3
-pkgrel=1
+pkgrel=3
 pkgdesc="Blazing fast terminal file manager written in Rust, based on async I/O"
 url="https://github.com/sxyazi/yazi"
 arch=("x86_64")
@@ -21,7 +21,7 @@ optdepends=(
 	'poppler: for PDF preview'
 	'zoxide: for directory jumping'
 )
-makedepends=('cargo')
+makedepends=('cargo' 'imagemagick')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/sxyazi/$pkgname/archive/v$pkgver.tar.gz")
 sha256sums=('61b6b0372360bbe2b720a75127bef9325b7d507d544235d6a548db01424553e9')
 options=('!lto')
@@ -33,7 +33,7 @@ prepare() {
 
 build() {
   cd "$pkgname-$pkgver"
-  YAZI_GEN_COMPLETIONS=true cargo build --release --frozen
+  VERGEN_GIT_SHA="Arch Linux" YAZI_GEN_COMPLETIONS=true cargo build --release --frozen
 }
 
 check() {
@@ -46,6 +46,13 @@ package() {
   install -Dm755 "target/release/$pkgname" "$pkgdir/usr/bin/$pkgname"
   install -Dm644 "LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENCE"
   install -Dm644 "README.md" "$pkgdir/usr/share/doc/$pkgname/README.md"
+  install -Dm644 "assets/yazi.desktop" "$pkgdir/usr/share/applications/yazi.desktop"
+
+  local r
+  for r in 16 24 32 48 64 128 256; do
+    install -dm755 "$pkgdir/usr/share/icons/hicolor/${r}x${r}/apps"
+    convert assets/logo.png -resize "${r}x${r}" "$pkgdir/usr/share/icons/hicolor/${r}x${r}/apps/yazi.png"
+  done
 
   cd "$pkgname-config/completions"
   install -Dm644 "$pkgname.bash" "$pkgdir/usr/share/bash-completion/completions/$pkgname"
