@@ -1,7 +1,7 @@
 pkgbase = mcfly
 	pkgdesc = Fly through your shell history
 	pkgver = 0.8.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/cantino/mcfly
 	install = mcfly.install
 	arch = x86_64

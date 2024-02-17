@@ -4,7 +4,7 @@
 
 pkgname=mcfly
 pkgver=0.8.4
-pkgrel=1
+pkgrel=2
 pkgdesc="Fly through your shell history"
 arch=('x86_64')
 url="https://github.com/cantino/mcfly"
@@ -20,7 +20,7 @@ options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
@@ -41,7 +41,7 @@ package() {
 
   install -Dm 644 "$pkgname.bash" -t "$pkgdir/usr/share/doc/$pkgname"
   install -Dm 644 "$pkgname.zsh" -t "$pkgdir/usr/share/doc/$pkgname"
-  install -Dm 644 "$pkgname.fish" -t "$pkgdir/usr/share/fish/vendor_completions.d"
+  install -Dm 644 "$pkgname.fish" -t "$pkgdir/usr/share/fish/vendor_conf.d"
 }
 
 # vim: ts=2 sw=2 et:
