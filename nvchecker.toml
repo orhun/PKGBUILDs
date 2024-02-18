@@ -1536,3 +1536,9 @@ source = "github"
 github = "ratatui-org/crates-tui"
 use_latest_release = true
 prefix = "v"
+
+[wireman]
+source = "github"
+github = "preiter93/wireman"
+use_latest_release = true
+prefix = "v"
