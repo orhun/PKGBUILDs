@@ -2,22 +2,19 @@
 # Contributor: CosmicHorror <LovecraftianHorror@pm.me>
 
 pkgname=cargo-auditable
-pkgver=0.6.1
-pkgrel=2
+pkgver=0.6.2
+pkgrel=1
 pkgdesc="A cargo-subcommand to make production Rust binaries auditable"
 arch=('x86_64')
 url="https://github.com/rust-secure-code/cargo-auditable"
-license=('Apache' 'MIT')
+license=('Apache-2.0' 'MIT')
 depends=('cargo' 'gcc-libs')
-source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz"
-        "$pkgname-$pkgver-cargo-lock.patch::$url/commit/5638b5803c744f1da2e8e24a4ff03d0a5e9920bd.patch")
-sha512sums=('191b6ef15436bd3c6a9b4666e80de5a085afe00f8ee3793040fc5e5f78eecc25d45e556fe8279b600f362b46cbecae6c6f7e21060ea0d2344f459817749f4616'
-            '0e376830391c7e8c7ba645e8cfe4240297701ece81a813c53c8f2a345d1d93524ee1c423cb8c8d21c7ab4d251c480f517ab61dcd4eb44cd6c6ac20daa474b262')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
+sha512sums=('3656f124d8e43fbb4518d9aa3ad9e40a7cae61c56fa4718e9ff886934b2fcb5b2f116551c63ca17712c203ac93daf2b28a22efe41e556013189dec0ad9248f1f')
 
 prepare() {
   cd "$srcdir/$pkgname-$pkgver"
-  patch -Np1 -i "../$pkgname-$pkgver-cargo-lock.patch"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
