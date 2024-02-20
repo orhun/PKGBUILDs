@@ -1,0 +1,31 @@
+pkgbase = uv
+	pkgdesc = An extremely fast Python package installer and resolver written in Rust
+	pkgver = 0.1.5
+	pkgrel = 3
+	url = https://github.com/astral-sh/uv
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	checkdepends = python
+	checkdepends = python-zstandard
+	checkdepends = libxcrypt-compat
+	checkdepends = clang
+	makedepends = cargo
+	makedepends = maturin
+	makedepends = python-installer
+	makedepends = cmake
+	depends = gcc-libs
+	depends = glibc
+	options = !lto
+	source = uv-0.1.5.tar.gz::https://github.com/astral-sh/uv/archive/refs/tags/0.1.5/uv-0.1.5.tar.gz
+	source = uv-0.1.5-fix-tests.patch::https://github.com/astral-sh/uv/commit/b76efc62a72ed8031aa91ae80bb1b4a159bd3d21.patch
+	sha512sums = 236aacb50faf140e014621e96f1ddff451c10f83f3662c9c8b40582b5959cec6e40410f4b1d84b6fe6fc10823e9b68da4278f16807359f9e52ec7bea1f425130
+	sha512sums = 9f4b1124c4a0a18392d87de8c8474b88675bbee0c909b2ea905dbf1f2389a5efdeb4df5bf61f9618a9ee2ab5d3cfb8177e09403789a66074276716950791bcb4
+	b2sums = e3d801b26c5dce5fdc2aab2d6be93f3a119f31185ba56a46d463c01fef76a04848a828e0cd2af6b6169684b565365902a293d42b0e46ce778d5282a114ad2c09
+	b2sums = 1c3cd083db77c4acef5e3f01d438c1fa86d8eb12cb2563704a50f692429e8ea8c5fad097504da6ca24fea7f4287d4a8e44fd25aa92ce8f7c14648ddb78da1fef
+
+pkgname = uv
+
+pkgname = python-uv
+	depends = python
+	depends = uv
