@@ -1026,6 +1026,12 @@ github = "xrelkd/clipcat"
 use_latest_release = true
 prefix = "v"
 
+[ripasso]
+source = "github"
+github = "cortex/ripasso"
+use_max_tag = true
+prefix = "release-"
+
 # AUR #
 
 [kermit]
