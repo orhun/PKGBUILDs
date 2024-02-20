@@ -7,8 +7,8 @@
 
 pkgbase=uv
 pkgname=("$pkgbase" "python-$pkgbase")
-pkgver=0.1.5
-pkgrel=3
+pkgver=0.1.6
+pkgrel=1
 pkgdesc='An extremely fast Python package installer and resolver written in Rust'
 arch=('x86_64')
 url="https://github.com/astral-sh/uv"
@@ -17,16 +17,12 @@ depends=('gcc-libs' 'glibc')
 makedepends=('cargo' 'maturin' 'python-installer' 'cmake')
 checkdepends=('python' 'python-zstandard' 'libxcrypt-compat' 'clang')
 options=('!lto')
-source=("$pkgbase-$pkgver.tar.gz::$url/archive/refs/tags/$pkgver/$pkgbase-$pkgver.tar.gz"
-        "$pkgbase-$pkgver-fix-tests.patch::https://github.com/astral-sh/uv/commit/b76efc62a72ed8031aa91ae80bb1b4a159bd3d21.patch")
-sha512sums=('236aacb50faf140e014621e96f1ddff451c10f83f3662c9c8b40582b5959cec6e40410f4b1d84b6fe6fc10823e9b68da4278f16807359f9e52ec7bea1f425130'
-            '9f4b1124c4a0a18392d87de8c8474b88675bbee0c909b2ea905dbf1f2389a5efdeb4df5bf61f9618a9ee2ab5d3cfb8177e09403789a66074276716950791bcb4')
-b2sums=('e3d801b26c5dce5fdc2aab2d6be93f3a119f31185ba56a46d463c01fef76a04848a828e0cd2af6b6169684b565365902a293d42b0e46ce778d5282a114ad2c09'
-        '1c3cd083db77c4acef5e3f01d438c1fa86d8eb12cb2563704a50f692429e8ea8c5fad097504da6ca24fea7f4287d4a8e44fd25aa92ce8f7c14648ddb78da1fef')
+source=("$pkgbase-$pkgver.tar.gz::$url/archive/refs/tags/$pkgver/$pkgbase-$pkgver.tar.gz")
+sha512sums=('5c765176cf19ef917c1e938650082ed5b867be6d8a809b05fc179435bfbbb68480ac5d2d8b8973bdc7e38cc61f7b4d57dee7358638e67a55f178c8f9e0a8a6bb')
+b2sums=('bdc8b7f09534464a5927ce7dacba7d4c6643379165dc356b30151b294c53f1b537ff6173287019051d1936164f47701061e8b27e60a421a479a1ab42c39819ab')
 
 prepare() {
   cd "$pkgbase-$pkgver"
-  patch -Np1 -i "$srcdir/$pkgbase-$pkgver-fix-tests.patch"
   cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
