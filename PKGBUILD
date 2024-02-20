@@ -2,21 +2,21 @@
 
 pkgname=cargo-tauri
 _pkgname=tauri
-pkgver=1.5.9
+pkgver=1.5.10
 pkgrel=1
 pkgdesc="Command line interface for building Tauri apps"
 arch=('x86_64')
 url="https://github.com/tauri-apps/tauri"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('cargo' 'gcc-libs' 'openssl' 'bzip2' 'libcroco' 'libffi')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/tauri-cli-v$pkgver.tar.gz")
-sha512sums=('97245b37e61089a20214e1471217e91596bce1ab3c0af1332522b2da957c111aa4bc41d1aa741a60073b8620dc71960a68eb8c0d9e23c0991b3abc173a3f04b0')
+sha512sums=('09f657f53cd8c3a8417457e6cf07f6c363a1020f72391a68ee645c585a895e6c36b4d9b9221250494761a26185137e62dc0a6019a16b0d3bcf594922cfc33540')
 options=('!lto')
 
 prepare() {
   mv "$_pkgname-tauri-cli-v$pkgver" "$pkgname-$pkgver"
   cd "$pkgname-$pkgver/tooling/cli"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir -p completions
 }
 
