@@ -1038,6 +1038,12 @@ github = "cortex/ripasso"
 use_max_tag = true
 prefix = "release-"
 
+[uv]
+source = "github"
+github = "astral-sh/uv"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
