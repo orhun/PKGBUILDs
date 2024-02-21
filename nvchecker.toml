@@ -5,6 +5,12 @@ keyfile = "apikey.crypt"
 
 # Community #
 
+[git-cliff]
+source = "github"
+github = "orhun/git-cliff"
+use_latest_release = true
+prefix = "v"
+
 [kmon]
 source = "github"
 github = "orhun/kmon"
