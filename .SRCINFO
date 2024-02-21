@@ -1,12 +1,12 @@
 pkgbase = cargo-machete
 	pkgdesc = Remove unused Rust dependencies
-	pkgver = 0.6.0
-	pkgrel = 2
+	pkgver = 0.6.1
+	pkgrel = 1
 	url = https://github.com/bnjbvr/cargo-machete
 	arch = x86_64
 	license = MIT
 	depends = cargo
-	source = cargo-machete-0.6.0.tar.gz::https://github.com/bnjbvr/cargo-machete/archive/v0.6.0.tar.gz
-	sha256sums = a13fab0c5ff64907e6b39dee054e5e9c4278fbe06065ff5bfcb160a5c1d204ea
+	source = cargo-machete-0.6.1.tar.gz::https://github.com/bnjbvr/cargo-machete/archive/v0.6.1.tar.gz
+	sha256sums = 1567ec91fe29ca96bef02f31ceacfa2ca084bd2e299cef486dc51cbdf79a1338
 
 pkgname = cargo-machete
