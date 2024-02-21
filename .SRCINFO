@@ -1,0 +1,16 @@
+pkgbase = git-cliff
+	pkgdesc = A highly customizable changelog generator
+	pkgver = 2.0.3
+	pkgrel = 1
+	url = https://github.com/orhun/git-cliff
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	makedepends = cargo
+	depends = gcc-libs
+	depends = zlib
+	depends = libgit2.so
+	source = git-cliff-2.0.3.tar.gz::https://github.com/orhun/git-cliff/archive/v2.0.3.tar.gz
+	sha512sums = 076166ba20664567f1f211a7110d21f850b0a36f30999ece6483a69c9ddf14ab989706011ab6509e6381f6034bd9ccdab9c0626357afae25ebc877cfaac1aac6
+
+pkgname = git-cliff
