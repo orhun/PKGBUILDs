@@ -7,32 +7,32 @@
 
 pkgbase=uv
 pkgname=("$pkgbase" "python-$pkgbase")
-pkgver=0.1.6
+pkgver=0.1.7
+_commit=12462e57303d7071ccb0cee9eebe9feffa94642d
 pkgrel=1
 pkgdesc='An extremely fast Python package installer and resolver written in Rust'
 arch=('x86_64')
 url="https://github.com/astral-sh/uv"
 license=('MIT' 'Apache-2.0')
 depends=('gcc-libs' 'glibc')
-makedepends=('cargo' 'maturin' 'python-installer' 'cmake')
+makedepends=('cargo' 'maturin' 'python-installer' 'cmake' 'git')
 checkdepends=('python' 'python-zstandard' 'libxcrypt-compat' 'clang')
 options=('!lto')
-source=("$pkgbase-$pkgver.tar.gz::$url/archive/refs/tags/$pkgver/$pkgbase-$pkgver.tar.gz")
-sha512sums=('5c765176cf19ef917c1e938650082ed5b867be6d8a809b05fc179435bfbbb68480ac5d2d8b8973bdc7e38cc61f7b4d57dee7358638e67a55f178c8f9e0a8a6bb')
-b2sums=('bdc8b7f09534464a5927ce7dacba7d4c6643379165dc356b30151b294c53f1b537ff6173287019051d1936164f47701061e8b27e60a421a479a1ab42c39819ab')
+source=("$pkgname::git+$url.git#commit=$_commit")
+sha512sums=('SKIP')
 
 prepare() {
-  cd "$pkgbase-$pkgver"
+  cd "$pkgbase"
   cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
-  cd "$pkgbase-$pkgver"
+  cd "$pkgbase"
   maturin build --locked --release --all-features --target "$(rustc -vV | sed -n 's/host: //p')" --strip
 }
 
 check() {
-  cd "$pkgbase-$pkgver"
+  cd "$pkgbase"
   python3 ./scripts/bootstrap/install.py
   cargo test -p uv --frozen --all-features
 }
@@ -43,14 +43,14 @@ _package_common() {
 }
 
 package_uv() {
-  cd "$pkgbase-$pkgver"
+  cd "$pkgbase"
   _package_common
   local _target="target/$(rustc -vV | sed -n 's/host: //p')/release/uv"
   install -Dm0755 -t "$pkgdir/usr/bin/" "$_target"
 }
 
 package_python-uv() {
-  cd "$pkgbase-$pkgver"
+  cd "$pkgbase"
   _package_common
   depends=(python "$pkgbase")
   python -m installer -d "$pkgdir" target/wheels/*.whl
