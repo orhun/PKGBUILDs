@@ -2,7 +2,7 @@
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=git-cliff
-pkgver=2.0.3
+pkgver=2.0.4
 pkgrel=1
 pkgdesc="A highly customizable changelog generator"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT' 'Apache-2.0')
 depends=('gcc-libs' 'zlib' 'libgit2.so')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('076166ba20664567f1f211a7110d21f850b0a36f30999ece6483a69c9ddf14ab989706011ab6509e6381f6034bd9ccdab9c0626357afae25ebc877cfaac1aac6')
+sha512sums=('60ab79faab4968412d7aba1dddfc156fb1365254e06d8a4f6c9b90ed1ad3ba5161588675c4864b9577695ca42ae8044725300da35f90b5c9024ced2c326ddf50')
 
 prepare() {
   cd "$pkgname-$pkgver"
