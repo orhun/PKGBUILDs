@@ -4,7 +4,7 @@
 pkgname=rye
 _commit=d245f625ed1e48b794863cc3a69d0a83daf74c5c
 pkgver=0.26.0
-pkgrel=1
+pkgrel=2
 pkgdesc="An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch"
 arch=('x86_64')
 url="https://github.com/mitsuhiko/rye"
@@ -28,11 +28,13 @@ prepare() {
 
 build() {
 	cd "$pkgname"
+	export OPENSSL_NO_VENDOR=1
 	cargo build --frozen --release
 }
 
 check() {
 	cd "$pkgname"
+	export OPENSSL_NO_VENDOR=1
 	cargo test --frozen
 }
 
