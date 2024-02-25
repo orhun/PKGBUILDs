@@ -1,0 +1,5 @@
+[zellij]
+source = "github"
+github = "zellij-org/zellij"
+prefix = "v"
+use_max_tag = true
