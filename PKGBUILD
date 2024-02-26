@@ -2,12 +2,12 @@
 # Contributor: Mahor Foruzesh <mahor1221 at gmail dot com>
 
 pkgname=rye
-_commit=d245f625ed1e48b794863cc3a69d0a83daf74c5c
-pkgver=0.26.0
-pkgrel=2
+_commit=43ee4fce00021b4cc15dfc3fb92a97b9b156a981
+pkgver=0.27.0
+pkgrel=1
 pkgdesc="An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch"
 arch=('x86_64')
-url="https://github.com/mitsuhiko/rye"
+url="https://github.com/astral-sh/rye"
 license=('MIT')
 depends=(
 	zlib
