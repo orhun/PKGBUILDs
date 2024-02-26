@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=pixi
-pkgver=0.14.0
+pkgver=0.15.1
 pkgrel=1
 pkgdesc="A package management and workflow tool"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('BSD')
 depends=('gcc-libs' 'openssl' 'bzip2')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('dd4e2d1ac84008b18efc2f7752a681a44391bd100259d3f29efaedc9d989da82eee326fb0628e3065ce664f35782a70fb402b8643ce47ad9f73827313d0773db')
+sha512sums=('b8af1e35cd30142e0868e0798db4d06238fc0b87d07d4580fb6a12f82863aa7e20b98b8f342394b0631771455c88a704bedd88e679521581fb92d2c511213226')
 options=('!lto')
 
 prepare() {
