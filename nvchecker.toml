@@ -1566,3 +1566,9 @@ source = "github"
 github = "ckaznable/tenki"
 use_latest_release = true
 prefix = "v"
+
+[dead-ringer]
+source = "github"
+github = "ztroop/dead-ringer"
+use_latest_release = true
+prefix = "v"
