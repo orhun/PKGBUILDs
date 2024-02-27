@@ -1,0 +1,5 @@
+[git-cliff]
+source = "github"
+github = "orhun/git-cliff"
+prefix = "v"
+use_max_tag = true

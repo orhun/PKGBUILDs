@@ -1,7 +1,7 @@
 pkgbase = git-cliff
 	pkgdesc = A highly customizable changelog generator
 	pkgver = 2.0.4
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/orhun/git-cliff
 	arch = x86_64
 	license = MIT
