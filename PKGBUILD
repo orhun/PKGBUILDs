@@ -3,7 +3,7 @@
 
 pkgname=git-cliff
 pkgver=2.0.4
-pkgrel=1
+pkgrel=2
 pkgdesc="A highly customizable changelog generator"
 arch=('x86_64')
 url="https://github.com/orhun/git-cliff"
@@ -23,7 +23,7 @@ prepare() {
 build() {
   cd "$pkgname-$pkgver"
   CFLAGS+=" -ffat-lto-objects"
-  cargo build --release --frozen --no-default-features
+  cargo build --release --frozen --no-default-features --features github
   OUT_DIR=completions/ "./target/release/$pkgname-completions"
   OUT_DIR=man/ "./target/release/$pkgname-mangen"
 }
