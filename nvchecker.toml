@@ -1572,3 +1572,9 @@ source = "github"
 github = "ztroop/dead-ringer"
 use_latest_release = true
 prefix = "v"
+
+[iamb]
+source = "github"
+github = "ulyssa/iamb"
+use_latest_release = true
+prefix = "v"
