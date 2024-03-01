@@ -1578,3 +1578,9 @@ source = "github"
 github = "ulyssa/iamb"
 use_latest_release = true
 prefix = "v"
+
+[bluetui]
+source = "github"
+github = "pythops/bluetui"
+use_latest_release = true
+prefix = "v"
