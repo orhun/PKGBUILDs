@@ -1,0 +1,13 @@
+pkgbase = biodiff
+	pkgdesc = Hex diff viewer using alignment algorithms from biology
+	pkgver = 1.1.0
+	pkgrel = 3
+	url = https://github.com/8051Enthusiast/biodiff
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = biodiff-1.1.0.tar.gz::https://github.com/8051Enthusiast/biodiff/archive/v1.1.0.tar.gz
+	sha256sums = f7960914ccf9b5fbdf3188b187d0cd3bca00f211487aa01d7b6f580da1c32312
+
+pkgname = biodiff
