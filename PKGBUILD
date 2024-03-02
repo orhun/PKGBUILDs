@@ -1,21 +1,21 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=mirro-rs
-pkgver=0.2.2
+pkgver=0.2.3
 pkgrel=1
 pkgdesc="An Arch Linux mirrorlist manager with a TUI"
 arch=('x86_64')
 url="https://github.com/rtkay123/mirro-rs"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('bcbfd6f75a7d7836715d02d6e35f83c0dbcc676ca4b6b00e529403d6f27968f7781a681c1e1dcd6d5d58d26619021c78f74651b741e85ed3f85458626e92ead5')
+sha512sums=('c2f8c790b4d827378e0642721bd69ee17ee57d60dedd3d583ccdc896658205505228b3a2755e5285b8260cb69e43ffc24efb8855de7b6cc47d959428404a174a')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
