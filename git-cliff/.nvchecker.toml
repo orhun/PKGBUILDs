@@ -1,5 +1,6 @@
 [git-cliff]
 source = "github"
 github = "orhun/git-cliff"
+include_regex = 'v\d+\.\d+\.\d+'
 prefix = "v"
 use_max_tag = true
