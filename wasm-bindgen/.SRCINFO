@@ -1,7 +1,7 @@
 pkgbase = wasm-bindgen
 	pkgdesc = Interoperating JS and Rust code
-	pkgver = 0.2.91
-	pkgrel = 2
+	pkgver = 0.2.92
+	pkgrel = 1
 	url = https://github.com/rustwasm/wasm-bindgen
 	arch = x86_64
 	license = Apache-2.0
@@ -12,9 +12,9 @@ pkgbase = wasm-bindgen
 	depends = openssl
 	replaces = wasm-bindgen-cli
 	options = !lto
-	source = wasm-bindgen-0.2.91.tar.gz::https://github.com/rustwasm/wasm-bindgen/archive/0.2.91.tar.gz
+	source = wasm-bindgen-0.2.92.tar.gz::https://github.com/rustwasm/wasm-bindgen/archive/0.2.92.tar.gz
 	source = Cargo.lock
-	sha256sums = b8fde00e5dc0c310d27169f22773113d9f565d19aa60dc1a1566f07e19611808
-	sha256sums = 182d991629a5a3647523a5529eb92c40773d2e669d9f65890e82fb355f94eace
+	sha256sums = dd80811dd5683f0a86a333ab1994e1b39294428cc8e3c9b55d10ffa635c81600
+	sha256sums = 3419a14c566339a9746cd9aa22423ae7c3ee3ca96b2def95fac48a4bc6d7c355
 
 pkgname = wasm-bindgen
