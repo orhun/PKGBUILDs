@@ -1590,3 +1590,9 @@ source = "github"
 github = "pythops/bluetui"
 use_latest_release = true
 prefix = "v"
+
+[netscanner]
+source = "github"
+github = "Chleba/netscanner"
+use_latest_release = true
+prefix = "v"
