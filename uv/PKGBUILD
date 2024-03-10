@@ -7,8 +7,8 @@
 
 pkgbase=uv
 pkgname=("$pkgbase" "python-$pkgbase")
-pkgver=0.1.16
-_commit=9f1452cb72e1da912f0653e398ac4ecb81244a82
+pkgver=0.1.17
+_commit=ec8315166696a8a256723c78c989e91d79678ae6
 pkgrel=1
 pkgdesc='An extremely fast Python package installer and resolver written in Rust'
 arch=('x86_64')
