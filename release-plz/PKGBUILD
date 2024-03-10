@@ -1,9 +1,9 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=release-plz
-pkgver=0.3.51
+pkgver=0.3.52
 pkgrel=1
-_commit=cd4417551991474afaf9c8a1156b0842590b914f
+_commit=4680821ffdb0611e1134228c093a20349d7485d9
 pkgdesc="Release Rust packages without using the command line"
 arch=('x86_64')
 url="https://github.com/MarcoIeni/release-plz"
