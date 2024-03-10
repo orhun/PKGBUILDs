@@ -2,20 +2,20 @@
 # Contributor: Vlad Frolov <frolvlad@gmail.com>
 
 pkgname=cargo-udeps
-pkgver=0.1.45
+pkgver=0.1.47
 pkgrel=1
 pkgdesc="Find unused dependencies in Cargo.toml"
 arch=('x86_64')
 url="https://github.com/est31/cargo-udeps"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('curl' 'libgit2')
 makedepends=('cargo' 'libssh2')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('e5839d74071c44efb44ae33859ff438ff5823c007960889f567b2c2c33cff4d1')
+sha256sums=('8794b480ab6dd166617711345116be5958def42679c1a5948d41850ecb9cb806')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
