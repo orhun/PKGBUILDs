@@ -1050,6 +1050,12 @@ github = "8051Enthusiast/biodiff"
 use_max_tag = true
 prefix = "v"
 
+[openapi-tui]
+source = "github"
+github = "zaghaghi/openapi-tui"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
