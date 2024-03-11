@@ -1,0 +1,5 @@
+[atuin]
+source = "github"
+github = "atuinsh/atuin"
+prefix = "v"
+use_max_tag = true
