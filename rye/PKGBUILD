@@ -2,8 +2,8 @@
 # Contributor: Mahor Foruzesh <mahor1221 at gmail dot com>
 
 pkgname=rye
-_commit=c44dc7ec84826981464a1280450c8b9cb4a2bbbc
-pkgver=0.28.0
+_commit=42b179f361660d4bf9237cc4d63e7bf2aaa428ce
+pkgver=0.29.0
 pkgrel=1
 pkgdesc="An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch"
 arch=('x86_64')
