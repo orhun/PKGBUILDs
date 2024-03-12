@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=dra
-pkgver=0.5.2
+pkgver=0.5.3
 pkgrel=1
 pkgdesc="A command line tool to download assets from GitHub releases"
 arch=('x86_64')
@@ -10,12 +10,12 @@ license=('MIT')
 depends=('xz' 'zlib' 'bzip2')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('560b257d5c7ce9368906ab5d88fc437f5cef97bee28077b8c0eebe14546c1d62e09b72dce359459a54cb57d3dec7dfe606c68fce66a2aa231c1c037567a88df4')
+sha512sums=('816cba7b28ddf53560526cee7c5bfcab30ac7d875c9a014bc17458a243d7618d6bba06f6ba0e4752c5e910d33cb1874b0270a52dd4f99ebb2df0b6194af5f7f3')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir -p completions
 }
 
