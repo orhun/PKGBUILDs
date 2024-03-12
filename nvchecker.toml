@@ -1062,6 +1062,12 @@ github = "zaghaghi/openapi-tui"
 use_max_tag = true
 prefix = "v"
 
+[libgit2]
+source = "github"
+github = "libgit2/libgit2"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
