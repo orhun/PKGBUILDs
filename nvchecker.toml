@@ -463,6 +463,12 @@ github = "chmln/handlr"
 use_latest_release = true
 prefix = "v"
 
+[handlr-regex]
+source = "github"
+github = "Anomalocaridid/handlr-regex"
+use_latest_release = true
+prefix = "v"
+
 [cargo-crev]
 source = "github"
 github = "crev-dev/cargo-crev"
