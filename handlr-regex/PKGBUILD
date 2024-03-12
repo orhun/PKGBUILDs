@@ -4,11 +4,12 @@
 pkgname=handlr-regex
 _pkgname=handlr
 pkgver=0.9.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Powerful alternative to xdg-utils written in Rust"
 arch=('x86_64')
 url="https://github.com/Anomalocaridid/handlr-regex"
 license=('MIT')
+provides=('handlr')
 replaces=('handlr')
 conflicts=('handlr')
 depends=('shared-mime-info')
