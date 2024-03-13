@@ -1080,6 +1080,12 @@ github = "altsem/gitu"
 use_max_tag = true
 prefix = "v"
 
+[cargo-rdme]
+source = "github"
+github = "orium/cargo-rdme"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
