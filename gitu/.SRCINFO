@@ -1,0 +1,15 @@
+pkgbase = gitu
+	pkgdesc = A TUI Git client inspired by Magit
+	pkgver = 0.6.2
+	pkgrel = 2
+	url = https://github.com/altsem/gitu
+	arch = x86_64
+	license = MIT
+	checkdepends = git
+	makedepends = cargo
+	depends = gcc-libs
+	depends = libgit2
+	source = gitu-0.6.2.tar.gz::https://github.com/altsem/gitu/archive/v0.6.2.tar.gz
+	sha256sums = f8fd08385906e3c1a20349518ff5dde3418e183eba5b7083c54d01433a2609a2
+
+pkgname = gitu
