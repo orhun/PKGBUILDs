@@ -1,0 +1,13 @@
+pkgbase = cargo-rdme
+	pkgdesc = Cargo command to create the README.md from your crate's documentation
+	pkgver = 1.4.3
+	pkgrel = 1
+	url = https://github.com/orium/cargo-rdme
+	arch = x86_64
+	license = MPL-2.0
+	depends = cargo
+	options = !lto
+	source = cargo-rdme-1.4.3.tar.gz::https://github.com/orium/cargo-rdme/archive/v1.4.3.tar.gz
+	sha256sums = 3514fd4aacf031d257ce2b2f3b66851c36bee5a8941bc8a2097ad5e2dda9d985
+
+pkgname = cargo-rdme
