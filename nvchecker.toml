@@ -1074,6 +1074,12 @@ github = "LucasPickering/slumber"
 use_max_tag = true
 prefix = "v"
 
+[gitu]
+source = "github"
+github = "altsem/gitu"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
