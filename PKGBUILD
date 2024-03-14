@@ -7,9 +7,9 @@
 
 pkgbase=uv
 pkgname=("$pkgbase" "python-$pkgbase")
-pkgver=0.1.18
-_commit=43dc9c87a6d27b87af191a0aa5216074a209248b
-pkgrel=2
+pkgver=0.1.21
+_commit=e9c12c52fd8c233dacb573b9f0a9b62b66c31a89
+pkgrel=1
 pkgdesc='An extremely fast Python package installer and resolver written in Rust'
 arch=('x86_64')
 url="https://github.com/astral-sh/uv"
@@ -34,6 +34,7 @@ build() {
   maturin build --locked --release --all-features --target "$(rustc -vV | sed -n 's/host: //p')" --strip
   local compgen="target/$(rustc -vV | sed -n 's/host: //p')/release/uv --generate-shell-completion"
   $compgen bash >"completions/$pkgbase"
+  $compgen elvish >"completions/$pkgbase.elv"
   $compgen fish >"completions/$pkgbase.fish"
   $compgen zsh >"completions/_$pkgbase"
 }
@@ -55,6 +56,7 @@ package_uv() {
   local _target="target/$(rustc -vV | sed -n 's/host: //p')/release/uv"
   install -Dm0755 -t "$pkgdir/usr/bin/" "$_target"
   install -Dm 644 "completions/$pkgbase" -t "$pkgdir/usr/share/bash-completion/completions/"
+  install -Dm 644 "completions/$pkgbase.elv" -t "$pkgdir/usr/share/elvish/lib/"
   install -Dm 644 "completions/$pkgbase.fish" -t "$pkgdir/usr/share/fish/vendor_completions.d/"
   install -Dm 644 "completions/_$pkgbase" -t "$pkgdir/usr/share/zsh/site-functions/"
 }
