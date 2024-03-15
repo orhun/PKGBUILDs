@@ -4,7 +4,7 @@
 pkgname=rye
 _commit=42b179f361660d4bf9237cc4d63e7bf2aaa428ce
 pkgver=0.29.0
-pkgrel=2
+pkgrel=3
 pkgdesc="An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch"
 arch=('x86_64')
 url="https://github.com/astral-sh/rye"
@@ -32,10 +32,10 @@ build() {
 	export OPENSSL_NO_VENDOR=1
 	cargo build --frozen --release
 	local compgen="target/release/$pkgname self completion -s"
-	compgen bash >"completions/$pkgbase"
-	compgen elvish >"completions/$pkgbase.elv"
-	compgen fish >"completions/$pkgbase.fish"
-	compgen zsh >"completions/_$pkgbase"
+	$compgen bash >"completions/$pkgbase"
+	$compgen elvish >"completions/$pkgbase.elv"
+	$compgen fish >"completions/$pkgbase.fish"
+	$compgen zsh >"completions/_$pkgbase"
 }
 
 check() {
