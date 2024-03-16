@@ -1,6 +1,6 @@
 pkgbase = cargo-semver-checks
 	pkgdesc = Scan your Rust crate for semver violations
-	pkgver = 0.29.1
+	pkgver = 0.30.0
 	pkgrel = 1
 	url = https://github.com/obi1kenobi/cargo-semver-checks
 	arch = x86_64
@@ -14,7 +14,7 @@ pkgbase = cargo-semver-checks
 	depends = openssl
 	depends = zlib
 	options = !lto
-	source = cargo-semver-checks::git+https://github.com/obi1kenobi/cargo-semver-checks.git#commit=3611fd059d164fb0cd6388b569aab34267b10dc3
+	source = cargo-semver-checks::git+https://github.com/obi1kenobi/cargo-semver-checks.git#commit=84d344bd4d6b8dd6dff5c51f79cc402b67a906c9
 	sha512sums = SKIP
 
 pkgname = cargo-semver-checks
