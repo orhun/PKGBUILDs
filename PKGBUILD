@@ -2,8 +2,8 @@
 # Contributor: KokaKiwi <kokakiwi+aur at kokakiwi dot net>
 
 pkgname=cargo-semver-checks
-pkgver=0.29.1
-_commit=3611fd059d164fb0cd6388b569aab34267b10dc3
+pkgver=0.30.0
+_commit=84d344bd4d6b8dd6dff5c51f79cc402b67a906c9
 pkgrel=1
 pkgdesc='Scan your Rust crate for semver violations'
 url='https://github.com/obi1kenobi/cargo-semver-checks'
