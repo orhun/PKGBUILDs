@@ -1,6 +1,6 @@
 pkgbase = openapi-tui
 	pkgdesc = Terminal UI to list, browse and run APIs defined with OpenAPI spec
-	pkgver = 0.6.0
+	pkgver = 0.6.1
 	pkgrel = 1
 	url = https://github.com/zaghaghi/openapi-tui
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = openapi-tui
 	makedepends = cargo
 	depends = gcc-libs
 	options = !lto
-	source = openapi-tui-0.6.0.tar.gz::https://github.com/zaghaghi/openapi-tui/archive/0.6.0.tar.gz
-	sha256sums = 4f430a0ff8fab0f645263f8b53610010f35424d01da3f4fbddb3ae3d6ba64d2a
+	source = openapi-tui-0.6.1.tar.gz::https://github.com/zaghaghi/openapi-tui/archive/0.6.1.tar.gz
+	sha256sums = f758512033f6fff5ba49f18aa5d4d2f0ec69dd0c4d92fd867071b47a2c246557
 
 pkgname = openapi-tui
