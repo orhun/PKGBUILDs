@@ -1,0 +1,4 @@
+[onefetch]
+source = "github"
+github = "o2sh/onefetch"
+use_max_tag = true
