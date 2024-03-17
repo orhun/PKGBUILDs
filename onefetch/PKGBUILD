@@ -4,22 +4,21 @@
 # Contributor: Ossama Hjaji <ossama-hjaji@live.fr>
 
 pkgname=onefetch
-_commit=13376155f2f8197aa9d95830298ceee007413895
-pkgver=2.19.0
+_commit=24878137250919d4acbebb810dcb5f164d948e17
+pkgver=2.20.0
 pkgrel=1
 pkgdesc="Git repository summary on your terminal"
 url="https://github.com/o2sh/onefetch"
 license=('MIT')
 arch=('x86_64')
-depends=('libgit2.so')
-makedepends=('cargo' 'cmake' 'git')
+makedepends=('cargo' 'git' 'cmake')
 checkdepends=('git')
 source=("$pkgname::git+$url.git#commit=$_commit")
 sha512sums=('SKIP')
 
 prepare() {
   cd "$pkgname"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir -p completions
 }
 
