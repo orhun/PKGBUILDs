@@ -1,15 +1,15 @@
 pkgbase = onefetch
 	pkgdesc = Git repository summary on your terminal
 	pkgver = 2.20.0
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/o2sh/onefetch
 	arch = x86_64
 	license = MIT
-	checkdepends = git
 	makedepends = cargo
-	makedepends = git
 	makedepends = cmake
-	source = onefetch::git+https://github.com/o2sh/onefetch.git#commit=24878137250919d4acbebb810dcb5f164d948e17
-	sha512sums = SKIP
+	makedepends = git
+	depends = gcc-libs
+	source = git+https://github.com/o2sh/onefetch.git#tag=2.20.0
+	sha256sums = a0dd5d2d0f7b9e985817f8830d3ebc6c590e90786a5e982b09e9660f55a51cc6
 
 pkgname = onefetch
