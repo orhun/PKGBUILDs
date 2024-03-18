@@ -4,17 +4,16 @@
 # Contributor: Ossama Hjaji <ossama-hjaji@live.fr>
 
 pkgname=onefetch
-_commit=24878137250919d4acbebb810dcb5f164d948e17
 pkgver=2.20.0
-pkgrel=1
+pkgrel=3
 pkgdesc="Git repository summary on your terminal"
 url="https://github.com/o2sh/onefetch"
 license=('MIT')
 arch=('x86_64')
-makedepends=('cargo' 'git' 'cmake')
-checkdepends=('git')
-source=("$pkgname::git+$url.git#commit=$_commit")
-sha512sums=('SKIP')
+depends=('gcc-libs')
+makedepends=('cargo' 'cmake' 'git')
+source=("git+$url.git#tag=$pkgver")
+sha256sums=('a0dd5d2d0f7b9e985817f8830d3ebc6c590e90786a5e982b09e9660f55a51cc6')
 
 prepare() {
   cd "$pkgname"
