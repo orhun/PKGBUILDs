@@ -4,7 +4,7 @@
 pkgname=handlr-regex
 _pkgname=handlr
 pkgver=0.10.0
-pkgrel=1
+pkgrel=2
 pkgdesc="Powerful alternative to xdg-utils written in Rust"
 arch=('x86_64')
 url="https://github.com/Anomalocaridid/handlr-regex"
@@ -19,7 +19,7 @@ sha512sums=('1e53eb3b68620fedffb7d8691d23e36f953fbcc20f5b983e81a8b10de1d8c7eb18c
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
