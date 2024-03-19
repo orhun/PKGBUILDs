@@ -1086,6 +1086,12 @@ github = "orium/cargo-rdme"
 use_max_tag = true
 prefix = "v"
 
+[mqttui]
+source = "github"
+github = "EdJoPaTo/mqttui"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
