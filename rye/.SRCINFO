@@ -1,7 +1,7 @@
 pkgbase = rye
 	pkgdesc = An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch
-	pkgver = 0.29.0
-	pkgrel = 3
+	pkgver = 0.30.0
+	pkgrel = 1
 	url = https://github.com/astral-sh/rye
 	arch = x86_64
 	license = MIT
@@ -13,7 +13,7 @@ pkgbase = rye
 	depends = gcc-libs
 	depends = libxcrypt-compat
 	options = !lto
-	source = rye::git+https://github.com/astral-sh/rye.git#commit=42b179f361660d4bf9237cc4d63e7bf2aaa428ce
+	source = rye::git+https://github.com/astral-sh/rye.git#commit=c7cbdd955cf494f905e5388e49677149a58028c2
 	sha512sums = SKIP
 
 pkgname = rye
