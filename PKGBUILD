@@ -2,9 +2,9 @@
 # Contributor: Mahor Foruzesh <mahor1221 at gmail dot com>
 
 pkgname=rye
-_commit=42b179f361660d4bf9237cc4d63e7bf2aaa428ce
-pkgver=0.29.0
-pkgrel=3
+_commit=c7cbdd955cf494f905e5388e49677149a58028c2
+pkgver=0.30.0
+pkgrel=1
 pkgdesc="An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch"
 arch=('x86_64')
 url="https://github.com/astral-sh/rye"
