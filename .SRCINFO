@@ -1,0 +1,13 @@
+pkgbase = csvlens
+	pkgdesc = Command line csv viewer
+	pkgver = 0.7.0
+	pkgrel = 1
+	url = https://github.com/YS-L/csvlens
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = csvlens-0.7.0.tar.gz::https://github.com/YS-L/csvlens/archive/v0.7.0.tar.gz
+	sha256sums = 3ddfa1229bb9f59da30c0567f723adbfde931dff36305639069657bcec1dde9b
+
+pkgname = csvlens
