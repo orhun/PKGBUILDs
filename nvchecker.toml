@@ -1092,6 +1092,12 @@ github = "EdJoPaTo/mqttui"
 use_max_tag = true
 prefix = "v"
 
+[csvlens]
+source = "github"
+github = "YS-L/csvlens"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
