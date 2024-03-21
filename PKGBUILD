@@ -8,39 +8,38 @@
 # Contributor: Julien Nicoulaud <julien.nicoulaud@gmail.com>
 
 pkgname=dart
-pkgver=3.0.7
-_commit=53cf56f86114e95bfcdf974948be3a7755ca91e2
+pkgver=3.3.2
+_commit=bc4150a9a23da4b3497c1d76b196e97a3e10b6cc #https://github.com/dart-lang/sdk/commits/stable/
 pkgrel=1
 pkgdesc='The dart programming language SDK'
 arch=('x86_64')
-url='https://www.dartlang.org/'
+url='https://dart.dev/'
 depends=('glibc')
 license=('BSD')
 makedepends=(
-  'clang'
   'dart'
   'git'
   'gn'
-  'lld'
-  'llvm'
   'ninja'
   'python'
   'python-httplib2'
   'python-six'
 )
 source=(
-  "$pkgname::git+https://github.com/dart-lang/sdk.git"
+  "git+https://github.com/dart-lang/sdk.git#commit=$_commit"
   "git+https://chromium.googlesource.com/chromium/tools/depot_tools.git"
+  "DEPS.patch"
 )
-sha512sums=('SKIP'
-            'SKIP')
+sha256sums=('e77b487224ee78d981806c46353400cb0a7023f695284d1bbeb4566df1ffb280'
+            'SKIP'
+            'db6576a70c6719e26795b9824546058b79fefa64158c1002d36546d826084403')
 
 prepare() {
 cat >.gclient <<EOF
 solutions = [
   {
     "name": "sdk",
-    "url": "file://${srcdir}/$pkgname@${_commit}",
+    "url": "file://${srcdir}/sdk",
     "deps_file": "DEPS",
     "managed": False,
     "custom_deps": {},
@@ -51,68 +50,36 @@ EOF
 
   export PATH+=":$PWD/depot_tools" DEPOT_TOOLS_UPDATE=0
 
-  depot_tools/gclient.py sync -D \
-      --nohooks \
-      --with_branch_heads \
-      --with_tags
-
-  dart sdk/tools/generate_package_config.dart
-  python sdk/tools/generate_sdk_version_file.py
-
   cd sdk
-  # ------
-  # Credits: Lauren N. Liberda <lauren@selfisekai.rocks> on Alpine Linux
 
-  # shut up on clang
-  chmod u+w buildtools/linux-x64/clang/.versions/clang.cipd_version
-  echo '{"instance_id":"system"}' > buildtools/linux-x64/clang/.versions/clang.cipd_version
-  chmod u-w buildtools/linux-x64/clang/.versions/clang.cipd_version
+  patch -Np 1 --input=$srcdir/DEPS.patch
 
-  # bind bootstrapped interpreter
-  ln -sf /usr/bin/dart tools/sdks/dart-sdk/bin/dart
-  ln -sf /usr/bin/dart2js tools/sdks/dart-sdk/bin/dart2js
-  # ------
+  python ../depot_tools/gclient.py sync -D \
+      --nohooks \
+      --no-history \
+      --shallow \
+      -r ${srcdir}/sdk@${_commit}
+
+  dart tools/generate_package_config.dart
+  python tools/generate_sdk_version_file.py
 
   sed -i 's|prefix = rebased_clang_dir|prefix= ""|g' build/toolchain/linux/BUILD.gn # use system clang
   sed -i 's|}/|}|g' build/toolchain/linux/BUILD.gn # use system clang
   sed -i 's|rebase|#|g' build/toolchain/linux/BUILD.gn
-
 }
 
 build() {
   cd sdk
 
-  gn gen -qv out --args='target_os = "linux"
-                        host_cpu = "x64"
-                        target_cpu = "x64"
-                        dart_target_arch = "x64"
-                        dart_use_compressed_pointers = true
-                        dart_use_crashpad = false
-                        dart_snapshot_kind = "app-jit"
-                        dart_debug_optimization_level= "2"
-                        dart_use_fallback_root_certificates = true
-                        dart_use_compressed_pointers = true
-                        dart_use_tcmalloc = true
-                        dart_use_mallinfo2 = true
-                        is_debug = false
-                        is_release = false
-                        is_product = true
-                        dart_debug = false
-                        dart_runtime_mode = "release"
-                        exclude_kernel_service = false
-                        is_clang = true
-                        dart_vm_code_coverage = false
-                        is_asan = false
-                        is_lsan = false
-                        is_msan = false
-                        is_tsan = false
-                        is_ubsan = false
-                        is_qemu = false
-                        dart_platform_sdk = false
-                        dart_use_debian_sysroot = false
-                        verify_sdk_hash = false'
+  # gn args --list out
 
-  sed -i 's|ldflags}|ldflags} -fuse-ld=lld|g' out/toolchain.ninja # use system ldd
+  /usr/bin/gn gen -qv out --args='
+                        target_cpu = "x64"
+                        is_debug = false
+                        is_release = true
+                        is_clang = false
+                        dart_platform_sdk = false
+                        verify_sdk_hash = false'
   ninja create_sdk -v -C out
 }
 
