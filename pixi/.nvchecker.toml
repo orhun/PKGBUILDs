@@ -1,0 +1,5 @@
+[pixi]
+source = "github"
+github = "prefix-dev/pixi"
+prefix = "v"
+use_max_tag = true
