@@ -1,0 +1,5 @@
+[gitu]
+source = "github"
+github = "altsem/gitu"
+prefix = "v"
+use_max_tag = true
