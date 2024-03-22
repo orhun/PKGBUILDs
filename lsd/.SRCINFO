@@ -1,0 +1,20 @@
+pkgbase = lsd
+	pkgdesc = Modern ls with a lot of pretty colors and awesome icons
+	pkgver = 1.1.0
+	pkgrel = 1
+	url = https://github.com/Peltoche/lsd
+	arch = x86_64
+	license = Apache-2.0
+	checkdepends = git
+	makedepends = cargo
+	makedepends = pandoc
+	depends = gcc-libs
+	depends = zlib
+	optdepends = nerd-fonts
+	optdepends = awesome-terminal-fonts
+	options = !lto
+	source = https://github.com/Peltoche/lsd/archive/v1.1.0/lsd-1.1.0.tar.gz
+	sha256sums = 4bbd180deeef2674e55724bb4297ee0442bea956e36f9c4cd2fcca4e82bb4026
+	sha512sums = 4e6a80c03dc5ac65e47eb843323361a75d1eb2c98deb46f0c3075144d0af5ee1d75387580f80c50643b4f176ddd5229b9e3c0b07e6709a03a1b0256f0df9c286
+
+pkgname = lsd
