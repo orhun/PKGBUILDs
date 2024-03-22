@@ -1644,3 +1644,9 @@ source = "github"
 github = "Chleba/netscanner"
 use_latest_release = true
 prefix = "v"
+
+[btlescan]
+source = "github"
+github = "ztroop/btlescan"
+use_latest_release = true
+prefix = "v"
