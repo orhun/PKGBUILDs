@@ -1650,3 +1650,9 @@ source = "github"
 github = "ztroop/btlescan"
 use_latest_release = true
 prefix = "v"
+
+[scope-tui]
+source = "github"
+github = "alemidev/scope-tui"
+use_latest_release = true
+prefix = "v"
