@@ -3,12 +3,12 @@
 # Contributor: Julien Nicoulaud <julien dot nicoulaud at gmail dot com>
 
 pkgname=lsd
-pkgver=1.0.0
+pkgver=1.1.0
 pkgrel=1
 pkgdesc='Modern ls with a lot of pretty colors and awesome icons'
 url='https://github.com/Peltoche/lsd'
 arch=('x86_64')
-license=('Apache')
+license=('Apache-2.0')
 depends=('gcc-libs' 'zlib')
 makedepends=('cargo' 'pandoc')
 checkdepends=('git')
@@ -17,13 +17,13 @@ optdepends=(
   'awesome-terminal-fonts'
 )
 source=(https://github.com/Peltoche/lsd/archive/v${pkgver}/${pkgname}-${pkgver}.tar.gz)
-sha256sums=('ab34e9c85bc77cfa42b43bfb54414200433a37419f3b1947d0e8cfbb4b7a6325')
-sha512sums=('c16fbbaa23bcc24050180d415f992459b423473eeb7771b1b8cd59aab5db97bf8d0cd01e3db507031f9588291bb8c90e02397b9a146973a054d338b60da10220')
+sha256sums=('4bbd180deeef2674e55724bb4297ee0442bea956e36f9c4cd2fcca4e82bb4026')
+sha512sums=('4e6a80c03dc5ac65e47eb843323361a75d1eb2c98deb46f0c3075144d0af5ee1d75387580f80c50643b4f176ddd5229b9e3c0b07e6709a03a1b0256f0df9c286')
 options=('!lto')
 
 prepare() {
   cd ${pkgname}-${pkgver}
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
