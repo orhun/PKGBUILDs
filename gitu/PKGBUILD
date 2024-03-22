@@ -1,8 +1,9 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=gitu
-pkgver=0.6.2
-pkgrel=2
+pkgver=0.8.0
+pkgrel=1
 pkgdesc="A TUI Git client inspired by Magit"
 arch=('x86_64')
 url="https://github.com/altsem/gitu"
@@ -10,8 +11,8 @@ license=('MIT')
 depends=('gcc-libs' 'libgit2')
 makedepends=('cargo')
 checkdepends=('git')
-source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('f8fd08385906e3c1a20349518ff5dde3418e183eba5b7083c54d01433a2609a2')
+source=("$url/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
+sha256sums=('54c581d869c5cef49e2161427a9b2f9fc4dbef0f6584a4695919093310c2833e')
 
 prepare() {
   cd "$pkgname-$pkgver"
