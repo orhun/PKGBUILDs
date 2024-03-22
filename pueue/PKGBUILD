@@ -2,7 +2,7 @@
 # Contributor: Arne Beer <privat@arne.beer>
 
 pkgname=pueue
-pkgver=3.3.3
+pkgver=3.4.0
 pkgrel=1
 pkgdesc="A CLI tool for managing long running shell commands"
 arch=('x86_64')
@@ -11,11 +11,11 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('ad7b760d4bed5a946acbdb6e3985d94d03944e3c0eb2221aea65da0aa001c636')
+sha256sums=('8468ff4d515d976607fc549c5eb994fa4f7d2ccdf47523561e34d778aa8d083e')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir -p utils/completions/
 }
 
