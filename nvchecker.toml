@@ -1656,3 +1656,9 @@ source = "github"
 github = "alemidev/scope-tui"
 use_latest_release = true
 prefix = "v"
+
+[logss]
+source = "github"
+github = "todoesverso/logss"
+use_latest_release = true
+prefix = "v"
