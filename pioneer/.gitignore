@@ -1,0 +1,4 @@
+*~
+*.log
+pioneer-*.tar.*
+fix_path_to_lua_h.patch
