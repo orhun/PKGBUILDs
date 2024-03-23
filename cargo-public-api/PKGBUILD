@@ -1,8 +1,8 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-public-api
-pkgver=0.33.1
-pkgrel=2
+pkgver=0.34.0
+pkgrel=1
 pkgdesc="List and diff the public API of Rust library crates"
 arch=('x86_64')
 url="https://github.com/Enselic/cargo-public-api"
@@ -10,12 +10,12 @@ license=('MIT')
 depends=('gcc-libs' 'libgit2')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('e98975baf08ff7a4e830b0a21adb034eda066b043acf1cd9ccb81f76a1eae33927dbe0d6325ff672f37d16534786dcd4d26be971c92aaaae18a8022e993a348b')
+sha512sums=('658d17ebad57a741e5204fdef745b3a71b964a0eada927e5c5453c674a632ecd1717840e928977f26923219ab91748057001bca648e3b3114df752867c0842e6')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir completions
 }
 
