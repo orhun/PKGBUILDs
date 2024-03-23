@@ -1098,6 +1098,12 @@ github = "YS-L/csvlens"
 use_max_tag = true
 prefix = "v"
 
+[pioneer]
+source = "github"
+github = "pioneerspacesim/pioneer"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
