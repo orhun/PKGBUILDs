@@ -1,0 +1,5 @@
+[cargo-outdated]
+source = "github"
+github = "kbknapp/cargo-outdated"
+prefix = "v"
+use_latest_release = true
