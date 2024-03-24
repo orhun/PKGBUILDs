@@ -5,12 +5,11 @@
 
 pkgname=pioneer
 pkgver=20240314
-pkgrel=2
+pkgrel=3
 pkgdesc="A game of lonely space adventure"
 arch=('x86_64')
 url="https://github.com/pioneerspacesim/pioneer"
 license=('GPL3')
-conflicts=('pioneer-bin' 'pioneer-git' 'fmt')
 depends=(
   'assimp'
   'freetype2'
@@ -21,6 +20,7 @@ depends=(
   'lua52'
   'mesa'
   'sdl2_image'
+  'fmt'
 )
 makedepends=('cmake' 'ninja')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/pioneerspacesim/pioneer/archive/$pkgver.tar.gz")
@@ -40,6 +40,7 @@ build() {
           -D USE_SYSTEM_LIBLUA:BOOL=ON \
           -D USE_SSE42:BOOL=OFF \
           -D CMAKE_EXPORT_COMPILE_COMMANDS=1 \
+          -DFMT_INSTALL=OFF \
           -Wno-dev
 
     cmake --build build --target all build-data
