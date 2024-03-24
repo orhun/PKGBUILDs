@@ -5,7 +5,7 @@
 
 pkgname=pioneer
 pkgver=20240314
-pkgrel=1
+pkgrel=2
 pkgdesc="A game of lonely space adventure"
 arch=('x86_64')
 url="https://github.com/pioneerspacesim/pioneer"
@@ -38,6 +38,7 @@ build() {
           -D PIONEER_DATA_DIR:PATH=/usr/share/pioneer/data \
           -D USE_SYSTEM_LIBGLEW:BOOL=ON \
           -D USE_SYSTEM_LIBLUA:BOOL=ON \
+          -D USE_SSE42:BOOL=OFF \
           -D CMAKE_EXPORT_COMPILE_COMMANDS=1 \
           -Wno-dev
 
