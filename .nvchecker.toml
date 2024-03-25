@@ -1,0 +1,5 @@
+[csvlens]
+source = "github"
+github = "YS-L/csvlens"
+prefix = "v"
+use_max_tag = true
