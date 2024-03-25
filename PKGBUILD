@@ -3,8 +3,8 @@
 # Contributor: Mikaela Szekely <qyriad@gmail.com>
 
 pkgname=cargo-update
-pkgver=13.3.0
-pkgrel=2
+pkgver=13.4.0
+pkgrel=1
 pkgdesc="A cargo subcommand for checking and applying updates to installed executables"
 arch=('x86_64')
 url="https://github.com/nabijaczleweli/cargo-update"
@@ -12,14 +12,14 @@ license=('MIT')
 depends=('cargo' 'gcc-libs' 'zlib' 'openssl')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz"
         "Cargo.lock")
-sha256sums=('cd06ef015c3698ee567807f47f0940802cd35a668dd4b949cf28b7559bdea68a'
-            'b0959938e592e8ef52a2b947ea6762ba9029baefa979533a6b0b681e8ff2ca05')
+sha256sums=('6213e98757b0c9c2b370cf75af5070e9f05523dc3fe17fabe219fe31b9daca6b'
+            '3808ba7c60b8f8fb83890572c6e97c2f3aa9dd1d589d9dfc76a3100ccb4661af')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
   cp "$srcdir/Cargo.lock" .
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
