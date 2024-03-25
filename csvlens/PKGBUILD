@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=csvlens
-pkgver=0.7.0
+pkgver=0.8.1
 pkgrel=1
 pkgdesc="Command line csv viewer"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('3ddfa1229bb9f59da30c0567f723adbfde931dff36305639069657bcec1dde9b')
+sha256sums=('3376f96ee5f6722efc51a7d595dc5ca2dae6894050560cd3c6fe04488dfd10d4')
 
 prepare() {
   cd "$pkgname-$pkgver"
