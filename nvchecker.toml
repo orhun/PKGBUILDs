@@ -1104,6 +1104,12 @@ github = "pioneerspacesim/pioneer"
 use_latest_release = true
 prefix = "v"
 
+[hawkeye]
+source = "github"
+github = "korandoru/hawkeye"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
