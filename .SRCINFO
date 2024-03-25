@@ -1,6 +1,6 @@
 pkgbase = rust-analyzer
 	pkgdesc = Rust compiler front-end for IDEs
-	pkgver = 20240318
+	pkgver = 20240325
 	pkgrel = 1
 	url = https://rust-analyzer.github.io/
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = rust-analyzer
 	makedepends = git
 	depends = gcc-libs
 	depends = rust-src
-	source = git+https://github.com/rust-lang/rust-analyzer.git#tag=2024-03-18
-	b2sums = SKIP
+	source = git+https://github.com/rust-lang/rust-analyzer.git#tag=2024-03-25
+	b2sums = b81a9f8bc7fad068b497e2f0d17a7607c731021a96ad8663433ed1fce9e87f5dc1918d95a317551262ea85b97644c8bfee22b53446abece8f54a5a9008975ac7
 
 pkgname = rust-analyzer
