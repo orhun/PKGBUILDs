@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=bob
-pkgver=2.8.1
+pkgver=2.8.2
 pkgrel=1
 pkgdesc="A version manager for neovim"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('d4bd4fe014c9784bb2561ffbd400f760d4c53201c2296bdee1e9dac61d299dd7')
+sha256sums=('a4a32955ca457ae0b3f26ba9a9762397a5916ec80cf75a4b045d3b5674bb4b83')
 options=('!lto')
 
 prepare() {
