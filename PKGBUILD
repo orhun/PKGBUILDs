@@ -5,7 +5,7 @@
 
 pkgname=pioneer
 pkgver=20240314
-pkgrel=3
+pkgrel=4
 pkgdesc="A game of lonely space adventure"
 arch=('x86_64')
 url="https://github.com/pioneerspacesim/pioneer"
@@ -20,7 +20,6 @@ depends=(
   'lua52'
   'mesa'
   'sdl2_image'
-  'fmt'
 )
 makedepends=('cmake' 'ninja')
 source=("$pkgname-$pkgver.tar.gz::https://github.com/pioneerspacesim/pioneer/archive/$pkgver.tar.gz")
