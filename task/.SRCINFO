@@ -1,0 +1,24 @@
+pkgbase = task
+	pkgdesc = Taskwarrior, a command-line todo list manager
+	pkgver = 3.0.0
+	pkgrel = 1
+	url = https://taskwarrior.org/
+	arch = x86_64
+	license = MIT
+	makedepends = cmake
+	makedepends = git
+	makedepends = cargo
+	depends = util-linux
+	depends = gnutls
+	optdepends = bash-completion: for bash completion
+	optdepends = python: for python export addon
+	optdepends = ruby: for ruby export addon
+	optdepends = perl: for perl export addon
+	optdepends = perl-json: for perl export addon
+	options = !lto
+	source = task::git+https://github.com/GothenburgBitFactory/taskwarrior.git#commit=3e41fb604c209e355444a1f0e2f4e15c70d76226
+	source = task-libshared::git+https://github.com/GothenburgBitFactory/libshared.git
+	sha256sums = 4f8304c149f28152fa1f291d6be1b263ed23619f53637715ae21e023f9c0f184
+	sha256sums = SKIP
+
+pkgname = task
