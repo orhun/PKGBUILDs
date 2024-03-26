@@ -1,20 +1,20 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=runst
-pkgver=0.1.5
+pkgver=0.1.7
 pkgrel=1
 pkgdesc="A dead simple notification daemon"
 arch=('x86_64')
 url="https://github.com/orhun/runst"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('dbus' 'pango')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('341a33c66d6b77dc660686283cdaf816fbbcf75c1a2cb661936d345d90b91e919ae8f91a6ba6fd17a7bf1053349c695c1514829015478d1cfbbe4dcccfb74a72')
+sha512sums=('68ea1e8f48d5b8e76d246c5e3ed20e1a9580adaabb1853280de6b54b3b12a548ab647ccb57371bab9b23d2976d3d8c41fe3164d530db4b5380bd394b62dc3a4f')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
