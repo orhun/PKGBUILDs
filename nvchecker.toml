@@ -1674,3 +1674,9 @@ source = "github"
 github = "todoesverso/logss"
 use_latest_release = true
 prefix = "v"
+
+[stu]
+source = "github"
+github = "lusingander/stu"
+use_latest_release = true
+prefix = "v"
