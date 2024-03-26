@@ -1,0 +1,15 @@
+pkgbase = runst
+	pkgdesc = A dead simple notification daemon
+	pkgver = 0.1.7
+	pkgrel = 1
+	url = https://github.com/orhun/runst
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	makedepends = cargo
+	depends = dbus
+	depends = pango
+	source = runst-0.1.7.tar.gz::https://github.com/orhun/runst/archive/v0.1.7.tar.gz
+	sha512sums = 68ea1e8f48d5b8e76d246c5e3ed20e1a9580adaabb1853280de6b54b3b12a548ab647ccb57371bab9b23d2976d3d8c41fe3164d530db4b5380bd394b62dc3a4f
+
+pkgname = runst
