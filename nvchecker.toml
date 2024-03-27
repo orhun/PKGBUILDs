@@ -1119,8 +1119,9 @@ prefix = "v"
 [syndicationd]
 source = "github"
 github = "ymgyt/syndicationd"
-use_latest_release = true
-prefix = "v"
+use_latest_tag = true
+prefix = "synd-term-v"
+query = "synd-term-v"
 
 # AUR #
 
