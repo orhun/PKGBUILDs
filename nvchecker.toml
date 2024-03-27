@@ -1116,6 +1116,12 @@ github = "nektos/act"
 use_latest_release = true
 prefix = "v"
 
+[syndicationd]
+source = "github"
+github = "ymgyt/syndicationd"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
