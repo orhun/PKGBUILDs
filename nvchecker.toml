@@ -1110,6 +1110,12 @@ github = "korandoru/hawkeye"
 use_latest_release = true
 prefix = "v"
 
+[act]
+source = "github"
+github = "nektos/act"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
