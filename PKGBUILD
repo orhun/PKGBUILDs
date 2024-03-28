@@ -2,7 +2,7 @@
 
 pkgname=lucky-commit
 _pkgname=lucky_commit
-pkgver=2.2.2
+pkgver=2.2.3
 pkgrel=1
 pkgdesc="Customize your git commit hashes"
 arch=('x86_64')
@@ -11,11 +11,11 @@ license=('MIT')
 depends=('gcc-libs' 'ocl-icd')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('cf382a760dd948d3cc4cef8901c97d2a8e3305e877d619cd38a9331bccfd924c6f57b294ab48c9b4cc30c6858898c1546f9aede681877ab256f9347d0e01001d')
+sha512sums=('299e66f404a742abed1d11ba104d3bda7c26c3b035c27c8a3e4beb28706a277d2408aae2e45034aa3cffb840e2d51af8dce61369c0164dee81fdc09f22422955')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
