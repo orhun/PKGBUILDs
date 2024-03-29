@@ -1123,6 +1123,12 @@ use_latest_tag = true
 prefix = "synd-term-v"
 query = "synd-term-v"
 
+[cargo-flamegraph]
+source = "github"
+github = "flamegraph-rs/flamegraph"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
