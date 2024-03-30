@@ -1,0 +1,5 @@
+[procs]
+source = "github"
+github = "dalance/procs"
+prefix = "v"
+use_max_tag = true
