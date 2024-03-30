@@ -1,6 +1,6 @@
 pkgbase = cargo-expand
 	pkgdesc = Subcommand to show result of macro expansion
-	pkgver = 1.0.80
+	pkgver = 1.0.81
 	pkgrel = 1
 	url = https://github.com/dtolnay/cargo-expand
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = cargo-expand
 	depends = cargo
 	depends = gcc-libs
 	options = !lto
-	source = cargo-expand-1.0.80.tar.gz::https://github.com/dtolnay/cargo-expand/archive/1.0.80.tar.gz
-	sha256sums = 838f46c569c31305ea7a9cb98abc5d44bd1e0c52df64093799fe1d060062f6cb
+	source = cargo-expand-1.0.81.tar.gz::https://github.com/dtolnay/cargo-expand/archive/1.0.81.tar.gz
+	sha256sums = bc990fdccc43f7935c75583ccb4a2175d1ceff809c005aa03f34dee8dcfd89d3
 
 pkgname = cargo-expand
