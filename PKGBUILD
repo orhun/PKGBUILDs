@@ -1,7 +1,8 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=hawkeye
-pkgver=5.2.1
+pkgver=5.4.0
 pkgrel=1
 pkgdesc="Simple license header checker and formatter"
 arch=('x86_64')
@@ -10,7 +11,7 @@ license=('Apache-2.0')
 depends=('gcc-libs')
 makedepends=('cargo-nightly')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('286af151aa69cfcf92074b3e84be12a7762987cf0629ece981efb86876e31ad0')
+sha256sums=('059aad6eaf831a049445ee2b82c435a5096ce8f2dedb3cd8e6984e3b91b5f11b')
 
 prepare() {
   cd "$pkgname-$pkgver"
