@@ -2,21 +2,21 @@
 # Maintainer: Felix Yan <felixonmars@archlinux.org>
 
 pkgname=trippy
-pkgver=0.9.0
+pkgver=0.10.0
 pkgrel=1
 pkgdesc='A network diagnostic tool'
 arch=('x86_64')
 url='https://trippy.cli.rs'
-license=('Apache')
+license=('Apache-2.0')
 depends=('gcc-libs' 'libcap')
 makedepends=('cargo')
 install=$pkgname.install
 source=("$pkgname-$pkgver.tar.gz::https://github.com/fujiapple852/trippy/archive/$pkgver.tar.gz")
-b2sums=('92135376948ad710f14a2c8326e938f5ae0fa47563aea588b678dc0e55752c73d56d0468623345e0240b5f6061ebf11efea0b309f33dc738b2895901fc422d4a')
+b2sums=('08cc2bc288b78fa205954db245c89fd5ce1966ac497dd8108feb816b737035f010ab5b92dda733962408ec039f4afff2d2c07505ed7f9ffe2577c545c5f0d161')
 
 prepare() {
   cd $pkgname-$pkgver
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir completions
 }
 
