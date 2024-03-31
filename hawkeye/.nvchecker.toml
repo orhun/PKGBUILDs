@@ -1,0 +1,5 @@
+[hawkeye]
+source = "github"
+github = "korandoru/hawkeye"
+prefix = "v"
+use_max_tag = true
