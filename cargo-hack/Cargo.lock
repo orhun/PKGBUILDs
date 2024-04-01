@@ -28,9 +28,9 @@ checksum = "50c26f1b3248d94c0526b371757e64ea5fe5d3463b232051622e9eb90db45696"
 
 [[package]]
 name = "cargo-config2"
-version = "0.1.22"
+version = "0.1.23"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "3108787cb889089c29b110a3a7165c7c942f081c91d46c477818c33202b2a9cb"
+checksum = "42c11223b5229031d9b4ad2125ac8794386a2891a5c02acc4240bc46dd3af4f9"
 dependencies = [
  "home",
  "serde",
@@ -40,7 +40,7 @@ dependencies = [
 
 [[package]]
 name = "cargo-hack"
-version = "0.6.23"
+version = "0.6.24"
 dependencies = [
  "anyhow",
  "build-context",
@@ -167,9 +167,9 @@ checksum = "01cda141df6706de531b6c46c3a33ecca755538219bd484262fa09410c13539c"
 
 [[package]]
 name = "memchr"
-version = "2.7.1"
+version = "2.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "523dc4f511e55ab87b694dc30d0f820d60906ef06413f93d4d7a1385599cc149"
+checksum = "6c8640c5d730cb13ebd907d8d04b52f55ac9a2eec55b440c8892f40d56c76c1d"
 
 [[package]]
 name = "nix"
@@ -280,9 +280,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "2.0.55"
+version = "2.0.57"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "002a1b3dbf967edfafc32655d0f377ab0bb7b994aa1d32c8cc7e9b8bf3ebb8f0"
+checksum = "11a6ae1e52eb25aab8f3fb9fca13be982a373b8f1157ca14b897a825ba4a2d35"
 dependencies = [
  "proc-macro2",
  "quote",
