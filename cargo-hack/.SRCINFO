@@ -1,6 +1,6 @@
 pkgbase = cargo-hack
 	pkgdesc = A cargo subcommand to provide various options useful for testing and CI
-	pkgver = 0.6.24
+	pkgver = 0.6.26
 	pkgrel = 1
 	url = https://github.com/taiki-e/cargo-hack
 	arch = x86_64
@@ -9,10 +9,10 @@ pkgbase = cargo-hack
 	makedepends = cargo
 	makedepends = git
 	depends = gcc-libs
-	source = cargo-hack::git+https://github.com/taiki-e/cargo-hack.git#commit=64499a33bf4a49f950f6840c5288880de912dcbc
+	source = cargo-hack::git+https://github.com/taiki-e/cargo-hack.git#commit=927604912ac055c281ec8caa8810ded05b3469f7
 	source = Cargo.lock
-	sha512sums = eb172904ebe0a95527bc0a2522ed56ea426d84d2d1b7dc3246ec6c9412b483d0293870137a3d44733eed6972144e5d7e3eef7fa0f493f78c4f8f87bee91383bd
-	sha512sums = dc8514055781731cb7107ab7a8099a4b3a7725112bea622458136203ae19ce71aa5f6e0b5f9fa6728e8923e335763511046b06d878c592249024b8d1ecb5cbf9
+	sha512sums = a87af95c9597ed5dd41fc0155fa6df38d6bcb865273576adb43eeae513d58ea0857612c8d4e819c1f2e458571cf782f01bd0004aee2a7a14512bc062d4322312
+	sha512sums = 965db70a6322e1bce2a3d3c057d9660d85ba078957d4f2b65677c898142423500c289a63386642c249c06bd745fcb47a29acd1177b113fff9c7623096d359149
 
 pkgname = cargo-hack
 	depends = gcc-libs
