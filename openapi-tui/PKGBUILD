@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=openapi-tui
-pkgver=0.6.1
+pkgver=0.7.1
 pkgrel=1
 pkgdesc="Terminal UI to list, browse and run APIs defined with OpenAPI spec"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha256sums=('f758512033f6fff5ba49f18aa5d4d2f0ec69dd0c4d92fd867071b47a2c246557')
+sha256sums=('19f83492d9fa205fd1d7e8abb9fbc9d8ebf8504c05ff6e515a0033ec0b2e0d81')
 options=('!lto')
 
 prepare() {
