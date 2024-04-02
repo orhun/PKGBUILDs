@@ -40,7 +40,7 @@ dependencies = [
 
 [[package]]
 name = "cargo-hack"
-version = "0.6.26"
+version = "0.6.27"
 dependencies = [
  "anyhow",
  "build-context",
