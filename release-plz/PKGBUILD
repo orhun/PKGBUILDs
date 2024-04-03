@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=release-plz
-pkgver=0.3.56
+pkgver=0.3.57
 pkgrel=1
 _commit=7a7fb5f9c31f06f32a49794cf9e761df33f8d4c6
 pkgdesc="Release Rust packages without using the command line"
@@ -12,7 +12,7 @@ depends=('gcc-libs' 'curl' 'libgit2' 'openssl')
 makedepends=('cargo' 'git')
 optdepends=('cargo-semver-checks: check for API breaking changes')
 source=("$pkgname::git+$url.git#commit=$_commit")
-sha512sums=('SKIP')
+sha512sums=('af85eca38b3691b79a53f717dc5df78a76251fd8a34abcfa60fecf48de5945ca8df78aced3184ded8b1a61bd3bf372544f0de358cd6418bac5dc5a97bfaac52a')
 options=('!lto')
 
 prepare() {
