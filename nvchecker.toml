@@ -1699,3 +1699,9 @@ source = "github"
 github = "lusingander/stu"
 use_latest_release = true
 prefix = "v"
+
+[terminusdm]
+source = "github"
+github = "sumoduduk/terminusdm"
+use_latest_release = true
+prefix = "v"
