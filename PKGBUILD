@@ -3,8 +3,8 @@
 # Contributor:  Po-An,Yang(Antonio) <yanganto gmail.com>
 
 pkgname=clipcat
-pkgver=0.16.4
-pkgrel=2
+pkgver=0.16.5
+pkgrel=1
 pkgdesc="A clipboard manager"
 arch=('x86_64')
 url="https://github.com/xrelkd/clipcat"
@@ -12,7 +12,7 @@ license=('GPL-3.0-only')
 depends=('gcc-libs')
 makedepends=('cargo' 'libgit2' 'protobuf')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('b8dee629c489066be8a15b8f4e9a4c1619a0fe1802b1abd07e4525b5f4038f4a')
+sha256sums=('3aae5f4427114b8ca939422baecabe8218b0891c8bd953becf1e5b2abe04569a')
 
 prepare() {
   cd "$pkgname-$pkgver"
