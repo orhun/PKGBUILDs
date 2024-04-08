@@ -3,22 +3,22 @@
 # Contributor: qubidt <qubidt at gmail dot com>
 
 pkgname=sniffnet
-pkgver=1.2.2
+pkgver=1.3.0
 pkgrel=1
 pkgdesc="Application to comfortably monitor your network traffic"
 arch=('x86_64')
 url="https://github.com/GyulyVGC/sniffnet"
-license=('Apache' 'MIT')
+license=('Apache-2.0' 'MIT')
 depends=('alsa-lib' 'fontconfig' 'libpcap' 'freetype2' 'glibc')
 makedepends=('cargo')
 install=$pkgname.install
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha512sums=('54f766fdea63e00b9156e9b03f55eedc38dbbd5a08b668fc84466cd6b2ba736fb1f570d907503664992ad3d7524bb4b481e100ada4e6198487b2bfed45805c56')
+sha512sums=('671900e75551770e96bcc3f7440911696d71f0972e64eae30ea42951a7376e0a439d68d1426c4c8fcde9e61ccd30e3f29e3a603f58db147115a07293a5206610')
 options=('!lto')
 
 prepare() {
 	cd "$pkgname-$pkgver"
-	cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+	cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
