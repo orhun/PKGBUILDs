@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=slumber
-pkgver=0.16.0
+pkgver=0.17.0
 pkgrel=1
 pkgdesc="Terminal-based REST client"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('dcc456997a53aec6942561b590b03bb947445b0d15d378b57ad13f8b8c087530')
+sha256sums=('7566317d6e7c7a670f2794293a85611faf06f25a25d5776e77a90032bea535ef')
 options=('!lto')
 
 prepare() {
