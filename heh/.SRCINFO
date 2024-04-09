@@ -1,0 +1,13 @@
+pkgbase = heh
+	pkgdesc = A terminal UI to edit bytes by the nibble
+	pkgver = 0.5.0
+	pkgrel = 1
+	url = https://github.com/ndd7xv/heh
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = heh-0.5.0.tar.gz::https://github.com/ndd7xv/heh/archive/refs/tags/v0.5.0.tar.gz
+	sha256sums = 2435ff96c5bbbef0605d666279f7ca1621d5cb09b9edfe57a9d307e8ab914813
+
+pkgname = heh
