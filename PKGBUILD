@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=heh
-pkgver=0.4.1
+pkgver=0.5.0
 pkgrel=1
 pkgdesc="A terminal UI to edit bytes by the nibble"
 arch=('x86_64')
@@ -9,12 +9,12 @@ url="https://github.com/ndd7xv/heh"
 license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
-source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('c44fc2ef6845080f9a022884dc864d5144636a3a9a7f4bdc8e1793a09d939704')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('2435ff96c5bbbef0605d666279f7ca1621d5cb09b9edfe57a9d307e8ab914813')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
