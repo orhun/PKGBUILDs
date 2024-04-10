@@ -1,20 +1,20 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=daktilo
-pkgver=0.5.0
+pkgver=0.6.0
 pkgrel=1
 pkgdesc="Turn your keyboard into a typewriter"
 arch=('x86_64')
 url="https://github.com/orhun/daktilo"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('gcc-libs' 'alsa-lib' 'libxtst' 'libxi')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('059318cba86996f08540167c77ac5711aa470083ab92415dab3a37b82be3d22426450609b6dc9dad133d4bc8be58aaea1c56e017d501c79ff80eb4afa55d5826')
+sha512sums=('58f2de4cd9c39e0c1e210e09ac2fd48d3411c756e2256b88f4b3515831759a00260fa23683e9f52f5032c52e3c903b4498fe1eac313c7e94c431270e638292ea')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir completions/
   mkdir man/
 }
