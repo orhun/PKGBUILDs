@@ -1,17 +1,17 @@
 pkgbase = daktilo
 	pkgdesc = Turn your keyboard into a typewriter
-	pkgver = 0.5.0
+	pkgver = 0.6.0
 	pkgrel = 1
 	url = https://github.com/orhun/daktilo
 	arch = x86_64
 	license = MIT
-	license = Apache
+	license = Apache-2.0
 	makedepends = cargo
 	depends = gcc-libs
 	depends = alsa-lib
 	depends = libxtst
 	depends = libxi
-	source = daktilo-0.5.0.tar.gz::https://github.com/orhun/daktilo/archive/v0.5.0.tar.gz
-	sha512sums = 059318cba86996f08540167c77ac5711aa470083ab92415dab3a37b82be3d22426450609b6dc9dad133d4bc8be58aaea1c56e017d501c79ff80eb4afa55d5826
+	source = daktilo-0.6.0.tar.gz::https://github.com/orhun/daktilo/archive/v0.6.0.tar.gz
+	sha512sums = 58f2de4cd9c39e0c1e210e09ac2fd48d3411c756e2256b88f4b3515831759a00260fa23683e9f52f5032c52e3c903b4498fe1eac313c7e94c431270e638292ea
 
 pkgname = daktilo
