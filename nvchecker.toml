@@ -1129,6 +1129,12 @@ github = "flamegraph-rs/flamegraph"
 use_latest_release = true
 prefix = "v"
 
+[havn]
+source = "github"
+github = "mrjackwills/havn"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
