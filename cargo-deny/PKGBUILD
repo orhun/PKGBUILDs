@@ -3,7 +3,7 @@
 # Contributor: Vlad Frolov <frolvlad@gmail.com>
 
 pkgname=cargo-deny
-pkgver=0.14.20
+pkgver=0.14.21
 pkgrel=1
 pkgdesc='Cargo plugin for linting your dependencies'
 arch=('x86_64')
@@ -15,7 +15,7 @@ options=(!lto)
 source=("$pkgname-$pkgver::git+$url.git#tag=$pkgver"
   "$pkgname-advisory-db::git+https://github.com/rustsec/advisory-db"
   "$pkgname-test-advisory-db::git+https://github.com/EmbarkStudios/test-advisory-db")
-sha256sums=('SKIP'
+sha256sums=('548eb775f954133fdc8d050fec3e49dc0c28001cbc137387db037a73fe418e51'
             'SKIP'
             'SKIP')
 
