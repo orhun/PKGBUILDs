@@ -1,0 +1,5 @@
+[xh]
+source = "github"
+github = "ducaale/xh"
+prefix = "v"
+use_max_tag = true
