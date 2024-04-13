@@ -3,7 +3,7 @@
 # Contributor: Wesley Moore <wes@wezm.net>
 
 pkgname=xh
-pkgver=0.19.4
+pkgver=0.22.0
 pkgrel=1
 pkgdesc="Friendly and fast tool for sending HTTP requests"
 arch=('x86_64')
@@ -13,16 +13,16 @@ depends=('gcc-libs' 'openssl')
 makedepends=('cargo')
 replaces=('ht-rs' 'ht')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('1ab3ede256d4f0fba965ad15c0446a48ff61524ef27d3a1067916b1359568778')
+sha256sums=('72f4d5e24165d8749433167e3ad3df8f26faafb250f1232acbe5192843e4157c')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
   cd "$pkgname-$pkgver"
-  CFLAGS+=" -ffat-lto-objects"
+  CFLAGS+=' -ffat-lto-objects'
   cargo build --frozen --release --features native-tls
 }
 
