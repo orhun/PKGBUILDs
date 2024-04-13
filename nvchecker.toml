@@ -1711,3 +1711,9 @@ source = "github"
 github = "sumoduduk/terminusdm"
 use_latest_release = true
 prefix = "v"
+
+[cute]
+source = "github"
+github = "PThorpe92/CuTE"
+use_max_tag = true
+prefix = "v"
