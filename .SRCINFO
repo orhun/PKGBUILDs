@@ -1,6 +1,6 @@
 pkgbase = fq
 	pkgdesc = Tool, language and decoders for inspecting binary data
-	pkgver = 0.9.0
+	pkgver = 0.11.0
 	pkgrel = 1
 	url = https://github.com/wader/fq
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = fq
 	makedepends = go
 	makedepends = git
 	depends = glibc
-	source = https://github.com/wader/fq/archive/v0.9.0/fq-0.9.0.tar.gz
-	sha256sums = 431e68e31bb47049872d793cf0f32468c0b02d23c3c812e10ce0e4498b11a36d
+	source = https://github.com/wader/fq/archive/v0.11.0/fq-0.11.0.tar.gz
+	sha256sums = 8b3a7d112323a11be5559959ff141f0ef9fca2b29f7cc34f060d5f360187dcde
 
 pkgname = fq
