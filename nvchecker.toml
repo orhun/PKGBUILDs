@@ -1717,3 +1717,9 @@ source = "github"
 github = "PThorpe92/CuTE"
 use_max_tag = true
 prefix = "v"
+
+[atac]
+source = "github"
+github = "Julien-cpsn/ATAC"
+use_max_tag = true
+prefix = "v"
