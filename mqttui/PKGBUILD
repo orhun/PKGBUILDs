@@ -1,8 +1,8 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=mqttui
-pkgver=0.20.0
-pkgrel=2
+pkgver=0.21.0
+pkgrel=1
 pkgdesc="Subscribe to a MQTT Topic or publish something quickly from the terminal"
 arch=('x86_64')
 url="https://github.com/EdJoPaTo/mqttui"
@@ -10,7 +10,7 @@ license=('GPL-3.0-or-later')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('f6b625ae76fcabb4b3c31b8b0302debc4df4d34934da6152dcc6f8d26a17a57d')
+sha256sums=('64453143e36f59a2fbb0dd67b02437b170d82fa15daf492cff2750cce0f5c126')
 options=('!lto')
 
 prepare() {
