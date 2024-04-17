@@ -1135,6 +1135,12 @@ github = "mrjackwills/havn"
 use_latest_release = true
 prefix = "v"
 
+[termscp]
+source = "github"
+github = "veeso/termscp"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
