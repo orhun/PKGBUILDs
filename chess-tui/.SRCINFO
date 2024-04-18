@@ -1,0 +1,13 @@
+pkgbase = chess-tui
+	pkgdesc = Play chess in your terminal
+	pkgver = 1.2.1
+	pkgrel = 1
+	url = https://github.com/thomas-mauran/chess-tui
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = chess-tui-1.2.1.tar.gz::https://github.com/thomas-mauran/chess-tui/archive/1.2.1.tar.gz
+	sha512sums = c4de17ec56aeb4e513be382eb7d58899a75dc32faa51053aa32e7cdaf10f9e77cc7b97a18da1d256a9e5c81fdaf9c23ce26f480ef954da5f8c88c5bfe87686a8
+
+pkgname = chess-tui
