@@ -1141,6 +1141,18 @@ github = "veeso/termscp"
 use_latest_release = true
 prefix = "v"
 
+[atac]
+source = "github"
+github = "Julien-cpsn/ATAC"
+use_max_tag = true
+prefix = "v"
+
+[chess-tui]
+source = "github"
+github = "thomas-mauran/chess-tui"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -1721,11 +1733,5 @@ prefix = "v"
 [cute]
 source = "github"
 github = "PThorpe92/CuTE"
-use_max_tag = true
-prefix = "v"
-
-[atac]
-source = "github"
-github = "Julien-cpsn/ATAC"
 use_max_tag = true
 prefix = "v"
