@@ -3,8 +3,8 @@
 # Contributor: Max Niederman <max@maxniederman.com>
 
 pkgname=ttyper
-pkgver=1.4.1
-pkgrel=2
+pkgver=1.5.0
+pkgrel=1
 pkgdesc="Terminal-based typing test"
 arch=('x86_64')
 url="https://github.com/max-niederman/ttyper"
@@ -12,7 +12,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('6a7354b9725d961e2ad2709fcbe110f0e4c712a3b6a688468420bb29f507dade0de4eace140deff0ff3eec62d239d3a9484be732a6f90d1ad9d5e7f07c39e401')
+sha512sums=('ee21ec8a5d6c9b0d066d881de8f1170ad7a57a12329b66da51283f68a24002309d846e7206170e7d85cce3078c12bc425b656dae7f0043b8141e16e3b4c96931')
 
 prepare() {
   cd "$pkgname-$pkgver"
