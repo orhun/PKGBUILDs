@@ -1,0 +1,13 @@
+pkgbase = ttyper
+	pkgdesc = Terminal-based typing test
+	pkgver = 1.4.1
+	pkgrel = 2
+	url = https://github.com/max-niederman/ttyper
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = ttyper-1.4.1.tar.gz::https://github.com/max-niederman/ttyper/archive/v1.4.1.tar.gz
+	sha512sums = 6a7354b9725d961e2ad2709fcbe110f0e4c712a3b6a688468420bb29f507dade0de4eace140deff0ff3eec62d239d3a9484be732a6f90d1ad9d5e7f07c39e401
+
+pkgname = ttyper
