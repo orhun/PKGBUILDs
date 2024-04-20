@@ -2,7 +2,7 @@
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=gitu
-pkgver=0.17.1
+pkgver=0.18.2
 pkgrel=1
 pkgdesc="A TUI Git client inspired by Magit"
 arch=('x86_64')
@@ -12,7 +12,8 @@ depends=('gcc-libs' 'libgit2')
 makedepends=('cargo')
 checkdepends=('git')
 source=("$url/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
-sha256sums=('23f925ec6450c4211aa72093cdb96ca17c768553390573b36671309497d996f2')
+sha256sums=('cd31114cc1c78b97c670a5de460870b334a7dbc568ac9385baef280044cb3c4f')
+options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
