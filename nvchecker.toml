@@ -1159,6 +1159,12 @@ github = "max-niederman/ttyper"
 use_latest_release = true
 prefix = "v"
 
+[twitch-tui]
+source = "github"
+github = "Xithrius/twitch-tui"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
