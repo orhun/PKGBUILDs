@@ -1,6 +1,6 @@
 pkgbase = clipcat
 	pkgdesc = A clipboard manager
-	pkgver = 0.16.6
+	pkgver = 0.17.0
 	pkgrel = 1
 	url = https://github.com/xrelkd/clipcat
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = clipcat
 	makedepends = libgit2
 	makedepends = protobuf
 	depends = gcc-libs
-	source = clipcat-0.16.6.tar.gz::https://github.com/xrelkd/clipcat/archive/refs/tags/v0.16.6.tar.gz
-	sha256sums = ce56c5b5a5bedb02cfb945ce74f7d32a0fc3272d02fe8cf73bbcfb2088b208a5
+	source = clipcat-0.17.0.tar.gz::https://github.com/xrelkd/clipcat/archive/refs/tags/v0.17.0.tar.gz
+	sha256sums = 9ad4aed9214d4c82340bd7c959f478055364c663537ed1ca159dd1175c8b0e38
 
 pkgname = clipcat
