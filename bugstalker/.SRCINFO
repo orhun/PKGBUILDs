@@ -1,0 +1,15 @@
+pkgbase = bugstalker
+	pkgdesc = Rust debugger for Linux x86-64
+	pkgver = 0.1.4
+	pkgrel = 1
+	url = https://github.com/godzie44/BugStalker
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = libunwind
+	options = !lto
+	source = bugstalker-0.1.4.tar.gz::https://github.com/godzie44/BugStalker/archive/v0.1.4.tar.gz
+	sha512sums = b536b8ecd059ddd9c9fc486ccc1000274e6a4c619fda16ff0ca2f890a6dfb58920841b6a2c240648f4fd3e71e1e9362e3a7c78df11ed8e0974c68a08947fc2ed
+
+pkgname = bugstalker
