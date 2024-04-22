@@ -1165,6 +1165,12 @@ github = "Xithrius/twitch-tui"
 use_latest_release = true
 prefix = "v"
 
+[bugstalker]
+source = "github"
+github = "godzie44/BugStalker"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
