@@ -1753,3 +1753,9 @@ source = "github"
 github = "PThorpe92/CuTE"
 use_max_tag = true
 prefix = "v"
+
+[parui]
+source = "github"
+github = "Vonr/parui"
+use_max_tag = true
+prefix = "v"
