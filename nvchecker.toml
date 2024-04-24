@@ -1171,6 +1171,12 @@ github = "godzie44/BugStalker"
 use_latest_release = true
 prefix = "v"
 
+[cargo-wizard]
+source = "github"
+github = "Kobzol/cargo-wizard"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
