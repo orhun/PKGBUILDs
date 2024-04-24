@@ -1,0 +1,13 @@
+pkgbase = cargo-wizard
+	pkgdesc = Cargo subcommand for configuring Cargo profile
+	pkgver = 0.2.2
+	pkgrel = 2
+	url = https://github.com/Kobzol/cargo-wizard
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = cargo-wizard-0.2.2.tar.gz::https://github.com/Kobzol/cargo-wizard/archive/v0.2.2.tar.gz
+	sha512sums = c962be3df790436933bd3ad331b2e0c85970bb7bd0962275e033dafc29142e3f3e78d8b7f7a45b842d201efd56fb133df387d810be6a2910bf20fde0570358b7
+
+pkgname = cargo-wizard
