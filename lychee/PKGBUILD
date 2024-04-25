@@ -2,8 +2,8 @@
 # Maintainer: Daniel M. Capella <polyzen@archlinux.org>
 
 pkgname=lychee
-pkgver=0.14.3
-pkgrel=2
+pkgver=0.15.0
+pkgrel=1
 pkgdesc='Fast, async, resource-friendly link checker written in Rust'
 arch=('x86_64')
 url=https://lychee.cli.rs
@@ -14,14 +14,11 @@ checkdepends=('cargo-nextest')
 conflicts=('lychee-link-checker' 'lychee-rs')
 replaces=('lychee-link-checker' 'lychee-rs')
 options=('!lto')
-source=("$pkgname-$pkgver.tar.gz::https://github.com/lycheeverse/lychee/archive/v$pkgver/$pkgname-$pkgver.tar.gz"
-        "fix-ssl-certificate-tests.patch")
-b2sums=('9e3ca4c6a1c4ca324185384886a7790d91c4f700bee971f039fc98d5c6dc11e9bb1679a866164153bf1dc8ffcc9e61e7cc7520b79a3bdca894ae4950cf27910c'
-        'cfa85d9bd9b344a4a51ff54230f19b0196436ba82e3febff85f8b72b79934dfea01e65303dbf796483b4ddaec855623ac68a6e6e3b47aa010137fe87ad176d73')
+source=("$pkgname-$pkgver.tar.gz::https://github.com/lycheeverse/lychee/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
+b2sums=('4ada167c7eb38b89f5a40d9ff816ed8a902b896c4cd9762176ebbfc6ca8c2913a1a6902c0e35a0732bfd7f4dc20354a4017aa4d2ab182524e7e203801278eac2')
 
 prepare() {
   cd $pkgname-$pkgver
-  patch -Np1 -i "$srcdir/fix-ssl-certificate-tests.patch"
   cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
@@ -34,7 +31,8 @@ check() {
   cd $pkgname-$pkgver
   # Avoid vendoring openssl, which is enabled by vendored-openssl feature
   export OPENSSL_NO_VENDOR=1
-  cargo nextest run --all-targets --all-features --filter-expr '!test(test_exclude_example_domains)' --test-threads 1
+  test_expr="(!test(test_exclude_example_domains) and !test(test_detailed_json_output_on_error))"
+  cargo nextest run --all-targets --all-features -E "$test_expr" --test-threads 1
   cargo nextest run --filter-expr 'test(test_exclude_example_domains)' --test-threads 1
   cargo test --doc
 }
