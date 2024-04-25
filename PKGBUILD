@@ -2,8 +2,8 @@
 # Contributor: Mahor Foruzesh <mahor1221 at gmail dot com>
 
 pkgname=rye
-_commit=e1b4f2a290950652d75412db22e9b6370ceb3fef
-pkgver=0.32.0
+_commit=58523f69f6d6762af152820110e918354eefcfdc
+pkgver=0.33.0
 pkgrel=1
 pkgdesc="An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch"
 arch=('x86_64')
@@ -17,21 +17,18 @@ depends=(
 	libxcrypt-compat
 )
 makedepends=('cargo' 'git')
-source=("$pkgname::git+$url.git#commit=$_commit"
-        "cargo-lock.patch")
-sha512sums=('92465cf45a42745771bda8b5274536f2f9ea3f8b100423dc906aa5c87abf3c009caa7cfc0ab95cf6c67840f0a22d2d20db16c9b093f38fb578d77896e1d8ca00'
-            'c4f61eec42614aed89a4d70ed7cdfeb6e11a78598f372d8614fb8a1f098850daa6405dc1de5bcc8329d6a0958e4ca55f9a1e3d829e5f7b2b964c252744a32bd1')
+source=("$pkgname-$pkgver::git+$url.git#commit=$_commit")
+sha512sums=('808fb89ccc6adf9bdb0c1816df3d49f84f859aa406c21ea788b6cd9a902eccd6d7a4d90e16d5caaff6750900e388be6ede26aa562ebd6fe3a946b6b2bd10ee9a')
 options=('!lto')
 
 prepare() {
-	cd "$pkgname"
-	patch -Np1 -i "$srcdir/cargo-lock.patch"
+	cd "$pkgname-$pkgver"
 	cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 	mkdir completions
 }
 
 build() {
-	cd "$pkgname"
+	cd "$pkgname-$pkgver"
 	export OPENSSL_NO_VENDOR=1
 	cargo build --frozen --release
 	local compgen="target/release/$pkgname self completion -s"
@@ -42,13 +39,13 @@ build() {
 }
 
 check() {
-	cd "$pkgname"
+	cd "$pkgname-$pkgver"
 	export OPENSSL_NO_VENDOR=1
 	cargo test --frozen
 }
 
 package() {
-	cd "$pkgname"
+	cd "$pkgname-$pkgver"
 	install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
 	install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
 	install -Dm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
