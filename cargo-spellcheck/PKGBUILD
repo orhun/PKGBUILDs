@@ -2,21 +2,21 @@
 # Contributor: Sanpi <sanpi+aur@homecomputing.fr>
 
 pkgname=cargo-spellcheck
-pkgver=0.13.2
+pkgver=0.14.0
 pkgrel=1
 pkgdesc="Checks all your documentation for spelling and grammar mistakes"
 arch=('x86_64')
 url="https://github.com/drahnr/cargo-spellcheck"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('cargo' 'hunspell')
 makedepends=('clang' 'hunspell-en_US')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('b567614f5dcb9e0a9f39b18f59266363b0b24713b0a576eaec9553218e6f9332')
+sha256sums=('1c3a80ab9cf604f605f4e3fb304acc529f68367edef7f0d041a871c371f6ebdd')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir -p completions
 }
 
