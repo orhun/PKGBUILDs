@@ -5,7 +5,7 @@
 
 pkgname=yazi
 pkgver=0.2.5
-pkgrel=1
+pkgrel=2
 pkgdesc="Blazing fast terminal file manager written in Rust, based on async I/O"
 url="https://github.com/sxyazi/yazi"
 arch=("x86_64")
@@ -34,6 +34,7 @@ prepare() {
 build() {
   cd "$pkgname-$pkgver"
   VERGEN_GIT_SHA="Arch Linux" YAZI_GEN_COMPLETIONS=true cargo build --release --frozen
+  YAZI_GEN_COMPLETIONS=true cargo build --release -p "$pkgname-cli"
 }
 
 check() {
@@ -44,6 +45,7 @@ check() {
 package() {
   cd "$pkgname-$pkgver"
   install -Dm755 "target/release/$pkgname" "$pkgdir/usr/bin/$pkgname"
+  install -Dm755 "target/release/ya" "$pkgdir/usr/bin/ya"
   install -Dm644 "LICENSE" "$pkgdir/usr/share/licenses/$pkgname/LICENCE"
   install -Dm644 "README.md" "$pkgdir/usr/share/doc/$pkgname/README.md"
   install -Dm644 "assets/yazi.desktop" "$pkgdir/usr/share/applications/yazi.desktop"
