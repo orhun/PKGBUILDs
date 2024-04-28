@@ -4,7 +4,7 @@
 # Contributor: Daniel M. Capella <polyzen@archlinux.org>
 
 pkgname=broot
-pkgver=1.36.1
+pkgver=1.37.0
 pkgrel=1
 pkgdesc='Fuzzy Search + tree + cd'
 arch=('x86_64')
@@ -14,7 +14,7 @@ depends=('gcc-libs' 'zlib' 'libgit2' 'libxcb')
 makedepends=('rust')
 options=('!lto')
 source=("https://github.com/Canop/broot/archive/v$pkgver/$pkgname-v$pkgver.tar.gz")
-sha256sums=('b52e60a86e3ca38931cf8ed0ccbd4138f12b733c2459ea3088c267a98b8a555b')
+sha256sums=('59335d101b943a7907ceb1ef2d4cf29e755cdf062d3459ebfc294965d4be0e7d')
 
 prepare() {
   cd $pkgname-$pkgver
