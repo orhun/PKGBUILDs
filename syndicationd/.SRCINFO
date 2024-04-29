@@ -1,6 +1,6 @@
 pkgbase = syndicationd
 	pkgdesc = A TUI feed viewer
-	pkgver = 0.2.2
+	pkgver = 0.2.3
 	pkgrel = 1
 	url = https://github.com/ymgyt/syndicationd
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = syndicationd
 	makedepends = cargo
 	depends = gcc-libs
 	options = !lto
-	source = syndicationd-0.2.2.tar.gz::https://github.com/ymgyt/syndicationd/archive/synd-term-v0.2.2.tar.gz
-	sha256sums = a7e42160bb934c269d928d74eac37adf95fa9315cde70aa65e86b374deb837e5
+	source = syndicationd-0.2.3.tar.gz::https://github.com/ymgyt/syndicationd/archive/synd-term-v0.2.3.tar.gz
+	sha256sums = eeec5f2e035aca135098e1fc2beb9dd0225a67f6376d3333bd99b70d9b707e62
 
 pkgname = syndicationd
