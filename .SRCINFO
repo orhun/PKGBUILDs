@@ -1,6 +1,6 @@
 pkgbase = lychee
 	pkgdesc = Fast, async, resource-friendly link checker written in Rust
-	pkgver = 0.15.0
+	pkgver = 0.15.1
 	pkgrel = 1
 	url = https://lychee.cli.rs
 	arch = x86_64
@@ -15,7 +15,7 @@ pkgbase = lychee
 	replaces = lychee-link-checker
 	replaces = lychee-rs
 	options = !lto
-	source = lychee-0.15.0.tar.gz::https://github.com/lycheeverse/lychee/archive/v0.15.0/lychee-0.15.0.tar.gz
-	b2sums = 4ada167c7eb38b89f5a40d9ff816ed8a902b896c4cd9762176ebbfc6ca8c2913a1a6902c0e35a0732bfd7f4dc20354a4017aa4d2ab182524e7e203801278eac2
+	source = lychee-0.15.1.tar.gz::https://github.com/lycheeverse/lychee/archive/v0.15.1/lychee-0.15.1.tar.gz
+	b2sums = 5d9895468dd6ab10ffc37e9a341bec96f3a927e9be246d58f6dbb9e63e8202bcc4688ccbffd01e90c69229e48cfe473129b800f99ef657c33cf67180d2384067
 
 pkgname = lychee
