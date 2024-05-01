@@ -4,7 +4,7 @@
 # Contributor: Hao Long <aur@esd.cc>
 
 pkgname=rustscan
-pkgver=2.2.2
+pkgver=2.2.3
 pkgrel=1
 pkgdesc='A modern port scanner'
 arch=('x86_64')
@@ -14,9 +14,9 @@ depends=('gcc-libs' 'nmap')
 makedepends=('git' 'cargo')
 checkdepends=('python')
 options=('!lto')
-_commit=dcc558cb43b9d966bb3ce23fae534ed075ebec03
+_commit=5328bfc8b00c99163edf770e859960280d55360b
 source=("$pkgname::git+$url#commit=$_commit")
-b2sums=('d817dba3561d538b6b1d44803f7176e14d60b95999d9854ea96c763705760030444f9fa8f71516663ec0aac085a88a49a148a3aa29737e5bb36da34480e509e3')
+b2sums=('960a175f59406d502d3b30dd2b9d13f5e152bdac1cd6e230e06c5b2291ffb254553e7c4163fcc40d9f3a65067823e041f7c95782e2f2299b50c401221a1738c5')
 
 pkgver() {
   cd "$pkgname"
