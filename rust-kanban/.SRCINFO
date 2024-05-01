@@ -1,0 +1,14 @@
+pkgbase = rust-kanban
+	pkgdesc = A kanban board for the terminal
+	pkgver = 0.9.5
+	pkgrel = 1
+	url = https://github.com/yashs662/rust_kanban
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = openssl
+	source = rust-kanban-0.9.5.tar.gz::https://github.com/yashs662/rust_kanban/archive/v0.9.5.tar.gz
+	sha512sums = 3e8b8a3f68bcfaae0286c9bce88247e6cb57d1d77f832884ffc484c9bf55dcbf74a99b6a66b41d32493ef5d48b466c0984d5a04e6b2fa386cd2c4131d7b75e94
+
+pkgname = rust-kanban
