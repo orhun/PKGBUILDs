@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=atac
-pkgver=0.14.0
+pkgver=0.15.0
 pkgrel=1
 pkgdesc="A simple API client (postman like) in your terminal"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('82b6e04965e901d2b635bccbbb9d2a42ef04c777dfe8b79174b5cee47d30986cef2b26c1b1959783874d994703724f303a2f890675ac68ae6ecd2862d8938ca7')
+sha512sums=('74b23b1835c2d0a4ee7325867e6844619902d0f3815a96389686034ab44076ac603103c6d2b733096ebaede9aa892e1b4c2409de6bca5e411158194e05716b66')
 options=('!lto')
 
 prepare() {
