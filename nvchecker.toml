@@ -1177,7 +1177,7 @@ github = "Kobzol/cargo-wizard"
 use_max_tag = true
 prefix = "v"
 
-[rust_kanban]
+[rust-kanban]
 source = "github"
 github = "yashs662/rust_kanban"
 use_max_tag = true
