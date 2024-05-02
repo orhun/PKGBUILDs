@@ -1,0 +1,15 @@
+pkgbase = zenith
+	pkgdesc = Terminal system monitor with histograms
+	pkgver = 0.14.1
+	pkgrel = 1
+	url = https://github.com/bvaisvil/zenith
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = clang
+	depends = gcc-libs
+	optdepends = nvidia-utils
+	source = zenith-0.14.1.tar.gz::https://github.com/bvaisvil/zenith/archive/0.14.1.tar.gz
+	sha256sums = 73d704b3cbf93506c22f3a7d98ae1a75011434a27a978dd0a7b6b30c7794423b
+
+pkgname = zenith
