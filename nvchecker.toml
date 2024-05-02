@@ -1183,6 +1183,12 @@ github = "yashs662/rust_kanban"
 use_max_tag = true
 prefix = "v"
 
+[systemctl-tui]
+source = "github"
+github = "rgwood/systemctl-tui"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
