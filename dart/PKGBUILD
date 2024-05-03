@@ -8,8 +8,8 @@
 # Contributor: Julien Nicoulaud <julien.nicoulaud@gmail.com>
 
 pkgname=dart
-pkgver=3.3.3
-_commit=c09cb46304325cc59890ef685d33f5e022da047e # https://github.com/dart-lang/sdk/commits/stable/
+pkgver=3.3.4
+_commit=d70d99a911b3316ca0d442caaf24fe57afe59893 # https://github.com/dart-lang/sdk/commits/stable/
 pkgrel=1
 pkgdesc='The dart programming language SDK'
 arch=('x86_64')
@@ -30,7 +30,7 @@ source=(
   "git+https://chromium.googlesource.com/chromium/tools/depot_tools.git"
   "DEPS.patch"
 )
-sha256sums=('aaba03bb91dd3fbabaf880e21a7a40f605a71fdeb4ab66629090be3f7123ee84'
+sha256sums=('3271d79a9861d01e157cd368bf28acf7b7f664a821c984b67dfd88ff406d6881'
             'SKIP'
             'db6576a70c6719e26795b9824546058b79fefa64158c1002d36546d826084403')
 
