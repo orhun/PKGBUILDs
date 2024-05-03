@@ -2,7 +2,7 @@
 
 pkgname=bugstalker
 _pkgname=BugStalker
-pkgver=0.1.4
+pkgver=0.1.5
 pkgrel=1
 pkgdesc="Rust debugger for Linux x86-64"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('gcc-libs' 'libunwind')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('b536b8ecd059ddd9c9fc486ccc1000274e6a4c619fda16ff0ca2f890a6dfb58920841b6a2c240648f4fd3e71e1e9362e3a7c78df11ed8e0974c68a08947fc2ed')
+sha512sums=('489930dfb3640906867479daa3013e299507eb86d683080e7471b1b97d85ecfaf1bb6a47d4f16744ad3224c25a35e20263ba654dd68ac9a54988917c50f07a61')
 options=('!lto')
 
 prepare() {
