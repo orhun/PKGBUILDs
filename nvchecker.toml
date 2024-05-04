@@ -1189,6 +1189,12 @@ github = "rgwood/systemctl-tui"
 use_max_tag = true
 prefix = "v"
 
+[jwt-ui]
+source = "github"
+github = "jwt-rs/jwt-ui"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
