@@ -1201,6 +1201,12 @@ github = "ifd3f/caligula"
 use_latest_release = true
 prefix = "v"
 
+[cotp]
+source = "github"
+github = "replydev/cotp"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
