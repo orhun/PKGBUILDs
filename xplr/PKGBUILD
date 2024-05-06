@@ -2,7 +2,7 @@
 # Contributor: Maxim Baz <archlinux at maximbaz dot com>
 
 pkgname=xplr
-pkgver=0.21.7
+pkgver=0.21.8
 pkgrel=1
 pkgdesc="A hackable, minimal, fast TUI file explorer"
 arch=('x86_64')
@@ -12,7 +12,7 @@ depends=('gcc-libs' 'hicolor-icon-theme' 'luajit')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz"
         "$pkgname-$pkgver.tar.gz.asc::$url/releases/download/v${pkgver}/source.tar.gz.asc")
-sha512sums=('76486fe388e2a066071ed59c463244a91474106739957637783c601c9a9284931217a9bdff3ab04641d060c1a4b2f5193a54d68ca3beaa2880c1a166b88a9193'
+sha512sums=('e98f52762aa1b8d8d5c061bc0d10615328d9ba99bfce306ad7a302605798f54d4834a85203a773ca505acd875843414d3834fd335f2176ee88545bb4113a79d9'
             'SKIP')
 validpgpkeys=('D59CA14710C17C6B24717AF90F8EF5258DC38077') # Arijit Basu (June 3, 2021)
 options=('!lto')
