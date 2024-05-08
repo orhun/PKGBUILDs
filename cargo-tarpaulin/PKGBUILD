@@ -2,8 +2,8 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-tarpaulin
-_tag=895bd941a8e5383429b584770da720e4d4817f04
-pkgver=0.29.1
+_tag=ddac75d2c7539498d22129af2b8c359824431fae
+pkgver=0.29.2
 pkgrel=1
 pkgdesc="Tool to analyse test coverage of cargo projects"
 arch=('x86_64')
@@ -21,7 +21,7 @@ depends=(
 )
 makedepends=('git')
 source=("$pkgname-$pkgver::git+$url.git#tag=$pkgver")
-b2sums=('38a6c7efdaf6fbb7561b0658712465ab52c91fdd6bd2e6c86c488ef94fb99f81f72b8cb6dd9cc1a5642491e94cba8021ba916837dc0c76f5f143e8b09da2a4b2')
+b2sums=('29b63be22e330929b29f4b9b8fb5bed9488f98cd6a8f3035038d71ef7a07abe57397a2c9a0414074f1931d28d2b40c937c30900e3baa99d05a7d81efda666834')
 
 prepare() {
   cd "$pkgname-$pkgver"
