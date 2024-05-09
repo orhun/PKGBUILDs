@@ -1207,6 +1207,12 @@ github = "replydev/cotp"
 use_latest_release = true
 prefix = "v"
 
+[tracexec]
+source = "github"
+github = "kxxt/tracexec"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
