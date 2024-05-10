@@ -1,0 +1,14 @@
+pkgbase = blendr
+	pkgdesc = The hacker's BLE (bluetooth low energy) browser terminal app
+	pkgver = 1.3.3
+	pkgrel = 1
+	url = https://github.com/dmtrKovalenko/blendr
+	arch = x86_64
+	license = BSD-3-Clause
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	source = blendr-1.3.3.tar.gz::https://github.com/dmtrKovalenko/blendr/archive/v1.3.3.tar.gz
+	sha512sums = e6a582cd9e9492531fa2944f5efb932d2d4e812d4fefd7b19d6d941936054f46c679b4fd183b3c93b16060436515b15fb493656b9b91be16c39f63f93a97866b
+
+pkgname = blendr
