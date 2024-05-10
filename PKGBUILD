@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=rust-kanban
-pkgver=0.9.5
+pkgver=0.9.6
 pkgrel=1
 pkgdesc='A kanban board for the terminal'
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs' 'openssl')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('3e8b8a3f68bcfaae0286c9bce88247e6cb57d1d77f832884ffc484c9bf55dcbf74a99b6a66b41d32493ef5d48b466c0984d5a04e6b2fa386cd2c4131d7b75e94')
+sha512sums=('1e337f88213066c970f87e0cd26a53c10d1fbbefcdf8f7867a9672bf29225ca108151f8c1b7702df45094b3dcab7b9442add507eb230d0850b5c191fa29301dd')
 
 prepare() {
   cd "${pkgname/-/_}-${pkgver}"
