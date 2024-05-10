@@ -1213,6 +1213,12 @@ github = "kxxt/tracexec"
 use_latest_release = true
 prefix = "v"
 
+[blendr]
+source = "github"
+github = "dmtrKovalenko/blendr"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
