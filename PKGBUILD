@@ -2,27 +2,27 @@
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=git-cliff
-pkgver=2.2.1
+pkgver=2.2.2
 pkgrel=1
 pkgdesc="A highly customizable changelog generator"
 arch=('x86_64')
 url="https://github.com/orhun/git-cliff"
 license=('MIT' 'Apache-2.0')
-depends=('gcc-libs' 'zlib' 'libgit2.so')
+depends=('gcc-libs' 'glibc' 'zlib' 'libgit2')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('3bdfcb735e055b0499352618c869b4316519feefafde525fdeab579a53559ec69a939fcc04059b20ec11b81cb64a88bffbd1dd6730865ca1b1105d6476187eb4')
+sha512sums=('f9b21fe188a7bf729e82d4b1828649e938f10eaaee5a164963a8a109fdeaeb5f6148fe0e8cadf0c59e4cfb18759eb7a2c74cb4c7a7a84a2d730c1f9a2eb97f41')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  mkdir completions/
-  mkdir man/
+  mkdir -p completions/
+  mkdir -p man/
   cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
   cd "$pkgname-$pkgver"
-  CFLAGS+=" -ffat-lto-objects"
+  CFLAGS+=' -ffat-lto-objects'
   cargo build --release --frozen --no-default-features --features github
   OUT_DIR=completions/ "./target/release/$pkgname-completions"
   OUT_DIR=man/ "./target/release/$pkgname-mangen"
@@ -30,10 +30,11 @@ build() {
 
 check() {
   cd "$pkgname-$pkgver"
-  cargo test --frozen -- --skip "git_log" --skip "git_tags" --skip "git_upstream_remote"
+  cargo test --frozen -- --skip "repo::test"
 }
 
 package() {
+  depends+=(libgit2.so libz.so)
   cd "$pkgname-$pkgver"
   install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
   install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
