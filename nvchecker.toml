@@ -1219,6 +1219,12 @@ github = "dmtrKovalenko/blendr"
 use_latest_release = true
 prefix = "v"
 
+[bpftop]
+source = "github"
+github = "Netflix/bpftop"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
