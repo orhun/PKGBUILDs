@@ -1,0 +1,16 @@
+pkgbase = taskwarrior-tui
+	pkgdesc = A terminal user interface for taskwarrior
+	pkgver = 0.26.2
+	pkgrel = 1
+	url = https://github.com/kdheepak/taskwarrior-tui
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = git
+	depends = task
+	source = taskwarrior-tui-0.26.2.tar.gz::https://github.com/kdheepak/taskwarrior-tui/archive/v0.26.2.tar.gz
+	source = git+https://github.com/kdheepak/taskwarrior-testdata
+	sha256sums = 3e3d56d10eaec912138aede0350be9eeb303c7f4d43e7aa3e0562764c6878062
+	sha256sums = SKIP
+
+pkgname = taskwarrior-tui
