@@ -3,7 +3,7 @@
 
 pkgname=twitch-tui
 _pkgname=twt
-pkgver=2.6.7
+pkgver=2.6.8
 pkgrel=1
 pkgdesc="Twitch chat in the terminal"
 arch=('x86_64')
@@ -12,7 +12,7 @@ license=('MIT' 'Apache-2.0')
 depends=('gcc-libs' 'openssl')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('986c74a006acaf72407d114171b719f1ba88ac32d77583777206648c2464ccd6f632f3b737135e4b95c985b599c82eb0c908f4a5f72d13fec802dffd4bf225a8')
+sha512sums=('53ab19be7a414e51a74faff39b30e4f272b61955bf2b3b76aaea9663663fc52e3886572f0965226fdfde5cf6bde71b882e8ee6b92811b7c7ca008ff5818bfa0a')
 options=('!lto')
 
 prepare() {
