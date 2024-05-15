@@ -1,6 +1,6 @@
 pkgbase = tracexec
 	pkgdesc = A small utility for tracing execve{,at} and pre-exec behavior
-	pkgver = 0.2.1
+	pkgver = 0.2.2
 	pkgrel = 1
 	url = https://github.com/kxxt/tracexec
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = tracexec
 	makedepends = cargo-about
 	makedepends = git
 	depends = gcc-libs
-	source = tracexec-0.2.1::git+https://github.com/kxxt/tracexec.git#tag=v0.2.1
-	b2sums = 93ad6c31f31fd18b40e9409ecc2d649ccd07120e4485c6dd33412ae68c38a8b2bf3fff69695f4d6931380f0fdeec21b053eb45f9521ec3037a789046d2cc09c0
+	source = tracexec-0.2.2::git+https://github.com/kxxt/tracexec.git#tag=v0.2.2
+	b2sums = 3b997bc595f599da759a5d39eccbdf849b2f30a090bf6f960ada6b5aa829e06166d899b8388d775dff8ccfe591abb15f7802527b8273e1fe4833ad97c1462212
 
 pkgname = tracexec
