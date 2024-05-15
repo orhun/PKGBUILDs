@@ -3,7 +3,7 @@
 
 pkgname=xplr
 pkgver=0.21.8
-pkgrel=1
+pkgrel=2
 pkgdesc="A hackable, minimal, fast TUI file explorer"
 arch=('x86_64')
 url="https://github.com/sayanarijit/xplr"
@@ -17,15 +17,10 @@ sha512sums=('e98f52762aa1b8d8d5c061bc0d10615328d9ba99bfce306ad7a302605798f54d483
 validpgpkeys=('D59CA14710C17C6B24717AF90F8EF5258DC38077') # Arijit Basu (June 3, 2021)
 options=('!lto')
 
-prepare() {
-  cd "$pkgname-$pkgver"
-  sed -i "s/features = \['luajit', 'vendored', 'serialize', 'send'\]/features = \['luajit', 'serialize', 'send'\]/g" Cargo.toml
-  cargo update -p mlua
-}
-
 build() {
   cd "$pkgname-$pkgver"
-  cargo build --locked --release
+  # disable vendored-lua feature, the same below
+  cargo build --locked --release --no-default-features
 }
 
 check() {
@@ -33,8 +28,8 @@ check() {
 
   # unit tests need the binary, so build it first.
   # building in debug mode (both bin and tests) in order to not overwrite the binary produced in build() that we will later package
-  cargo build --locked
-  cargo test --locked
+  cargo build --locked --no-default-features
+  cargo test --locked --no-default-features
 }
 
 package() {
