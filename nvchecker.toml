@@ -1813,3 +1813,9 @@ source = "github"
 github = "Vonr/parui"
 use_max_tag = true
 prefix = "v"
+
+[jirust]
+source = "github"
+github = "Code-Militia/jirust"
+use_latest_release = true
+prefix = "v"
