@@ -1,9 +1,10 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Contributor: fossdd <fossdd@pwned.life>
 # Contributor: Jose Fernandez <josef@netflix.com>
 
 pkgname=bpftop
-pkgver=0.5.0
-pkgrel=2
+pkgver=0.5.1
+pkgrel=1
 pkgdesc="Dynamic real-time view of running eBPF programs"
 url='https://github.com/Netflix/bpftop'
 license=('Apache-2.0')
@@ -11,7 +12,7 @@ arch=('x86_64')
 depends=('libelf' 'gcc-libs' 'zlib')
 makedepends=('cargo' 'clang')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.zip")
-sha256sums=('f22431b9da320a3421c7fca17be1068e5f6d5797bd2cfda6caab10dc24723dd9')
+sha256sums=('8b82869af81a4e4709059c200bae99e8b7bd9648d1772ef45ee63f07f90c39a2')
 options=('!lto')
 
 prepare() {
