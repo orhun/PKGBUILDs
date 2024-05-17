@@ -1825,3 +1825,9 @@ source = "github"
 github = "Code-Militia/jirust"
 use_latest_release = true
 prefix = "v"
+
+[wiper]
+source = "github"
+github = "ikebastuz/wiper"
+use_latest_release = true
+prefix = "v"
