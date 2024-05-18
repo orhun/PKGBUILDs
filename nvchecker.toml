@@ -1231,6 +1231,12 @@ github = "henriklovhaug/md-tui"
 use_latest_release = true
 prefix = "v"
 
+[flawz]
+source = "github"
+github = "orhun/flawzc"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
