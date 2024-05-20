@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=caligula
-pkgver=0.4.4
+pkgver=0.4.6
 pkgrel=1
 pkgdesc="A user-friendly, lightweight TUI for disk imaging"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('GPL-3.0')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('8734b66d9c738076053bf5a707a0811c593b0920e9b87e7be0a4172c77b43ccde7185f552c03726d03151dbb7e01011092eb00512db800a83cd40c3c1efef35d')
+sha512sums=('41309639ea78d3377ae9b64dbefa34d482824e39f99afa9d9e63b123107fdf02384376314937466a02428d66cbd684914ffd7fc9c95c7c7cdf92e2f7b6c85fe6')
 options=('!lto')
 
 prepare() {
