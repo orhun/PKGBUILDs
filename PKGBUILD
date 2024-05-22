@@ -2,7 +2,7 @@
 # Contributor: kxxt <rsworktech at outlook dot com>
 
 pkgname=tracexec
-pkgver=0.3.0
+pkgver=0.3.1
 pkgrel=1
 pkgdesc="A small utility for tracing execve{,at} and pre-exec behavior"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('GPL-2.0-or-later')
 depends=('gcc-libs')
 makedepends=('cargo' 'cargo-about' 'git')
 source=("$pkgname-$pkgver::git+https://github.com/kxxt/tracexec.git#tag=v$pkgver")
-b2sums=('d06df4fc6e42ef302fa5a07e232111f93226b2b5958082f44c75cf8965586778b96eb4ba79211ebddd80ae1f36574e502f883c4dad78ce24c17ae5f9c6fc87d2')
+b2sums=('e451e2fd838964aed48b1c18e263c5e1a97cf29ee3f3bd2fd6edf0cd467157d0d855c2f293e458ffb382dae7c071c8279c000d4e7bca75325d796c333536e12d')
 
 prepare() {
   cd "$pkgname-$pkgver"
