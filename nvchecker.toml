@@ -1837,3 +1837,9 @@ source = "github"
 github = "ikebastuz/wiper"
 use_latest_release = true
 prefix = "v"
+
+[get_blessed_rs]
+source = "github"
+github = "josueBarretogit/get_blessed_rs"
+use_latest_release = true
+prefix = "v"
