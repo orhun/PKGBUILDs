@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=md-tui
-pkgver=0.7.3
+pkgver=0.8.0
 pkgrel=1
 pkgdesc="Markdown renderer in the terminal"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('AGPL-3.0-only')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('5e180c41a63c6565de5b27a64018fa83ec84d6caefd91c212806f54a592f832f')
+sha256sums=('cfddd04034756162a87c048426828d0011e43bd30fc538fed0d44de06f2560b5')
 options=('!lto')
 
 prepare() {
