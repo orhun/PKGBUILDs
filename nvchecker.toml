@@ -1237,6 +1237,12 @@ github = "orhun/flawzc"
 use_latest_release = true
 prefix = "v"
 
+[presenterm]
+source = "github"
+github = "mfontanini/presenterm"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
