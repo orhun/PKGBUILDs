@@ -1,6 +1,6 @@
 pkgbase = jwt-ui
 	pkgdesc = A command line UI for decoding/encoding JSON Web Tokens
-	pkgver = 1.1.0
+	pkgver = 1.2.0
 	pkgrel = 1
 	url = https://github.com/jwt-rs/jwt-ui
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = jwt-ui
 	makedepends = cargo
 	depends = gcc-libs
 	options = !lto
-	source = jwt-ui-1.1.0.tar.gz::https://github.com/jwt-rs/jwt-ui/archive/v1.1.0.tar.gz
-	sha512sums = 2a63f633700df8dd9ea209dadbf4ab7b0c1c3e81dcf2e3975e78482176ee22e6c8ada45cf2097cbab29d9825c8804469ba12be6d1559ab6583863940933eb6ef
+	source = jwt-ui-1.2.0.tar.gz::https://github.com/jwt-rs/jwt-ui/archive/v1.2.0.tar.gz
+	sha512sums = ab7d35085fc6fc33558fd73b2081cda5740f992b93ee0db32f793a59d5895b9f9c07775b7f3f7931099de631cb4351614d605a1d45f7b159a427c449dace02e4
 
 pkgname = jwt-ui
