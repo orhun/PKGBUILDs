@@ -2,36 +2,35 @@
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=gfold
-_commit=f1c0887e52cba5c464dd1de0bff14c4ae4f5287f
-pkgver=4.4.1
+pkgver=4.5.0
 pkgrel=1
 pkgdesc="A CLI tool to help keep track of Git repositories"
 arch=('x86_64')
 url="https://github.com/nickgerace/gfold"
-license=('Apache')
-depends=('libgit2')
+license=('Apache-2.0')
+depends=('gcc-libs' 'glibc' 'libgit2')
 makedepends=('cargo' 'git')
-source=("$pkgname-$pkgver::git+$url.git#commit=$_commit")
-sha512sums=('SKIP')
+source=("git+$url.git#tag=$pkgver")
+sha256sums=('9e75efa9dcee31300098f9ea91aba2a0776440ca45c12491bdc754688657bf9c')
 
 prepare() {
-  cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cd "$pkgname"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
-  cd "$pkgname-$pkgver"
+  cd "$pkgname"
   CFLAGS+=" -ffat-lto-objects"
   cargo build --release --frozen
 }
 
 check() {
-  cd "$pkgname-$pkgver"
+  cd "$pkgname"
   cargo test --frozen
 }
 
 package() {
-  cd "$pkgname-$pkgver"
+  cd "$pkgname"
   install -Dm 755 "target/release/$pkgname" -t "$pkgdir/usr/bin"
   install -Dm 644 README.md -t "$pkgdir/usr/share/doc/$pkgname"
 }

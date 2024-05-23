@@ -1,14 +1,16 @@
 pkgbase = gfold
 	pkgdesc = A CLI tool to help keep track of Git repositories
-	pkgver = 4.4.1
+	pkgver = 4.5.0
 	pkgrel = 1
 	url = https://github.com/nickgerace/gfold
 	arch = x86_64
-	license = Apache
+	license = Apache-2.0
 	makedepends = cargo
 	makedepends = git
+	depends = gcc-libs
+	depends = glibc
 	depends = libgit2
-	source = gfold-4.4.1::git+https://github.com/nickgerace/gfold.git#commit=f1c0887e52cba5c464dd1de0bff14c4ae4f5287f
-	sha512sums = SKIP
+	source = git+https://github.com/nickgerace/gfold.git#tag=4.5.0
+	sha256sums = 9e75efa9dcee31300098f9ea91aba2a0776440ca45c12491bdc754688657bf9c
 
 pkgname = gfold

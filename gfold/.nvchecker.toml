@@ -1,0 +1,4 @@
+[gfold]
+source = "github"
+github = "nickgerace/gfold"
+use_max_tag = true
