@@ -1233,7 +1233,7 @@ prefix = "v"
 
 [flawz]
 source = "github"
-github = "orhun/flawzc"
+github = "orhun/flawz"
 use_latest_release = true
 prefix = "v"
 
