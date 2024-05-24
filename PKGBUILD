@@ -2,7 +2,7 @@
 
 pkgname=syndicationd
 _pkgname=synd-term
-pkgver=0.2.4
+pkgver=0.2.5
 pkgrel=1
 pkgdesc="A TUI feed viewer"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT' 'Apache-2.0')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$_pkgname-v$pkgver.tar.gz")
-sha256sums=('a5348026678f1f27761d77130ef70b78a672f649d8a483a9a45865964aba1f0e')
+sha256sums=('0245d55d229bb3f4996abf06e51b8442e211f71c9c8669f57cc9cfe5e1011e66')
 options=('!lto')
 
 prepare() {
