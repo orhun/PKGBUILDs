@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=systemctl-tui
-pkgver=0.3.5
+pkgver=0.3.6
 pkgrel=1
 pkgdesc="A fast, simple TUI for interacting with systemd services and their logs"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('0a6856fc99eb4a862623b1373984507559cf1010ec280b7ebe5248450a2afaf7b20d36d4cf8e79d03381e1700022794bb203808ee2c4e4df3acfb5b7e1c8165d')
+sha512sums=('ac5951951ef41fc56ec96ecca06a894eed3e7e85ac0da3b9198ec4d77751789407627e47c92b06703fda657e2df058d456fa7dfb5160ca87453a47e0ede79266')
 
 prepare() {
   cd "$pkgname-$pkgver"
