@@ -3,8 +3,8 @@
 # Contributor: Andreas 'Segaja' Schleifer <archlinux at segaja dot de>
 
 pkgname=aliyun-cli
-_gitcommit=7508f16b49ddd1a25f20d7a332e061a9f05b99d0
-pkgver=3.0.206
+_gitcommit=bcb078372ae7381955ececa3b59a09b2c9bd87d5
+pkgver=3.0.207
 pkgrel=1
 pkgdesc='Alibaba Cloud CLI'
 arch=('x86_64')
@@ -14,9 +14,9 @@ depends=('glibc')
 makedepends=('git' 'go')
 source=("git+${url}#commit=${_gitcommit}"
         git+https://github.com/aliyun/aliyun-openapi-meta)
-sha512sums=('88de00865e90a4a9e652386e014323d9e55d1de8a876f4a4493730a2b58ef9a6ea7dbfe6054bad7ebe45ed6beddecb76db08c560014fcb5558b58c372e9b7e3b'
+sha512sums=('b1259edad738c266788127f1db65d97d28cb184def11e84d1527ca45ea72b27c9c64e4ede062d1a264979529fdb3b06040a447756b651c40dcb6d9b7ced1d8e4'
             'SKIP')
-b2sums=('79e44c50c399a9d5c9b030f179c171ca1eb0fc28636e1dd8d7825201a3be07f16a390cd62f59a482b2545fe320f9db07b9dece31da3c707bf255d54b7353e00e'
+b2sums=('444d8822b5d7804232727d70e0c9450679546757efbfec0c06c9b9fac117129c91288f27a3574581ed4d7bee9ed5f4d5dd0fabbce0f203bad84264bf350b69ea'
         'SKIP')
 
 pkgver() {
