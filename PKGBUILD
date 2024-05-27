@@ -2,20 +2,20 @@
 # Contributor: Kyle Manna <kyle [at] kylemanna [dot] com>
 
 pkgname=lurk
-pkgver=0.3.4
+pkgver=0.3.5
 pkgrel=1
 pkgdesc="A pretty (simple) alternative to strace"
 arch=('x86_64')
 url="https://github.com/JakWai01/lurk"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('f545b83f5f6fc84399419394c606e3d7c9c4a5ed094ae171f4f226768609ee7c1d364d13f862efd6aa2d21615cd7c14165dc3c4c4a2b2f9148fba4963b62f401')
+sha512sums=('8d74eca342a61f7a020cc85253e5afc70a81c46c4936b927fd3158c65299a3b1f673a213274cc7d179caf27d0d74fa0a222459beabe4975dc85ad5fbd8c79bac')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
