@@ -1,14 +1,14 @@
 pkgbase = lurk
 	pkgdesc = A pretty (simple) alternative to strace
-	pkgver = 0.3.4
+	pkgver = 0.3.5
 	pkgrel = 1
 	url = https://github.com/JakWai01/lurk
 	arch = x86_64
 	license = MIT
-	license = Apache
+	license = Apache-2.0
 	makedepends = cargo
 	depends = gcc-libs
-	source = lurk-0.3.4.tar.gz::https://github.com/JakWai01/lurk/archive/v0.3.4.tar.gz
-	sha512sums = f545b83f5f6fc84399419394c606e3d7c9c4a5ed094ae171f4f226768609ee7c1d364d13f862efd6aa2d21615cd7c14165dc3c4c4a2b2f9148fba4963b62f401
+	source = lurk-0.3.5.tar.gz::https://github.com/JakWai01/lurk/archive/v0.3.5.tar.gz
+	sha512sums = 8d74eca342a61f7a020cc85253e5afc70a81c46c4936b927fd3158c65299a3b1f673a213274cc7d179caf27d0d74fa0a222459beabe4975dc85ad5fbd8c79bac
 
 pkgname = lurk
