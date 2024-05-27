@@ -1,0 +1,14 @@
+pkgbase = jwt-cli
+	pkgdesc = A super fast CLI tool to decode and encode JWTs
+	pkgver = 6.1.0
+	pkgrel = 1
+	url = https://github.com/mike-engel/jwt-cli
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	source = jwt-cli-6.1.0.tar.gz::https://github.com/mike-engel/jwt-cli/archive/6.1.0.tar.gz
+	sha512sums = 5a9622ad4a1a7b153b96a3b7390179496a084875ebb4e2400502e1351b6f218b879ea7e114f9a8953a4ea51b8047edb9ab56ce71910428f5256932cfb9878a41
+
+pkgname = jwt-cli
