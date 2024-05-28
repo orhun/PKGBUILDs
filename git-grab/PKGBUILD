@@ -3,18 +3,18 @@
 # Contributor: Wesley Moore <wes@wezm.net>
 
 pkgname=git-grab
-pkgver=2.0.0
+pkgver=3.0.0
 pkgrel=1
 pkgdesc='A tool to clone git repositories to a standard location organised by domain and path'
 arch=('x86_64')
 url='https://github.com/wezm/git-grab'
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('git' 'gcc-libs')
 makedepends=('cargo')
 options=('!lto')
-_commit=f6f6fa1473b4504710f68223d3f92c2355194912
+_commit=abb36d2a6af715aae5a1b85228d69f778aa108b6
 source=("$pkgname::git+$url.git#commit=$_commit")
-b2sums=('SKIP')
+b2sums=('f26a09a795e932a62d21769f959db10cec087d4b1943927240dc686b9bfae1dd8cab30eef067a9cb6c37bf8ca4277357dd405766e184ce16a7ddfd41af40e4e9')
 
 pkgver() {
   cd "$pkgname"
@@ -25,7 +25,7 @@ pkgver() {
 prepare() {
   cd "$pkgname"
 
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
