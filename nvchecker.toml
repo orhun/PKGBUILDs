@@ -1255,6 +1255,12 @@ github = "becheran/mlc"
 use_latest_release = true
 prefix = "v"
 
+[kbt]
+source = "github"
+github = "bloznelis/kbt"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
