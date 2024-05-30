@@ -1243,6 +1243,12 @@ github = "mfontanini/presenterm"
 use_latest_release = true
 prefix = "v"
 
+[tabiew]
+source = "github"
+github = "shshemi/tabiew"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
