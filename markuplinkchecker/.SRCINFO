@@ -1,0 +1,14 @@
+pkgbase = markuplinkchecker
+	pkgdesc = Check for broken links in markup files
+	pkgver = 0.17.0
+	pkgrel = 1
+	url = https://github.com/becheran/mlc
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	source = markuplinkchecker-0.17.0.tar.gz::https://github.com/becheran/mlc/archive/v0.17.0.tar.gz
+	b2sums = 46aace2e75bbd9781e6cd0a27dfb3dfec370fe49b8867818f46eaf77ec932f98ec888cd2aacc1fc81119306dcafa3e45010724eab2ede4e098edee5b306fec94
+
+pkgname = markuplinkchecker
