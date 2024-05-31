@@ -1867,3 +1867,9 @@ source = "github"
 github = "josueBarretogit/get_blessed_rs"
 use_latest_release = true
 prefix = "v"
+
+[otree]
+source = "github"
+github = "fioncat/otree"
+use_latest_release = true
+prefix = "v"
