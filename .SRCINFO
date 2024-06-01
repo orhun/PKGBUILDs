@@ -1,13 +1,13 @@
 pkgbase = act
 	pkgdesc = Run your GitHub Actions locally
-	pkgver = 0.2.62
+	pkgver = 0.2.63
 	pkgrel = 1
 	url = https://github.com/nektos/act
 	arch = x86_64
 	license = MIT
 	makedepends = go
 	optdepends = docker: Connect to local docker
-	source = act-0.2.62.tar.gz::https://github.com/nektos/act/archive/v0.2.62.tar.gz
-	sha256sums = 2b0231d02d57d5edbcc070b7c4802acf16110a0582ffb40181aaa695f2b7bf5c
+	source = act-0.2.63.tar.gz::https://github.com/nektos/act/archive/v0.2.63.tar.gz
+	sha256sums = 67832789cac6d66cf164c31f2d884cccca1343ae07a208f8152fa861f03de5a3
 
 pkgname = act
