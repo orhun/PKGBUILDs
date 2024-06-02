@@ -1,0 +1,17 @@
+pkgbase = httplz
+	pkgdesc = Host These Things Please - a basic http server for hosting a folder fast and simply
+	pkgver = 2.0.1
+	pkgrel = 1
+	url = https://github.com/thecoshman/http
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = ruby-ronn-ng
+	depends = openssl
+	depends = bzip2
+	source = httplz-2.0.1.tar.gz::https://github.com/thecoshman/http/archive/v2.0.1.tar.gz
+	source = Cargo.lock
+	sha512sums = f22aad83dc2d33671e7e9db5e4be130c07636716bae3b7bb09bc81a69cfb860519c1d9aaadd53e91ddd8d8179f9d5cc964dad004f9e42ee48ce71ab276821f46
+	sha512sums = 27f5e4ef0603a80c009d4e2df2b04d117473ff79c684a6dae3b0cd9c8539706f490f96ae07ebd7252b3fdb433586b8834aea35d4bc48843ab9cbf4025c9ead88
+
+pkgname = httplz
