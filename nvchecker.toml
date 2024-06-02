@@ -1873,3 +1873,9 @@ source = "github"
 github = "fioncat/otree"
 use_latest_release = true
 prefix = "v"
+
+[asak]
+source = "github"
+github = "chaosprint/asak"
+use_latest_release = true
+prefix = "v"
