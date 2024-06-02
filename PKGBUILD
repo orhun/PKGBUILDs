@@ -3,7 +3,7 @@
 
 pkgname=httplz
 _pkgname=http
-pkgver=2.0.1
+pkgver=2.0.2
 pkgrel=1
 pkgdesc="Host These Things Please - a basic http server for hosting a folder fast and simply"
 arch=('x86_64')
@@ -13,8 +13,8 @@ depends=('openssl' 'bzip2')
 makedepends=('cargo' 'ruby-ronn-ng')
 source=("${pkgname}-${pkgver}.tar.gz::${url}/archive/v${pkgver}.tar.gz"
         "Cargo.lock")
-sha512sums=('f22aad83dc2d33671e7e9db5e4be130c07636716bae3b7bb09bc81a69cfb860519c1d9aaadd53e91ddd8d8179f9d5cc964dad004f9e42ee48ce71ab276821f46'
-            '27f5e4ef0603a80c009d4e2df2b04d117473ff79c684a6dae3b0cd9c8539706f490f96ae07ebd7252b3fdb433586b8834aea35d4bc48843ab9cbf4025c9ead88')
+sha512sums=('41a48fc1ecfb9ac4dcb93db8711db971edbd436bd457309f3a85cf969b97246ca6232a34ea1b4ef345a3672611e29a184d4dccd5a5181604dec9958ad32ea22b'
+            '2ed0982c9cd49831551d7ab053a0c78dc7e1ac75748c4890f6a0377607306b352d756e4f40c10b4d85b16d513bb3aac927f3e1b6760ac45a034589ac1d1cbf73')
 
 prepare() {
   # https://github.com/thecoshman/http/issues/84
