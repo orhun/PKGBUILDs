@@ -1261,6 +1261,12 @@ github = "bloznelis/kbt"
 use_latest_release = true
 prefix = "v"
 
+[greetd-tuigreet]
+source = "github"
+github = "apognu/tuigreet"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
