@@ -2,7 +2,7 @@
 # Contributor: cyqsimon <28627918+cyqsimon@users.noreply.github.com>
 
 pkgname=cargo-modules
-pkgver=0.16.1
+pkgver=0.16.2
 pkgrel=1
 pkgdesc="A cargo plugin for showing an overview of a crate's modules"
 arch=('x86_64')
@@ -10,7 +10,7 @@ url="https://github.com/regexident/cargo-modules"
 license=('MPL2')
 depends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('bc222a06db6aab10f373417831751dc7588a3dcf856df7f3df342a836f5d6af3')
+sha256sums=('40b594c259c843e2a9005489fd7f0d324d34c66281483b79d82eb2a7e53cd79a')
 
 prepare() {
   cd "$pkgname-$pkgver"
