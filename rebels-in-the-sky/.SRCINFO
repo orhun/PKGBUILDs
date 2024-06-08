@@ -1,0 +1,15 @@
+pkgbase = rebels-in-the-sky
+	pkgdesc = P2P terminal game about spacepirates playing basketball across the galaxy
+	pkgver = 1.0.12
+	pkgrel = 1
+	url = https://github.com/ricott1/rebels-in-the-sky
+	arch = x86_64
+	license = GPL-3.0
+	makedepends = cargo
+	depends = gcc-libs
+	depends = alsa-lib
+	options = !lto
+	source = rebels-in-the-sky-1.0.12.tar.gz::https://github.com/ricott1/rebels-in-the-sky/archive/v1.0.12.tar.gz
+	sha512sums = 96c6c347947da65f68a434fc5095445e46886b38b8447df3ae9722fb888cfd04c5ca78e030cb744b47aa237cc23882ad6710aa87134a1216f3c7499790ccb145
+
+pkgname = rebels-in-the-sky
