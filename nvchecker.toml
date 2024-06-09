@@ -1885,3 +1885,9 @@ source = "github"
 github = "chaosprint/asak"
 use_latest_release = true
 prefix = "v"
+
+[tui-slides]
+source = "github"
+github = "Chleba/tui-slides"
+use_latest_release = true
+prefix = "v"
