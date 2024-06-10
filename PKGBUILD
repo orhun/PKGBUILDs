@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=cargo-rdme
-pkgver=1.4.3
+pkgver=1.4.4
 pkgrel=1
 pkgdesc="Cargo command to create the README.md from your crate's documentation"
 arch=('x86_64')
@@ -9,7 +9,7 @@ url="https://github.com/orium/cargo-rdme"
 license=('MPL-2.0')
 depends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('3514fd4aacf031d257ce2b2f3b66851c36bee5a8941bc8a2097ad5e2dda9d985')
+sha256sums=('631381a16eb23c7e2b0ae8c6a900f1f5c11d4329e9b6e901aaa15621ee2d274a')
 options=('!lto')
 
 prepare() {
