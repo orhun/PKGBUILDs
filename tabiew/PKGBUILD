@@ -1,16 +1,17 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
+# Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=tabiew
-pkgver=0.3.2
+pkgver=0.3.5
 pkgrel=1
 pkgdesc="A lightweight TUI to view and query CSV files"
 arch=('x86_64')
 url="https://github.com/shshemi/tabiew"
 license=('MIT')
-depends=('gcc-libs')
+depends=('gcc-libs' 'glibc')
 makedepends=('cargo')
-source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('34f2ca4c696640d5d68c89c9b49070608f9bd6b62f1fcf652f0c5237532df112181d396a170eb3ebe0d1dbf14aca8dafc904177c8bce9f69d2439398f74d49ab')
+source=("$url/archive/v$pkgver/$pkgname-$pkgver.tar.gz")
+sha512sums=('b6534077b8c1a10ea338361f40f9f0818f3a452843442540069a2721fee9dcf929751088bab85a28df1d918ad9a0b123ddffa678f17256bb6168968081026cc9')
 
 prepare() {
   cd "$pkgname-$pkgver"
