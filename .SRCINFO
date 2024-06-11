@@ -1,0 +1,13 @@
+pkgbase = bore
+	pkgdesc = A command line tool for making tunnels to localhost
+	pkgver = 0.5.1
+	pkgrel = 1
+	url = https://github.com/ekzhang/bore
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = bore-0.5.1.tar.gz::https://github.com/ekzhang/bore/archive/v0.5.1.tar.gz
+	sha512sums = 9d6db9bc52b404373e3edf5eb04f182c1bb5e1831ebeb5d075c66717ba652ac34afb8213211754f81944e828a0affa9fa6a91bf337d0aacbcb051239f9663551
+
+pkgname = bore
