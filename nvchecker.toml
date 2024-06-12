@@ -1897,3 +1897,9 @@ source = "github"
 github = "kriskw1999/ratatui-snake"
 use_latest_release = true
 prefix = "v"
+
+[impala]
+source = "github"
+github = "pythops/impala"
+use_latest_release = true
+prefix = "v"
