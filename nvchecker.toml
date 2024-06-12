@@ -1891,3 +1891,9 @@ source = "github"
 github = "Chleba/tui-slides"
 use_latest_release = true
 prefix = "v"
+
+[ratatui-snake]
+source = "github"
+github = "kriskw1999/ratatui-snake"
+use_latest_release = true
+prefix = "v"
