@@ -2,7 +2,7 @@
 # Contributor: Alexander Bruegmann <mail[at]abruegmann[dot]eu>
 
 pkgname=cargo-generate-rpm
-pkgver=0.14.0
+pkgver=0.14.1
 pkgrel=1
 pkgdesc='Cargo helper command to generate a binary RPM package'
 arch=('x86_64')
@@ -10,7 +10,7 @@ url="https://github.com/cat-in-136/cargo-generate-rpm"
 license=('MIT')
 depends=('cargo' 'gcc-libs')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('36616e7bb967f459325c9b01651aef7a4250d04b274f50c55b3759a9ab86d76a')
+sha256sums=('9c8ba71cfecb61889b83dce20fd11cb56b6beebe9ddef3e77d0716255bc054bf')
 options=('!lto')
 
 prepare() {
