@@ -1903,3 +1903,9 @@ source = "github"
 github = "pythops/impala"
 use_latest_release = true
 prefix = "v"
+
+[lpl]
+source = "github"
+github = "SOF3/lpl"
+use_max_tag = true
+prefix = "v"
