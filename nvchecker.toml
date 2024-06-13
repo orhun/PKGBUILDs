@@ -1267,6 +1267,12 @@ github = "apognu/tuigreet"
 use_latest_release = true
 prefix = "v"
 
+[sig]
+source = "github"
+github = "ynqa/sig"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
