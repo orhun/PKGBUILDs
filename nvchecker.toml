@@ -1273,6 +1273,12 @@ github = "ynqa/sig"
 use_latest_release = true
 prefix = "v"
 
+[monolith]
+source = "github"
+github = "Y2Z/monolith"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
