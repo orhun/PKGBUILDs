@@ -1,0 +1,13 @@
+pkgbase = sig
+	pkgdesc = Interactive grep for streaming
+	pkgver = 0.1.2
+	pkgrel = 1
+	url = https://github.com/ynqa/sig
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	source = sig-0.1.2.tar.gz::https://github.com/ynqa/sig/archive/v0.1.2.tar.gz
+	sha512sums = 3d7f0e1f46c4dd83c65ca65088cfc8f122ef32f37bc3b8bebedda9fb04ae1f73d83c0742e773bb66f1b331e4c3e3bbd7ecae61dd0465b60238a858aa266d7220
+
+pkgname = sig
