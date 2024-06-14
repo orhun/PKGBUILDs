@@ -1,0 +1,15 @@
+pkgbase = qrtool
+	pkgdesc = An utility for encoding or decoding QR code
+	pkgver = 0.10.10
+	pkgrel = 1
+	url = https://github.com/sorairolake/qrtool
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	license = CC-BY-4.0
+	makedepends = cargo
+	depends = gcc-libs
+	source = qrtool-0.10.10.tar.gz::https://github.com/sorairolake/qrtool/archive/v0.10.10.tar.gz
+	sha512sums = 598b24348be61b4d8df0498355800bb0c9f181a1b946e87f2a63248ed09104d5d3ae6e05560ec0edce19c3b59dfcebfe1285fcb1a48643480d83e76170b46442
+
+pkgname = qrtool
