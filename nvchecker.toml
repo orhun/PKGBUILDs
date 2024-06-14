@@ -1279,6 +1279,12 @@ github = "Y2Z/monolith"
 use_latest_release = true
 prefix = "v"
 
+[qrtool]
+source = "github"
+github = "sorairolake/qrtool"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
