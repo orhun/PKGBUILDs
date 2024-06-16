@@ -1,7 +1,7 @@
 pkgbase = xplr
 	pkgdesc = A hackable, minimal, fast TUI file explorer
-	pkgver = 0.21.8
-	pkgrel = 2
+	pkgver = 0.21.9
+	pkgrel = 1
 	url = https://github.com/sayanarijit/xplr
 	arch = x86_64
 	license = MIT
@@ -10,10 +10,10 @@ pkgbase = xplr
 	depends = hicolor-icon-theme
 	depends = luajit
 	options = !lto
-	source = xplr-0.21.8.tar.gz::https://github.com/sayanarijit/xplr/archive/v0.21.8.tar.gz
-	source = xplr-0.21.8.tar.gz.asc::https://github.com/sayanarijit/xplr/releases/download/v0.21.8/source.tar.gz.asc
+	source = xplr-0.21.9.tar.gz::https://github.com/sayanarijit/xplr/archive/v0.21.9.tar.gz
+	source = xplr-0.21.9.tar.gz.asc::https://github.com/sayanarijit/xplr/releases/download/v0.21.9/source.tar.gz.asc
 	validpgpkeys = D59CA14710C17C6B24717AF90F8EF5258DC38077
-	sha512sums = e98f52762aa1b8d8d5c061bc0d10615328d9ba99bfce306ad7a302605798f54d4834a85203a773ca505acd875843414d3834fd335f2176ee88545bb4113a79d9
+	sha512sums = 683879d3bd1f118700d0ee53bc76aa9c4f887e58749dcb6805471309c5b2de1d3ce5206c77c1335aabdd13e6f2349aff7293c17a99957921ccdfc7e9cbf1771d
 	sha512sums = SKIP
 
 pkgname = xplr
