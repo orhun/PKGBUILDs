@@ -1,0 +1,16 @@
+pkgbase = tickrs
+	pkgdesc = Realtime ticker data in your terminal
+	pkgver = 0.14.10
+	pkgrel = 1
+	epoch = 2
+	url = https://github.com/tarkah/tickrs
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	depends = gcc-libs
+	depends = zlib
+	options = !lto
+	source = tickrs-0.14.10.tar.gz::https://github.com/tarkah/tickrs/archive/v0.14.10.tar.gz
+	sha512sums = 7dc45859bfd17de25966b5d3085452a6dd4518ae1e8ab083ddbdb0d3d10eec85e2d4728c38c81f01baef35f73442d141ff5860651a76a040975c350523cb2d75
+
+pkgname = tickrs
