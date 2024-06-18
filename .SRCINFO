@@ -1,6 +1,6 @@
 pkgbase = slumber
 	pkgdesc = Terminal-based REST client
-	pkgver = 1.4.0
+	pkgver = 1.5.0
 	pkgrel = 1
 	url = https://github.com/LucasPickering/slumber
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = slumber
 	makedepends = cargo
 	depends = gcc-libs
 	options = !lto
-	source = slumber-1.4.0.tar.gz::https://github.com/LucasPickering/slumber/archive/v1.4.0.tar.gz
-	sha256sums = 9b855bdd1c6cc77425159174ae17c4e790862fd785593fafebff0fb434438036
+	source = slumber-1.5.0.tar.gz::https://github.com/LucasPickering/slumber/archive/v1.5.0.tar.gz
+	sha256sums = 8096086dcd2baa11b01c5a4802b5000c6f4f01e63ef943e18ca0de3ddea01f59
 
 pkgname = slumber
