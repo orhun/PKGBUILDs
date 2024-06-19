@@ -5,13 +5,14 @@
 
 pkgname=rustscan
 pkgver=2.2.3
-pkgrel=1
+pkgrel=2
 pkgdesc='A modern port scanner'
 arch=('x86_64')
 url='https://github.com/rustscan/RustScan'
 license=('GPL3')
-depends=('gcc-libs' 'nmap')
+depends=('gcc-libs')
 makedepends=('git' 'cargo')
+optdepends=('nmap: Script engine support')
 checkdepends=('python')
 options=('!lto')
 _commit=5328bfc8b00c99163edf770e859960280d55360b
