@@ -1285,6 +1285,12 @@ github = "sorairolake/qrtool"
 use_latest_release = true
 prefix = "v"
 
+[lan-mouse]
+source = "github"
+github = "feschber/lan-mouse"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
