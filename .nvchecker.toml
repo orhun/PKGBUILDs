@@ -1,0 +1,5 @@
+[cotp]
+source = "github"
+github = "replydev/cotp"
+prefix = "v"
+use_max_tag = true
