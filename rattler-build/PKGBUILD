@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=rattler-build
-pkgver=0.17.1
+pkgver=0.18.0
 pkgrel=1
 pkgdesc="A fast conda-package builder"
 arch=('x86_64')
@@ -11,7 +11,7 @@ depends=('gcc-libs' 'openssl' 'bzip2' 'xz')
 makedepends=('cargo')
 checkdepends=('patchelf' 'git')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('4a44491c8d63fb2657f7c3ee191b77f9ae998f61cedbbbd4edea11c593eb2d0c076b0e6de13b14aaf7741d98f7329928be57d48cf1c5a09d762a52bec54c60b0')
+sha512sums=('5b3a3adafde55b426c59e5e18999b91d286414a75a2e0b5fd5f96aeaf2656ee2e903b39c7f5e6802694318534d0336982b6259a6cca3b8f8b722f7dbf6c33470')
 options=('!lto')
 
 prepare() {
