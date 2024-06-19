@@ -1,13 +1,13 @@
 pkgbase = hawkeye
 	pkgdesc = Simple license header checker and formatter
-	pkgver = 5.4.0
+	pkgver = 5.6.0
 	pkgrel = 1
 	url = https://github.com/korandoru/hawkeye
 	arch = x86_64
 	license = Apache-2.0
 	makedepends = cargo-nightly
 	depends = gcc-libs
-	source = hawkeye-5.4.0.tar.gz::https://github.com/korandoru/hawkeye/archive/v5.4.0.tar.gz
-	sha256sums = 059aad6eaf831a049445ee2b82c435a5096ce8f2dedb3cd8e6984e3b91b5f11b
+	source = hawkeye-5.6.0.tar.gz::https://github.com/korandoru/hawkeye/archive/v5.6.0.tar.gz
+	sha256sums = 5dee221954c0426204894ec9f649d3fef8ef79abfe052116923a06c6965c658e
 
 pkgname = hawkeye
