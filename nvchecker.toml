@@ -1291,6 +1291,18 @@ github = "feschber/lan-mouse"
 use_latest_release = true
 prefix = "v"
 
+[jj]
+source = "github"
+github = "martinvonz/jj"
+use_latest_release = true
+prefix = "v"
+
+[lazyjj]
+source = "github"
+github = "Cretezy/lazyjj"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
