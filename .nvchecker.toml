@@ -1,0 +1,4 @@
+[aliyun-cli]
+source = "git"
+git = "https://github.com/aliyun/aliyun-cli.git"
+prefix = "v"
