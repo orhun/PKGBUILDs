@@ -1,0 +1,14 @@
+pkgbase = lazyjj
+	pkgdesc = TUI for Jujutsu/jj
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/Cretezy/lazyjj
+	arch = x86_64
+	license = Apache-2.0
+	checkdepends = jujutsu
+	makedepends = cargo-nightly
+	depends = gcc-libs
+	source = lazyjj-0.2.0.tar.gz::https://github.com/Cretezy/lazyjj/archive/v0.2.0.tar.gz
+	sha512sums = 098b4d31e4b6ff96a6ab2caf55a953bd7dbbf7eea9c394ffa6367db7febdb72e9639250ab6ddb9058299712dce07264862dc3857735cb3564fb2751149d712ba
+
+pkgname = lazyjj
