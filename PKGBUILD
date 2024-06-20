@@ -1,21 +1,21 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=halp
-pkgver=0.1.7
+pkgver=0.2.0
 pkgrel=1
 pkgdesc="A CLI tool to get help with CLI tools"
 arch=('x86_64')
 url="https://github.com/orhun/halp"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('6f30e87464c85c6c1d25d9a8e45fba0b245acdb2deab076d8f5306ee8b396fd9b55725277ed889ff3a8574acd9b3c82d19c7ac61469d5eac84a91e3b477090bf')
+sha512sums=('e4d5a2e15c5169457238ec61dcceffdeb602a2e197a911d32decdb8a55be8f8471165034faa92bca77ac67afe31f873d435e5ed4c7ce8be6240c9d77df9a9125')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir completions/
   mkdir man/
 }

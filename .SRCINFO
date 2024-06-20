@@ -1,0 +1,15 @@
+pkgbase = halp
+	pkgdesc = A CLI tool to get help with CLI tools
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/orhun/halp
+	arch = x86_64
+	license = MIT
+	license = Apache-2.0
+	makedepends = cargo
+	depends = gcc-libs
+	options = !lto
+	source = halp-0.2.0.tar.gz::https://github.com/orhun/halp/archive/v0.2.0.tar.gz
+	sha512sums = e4d5a2e15c5169457238ec61dcceffdeb602a2e197a911d32decdb8a55be8f8471165034faa92bca77ac67afe31f873d435e5ed4c7ce8be6240c9d77df9a9125
+
+pkgname = halp
