@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=flawz
-pkgver=0.2.1
+pkgver=0.2.2
 pkgrel=1
 pkgdesc="A Terminal UI for browsing security vulnerabilities (CVEs)"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT' 'Apache-2.0')
 depends=('gcc-libs' 'openssl' 'sqlite')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('4bfdde3494de5e9954cf8ac85589794dc298dd41890fee4984bc388a75c3f861b7baa66eeb61a018ab172de97fc25e3db45ee2bf7de3a8b90eca1f6302b9e300')
+sha512sums=('2bafb659cf88239d6d3dbc97d369157c49bf49ed20f5f5cb82b3fc9f276c375b3fcd028584fc91f8e814cee272704673853a155dadbecf9726a35d70cd20ed77')
 
 prepare() {
   cd "$pkgname-$pkgver"
