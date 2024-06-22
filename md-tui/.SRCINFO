@@ -1,6 +1,6 @@
 pkgbase = md-tui
 	pkgdesc = Markdown renderer in the terminal
-	pkgver = 0.8.1
+	pkgver = 0.8.2
 	pkgrel = 1
 	url = https://github.com/henriklovhaug/md-tui
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = md-tui
 	makedepends = cargo
 	depends = gcc-libs
 	options = !lto
-	source = md-tui-0.8.1.tar.gz::https://github.com/henriklovhaug/md-tui/archive/v0.8.1.tar.gz
-	sha256sums = fa6a087e33985b3a0066e790af7be0bda8ca7a2b4a04bf74d07d89259fbf0950
+	source = md-tui-0.8.2.tar.gz::https://github.com/henriklovhaug/md-tui/archive/v0.8.2.tar.gz
+	sha256sums = dcda51b531ebebf9967a519266565e1629176cd0d8ac1f746139f911868a6c50
 
 pkgname = md-tui
