@@ -1,6 +1,6 @@
 pkgbase = uv
 	pkgdesc = An extremely fast Python package installer and resolver written in Rust
-	pkgver = 0.2.13
+	pkgver = 0.2.15
 	pkgrel = 1
 	url = https://github.com/astral-sh/uv
 	arch = x86_64
@@ -20,8 +20,8 @@ pkgbase = uv
 	depends = zlib
 	depends = libz.so
 	options = !lto
-	source = git+https://github.com/astral-sh/uv.git#tag=0.2.13
-	sha256sums = 059b5501effd2b409df66622f0d4b402bcf0f01894d92fb2f64da88562c0c571
+	source = git+https://github.com/astral-sh/uv.git#tag=0.2.15
+	sha256sums = 509ead4b1f117bbd89675944d50fe1585fef11b25ea2d50648092e2c0b43a7af
 
 pkgname = uv
 
