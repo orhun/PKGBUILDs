@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=poketex
-pkgver=1.12.2
+pkgver=1.13.0
 pkgrel=1
 pkgdesc="Simple Pokedex based on TUI"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('c7fbff0babf6e19e5940ced2c2c0ed3a1f44d9d531bab5ea5510fc610da3c74b')
+sha256sums=('a7c0643005069a5feb87af85beacb3ce7e40f9d5ad71f26c5a3e5be62fd00156')
 
 prepare() {
   cd "$pkgname-$pkgver"
