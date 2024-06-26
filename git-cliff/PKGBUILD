@@ -2,7 +2,7 @@
 # Maintainer: Caleb Maclennan <caleb@alerque.com>
 
 pkgname=git-cliff
-pkgver=2.3.0
+pkgver=2.4.0
 pkgrel=1
 pkgdesc="A highly customizable changelog generator"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT' 'Apache-2.0')
 depends=('gcc-libs' 'glibc' 'zlib' 'libgit2')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('7f01d06394a082cc2227926e810824a4a5ea9dfab475e6b9c17f06885acfc5b750827ba26086e33b4f0dd919e3393b2f1263df746fdca01a5e7f2c87335810a9')
+sha512sums=('45e3286b3f045795cc9989606e8f7db7a0c2f23360ea4f7b391b3ea181a4a7f73c19ca46d236fc77db301dc71bde9563bff07a99d93364713b901ffec320beb2')
 
 prepare() {
   cd "$pkgname-$pkgver"
@@ -23,7 +23,8 @@ prepare() {
 build() {
   cd "$pkgname-$pkgver"
   CFLAGS+=' -ffat-lto-objects'
-  local _features="--no-default-features --features github --features gitlab --features bitbucket"
+  local _features="--no-default-features \
+    --features github --features gitlab --features bitbucket --features gitea"
   cargo build --release --frozen $_features
   OUT_DIR=completions/ "./target/release/$pkgname-completions"
   OUT_DIR=man/ "./target/release/$pkgname-mangen"
