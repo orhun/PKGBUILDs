@@ -1303,6 +1303,12 @@ github = "Cretezy/lazyjj"
 use_latest_release = true
 prefix = "v"
 
+[serpl]
+source = "github"
+github = "yassinebridi/serpl"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
