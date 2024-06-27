@@ -43,11 +43,6 @@
       "gitref": "refs/tags/v1.19.0",
       "url": "https://github.com/sigoden/argc/releases/tag/v1.19.0"
     },
-    "arti": {
-      "version": "tor-llcrypto-v0.4.4",
-      "revision": "ed594b5a6f475c4baca00b469f5ad497e399e4bc",
-      "url": "https://gitlab.torproject.org/tpo/core/arti/-/tags/tor-llcrypto-v0.4.4"
-    },
     "asak": {
       "version": "0.3.3",
       "gitref": "refs/tags/v0.3.3",
@@ -1404,6 +1399,12 @@
       "version": "0.2.0",
       "gitref": "refs/tags/v0.2.0",
       "url": "https://github.com/Skallwar/suckit/releases/tag/v0.2.0"
+    },
+    "sxtetris": {
+      "version": "1.1.0",
+      "gitref": "refs/tags/1.1.0",
+      "revision": "aad8989a1dba85300bea4765357bbe835b7db6d1",
+      "url": "https://github.com/shixinhuang99/sxtetris/releases/tag/1.1.0"
     },
     "syndicationd": {
       "version": "0.2.6",
