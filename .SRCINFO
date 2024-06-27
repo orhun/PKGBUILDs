@@ -1,7 +1,7 @@
 pkgbase = handlr-regex
 	pkgdesc = Powerful alternative to xdg-utils written in Rust
-	pkgver = 0.10.0
-	pkgrel = 2
+	pkgver = 0.10.1
+	pkgrel = 1
 	url = https://github.com/Anomalocaridid/handlr-regex
 	arch = x86_64
 	license = MIT
@@ -10,7 +10,7 @@ pkgbase = handlr-regex
 	provides = handlr
 	conflicts = handlr
 	replaces = handlr
-	source = handlr-regex-0.10.0.tar.gz::https://github.com/Anomalocaridid/handlr-regex/archive/v0.10.0.tar.gz
-	sha512sums = 1e53eb3b68620fedffb7d8691d23e36f953fbcc20f5b983e81a8b10de1d8c7eb18c78c805727e6e187eb098d9ddae73d5e585fde5c7612dd45e43ec41a161685
+	source = handlr-regex-0.10.1.tar.gz::https://github.com/Anomalocaridid/handlr-regex/archive/v0.10.1.tar.gz
+	sha512sums = ca383b367944fbc0129fd1a05dfa80fa2974fb03f6eb455c9481d56fa15d90731de49e652d4cf818fd03322eba865ab8e3084d3ac6fa720c7a7852c3064ef72a
 
 pkgname = handlr-regex
