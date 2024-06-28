@@ -43,6 +43,11 @@
       "gitref": "refs/tags/v1.19.0",
       "url": "https://github.com/sigoden/argc/releases/tag/v1.19.0"
     },
+    "arti": {
+      "version": "tor-llcrypto-v0.4.4",
+      "revision": "ed594b5a6f475c4baca00b469f5ad497e399e4bc",
+      "url": "https://gitlab.torproject.org/tpo/core/arti/-/tags/tor-llcrypto-v0.4.4"
+    },
     "asak": {
       "version": "0.3.3",
       "gitref": "refs/tags/v0.3.3",
@@ -222,9 +227,9 @@
       "url": "https://github.com/jplatte/cargo-depgraph/releases/tag/v1.6.0"
     },
     "cargo-dist": {
-      "version": "0.16.0",
-      "gitref": "refs/tags/v0.16.0",
-      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.16.0"
+      "version": "0.17.0",
+      "gitref": "refs/tags/v0.17.0",
+      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.17.0"
     },
     "cargo-docs-rs": {
       "version": "0.1.12",
@@ -555,6 +560,11 @@
       "gitref": "refs/tags/v2.29.0",
       "url": "https://github.com/Byron/dua-cli/releases/tag/v2.29.0"
     },
+    "ducker": {
+      "version": "0.0.2",
+      "gitref": "refs/tags/v0.0.2",
+      "url": "https://github.com/robertpsoane/ducker/releases/tag/v0.0.2"
+    },
     "dumb": {
       "version": "2.0.3",
       "gitref": "refs/tags/2.0.3",
@@ -676,10 +686,10 @@
       "url": "https://github.com/wezm/git-grab/releases/tag/3.0.0"
     },
     "gitu": {
-      "version": "0.21.1",
-      "gitref": "refs/tags/v0.21.1",
-      "revision": "37bc754cf17c9d9a382ae39717128031d88cab02",
-      "url": "https://github.com/altsem/gitu/releases/tag/v0.21.1"
+      "version": "0.22.0",
+      "gitref": "refs/tags/v0.22.0",
+      "revision": "5de56adf259205f87ae6b12a1e8719b19e92fc3e",
+      "url": "https://github.com/altsem/gitu/releases/tag/v0.22.0"
     },
     "glicol-cli": {
       "version": "0.2.0",
@@ -836,9 +846,9 @@
       "url": "https://github.com/trashhalo/imgcat/releases/tag/v1.2.0"
     },
     "impala": {
-      "version": "0.2",
-      "gitref": "refs/tags/v0.2",
-      "url": "https://github.com/pythops/impala/releases/tag/v0.2"
+      "version": "0.2.1",
+      "gitref": "refs/tags/v0.2.1",
+      "url": "https://github.com/pythops/impala/releases/tag/v0.2.1"
     },
     "innernet": {
       "version": "1.6.1",
@@ -1091,9 +1101,9 @@
       "url": "https://github.com/zaghaghi/openapi-tui/releases/tag/0.9.3"
     },
     "otree": {
-      "version": "0.1.0",
-      "gitref": "refs/tags/v0.1.0",
-      "url": "https://github.com/fioncat/otree/releases/tag/v0.1.0"
+      "version": "0.2.0",
+      "gitref": "refs/tags/v0.2.0",
+      "url": "https://github.com/fioncat/otree/releases/tag/v0.2.0"
     },
     "ouch": {
       "version": "0.5.1",

@@ -1957,3 +1957,9 @@ source = "github"
 github = "shixinhuang99/sxtetris"
 use_max_tag = true
 prefix = "v"
+
+[ducker]
+source = "github"
+github = "robertpsoane/ducker"
+use_latest_release = true
+prefix = "v"

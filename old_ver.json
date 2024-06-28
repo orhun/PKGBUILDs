@@ -331,6 +331,11 @@
     "dua-cli": {
       "version": "2.29.0"
     },
+    "ducker": {
+      "version": "0.0.2",
+      "gitref": "refs/tags/v0.0.2",
+      "url": "https://github.com/robertpsoane/ducker/releases/tag/v0.0.2"
+    },
     "dumb": {
       "version": "2.0.3"
     },
@@ -408,7 +413,10 @@
       "version": "3.0.0"
     },
     "gitu": {
-      "version": "0.21.1"
+      "version": "0.22.0",
+      "gitref": "refs/tags/v0.22.0",
+      "revision": "5de56adf259205f87ae6b12a1e8719b19e92fc3e",
+      "url": "https://github.com/altsem/gitu/releases/tag/v0.22.0"
     },
     "glicol-cli": {
       "version": "0.2.0"
@@ -505,7 +513,9 @@
       "version": "1.2.0"
     },
     "impala": {
-      "version": "0.2"
+      "version": "0.2.1",
+      "gitref": "refs/tags/v0.2.1",
+      "url": "https://github.com/pythops/impala/releases/tag/v0.2.1"
     },
     "innernet": {
       "version": "1.6.1"
@@ -663,7 +673,9 @@
       "version": "0.9.3"
     },
     "otree": {
-      "version": "0.1.0"
+      "version": "0.2.0",
+      "gitref": "refs/tags/v0.2.0",
+      "url": "https://github.com/fioncat/otree/releases/tag/v0.2.0"
     },
     "ouch": {
       "version": "0.5.1"
@@ -856,6 +868,12 @@
     },
     "suckit": {
       "version": "0.2.0"
+    },
+    "sxtetris": {
+      "version": "1.1.0",
+      "gitref": "refs/tags/1.1.0",
+      "revision": "aad8989a1dba85300bea4765357bbe835b7db6d1",
+      "url": "https://github.com/shixinhuang99/sxtetris/releases/tag/1.1.0"
     },
     "syndicationd": {
       "version": "0.2.6"
