@@ -1963,3 +1963,9 @@ source = "github"
 github = "robertpsoane/ducker"
 use_latest_release = true
 prefix = "v"
+
+[tage]
+source = "github"
+github = "jacopograndi/tage"
+use_latest_release = true
+prefix = "v"

@@ -1438,6 +1438,11 @@
       "gitref": "refs/tags/v0.4.0",
       "url": "https://github.com/shshemi/tabiew/releases/tag/v0.4.0"
     },
+    "tage": {
+      "version": "0.1",
+      "gitref": "refs/tags/v0.1",
+      "url": "https://github.com/jacopograndi/tage/releases/tag/v0.1"
+    },
     "tailspin": {
       "version": "3.0.1",
       "gitref": "refs/tags/3.0.1",
