@@ -1,0 +1,4 @@
+[cargo-semver-checks]
+source = "git"
+git = "https://github.com/obi1kenobi/cargo-semver-checks.git"
+prefix = "v"
