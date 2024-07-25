@@ -1,0 +1,4 @@
+[qrtool]
+source = "git"
+git = "https://github.com/sorairolake/qrtool.git"
+prefix = "v"
