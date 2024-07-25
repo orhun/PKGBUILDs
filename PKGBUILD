@@ -2,8 +2,8 @@
 # Contributor: KokaKiwi <kokakiwi+aur at kokakiwi dot net>
 
 pkgname=cargo-semver-checks
-pkgver=0.32.0
-_commit=1d74c88f48eaf15a1e2e492b79f8273bd15147f6
+pkgver=0.33.0
+_commit=c112aa29b5cdc6535f0b4bd1b7669babcdbd9ae8
 pkgrel=1
 pkgdesc='Scan your Rust crate for semver violations'
 url='https://github.com/obi1kenobi/cargo-semver-checks'
@@ -14,7 +14,7 @@ makedepends=('git' 'cmake')
 source=(
   "$pkgname-$pkgver::git+$url.git#commit=$_commit"
 )
-sha512sums=('4eaf58f58e121a847d2ec6426bac101f2cdcab2f97cfa7df22a654800f33ced7f5a33d5161e595e79fc3de8fe5e8e007f3b2aba3b0e1ea26d4ea4280e38d57af')
+sha512sums=('9171b8aa5f3b5114f7bb663f85617c9ec059ec65d9df29267572ea4843f9e0b3553a9faf96aa8d41aa57e65504439fb5ebdb41824635c5c29c057a85cd9cf278')
 options=('!lto')
 
 prepare() {
