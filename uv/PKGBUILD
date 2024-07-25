@@ -7,7 +7,7 @@
 
 pkgbase=uv
 pkgname=("$pkgbase" "python-$pkgbase")
-pkgver=0.2.17
+pkgver=0.2.29
 pkgrel=1
 pkgdesc='An extremely fast Python package installer and resolver written in Rust'
 arch=('x86_64')
@@ -20,7 +20,7 @@ makedepends=('cargo' 'maturin' 'python-installer' 'cmake' 'git')
 checkdepends=('python' 'python-zstandard' 'libxcrypt-compat' 'clang')
 options=('!lto')
 source=("git+$url.git#tag=$pkgver")
-sha256sums=('63ef71295c5f11bedf9647016c80fdfc025c5a9bb656e6650330fb7c257823b9')
+sha256sums=('a6fda1c06038ef13debc43f9a72bb77984dd9faa8e2041571382fbe11d3baf17')
 
 prepare() {
   cd "$pkgbase"
