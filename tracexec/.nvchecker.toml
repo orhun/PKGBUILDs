@@ -1,0 +1,4 @@
+[tracexec]
+source = "git"
+git = "https://github.com/kxxt/tracexec.git"
+prefix = "v"
