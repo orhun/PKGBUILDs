@@ -1,0 +1,4 @@
+[cargo-udeps]
+source = "git"
+git = "https://github.com/est31/cargo-udeps.git"
+prefix = "v"

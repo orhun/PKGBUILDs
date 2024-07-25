@@ -1,6 +1,6 @@
 pkgbase = cargo-udeps
 	pkgdesc = Find unused dependencies in Cargo.toml
-	pkgver = 0.1.47
+	pkgver = 0.1.49
 	pkgrel = 1
 	url = https://github.com/est31/cargo-udeps
 	arch = x86_64
@@ -10,8 +10,8 @@ pkgbase = cargo-udeps
 	makedepends = libssh2
 	depends = curl
 	depends = libgit2
-	source = cargo-udeps-0.1.47.tar.gz::https://github.com/est31/cargo-udeps/archive/v0.1.47.tar.gz
-	sha256sums = 8794b480ab6dd166617711345116be5958def42679c1a5948d41850ecb9cb806
+	source = cargo-udeps-0.1.49.tar.gz::https://github.com/est31/cargo-udeps/archive/v0.1.49.tar.gz
+	sha256sums = f3beaaa9c11526f4fc52dff140214b8948622b69ebf2878a607132056e6b3c33
 
 pkgname = cargo-udeps
 	depends = curl
