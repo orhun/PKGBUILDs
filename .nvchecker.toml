@@ -1,0 +1,3 @@
+[cargo-show-asm]
+source = "git"
+git = "https://github.com/pacak/cargo-show-asm.git"
