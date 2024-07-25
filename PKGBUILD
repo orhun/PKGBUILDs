@@ -2,7 +2,7 @@
 # Contributor: Philipp A. <flying-sheep@web.de>
 
 pkgname=cargo-generate
-pkgver=0.21.1
+pkgver=0.21.3
 pkgrel=1
 pkgdesc="Use pre-existing git repositories as templates"
 arch=('x86_64')
@@ -10,7 +10,7 @@ url="https://github.com/cargo-generate/cargo-generate"
 license=('MIT' 'Apache-2.0')
 depends=('cargo' 'curl' 'libgit2' 'libssh2' 'openssl')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('3159eb16de57e0b28af67fcda01bcd54eee81edfbfd882e557018e4bcf6f41b0')
+sha256sums=('91b89109da5911e5964e5581ab584c713cc0e9b96ef1eb58bb5fe3f7b853b9df')
 
 prepare() {
   cd "$pkgname-$pkgver"
