@@ -1,0 +1,4 @@
+[lazyjj]
+source = "git"
+git = "https://github.com/Cretezy/lazyjj.git"
+prefix = "v"
