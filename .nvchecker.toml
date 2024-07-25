@@ -1,0 +1,4 @@
+[poketex]
+source = "git"
+git = "https://github.com/ckaznable/poketex.git"
+prefix = "v"
