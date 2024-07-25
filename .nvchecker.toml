@@ -1,0 +1,4 @@
+[netscanner]
+source = "git"
+git = "https://github.com/Chleba/netscanner.git"
+prefix = "v"
