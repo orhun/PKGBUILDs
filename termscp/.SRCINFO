@@ -1,7 +1,7 @@
 pkgbase = termscp
 	pkgdesc = A feature rich terminal UI file transfer and explorer
-	pkgver = 0.13.0
-	pkgrel = 2
+	pkgver = 0.14.0
+	pkgrel = 1
 	url = https://github.com/veeso/termscp
 	arch = x86_64
 	license = MIT
@@ -12,7 +12,7 @@ pkgbase = termscp
 	depends = dbus
 	depends = smbclient
 	options = !lto
-	source = termscp-0.13.0.tar.gz::https://github.com/veeso/termscp/archive/v0.13.0.tar.gz
-	sha512sums = 1134a29612e893f4c8c7c285312753880925474967a414a3d5ed22a4dcdfa6be71c14bc77107bb99522c6613a30f3704436de5af77ed230492cfcabc51db558d
+	source = termscp-0.14.0.tar.gz::https://github.com/veeso/termscp/archive/v0.14.0.tar.gz
+	sha512sums = 8d23cfd36fa832c22bf7819506e913121fe310da5a31ecc2c6a39d78fd2f354ef6889288eaeed69a45ecd82e66b0cb0220e3a6474154042d85ceb7d6804d7cb3
 
 pkgname = termscp
