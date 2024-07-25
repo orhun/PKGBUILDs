@@ -1,0 +1,4 @@
+[rust-kanban]
+source = "git"
+git = "https://github.com/yashs662/rust_kanban.git"
+prefix = "v"
