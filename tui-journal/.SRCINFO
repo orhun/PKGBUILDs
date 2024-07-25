@@ -1,6 +1,6 @@
 pkgbase = tui-journal
 	pkgdesc = Write and manage journals/notes from the terminal
-	pkgver = 0.9.0
+	pkgver = 0.9.1
 	pkgrel = 1
 	url = https://github.com/AmmarAbouZor/tui-journal
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = tui-journal
 	depends = gcc-libs
 	depends = zlib
 	options = !lto
-	source = tui-journal-0.9.0.tar.gz::https://github.com/AmmarAbouZor/tui-journal/archive/v0.9.0.tar.gz
-	sha512sums = 554fea76c4d9caa48bba39e4451f785c0d9447d5b575aaab7a9fdac32a0aeddb774ccbfd8d4c6029fcf87cb928a014558a27b3238ee7d82b804437348f05a083
+	source = tui-journal-0.9.1.tar.gz::https://github.com/AmmarAbouZor/tui-journal/archive/v0.9.1.tar.gz
+	sha512sums = ce69f10215a6430479e483f18232474723ba193f26f09d61b00a024ae3136e0e20f13f3fdc40cf5f7e8a40bdee87f27c2115a4275256534169d0ce037ed8cefa
 
 pkgname = tui-journal
