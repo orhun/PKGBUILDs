@@ -1,0 +1,4 @@
+[cargo-dist]
+source = "git"
+git = "https://github.com/axodotdev/cargo-dist.git"
+prefix = "v"
