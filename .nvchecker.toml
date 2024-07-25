@@ -1,0 +1,4 @@
+[act]
+source = "git"
+git = "https://github.com/nektos/act.git"
+prefix = "v"
