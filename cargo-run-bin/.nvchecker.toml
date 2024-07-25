@@ -1,0 +1,4 @@
+[cargo-run-bin]
+source = "git"
+git = "https://github.com/dustinblackman/cargo-run-bin.git"
+prefix = "v"
