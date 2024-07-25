@@ -1,0 +1,4 @@
+[cargo-make]
+source = "git"
+git = "https://github.com/sagiegurari/cargo-make.git"
+prefix = "v"
