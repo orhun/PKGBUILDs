@@ -1,0 +1,4 @@
+[cargo-modules]
+source = "git"
+git = "https://github.com/regexident/cargo-modules.git"
+prefix = "v"
