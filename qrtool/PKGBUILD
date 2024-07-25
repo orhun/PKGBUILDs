@@ -1,21 +1,23 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=qrtool
-pkgver=0.10.10
+pkgver=0.11.3
 pkgrel=1
 pkgdesc="An utility for encoding or decoding QR code"
 arch=('x86_64')
 url="https://github.com/sorairolake/qrtool"
 license=('MIT' 'Apache-2.0' 'CC-BY-4.0')
 depends=('gcc-libs')
-makedepends=('cargo')
+makedepends=('cargo' 'asciidoctor')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('598b24348be61b4d8df0498355800bb0c9f181a1b946e87f2a63248ed09104d5d3ae6e05560ec0edce19c3b59dfcebfe1285fcb1a48643480d83e76170b46442')
+sha512sums=('91dcc214500ee64b36822c1c1b2c7bfdb1e9cad7e75c2c8e901cf733c85d11c596346487645998ad16113435e1a40447259066b3c550fc0013b9f685507ec219')
+options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
   cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
   mkdir completions/
+  mkdir man/
 }
 
 build() {
@@ -26,6 +28,10 @@ build() {
   $compgen elvish >"completions/$pkgbase.elv"
   $compgen fish >"completions/$pkgbase.fish"
   $compgen zsh >"completions/_$pkgbase"
+  asciidoctor -b manpage "docs/man/man1/$pkgname.1.adoc"
+  asciidoctor -b manpage "docs/man/man1/$pkgname-encode.1.adoc"
+  asciidoctor -b manpage "docs/man/man1/$pkgname-decode.1.adoc"
+  asciidoctor -b manpage "docs/man/man1/$pkgname-help.1.adoc"
 }
 
 check() {
@@ -43,6 +49,10 @@ package() {
   install -Dm644 "completions/$pkgbase.elv" -t "$pkgdir/usr/share/elvish/lib/"
   install -Dm644 "completions/$pkgbase.fish" -t "$pkgdir/usr/share/fish/vendor_completions.d/"
   install -Dm644 "completions/_$pkgbase" -t "$pkgdir/usr/share/zsh/site-functions/"
+  install -Dm644 "docs/man/man1/$pkgname.1" -t "$pkgdir/usr/share/man/man1/"
+  install -Dm644 "docs/man/man1/$pkgname-encode.1" -t "$pkgdir/usr/share/man/man1/"
+  install -Dm644 "docs/man/man1/$pkgname-decode.1" -t "$pkgdir/usr/share/man/man1/"
+  install -Dm644 "docs/man/man1/$pkgname-help.1" -t "$pkgdir/usr/share/man/man1/"
 }
 
 # vim: ts=2 sw=2 et:
