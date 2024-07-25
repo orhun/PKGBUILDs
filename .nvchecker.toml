@@ -1,0 +1,4 @@
+[cargo-shuttle]
+source = "git"
+git = "https://github.com/shuttle-hq/shuttle.git"
+prefix = "v"
