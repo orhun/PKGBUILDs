@@ -1,0 +1,4 @@
+[mcfly]
+source = "git"
+git = "https://github.com/cantino/mcfly.git"
+prefix = "v"
