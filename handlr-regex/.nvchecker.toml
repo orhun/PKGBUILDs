@@ -1,0 +1,4 @@
+[handlr-regex]
+source = "git"
+git = "https://github.com/Anomalocaridid/handlr-regex.git"
+prefix = "v"
