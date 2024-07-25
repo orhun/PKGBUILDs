@@ -1,0 +1,4 @@
+[slumber]
+source = "git"
+git = "https://github.com/LucasPickering/slumber.git"
+prefix = "v"
