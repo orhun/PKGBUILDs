@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=dysk
-pkgver=2.8.2
+pkgver=2.9.0
 pkgrel=1
 pkgdesc="Get information on your mounted filesystems"
 arch=('x86_64')
@@ -11,11 +11,11 @@ depends=('gcc-libs')
 makedepends=('cargo')
 replaces=('lfs')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('1fe771a5c74cc75d3742bca8f3d69fc386be0d015ab16205f95c38bf669131ca2129c8bf461db5d1cbad6783f869953b8803faa6b9d32d12fbb7fabd7f0fdde5')
+sha512sums=('d623c7312c1b93b4fa137e5ab599f4fdc406cfeaf13ba5ac10d1e08e010d2d327bb38b19f887aa501d212e0083b0c8c8c747f25e3db3ce832a52ca4e9502543b')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
