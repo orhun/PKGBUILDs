@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=dra
-pkgver=0.5.3
+pkgver=0.5.4
 pkgrel=1
 pkgdesc="A command line tool to download assets from GitHub releases"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MIT')
 depends=('xz' 'zlib' 'bzip2')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('816cba7b28ddf53560526cee7c5bfcab30ac7d875c9a014bc17458a243d7618d6bba06f6ba0e4752c5e910d33cb1874b0270a52dd4f99ebb2df0b6194af5f7f3')
+sha512sums=('2869c18e10b06bb09d95d74215ae6e14cf69f32c7fb083c5d1f04fd3cae925eff97272f8dc49b9fd783fb3149fc4631b16e53cc3f9ba6417d46f6a78e2c02125')
 options=('!lto')
 
 prepare() {
