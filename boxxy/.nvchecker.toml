@@ -1,0 +1,4 @@
+[boxxy]
+source = "git"
+git = "https://github.com/queer/boxxy.git"
+prefix = "v"
