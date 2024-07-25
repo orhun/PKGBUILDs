@@ -1,0 +1,4 @@
+[cargo-zigbuild]
+source = "git"
+git = "https://github.com/rust-cross/cargo-zigbuild.git"
+prefix = "v"
