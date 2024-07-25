@@ -1,0 +1,4 @@
+[cargo-generate]
+source = "git"
+git = "https://github.com/cargo-generate/cargo-generate.git"
+prefix = "v"
