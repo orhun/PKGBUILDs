@@ -2,8 +2,8 @@
 # Contributor: Mahor Foruzesh <mahor1221 at gmail dot com>
 
 pkgname=rye
-_commit=a1dbc56d424cef520564548618d5e31eea2e0c17
-pkgver=0.35.0
+_commit=09b67c469d92acb6d31d561176c7f43e2947ea62
+pkgver=0.37.0
 pkgrel=1
 pkgdesc="An experimental alternative to poetry, pip, pipenv, venv, virtualenv, pdm, hatch"
 arch=('x86_64')
@@ -18,7 +18,7 @@ depends=(
 )
 makedepends=('cargo' 'git')
 source=("$pkgname-$pkgver::git+$url.git#commit=$_commit")
-sha512sums=('35e8f9f1aa52b8e185768333e2b749aba23cb4eb56fc8e56c7187581341bec35bf1bbe66dbcdfd8d00f297b519ccf7df943888c320756a2480e4c2e5eed15aae')
+sha512sums=('c75ac26b5cd3944194d7421ae5661e600789e3b94f2645f2fca5437e746ef3d45cb7e4c83ca9699467ab125a3509938d40a3def9fdb1134208bdaa9881955e92')
 options=('!lto')
 
 prepare() {
