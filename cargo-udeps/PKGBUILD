@@ -2,7 +2,7 @@
 # Contributor: Vlad Frolov <frolvlad@gmail.com>
 
 pkgname=cargo-udeps
-pkgver=0.1.47
+pkgver=0.1.49
 pkgrel=1
 pkgdesc="Find unused dependencies in Cargo.toml"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT' 'Apache-2.0')
 depends=('curl' 'libgit2')
 makedepends=('cargo' 'libssh2')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('8794b480ab6dd166617711345116be5958def42679c1a5948d41850ecb9cb806')
+sha256sums=('f3beaaa9c11526f4fc52dff140214b8948622b69ebf2878a607132056e6b3c33')
 
 prepare() {
   cd "$pkgname-$pkgver"
