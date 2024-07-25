@@ -1,0 +1,4 @@
+[sniffnet]
+source = "git"
+git = "https://github.com/GyulyVGC/sniffnet.git"
+prefix = "v"
