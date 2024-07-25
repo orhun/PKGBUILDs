@@ -1,0 +1,4 @@
+[dysk]
+source = "git"
+git = "https://github.com/Canop/dysk.git"
+prefix = "v"
