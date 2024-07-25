@@ -1,0 +1,4 @@
+[atac]
+source = "git"
+git = "https://github.com/Julien-cpsn/ATAC.git"
+prefix = "v"
