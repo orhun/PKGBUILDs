@@ -1,0 +1,4 @@
+[tui-journal]
+source = "git"
+git = "https://github.com/AmmarAbouZor/tui-journal.git"
+prefix = "v"
