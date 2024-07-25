@@ -1,0 +1,4 @@
+[cargo-binstall]
+source = "git"
+git = "https://github.com/cargo-bins/cargo-binstall.git"
+prefix = "v"
