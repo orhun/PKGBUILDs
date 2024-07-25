@@ -1,0 +1,4 @@
+[md-tui]
+source = "git"
+git = "https://github.com/henriklovhaug/md-tui.git"
+prefix = "v"
