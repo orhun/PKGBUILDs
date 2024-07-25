@@ -1,0 +1,4 @@
+[kubie]
+source = "git"
+git = "https://github.com/sbstp/kubie.git"
+prefix = "v"
