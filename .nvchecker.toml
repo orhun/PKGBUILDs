@@ -1,0 +1,4 @@
+[markuplinkchecker]
+source = "git"
+git = "https://github.com/becheran/mlc.git"
+prefix = "v"

@@ -3,7 +3,7 @@
 
 pkgname=markuplinkchecker
 _name=mlc
-pkgver=0.17.2
+pkgver=0.18.0
 pkgrel=1
 pkgdesc="Check for broken links in markup files"
 arch=('x86_64')
@@ -12,7 +12,7 @@ license=('MIT')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-b2sums=('3133d87cb2a44cb4deb5dc5ece237f259f493ca8fdc6f0f4a1dd4680828f48ed7c4e2edfa6ae86ffadf2daaf16ea1feec5b4abec614ad369b9f8c86df02150e1')
+b2sums=('77e64ed2d0691c0644368ded44a05ec9ecc3273b3628aca891936a89a5f40cf4b56b612127ddbfb1c1d5e9d31476518239eae0d27836e41cce5d0bb2dadbe388')
 options=('!lto')
 
 prepare() {
