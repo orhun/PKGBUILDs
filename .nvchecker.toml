@@ -1,0 +1,4 @@
+[termscp]
+source = "git"
+git = "https://github.com/veeso/termscp.git"
+prefix = "v"
