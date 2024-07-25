@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=kubie
-pkgver=0.23.0
+pkgver=0.23.1
 pkgrel=1
 pkgdesc="A more powerful alternative to kubectx and kubens"
 arch=('x86_64')
@@ -10,12 +10,12 @@ license=('custom:zlib')
 depends=('gcc-libs')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('c92ee1a0d3d224ea9289766752aeceb16b58165d20799ab18afa1b8b84fa366270cc56368d4392ba36c8a3a6eb2ac5c96b33e3861c3d5dc9ac83a4a246f9fdb8')
+sha512sums=('4f4231bed523ae8d236eaaef54354c4fd4011f2004205cd3f311d408c4544664ada0d886a80c3f656cc82a903039f4448b67731fa782bee5c0e35aed2c4def7a')
 options=('!lto')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+  cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
