@@ -1,0 +1,4 @@
+[wasm-pack]
+source = "git"
+git = "https://github.com/rustwasm/wasm-pack.git"
+prefix = "v"
