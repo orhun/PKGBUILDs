@@ -1,0 +1,4 @@
+[cargo-llvm-cov]
+source = "git"
+git = "https://github.com/taiki-e/cargo-llvm-cov.git"
+prefix = "v"
