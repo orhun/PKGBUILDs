@@ -1,13 +1,13 @@
 pkgbase = serpl
 	pkgdesc = A simple TUI for search and replace, ala VS Code
-	pkgver = 0.1.28
+	pkgver = 0.3.1
 	pkgrel = 1
 	url = https://github.com/yassinebridi/serpl
 	arch = x86_64
 	license = MIT
 	makedepends = cargo
 	depends = gcc-libs
-	source = serpl-0.1.28.tar.gz::https://github.com/yassinebridi/serpl/archive/0.1.28.tar.gz
-	sha512sums = c6fdace1d34e7ab216773110dfe07e3df8126443fa0a1a8f6030b099879b6aac678db4a2bfa33bb65bda7660194be6a0c5f736fbd53f473683b29f333c2a1fa3
+	source = serpl-0.3.1.tar.gz::https://github.com/yassinebridi/serpl/archive/0.3.1.tar.gz
+	sha512sums = 7aa60e540033f33d5599b25fe860c770bf37f2cdbe55af12106f3702b61ec3f7c24e822c7d5a1e2b63edb858869d5a84d2ed20e8d4ccbab75a33debf2b37eb56
 
 pkgname = serpl
