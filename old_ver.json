@@ -343,9 +343,9 @@
       "version": "23.11.0"
     },
     "cotp": {
-      "version": "1.7.3",
-      "gitref": "refs/tags/v1.7.3",
-      "url": "https://github.com/replydev/cotp/releases/tag/v1.7.3"
+      "version": "1.8.0",
+      "gitref": "refs/tags/v1.8.0",
+      "url": "https://github.com/replydev/cotp/releases/tag/v1.8.0"
     },
     "crates-tui": {
       "version": "0.1.7"
@@ -646,7 +646,9 @@
       "url": "https://github.com/sbstp/kubie/releases/tag/v0.23.1"
     },
     "lan-mouse": {
-      "version": "0.8.0"
+      "version": "0.9.1",
+      "gitref": "refs/tags/v0.9.1",
+      "url": "https://github.com/feschber/lan-mouse/releases/tag/v0.9.1"
     },
     "lazyjj": {
       "version": "0.2.1",
@@ -734,7 +736,10 @@
       "version": "2.8.1"
     },
     "mqttui": {
-      "version": "0.21.0"
+      "version": "0.21.1",
+      "gitref": "refs/tags/v0.21.1",
+      "revision": "9c3ff71c40c6803bcc0ce59ec48ed42df83cdaf0",
+      "url": "https://github.com/EdJoPaTo/mqttui/releases/tag/v0.21.1"
     },
     "muffet": {
       "version": "2.10.2",
@@ -809,7 +814,9 @@
       "url": "https://github.com/mfontanini/presenterm/releases/tag/v0.8.0"
     },
     "procs": {
-      "version": "0.14.5"
+      "version": "0.14.6",
+      "gitref": "refs/tags/v0.14.6",
+      "url": "https://github.com/dalance/procs/releases/tag/v0.14.6"
     },
     "pueue": {
       "version": "3.4.1"
@@ -873,6 +880,11 @@
     "rpg-cli": {
       "version": "1.0.1"
     },
+    "rucola": {
+      "version": "0.3.6",
+      "gitref": "refs/tags/v0.3.6",
+      "url": "https://github.com/Linus-Mussmaecher/rucola/releases/tag/v0.3.6"
+    },
     "runst": {
       "version": "0.1.7"
     },
@@ -930,9 +942,9 @@
       "version": "1.11.1"
     },
     "serie": {
-      "version": "0.1.0",
-      "gitref": "refs/tags/v0.1.0",
-      "url": "https://github.com/lusingander/serie/releases/tag/v0.1.0"
+      "version": "0.1.1",
+      "gitref": "refs/tags/v0.1.1",
+      "url": "https://github.com/lusingander/serie/releases/tag/v0.1.1"
     },
     "serpl": {
       "version": "0.3.1",

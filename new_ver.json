@@ -305,10 +305,10 @@
       "url": "https://github.com/sagiegurari/cargo-make/releases/tag/0.37.15"
     },
     "cargo-modules": {
-      "version": "0.16.7",
-      "gitref": "refs/tags/v0.16.7",
-      "revision": "39a756694c3d0b7eda9cc2152ce32812ced6414d",
-      "url": "https://github.com/regexident/cargo-modules/releases/tag/v0.16.7"
+      "version": "0.16.8",
+      "gitref": "refs/tags/v0.16.8",
+      "revision": "9da93fcffac87ba6d8f6be21262df9ecbbaa0bdb",
+      "url": "https://github.com/regexident/cargo-modules/releases/tag/v0.16.8"
     },
     "cargo-msrv": {
       "version": "0.15.1",

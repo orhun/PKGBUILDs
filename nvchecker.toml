@@ -1315,6 +1315,12 @@ github = "Linus-Mussmaecher/rucola"
 use_latest_release = true
 prefix = "v"
 
+[serie]
+source = "github"
+github = "lusingander/serie"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -1973,11 +1979,5 @@ prefix = "v"
 [tage]
 source = "github"
 github = "jacopograndi/tage"
-use_latest_release = true
-prefix = "v"
-
-[serie]
-source = "github"
-github = "lusingander/serie"
 use_latest_release = true
 prefix = "v"
