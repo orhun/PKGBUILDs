@@ -1309,6 +1309,12 @@ github = "yassinebridi/serpl"
 use_latest_release = true
 prefix = "v"
 
+[rucola-notes]
+source = "github"
+github = "Linus-Mussmaecher/rucola"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
