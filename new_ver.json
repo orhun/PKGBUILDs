@@ -1249,7 +1249,7 @@
       "gitref": "refs/tags/1.0.1",
       "url": "https://github.com/facundoolano/rpg-cli/releases/tag/1.0.1"
     },
-    "rucola-notes": {
+    "rucola": {
       "version": "0.3.6",
       "gitref": "refs/tags/v0.3.6",
       "url": "https://github.com/Linus-Mussmaecher/rucola/releases/tag/v0.3.6"

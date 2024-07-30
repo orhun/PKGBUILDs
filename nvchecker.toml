@@ -1309,7 +1309,7 @@ github = "yassinebridi/serpl"
 use_latest_release = true
 prefix = "v"
 
-[rucola-notes]
+[rucola]
 source = "github"
 github = "Linus-Mussmaecher/rucola"
 use_latest_release = true
