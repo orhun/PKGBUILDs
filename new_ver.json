@@ -137,9 +137,9 @@
       "url": "https://github.com/Netflix/bpftop/releases/tag/v0.5.2"
     },
     "broot": {
-      "version": "1.41.0",
-      "gitref": "refs/tags/v1.41.0",
-      "url": "https://github.com/Canop/broot/releases/tag/v1.41.0"
+      "version": "1.41.1",
+      "gitref": "refs/tags/v1.41.1",
+      "url": "https://github.com/Canop/broot/releases/tag/v1.41.1"
     },
     "btlescan": {
       "version": "0.1.1",
@@ -353,6 +353,12 @@
       "version": "1.7.3",
       "gitref": "refs/tags/v1.7.3",
       "url": "https://github.com/dustinblackman/cargo-run-bin/releases/tag/v1.7.3"
+    },
+    "cargo-selector": {
+      "version": "0.4.0",
+      "gitref": "refs/tags/v0.4.0",
+      "revision": "c70f347c6a6d41ef939193b23d54ae85d642a5bf",
+      "url": "https://github.com/lusingander/cargo-selector/releases/tag/v0.4.0"
     },
     "cargo-semver-bump": {
       "version": "0.1.0",
@@ -1217,10 +1223,10 @@
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.14"
     },
     "release-plz": {
-      "version": "0.3.79",
-      "gitref": "refs/tags/release-plz-v0.3.79",
-      "revision": "0af341d96b5551c141a8017b673b562627a60a0c",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.79"
+      "version": "0.3.80",
+      "gitref": "refs/tags/release-plz-v0.3.80",
+      "revision": "bd501a7bf88c20ff6818edfb2185681ed3294c2a",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.80"
     },
     "repgrep": {
       "version": "0.15.0",

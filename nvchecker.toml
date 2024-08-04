@@ -1987,3 +1987,9 @@ source = "github"
 github = "cxreiff/lifecycler"
 use_latest_release = true
 prefix = "v"
+
+[cargo-selector]
+source = "github"
+github = "lusingander/cargo-selector"
+use_max_tag = true
+prefix = "v"
