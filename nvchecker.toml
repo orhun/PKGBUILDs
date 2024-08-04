@@ -1321,6 +1321,12 @@ github = "lusingander/serie"
 use_latest_release = true
 prefix = "v"
 
+[rustlings]
+source = "github"
+github = "rust-lang/rustlings"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

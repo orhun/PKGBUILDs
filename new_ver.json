@@ -1470,9 +1470,9 @@
       "url": "https://github.com/bensadeh/tailspin/releases/tag/3.0.1"
     },
     "task": {
-      "version": "3.0.2",
-      "gitref": "refs/tags/v3.0.2",
-      "url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/tag/v3.0.2"
+      "version": "3.1.0",
+      "gitref": "refs/tags/v3.1.0",
+      "url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/tag/v3.1.0"
     },
     "taskwarrior-tui": {
       "version": "0.26.3",
