@@ -1981,3 +1981,9 @@ source = "github"
 github = "jacopograndi/tage"
 use_latest_release = true
 prefix = "v"
+
+[lifecycler]
+source = "github"
+github = "cxreiff/lifecycler"
+use_latest_release = true
+prefix = "v"
