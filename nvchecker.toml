@@ -1999,3 +1999,9 @@ source = "github"
 github = "lusingander/cargo-selector"
 use_max_tag = true
 prefix = "v"
+
+[manga-tui]
+source = "github"
+github = "josueBarretogit/manga-tui"
+use_max_tag = true
+prefix = "v"
