@@ -1327,6 +1327,12 @@ github = "rust-lang/rustlings"
 use_latest_release = true
 prefix = "v"
 
+[joshuto]
+source = "github"
+github = "kamiyaa/joshuto"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

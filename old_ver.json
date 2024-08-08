@@ -159,9 +159,9 @@
       "version": "1.6.0"
     },
     "cargo-dist": {
-      "version": "0.19.1",
-      "gitref": "refs/tags/v0.19.1",
-      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.19.1"
+      "version": "0.20.0",
+      "gitref": "refs/tags/v0.20.0",
+      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.20.0"
     },
     "cargo-docs-rs": {
       "version": "0.1.12"
@@ -191,10 +191,10 @@
       "url": "https://github.com/cat-in-136/cargo-generate-rpm/releases/tag/v0.15.2"
     },
     "cargo-hack": {
-      "version": "0.6.30",
-      "gitref": "refs/tags/v0.6.30",
-      "revision": "d3332d2c8167c250b6aeffceea46bcd3f4b5d28c",
-      "url": "https://github.com/taiki-e/cargo-hack/releases/tag/v0.6.30"
+      "version": "0.6.31",
+      "gitref": "refs/tags/v0.6.31",
+      "revision": "c0b517b9eefa27cdaf27cca5f1b186c00ef1af47",
+      "url": "https://github.com/taiki-e/cargo-hack/releases/tag/v0.6.31"
     },
     "cargo-hakari": {
       "version": "0.9.14"
@@ -253,10 +253,10 @@
       "url": "https://github.com/dustinblackman/cargo-run-bin/releases/tag/v1.7.3"
     },
     "cargo-selector": {
-      "version": "0.4.0",
-      "gitref": "refs/tags/v0.4.0",
-      "revision": "c70f347c6a6d41ef939193b23d54ae85d642a5bf",
-      "url": "https://github.com/lusingander/cargo-selector/releases/tag/v0.4.0"
+      "version": "0.4.1",
+      "gitref": "refs/tags/v0.4.1",
+      "revision": "db0e1b8ec301a2f338a7dc5bd9d8f8dcef82e0c3",
+      "url": "https://github.com/lusingander/cargo-selector/releases/tag/v0.4.1"
     },
     "cargo-semver-bump": {
       "version": "0.1.0"
@@ -434,10 +434,10 @@
       "version": "0.17.0"
     },
     "eza": {
-      "version": "0.18.24",
-      "gitref": "refs/tags/v0.18.24",
-      "revision": "87bc3323343e2efd3e35d784bbde213aa832eee6",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.18.24"
+      "version": "0.19.0",
+      "gitref": "refs/tags/v0.19.0",
+      "revision": "7f383d3668e8516bcd7ff3bb82b9d4429d1f1f9e",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.19.0"
     },
     "fblog": {
       "version": "4.10.0"
@@ -720,6 +720,12 @@
     "lychee": {
       "version": "0.15.1"
     },
+    "manga-tui": {
+      "version": "0.1.0",
+      "gitref": "refs/tags/v0.1.0",
+      "revision": "c66222607332f1d40ed69007fe2b6d9978ad68c0",
+      "url": "https://github.com/josueBarretogit/manga-tui/releases/tag/v0.1.0"
+    },
     "mari0": {
       "version": "1.6.2"
     },
@@ -883,10 +889,10 @@
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.14"
     },
     "release-plz": {
-      "version": "0.3.81",
-      "gitref": "refs/tags/release-plz-v0.3.81",
-      "revision": "ad1274e0c86ca39027f8633ec48b733e1b7c1163",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.81"
+      "version": "0.3.83",
+      "gitref": "refs/tags/release-plz-v0.3.83",
+      "revision": "c117f8b9527c9a43b7c5c53edb260d173cea2585",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.83"
     },
     "repgrep": {
       "version": "0.15.0"

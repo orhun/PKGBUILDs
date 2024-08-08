@@ -227,9 +227,9 @@
       "url": "https://github.com/jplatte/cargo-depgraph/releases/tag/v1.6.0"
     },
     "cargo-dist": {
-      "version": "0.19.1",
-      "gitref": "refs/tags/v0.19.1",
-      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.19.1"
+      "version": "0.20.0",
+      "gitref": "refs/tags/v0.20.0",
+      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.20.0"
     },
     "cargo-docs-rs": {
       "version": "0.1.12",
@@ -884,6 +884,12 @@
       "gitref": "refs/tags/v0.9.0",
       "revision": "21dd6100edb47145bb9570931bec29697bcd0d9b",
       "url": "https://github.com/PaulJuliusMartinez/jless/releases/tag/v0.9.0"
+    },
+    "joshuto": {
+      "version": "0.9.8",
+      "gitref": "refs/tags/v0.9.8",
+      "revision": "2a392e85633d73a7bfc55feb80c62ecabe70de75",
+      "url": "https://github.com/kamiyaa/joshuto/releases/tag/v0.9.8"
     },
     "jwt-cli": {
       "version": "6.1.0",
