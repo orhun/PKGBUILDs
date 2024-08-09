@@ -1333,6 +1333,12 @@ github = "kamiyaa/joshuto"
 use_max_tag = true
 prefix = "v"
 
+[kubetui]
+source = "github"
+github = "sarub0b0/kubetui"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

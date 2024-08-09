@@ -635,6 +635,12 @@
     "jless": {
       "version": "0.9.0"
     },
+    "joshuto": {
+      "version": "0.9.8",
+      "gitref": "refs/tags/v0.9.8",
+      "revision": "2a392e85633d73a7bfc55feb80c62ecabe70de75",
+      "url": "https://github.com/kamiyaa/joshuto/releases/tag/v0.9.8"
+    },
     "jwt-cli": {
       "version": "6.1.0"
     },
@@ -721,10 +727,10 @@
       "version": "0.15.1"
     },
     "manga-tui": {
-      "version": "0.1.0",
-      "gitref": "refs/tags/v0.1.0",
-      "revision": "c66222607332f1d40ed69007fe2b6d9978ad68c0",
-      "url": "https://github.com/josueBarretogit/manga-tui/releases/tag/v0.1.0"
+      "version": "0.2.0",
+      "gitref": "refs/tags/v0.2.0",
+      "revision": "ecd27d00320e8244b47722b96db4c6cfcaef221b",
+      "url": "https://github.com/josueBarretogit/manga-tui/releases/tag/v0.2.0"
     },
     "mari0": {
       "version": "1.6.2"
@@ -901,10 +907,10 @@
       "version": "2.0.1"
     },
     "rio": {
-      "version": "0.1.4",
-      "gitref": "refs/tags/v0.1.4",
-      "revision": "d6968035c4e71807644b5f332cb7ebf69ab869c0",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.4"
+      "version": "0.1.5",
+      "gitref": "refs/tags/v0.1.5",
+      "revision": "f1ff615959fe18a20a0db1acc2a1c19a465267e9",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.5"
     },
     "ripasso": {
       "version": "0.6.5"

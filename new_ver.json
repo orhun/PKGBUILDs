@@ -404,9 +404,9 @@
       "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.31.1"
     },
     "cargo-tauri": {
-      "version": "tauri-cli-v2.0.0-rc.2",
-      "gitref": "refs/tags/tauri-cli-v2.0.0-rc.2",
-      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.0.0-rc.2"
+      "version": "tauri-cli-v2.0.0-rc.3",
+      "gitref": "refs/tags/tauri-cli-v2.0.0-rc.3",
+      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.0.0-rc.3"
     },
     "cargo-udeps": {
       "version": "0.1.50",
@@ -936,6 +936,12 @@
       "gitref": "refs/tags/v2.3.0",
       "url": "https://github.com/SeaDve/Kooha/releases/tag/v2.3.0"
     },
+    "kubetui": {
+      "version": "1.5.3",
+      "gitref": "refs/tags/v1.5.3",
+      "revision": "671689f949d6e8b47372a104d1ebe3e49a51298d",
+      "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.5.3"
+    },
     "kubie": {
       "version": "0.23.1",
       "gitref": "refs/tags/v0.23.1",
@@ -1020,10 +1026,10 @@
       "url": "https://github.com/lycheeverse/lychee/releases/tag/v0.15.1"
     },
     "manga-tui": {
-      "version": "0.1.0",
-      "gitref": "refs/tags/v0.1.0",
-      "revision": "c66222607332f1d40ed69007fe2b6d9978ad68c0",
-      "url": "https://github.com/josueBarretogit/manga-tui/releases/tag/v0.1.0"
+      "version": "0.2.0",
+      "gitref": "refs/tags/v0.2.0",
+      "revision": "ecd27d00320e8244b47722b96db4c6cfcaef221b",
+      "url": "https://github.com/josueBarretogit/manga-tui/releases/tag/v0.2.0"
     },
     "mari0": {
       "version": "1.6.2",
@@ -1046,9 +1052,9 @@
       "url": "https://github.com/cantino/mcfly/releases/tag/v0.9.1"
     },
     "md-tui": {
-      "version": "0.8.3",
-      "gitref": "refs/tags/v0.8.3",
-      "url": "https://github.com/henriklovhaug/md-tui/releases/tag/v0.8.3"
+      "version": "0.8.4",
+      "gitref": "refs/tags/v0.8.4",
+      "url": "https://github.com/henriklovhaug/md-tui/releases/tag/v0.8.4"
     },
     "mdbook": {
       "version": "0.4.40",
@@ -1201,7 +1207,7 @@
       "url": "https://github.com/io12/pwninit/releases/tag/3.3.1"
     },
     "pycharm-community-edition": {
-      "version": "241.18968.29"
+      "version": "241.19072.16"
     },
     "ratatui-snake": {
       "version": "0.1",
@@ -1246,10 +1252,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.1"
     },
     "rio": {
-      "version": "0.1.4",
-      "gitref": "refs/tags/v0.1.4",
-      "revision": "d6968035c4e71807644b5f332cb7ebf69ab869c0",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.4"
+      "version": "0.1.5",
+      "gitref": "refs/tags/v0.1.5",
+      "revision": "f1ff615959fe18a20a0db1acc2a1c19a465267e9",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.5"
     },
     "ripasso": {
       "version": "0.6.5",
@@ -1315,9 +1321,9 @@
       "url": "https://github.com/luser/rustfilt/releases/tag/0.2.1"
     },
     "rustlings": {
-      "version": "6.1.0",
-      "gitref": "refs/tags/v6.1.0",
-      "url": "https://github.com/rust-lang/rustlings/releases/tag/v6.1.0"
+      "version": "6.2.0",
+      "gitref": "refs/tags/v6.2.0",
+      "url": "https://github.com/rust-lang/rustlings/releases/tag/v6.2.0"
     },
     "rustscan": {
       "version": "2.3.0",
