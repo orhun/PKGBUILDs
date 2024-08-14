@@ -2023,3 +2023,9 @@ source = "github"
 github = "sugyan/tuisky"
 use_max_tag = true
 prefix = "v"
+
+[rainfrog]
+source = "github"
+github = "achristmascarl/rainfrog"
+use_max_tag = true
+prefix = "v"

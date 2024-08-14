@@ -16,9 +16,9 @@
       "version": "1.3.4"
     },
     "aliyun-cli": {
-      "version": "3.0.216",
-      "gitref": "refs/tags/v3.0.216",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.216"
+      "version": "3.0.218",
+      "gitref": "refs/tags/v3.0.218",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.218"
     },
     "alpine-chroot-install": {
       "version": "0.14.0"
@@ -113,7 +113,9 @@
       "version": "0.4.7"
     },
     "cargo-about": {
-      "version": "0.6.2"
+      "version": "0.6.4",
+      "gitref": "refs/tags/0.6.4",
+      "url": "https://github.com/EmbarkStudios/cargo-about/releases/tag/0.6.4"
     },
     "cargo-audit": {
       "version": "0.20.0"
@@ -626,7 +628,7 @@
       "version": "1.6.1"
     },
     "intellij-idea-community-edition": {
-      "version": "241.18968.26"
+      "version": "242.20224.300"
     },
     "jilu": {
       "version": "0.4.0"
@@ -757,9 +759,9 @@
       "version": "1.10.0"
     },
     "mcfly": {
-      "version": "0.9.1",
-      "gitref": "refs/tags/v0.9.1",
-      "url": "https://github.com/cantino/mcfly/releases/tag/v0.9.1"
+      "version": "0.9.2",
+      "gitref": "refs/tags/v0.9.2",
+      "url": "https://github.com/cantino/mcfly/releases/tag/v0.9.2"
     },
     "md-tui": {
       "version": "0.8.4",
@@ -881,7 +883,7 @@
       "version": "3.3.1"
     },
     "pycharm-community-edition": {
-      "version": "241.18034.82"
+      "version": "241.19072.16"
     },
     "qrtool": {
       "version": "0.11.4",
@@ -920,10 +922,10 @@
       "version": "2.0.1"
     },
     "rio": {
-      "version": "0.1.5",
-      "gitref": "refs/tags/v0.1.5",
-      "revision": "f1ff615959fe18a20a0db1acc2a1c19a465267e9",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.5"
+      "version": "0.1.6",
+      "gitref": "refs/tags/v0.1.6",
+      "revision": "0de14c6dd2d84ff8418e8163a182105888292077",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.6"
     },
     "ripasso": {
       "version": "0.6.5"
@@ -948,18 +950,18 @@
       "version": "0.9.1"
     },
     "rust-analyzer": {
-      "version": "2024-08-05",
-      "gitref": "refs/tags/2024-08-05",
-      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-08-05"
+      "version": "2024-08-12",
+      "gitref": "refs/tags/2024-08-12",
+      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-08-12"
     },
     "rust-bindgen": {
       "version": "0.69.4"
     },
     "rust-kanban": {
-      "version": "0.10.3",
-      "gitref": "refs/tags/v0.10.3",
-      "revision": "fffdd540d7714ff495dd19f5ce4e7c4293dd4527",
-      "url": "https://github.com/yashs662/rust_kanban/releases/tag/v0.10.3"
+      "version": "0.10.4",
+      "gitref": "refs/tags/v0.10.4",
+      "revision": "1281a9a47a1c6443477267a4f7219eff4ab9f919",
+      "url": "https://github.com/yashs662/rust_kanban/releases/tag/v0.10.4"
     },
     "rust-racer": {
       "version": "2.1.36"
@@ -1030,10 +1032,10 @@
       "version": "1.5"
     },
     "slumber": {
-      "version": "1.8.0",
-      "gitref": "refs/tags/v1.8.0",
-      "revision": "ed3b619e5b3b07b42118825022a423550f71aa46",
-      "url": "https://github.com/LucasPickering/slumber/releases/tag/v1.8.0"
+      "version": "1.8.1",
+      "gitref": "refs/tags/v1.8.1",
+      "revision": "ea0663fbbdabca7d4c6816f3b6de5c4ad4265490",
+      "url": "https://github.com/LucasPickering/slumber/releases/tag/v1.8.1"
     },
     "sniffnet": {
       "version": "1.3.1",
@@ -1163,6 +1165,12 @@
       "gitref": "refs/tags/v0.1.2",
       "url": "https://github.com/Chleba/tui-slides/releases/tag/v0.1.2"
     },
+    "tuisky": {
+      "version": "0.0.5",
+      "gitref": "refs/tags/v0.0.5",
+      "revision": "d7920766a905ef4310c800ce6ff013c450d9b176",
+      "url": "https://github.com/sugyan/tuisky/releases/tag/v0.0.5"
+    },
     "twitch-tui": {
       "version": "2.6.14",
       "gitref": "refs/tags/v2.6.14",
@@ -1203,7 +1211,9 @@
       "version": "1.5.0"
     },
     "wasm-bindgen": {
-      "version": "0.2.92"
+      "version": "0.2.93",
+      "gitref": "refs/tags/0.2.93",
+      "url": "https://github.com/rustwasm/wasm-bindgen/releases/tag/0.2.93"
     },
     "wasm-pack": {
       "version": "0.13.0",
