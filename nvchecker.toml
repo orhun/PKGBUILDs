@@ -1339,6 +1339,12 @@ github = "sarub0b0/kubetui"
 use_max_tag = true
 prefix = "v"
 
+[bpf-linker]
+source = "github"
+github = "aya-rs/bpf-linker"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

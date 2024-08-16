@@ -124,9 +124,9 @@
       "version": "0.6.4"
     },
     "cargo-binstall": {
-      "version": "1.10.0",
-      "gitref": "refs/tags/v1.10.0",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.0"
+      "version": "1.10.2",
+      "gitref": "refs/tags/v1.10.2",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.2"
     },
     "cargo-bloat": {
       "version": "0.12.1"
@@ -164,9 +164,9 @@
       "version": "1.6.0"
     },
     "cargo-dist": {
-      "version": "0.20.0",
-      "gitref": "refs/tags/v0.20.0",
-      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.20.0"
+      "version": "0.21.0",
+      "gitref": "refs/tags/v0.21.0",
+      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.21.0"
     },
     "cargo-docs-rs": {
       "version": "0.1.12"
@@ -230,7 +230,9 @@
       "url": "https://github.com/regexident/cargo-modules/releases/tag/v0.16.9"
     },
     "cargo-msrv": {
-      "version": "0.15.1"
+      "version": "0.16.0-beta.25",
+      "gitref": "refs/tags/v0.16.0-beta.25",
+      "url": "https://github.com/foresterre/cargo-msrv/releases/tag/v0.16.0-beta.25"
     },
     "cargo-ndk": {
       "version": "3.5.6"
@@ -267,9 +269,9 @@
       "version": "0.1.0"
     },
     "cargo-semver-checks": {
-      "version": "0.33.0",
-      "gitref": "refs/tags/v0.33.0",
-      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.33.0"
+      "version": "0.34.0",
+      "gitref": "refs/tags/v0.34.0",
+      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.34.0"
     },
     "cargo-show-asm": {
       "version": "0.2.38",
@@ -311,9 +313,9 @@
       "version": "0.2.0"
     },
     "cargo-update": {
-      "version": "14.0.0",
-      "gitref": "refs/tags/v14.0.0",
-      "url": "https://github.com/nabijaczleweli/cargo-update/releases/tag/v14.0.0"
+      "version": "14.0.2",
+      "gitref": "refs/tags/v14.0.2",
+      "url": "https://github.com/nabijaczleweli/cargo-update/releases/tag/v14.0.2"
     },
     "cargo-wizard": {
       "version": "0.2.2"
@@ -416,9 +418,9 @@
       "url": "https://github.com/Byron/dua-cli/releases/tag/v2.29.2"
     },
     "ducker": {
-      "version": "0.0.7",
-      "gitref": "refs/tags/v0.0.7",
-      "url": "https://github.com/robertpsoane/ducker/releases/tag/v0.0.7"
+      "version": "0.1.1",
+      "gitref": "refs/tags/v0.1.1",
+      "url": "https://github.com/robertpsoane/ducker/releases/tag/v0.1.1"
     },
     "dumb": {
       "version": "2.0.3"
@@ -565,9 +567,9 @@
       "url": "https://github.com/mrjackwills/havn/releases/tag/v0.1.13"
     },
     "hawkeye": {
-      "version": "5.7.0",
-      "gitref": "refs/tags/v5.7.0",
-      "url": "https://github.com/korandoru/hawkeye/releases/tag/v5.7.0"
+      "version": "5.8.0",
+      "gitref": "refs/tags/v5.8.0",
+      "url": "https://github.com/korandoru/hawkeye/releases/tag/v5.8.0"
     },
     "heh": {
       "version": "0.6.0",
@@ -694,9 +696,9 @@
       "url": "https://github.com/feschber/lan-mouse/releases/tag/v0.9.1"
     },
     "lazyjj": {
-      "version": "0.2.1",
-      "gitref": "refs/tags/v0.2.1",
-      "url": "https://github.com/Cretezy/lazyjj/releases/tag/v0.2.1"
+      "version": "0.3.1",
+      "gitref": "refs/tags/v0.3.1",
+      "url": "https://github.com/Cretezy/lazyjj/releases/tag/v0.3.1"
     },
     "libgit2": {
       "version": "1.8.2-rc1"
@@ -889,6 +891,12 @@
       "version": "0.11.4",
       "gitref": "refs/tags/v0.11.4",
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.4"
+    },
+    "rainfrog": {
+      "version": "0.1.8",
+      "gitref": "refs/tags/v0.1.8",
+      "revision": "c9d6f802f98333618007f54420dcc0d5a6db2e59",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.8"
     },
     "ratatui-snake": {
       "version": "0.1"
@@ -1153,7 +1161,9 @@
       "url": "https://github.com/fujiapple852/trippy/releases/tag/0.11.0"
     },
     "ttyper": {
-      "version": "1.5.0"
+      "version": "1.6.0",
+      "gitref": "refs/tags/v1.6.0",
+      "url": "https://github.com/max-niederman/ttyper/releases/tag/v1.6.0"
     },
     "tui-journal": {
       "version": "0.9.1",
@@ -1166,10 +1176,10 @@
       "url": "https://github.com/Chleba/tui-slides/releases/tag/v0.1.2"
     },
     "tuisky": {
-      "version": "0.0.5",
-      "gitref": "refs/tags/v0.0.5",
-      "revision": "d7920766a905ef4310c800ce6ff013c450d9b176",
-      "url": "https://github.com/sugyan/tuisky/releases/tag/v0.0.5"
+      "version": "0.1.1",
+      "gitref": "refs/tags/v0.1.1",
+      "revision": "6b726548bf3989bcda5246171a5fd97adb5108c5",
+      "url": "https://github.com/sugyan/tuisky/releases/tag/v0.1.1"
     },
     "twitch-tui": {
       "version": "2.6.14",
