@@ -39,9 +39,9 @@
       "url": "https://github.com/arduino/arduino-language-server/releases/tag/0.7.6"
     },
     "argc": {
-      "version": "1.20.0",
-      "gitref": "refs/tags/v1.20.0",
-      "url": "https://github.com/sigoden/argc/releases/tag/v1.20.0"
+      "version": "1.20.1",
+      "gitref": "refs/tags/v1.20.1",
+      "url": "https://github.com/sigoden/argc/releases/tag/v1.20.1"
     },
     "arti": {
       "version": "tor-llcrypto-v0.4.4",
@@ -70,9 +70,9 @@
       "url": "https://github.com/99designs/aws-vault/releases/tag/v7.2.0"
     },
     "bandwhich": {
-      "version": "0.22.2",
-      "gitref": "refs/tags/v0.22.2",
-      "url": "https://github.com/imsnif/bandwhich/releases/tag/v0.22.2"
+      "version": "0.23.0",
+      "gitref": "refs/tags/v0.23.0",
+      "url": "https://github.com/imsnif/bandwhich/releases/tag/v0.23.0"
     },
     "bash-preexec": {
       "version": "0.5.0",
@@ -409,9 +409,9 @@
       "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.31.1"
     },
     "cargo-tauri": {
-      "version": "tauri-cli-v2.0.0-rc.3",
-      "gitref": "refs/tags/tauri-cli-v2.0.0-rc.3",
-      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.0.0-rc.3"
+      "version": "tauri-cli-v2.0.0-rc.4",
+      "gitref": "refs/tags/tauri-cli-v2.0.0-rc.4",
+      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.0.0-rc.4"
     },
     "cargo-udeps": {
       "version": "0.1.50",
@@ -1263,10 +1263,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.1"
     },
     "rio": {
-      "version": "0.1.6",
-      "gitref": "refs/tags/v0.1.6",
-      "revision": "0de14c6dd2d84ff8418e8163a182105888292077",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.6"
+      "version": "0.1.7",
+      "gitref": "refs/tags/v0.1.7",
+      "revision": "e346ff6581a54c5fd41a7008140a0819d846c550",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.7"
     },
     "ripasso": {
       "version": "0.6.5",
@@ -1305,10 +1305,10 @@
       "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-08-12"
     },
     "rust-bindgen": {
-      "version": "0.69.4",
-      "gitref": "refs/tags/v0.69.4",
-      "revision": "f93d5dfa6d5d7409bea584f3eab38e1fc52b8360",
-      "url": "https://github.com/rust-lang/rust-bindgen/releases/tag/v0.69.4"
+      "version": "0.70.0",
+      "gitref": "refs/tags/v0.70.0",
+      "revision": "190ff2a6a4739f3a703125d9ed290dcd2dc9c808",
+      "url": "https://github.com/rust-lang/rust-bindgen/releases/tag/v0.70.0"
     },
     "rust-kanban": {
       "version": "0.10.4",
