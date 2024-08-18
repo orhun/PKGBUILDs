@@ -900,10 +900,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.4"
     },
     "rainfrog": {
-      "version": "0.1.8",
-      "gitref": "refs/tags/v0.1.8",
-      "revision": "c9d6f802f98333618007f54420dcc0d5a6db2e59",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.8"
+      "version": "0.1.9",
+      "gitref": "refs/tags/v0.1.9",
+      "revision": "d84df461e6aa836f006da1f67cc555a258a449b6",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.9"
     },
     "ratatui-snake": {
       "version": "0.1"
@@ -912,9 +912,9 @@
       "version": "0.5.0"
     },
     "rattler-build": {
-      "version": "0.19.0",
-      "gitref": "refs/tags/v0.19.0",
-      "url": "https://github.com/prefix-dev/rattler-build/releases/tag/v0.19.0"
+      "version": "0.20.0",
+      "gitref": "refs/tags/v0.20.0",
+      "url": "https://github.com/prefix-dev/rattler-build/releases/tag/v0.20.0"
     },
     "rdfm": {
       "version": "0.1.3"
@@ -1117,7 +1117,9 @@
       "url": "https://github.com/jacopograndi/tage/releases/tag/v0.1"
     },
     "tailspin": {
-      "version": "3.0.1"
+      "version": "3.0.2",
+      "gitref": "refs/tags/3.0.2",
+      "url": "https://github.com/bensadeh/tailspin/releases/tag/3.0.2"
     },
     "task": {
       "version": "3.0.2"
@@ -1192,9 +1194,9 @@
       "url": "https://github.com/sugyan/tuisky/releases/tag/v0.1.1"
     },
     "twitch-tui": {
-      "version": "2.6.14",
-      "gitref": "refs/tags/v2.6.14",
-      "url": "https://github.com/Xithrius/twitch-tui/releases/tag/v2.6.14"
+      "version": "2.6.15",
+      "gitref": "refs/tags/v2.6.15",
+      "url": "https://github.com/Xithrius/twitch-tui/releases/tag/v2.6.15"
     },
     "typeracer": {
       "version": "2.1.4"
