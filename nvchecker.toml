@@ -1351,6 +1351,12 @@ github = "robertpsoane/ducker"
 use_latest_release = true
 prefix = "v"
 
+[i3status]
+source = "github"
+github = "i3/i3status"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
