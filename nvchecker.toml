@@ -1357,6 +1357,12 @@ github = "i3/i3status"
 use_latest_release = true
 prefix = "v"
 
+[zola]
+source = "github"
+github = "getzola/zola"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

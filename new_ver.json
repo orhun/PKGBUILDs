@@ -107,9 +107,9 @@
       "url": "https://github.com/pythops/bluetui/releases/tag/v0.5.1"
     },
     "bob": {
-      "version": "3.0.1",
-      "gitref": "refs/tags/v3.0.1",
-      "url": "https://github.com/MordechaiHadad/bob/releases/tag/v3.0.1"
+      "version": "4.0.0",
+      "gitref": "refs/tags/v4.0.0",
+      "url": "https://github.com/MordechaiHadad/bob/releases/tag/v4.0.0"
     },
     "bonnie": {
       "version": "0.3.2",
@@ -409,9 +409,9 @@
       "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.31.1"
     },
     "cargo-tauri": {
-      "version": "@tauri-apps/api-v2.0.0-rc.2",
-      "gitref": "refs/tags/@tauri-apps/api-v2.0.0-rc.2",
-      "url": "https://github.com/tauri-apps/tauri/releases/tag/%40tauri-apps/api-v2.0.0-rc.2"
+      "version": "tauri-cli-v2.0.0-rc.5",
+      "gitref": "refs/tags/tauri-cli-v2.0.0-rc.5",
+      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.0.0-rc.5"
     },
     "cargo-udeps": {
       "version": "0.1.50",
@@ -1215,10 +1215,10 @@
       "version": "242.20224.347"
     },
     "rainfrog": {
-      "version": "0.1.10",
-      "gitref": "refs/tags/v0.1.10",
-      "revision": "030544b6336930072678c9a62b9938419af22316",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.10"
+      "version": "0.1.11",
+      "gitref": "refs/tags/v0.1.11",
+      "revision": "c04c00ecdf576872c3eec6d957838dacc4a5f9f1",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.11"
     },
     "ratatui-snake": {
       "version": "0.1",
@@ -1743,6 +1743,11 @@
       "version": "0.13.0",
       "gitref": "refs/tags/0.13.0",
       "url": "https://github.com/zigtools/zls/releases/tag/0.13.0"
+    },
+    "zola": {
+      "version": "0.19.2",
+      "gitref": "refs/tags/v0.19.2",
+      "url": "https://github.com/getzola/zola/releases/tag/v0.19.2"
     },
     "zps": {
       "version": "2.0.0",

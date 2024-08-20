@@ -907,10 +907,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.4"
     },
     "rainfrog": {
-      "version": "0.1.9",
-      "gitref": "refs/tags/v0.1.9",
-      "revision": "d84df461e6aa836f006da1f67cc555a258a449b6",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.9"
+      "version": "0.1.10",
+      "gitref": "refs/tags/v0.1.10",
+      "revision": "030544b6336930072678c9a62b9938419af22316",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.10"
     },
     "ratatui-snake": {
       "version": "0.1"
@@ -932,10 +932,10 @@
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.14"
     },
     "release-plz": {
-      "version": "0.3.83",
-      "gitref": "refs/tags/release-plz-v0.3.83",
-      "revision": "c117f8b9527c9a43b7c5c53edb260d173cea2585",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.83"
+      "version": "0.3.84",
+      "gitref": "refs/tags/release-plz-v0.3.84",
+      "revision": "10229bc96f67620e6c69100a2ad95593fa17f9c5",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.84"
     },
     "repgrep": {
       "version": "0.15.0"
@@ -961,9 +961,9 @@
       "version": "1.0.1"
     },
     "rucola": {
-      "version": "0.3.6",
-      "gitref": "refs/tags/v0.3.6",
-      "url": "https://github.com/Linus-Mussmaecher/rucola/releases/tag/v0.3.6"
+      "version": "0.4.0",
+      "gitref": "refs/tags/v0.4.0",
+      "url": "https://github.com/Linus-Mussmaecher/rucola/releases/tag/v0.4.0"
     },
     "runst": {
       "version": "0.1.7"
@@ -972,9 +972,9 @@
       "version": "0.9.1"
     },
     "rust-analyzer": {
-      "version": "2024-08-12",
-      "gitref": "refs/tags/2024-08-12",
-      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-08-12"
+      "version": "2024-08-19",
+      "gitref": "refs/tags/2024-08-19",
+      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-08-19"
     },
     "rust-bindgen": {
       "version": "0.70.0",
