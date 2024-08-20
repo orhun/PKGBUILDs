@@ -443,14 +443,6 @@ github = "rust-lang/rustup"
 use_max_tag = true
 prefix = "v"
 
-[intellij-idea-community-edition]
-source = "cmd"
-cmd = "curl -s --location --header \"Accept: application/rdf+xml\" https://www.jetbrains.com/updates/updates.xml | xmllint --xpath \"string(/products/product[@name='IntelliJ IDEA']/channel[@status='release']/build/@fullNumber)\" -"
-
-[pycharm-community-edition]
-source = "cmd"
-cmd = "curl -s --location --header \"Accept: application/rdf+xml\" https://www.jetbrains.com/updates/updates.xml | xmllint --xpath \"string(/products/product[@name='PyCharm']/channel[@status='release']/build/@fullNumber)\" -"
-
 [kooha]
 source = "github"
 github = "SeaDve/Kooha"

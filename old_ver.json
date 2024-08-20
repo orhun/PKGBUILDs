@@ -907,10 +907,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.4"
     },
     "rainfrog": {
-      "version": "0.1.10",
-      "gitref": "refs/tags/v0.1.10",
-      "revision": "030544b6336930072678c9a62b9938419af22316",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.10"
+      "version": "0.1.11",
+      "gitref": "refs/tags/v0.1.11",
+      "revision": "c04c00ecdf576872c3eec6d957838dacc4a5f9f1",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.11"
     },
     "ratatui-snake": {
       "version": "0.1"
