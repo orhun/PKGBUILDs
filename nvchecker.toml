@@ -1355,6 +1355,12 @@ github = "getzola/zola"
 use_latest_release = true
 prefix = "v"
 
+[termusic]
+source = "github"
+github = "tramhao/termusic"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -1637,12 +1643,6 @@ prefix = "v"
 source = "github"
 github = "o2sh/miro"
 use_latest_release = true
-prefix = "v"
-
-[termusic]
-source = "github"
-github = "tramhao/termusic"
-use_max_tag = true
 prefix = "v"
 
 [cargo-sonar]
