@@ -2039,3 +2039,9 @@ source = "github"
 github = "achristmascarl/rainfrog"
 use_max_tag = true
 prefix = "v"
+
+[basilk]
+source = "github"
+github = "GabAlpha/basilk"
+use_max_tag = true
+prefix = "v"

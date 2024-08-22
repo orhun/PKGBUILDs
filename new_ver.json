@@ -79,6 +79,12 @@
       "gitref": "refs/tags/0.5.0",
       "url": "https://github.com/rcaloras/bash-preexec/releases/tag/0.5.0"
     },
+    "basilk": {
+      "version": "0.1.2",
+      "gitref": "refs/tags/0.1.2",
+      "revision": "3616f237fb5a9529233651755ea3db0aa9fd2a7d",
+      "url": "https://github.com/GabAlpha/basilk/releases/tag/0.1.2"
+    },
     "bingrep": {
       "version": "0.11.0",
       "gitref": "refs/tags/v0.11.0",
