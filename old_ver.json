@@ -57,6 +57,12 @@
     "bash-preexec": {
       "version": "0.5.0"
     },
+    "basilk": {
+      "version": "0.1.3",
+      "gitref": "refs/tags/0.1.3",
+      "revision": "072f74874af656b3585dabdc4e38ed8d0e8e4374",
+      "url": "https://github.com/GabAlpha/basilk/releases/tag/0.1.3"
+    },
     "bingrep": {
       "version": "0.11.0"
     },
@@ -75,9 +81,9 @@
       "url": "https://github.com/pythops/bluetui/releases/tag/v0.5.1"
     },
     "bob": {
-      "version": "4.0.0",
-      "gitref": "refs/tags/v4.0.0",
-      "url": "https://github.com/MordechaiHadad/bob/releases/tag/v4.0.0"
+      "version": "4.0.1",
+      "gitref": "refs/tags/v4.0.1",
+      "url": "https://github.com/MordechaiHadad/bob/releases/tag/v4.0.1"
     },
     "bonnie": {
       "version": "0.3.2"
@@ -247,10 +253,10 @@
       "version": "3.5.6"
     },
     "cargo-nextest": {
-      "version": "0.9.74",
-      "gitref": "refs/tags/cargo-nextest-0.9.74",
-      "revision": "e1c10edeaafab87ab7252407ee3f99854f2aa016",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.74"
+      "version": "0.9.75",
+      "gitref": "refs/tags/cargo-nextest-0.9.75",
+      "revision": "b9ac6ace442c295a54f9a25b06d57f7bc0b8ac93",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.75"
     },
     "cargo-outdated": {
       "version": "0.15.0"
@@ -911,10 +917,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.4"
     },
     "rainfrog": {
-      "version": "0.1.11",
-      "gitref": "refs/tags/v0.1.11",
-      "revision": "c04c00ecdf576872c3eec6d957838dacc4a5f9f1",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.11"
+      "version": "0.1.12",
+      "gitref": "refs/tags/v0.1.12",
+      "revision": "a7464c895f24ecbfe74f9c7c484099493ce11b7f",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.12"
     },
     "ratatui-snake": {
       "version": "0.1"
@@ -1174,9 +1180,9 @@
       "version": "0.14.10"
     },
     "tokei": {
-      "version": "13.0.0-alpha.3",
-      "gitref": "refs/tags/v13.0.0-alpha.3",
-      "url": "https://github.com/XAMPPRocky/tokei/releases/tag/v13.0.0-alpha.3"
+      "version": "13.0.0-alpha.5",
+      "gitref": "refs/tags/v13.0.0-alpha.5",
+      "url": "https://github.com/XAMPPRocky/tokei/releases/tag/v13.0.0-alpha.5"
     },
     "toml2json": {
       "version": "1.3.1"
@@ -1221,9 +1227,9 @@
       "version": "2.1.4"
     },
     "typos": {
-      "version": "1.23.6",
-      "gitref": "refs/tags/v1.23.6",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.23.6"
+      "version": "1.24.1",
+      "gitref": "refs/tags/v1.24.1",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.24.1"
     },
     "tz": {
       "version": "0.7.0"
