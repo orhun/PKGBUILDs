@@ -38,10 +38,10 @@
       "version": "0.3.3"
     },
     "atac": {
-      "version": "0.17.0",
-      "gitref": "refs/tags/v0.17.0",
-      "revision": "c4bd1950a28becd933f40e64b74ec003d5baa988",
-      "url": "https://github.com/Julien-cpsn/ATAC/releases/tag/v0.17.0"
+      "version": "0.18.0",
+      "gitref": "refs/tags/v0.18.0",
+      "revision": "329fbca5461fa4b35fa1e40d72d7fb84275c5cde",
+      "url": "https://github.com/Julien-cpsn/ATAC/releases/tag/v0.18.0"
     },
     "atuin": {
       "version": "18.3.0"
@@ -139,9 +139,9 @@
       "version": "0.6.4"
     },
     "cargo-binstall": {
-      "version": "1.10.2",
-      "gitref": "refs/tags/v1.10.2",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.2"
+      "version": "1.10.3",
+      "gitref": "refs/tags/v1.10.3",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.3"
     },
     "cargo-bloat": {
       "version": "0.12.1"
@@ -426,9 +426,9 @@
       "version": "0.13.2"
     },
     "dra": {
-      "version": "0.6.0",
-      "gitref": "refs/tags/0.6.0",
-      "url": "https://github.com/devmatteini/dra/releases/tag/0.6.0"
+      "version": "0.6.1",
+      "gitref": "refs/tags/0.6.1",
+      "url": "https://github.com/devmatteini/dra/releases/tag/0.6.1"
     },
     "dua-cli": {
       "version": "2.29.2",
@@ -521,9 +521,9 @@
       "url": "https://github.com/tummychow/git-absorb/releases/tag/0.6.15"
     },
     "git-cliff": {
-      "version": "2.4.0",
-      "gitref": "refs/tags/v2.4.0",
-      "url": "https://github.com/orhun/git-cliff/releases/tag/v2.4.0"
+      "version": "2.5.0",
+      "gitref": "refs/tags/v2.5.0",
+      "url": "https://github.com/orhun/git-cliff/releases/tag/v2.5.0"
     },
     "git-grab": {
       "version": "3.0.0"
@@ -1175,6 +1175,12 @@
       "gitref": "refs/tags/v0.9.1",
       "revision": "1edf2225c3fa7a286b6aa0f871c6c1025ecf8db2",
       "url": "https://github.com/tramhao/termusic/releases/tag/v0.9.1"
+    },
+    "tgt-rs": {
+      "version": "1.0.0",
+      "gitref": "refs/tags/v1.0.0",
+      "revision": "9ae9cb6c5788976b8db9e797045b90ffb1ee6d1e",
+      "url": "https://github.com/FedericoBruzzone/tgt/releases/tag/v1.0.0"
     },
     "tickrs": {
       "version": "0.14.10"

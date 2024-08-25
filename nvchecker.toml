@@ -2045,9 +2045,3 @@ source = "github"
 github = "GabAlpha/basilk"
 use_max_tag = true
 prefix = "v"
-
-[tgt-rs]
-source = "github"
-github = "FedericoBruzzone/tgt"
-use_max_tag = true
-prefix = "v"

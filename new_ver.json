@@ -54,10 +54,10 @@
       "url": "https://github.com/chaosprint/asak/releases/tag/v0.3.3"
     },
     "atac": {
-      "version": "0.17.0",
-      "gitref": "refs/tags/v0.17.0",
-      "revision": "c4bd1950a28becd933f40e64b74ec003d5baa988",
-      "url": "https://github.com/Julien-cpsn/ATAC/releases/tag/v0.17.0"
+      "version": "0.18.0",
+      "gitref": "refs/tags/v0.18.0",
+      "revision": "329fbca5461fa4b35fa1e40d72d7fb84275c5cde",
+      "url": "https://github.com/Julien-cpsn/ATAC/releases/tag/v0.18.0"
     },
     "atuin": {
       "version": "18.3.0",
@@ -184,9 +184,9 @@
       "url": "https://github.com/rust-secure-code/cargo-auditable/releases/tag/v0.6.4"
     },
     "cargo-binstall": {
-      "version": "1.10.2",
-      "gitref": "refs/tags/v1.10.2",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.2"
+      "version": "1.10.3",
+      "gitref": "refs/tags/v1.10.3",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.3"
     },
     "cargo-bloat": {
       "version": "0.12.1",
@@ -206,9 +206,9 @@
       "url": "https://github.com/RalfJung/cargo-careful/releases/tag/v0.4.3"
     },
     "cargo-clone": {
-      "version": "1.2.1",
-      "gitref": "refs/tags/v1.2.1",
-      "url": "https://github.com/JanLikar/cargo-clone/releases/tag/v1.2.1"
+      "version": "1.2.3",
+      "gitref": "refs/tags/v1.2.3",
+      "url": "https://github.com/JanLikar/cargo-clone/releases/tag/v1.2.3"
     },
     "cargo-compete": {
       "version": "0.10.7",
@@ -568,9 +568,9 @@
       "url": "https://github.com/SuperCuber/dotter/releases/tag/v0.13.2"
     },
     "dra": {
-      "version": "0.6.0",
-      "gitref": "refs/tags/0.6.0",
-      "url": "https://github.com/devmatteini/dra/releases/tag/0.6.0"
+      "version": "0.6.1",
+      "gitref": "refs/tags/0.6.1",
+      "url": "https://github.com/devmatteini/dra/releases/tag/0.6.1"
     },
     "dua-cli": {
       "version": "2.29.2",
@@ -1247,10 +1247,10 @@
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.14"
     },
     "release-plz": {
-      "version": "0.3.84",
-      "gitref": "refs/tags/release-plz-v0.3.84",
-      "revision": "10229bc96f67620e6c69100a2ad95593fa17f9c5",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.84"
+      "version": "0.3.85",
+      "gitref": "refs/tags/release-plz-v0.3.85",
+      "revision": "e3285d9478f7611d587dee36741a2c416479d521",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.85"
     },
     "repgrep": {
       "version": "0.15.0",
@@ -1263,10 +1263,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.1"
     },
     "rio": {
-      "version": "0.1.8",
-      "gitref": "refs/tags/v0.1.8",
-      "revision": "d455db2b2230835add0be0d5268d59a070b0bd28",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.8"
+      "version": "0.1.9",
+      "gitref": "refs/tags/v0.1.9",
+      "revision": "68e7618162d1edbf76cf037f26d5f41722e1d125",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.9"
     },
     "ripasso": {
       "version": "0.6.5",
@@ -1548,12 +1548,6 @@
       "gitref": "refs/tags/v0.9.1",
       "revision": "1edf2225c3fa7a286b6aa0f871c6c1025ecf8db2",
       "url": "https://github.com/tramhao/termusic/releases/tag/v0.9.1"
-    },
-    "tgt-rs": {
-      "version": "1.0.0",
-      "gitref": "refs/tags/v1.0.0",
-      "revision": "9ae9cb6c5788976b8db9e797045b90ffb1ee6d1e",
-      "url": "https://github.com/FedericoBruzzone/tgt/releases/tag/v1.0.0"
     },
     "tickrs": {
       "version": "0.14.10",
