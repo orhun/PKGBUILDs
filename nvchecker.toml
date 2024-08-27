@@ -2045,3 +2045,9 @@ source = "github"
 github = "GabAlpha/basilk"
 use_max_tag = true
 prefix = "v"
+
+[krabby-gotchi]
+source = "github"
+github = "DrCheeseFace/Krabby-gotchi"
+use_latest_release = true
+prefix = "v"
