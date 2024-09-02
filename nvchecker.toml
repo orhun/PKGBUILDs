@@ -2051,3 +2051,9 @@ source = "github"
 github = "DrCheeseFace/Krabby-gotchi"
 use_latest_release = true
 prefix = "v"
+
+[oryx]
+source = "github"
+github = "pythops/oryx"
+use_latest_release = true
+prefix = "v"
