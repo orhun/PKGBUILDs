@@ -1361,6 +1361,12 @@ github = "tramhao/termusic"
 use_max_tag = true
 prefix = "v"
 
+[hexpatch]
+source = "github"
+github = "Etto48/HexPatch"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

@@ -32,7 +32,9 @@
       "url": "https://github.com/sigoden/argc/releases/tag/v1.20.1"
     },
     "arti": {
-      "version": "tor-llcrypto-v0.4.4"
+      "version": "tor-circmgr-v0.18.1",
+      "revision": "1e75ff593938d1d3b049a3c051b77d675780952d",
+      "url": "https://gitlab.torproject.org/tpo/core/arti/-/tags/tor-circmgr-v0.18.1"
     },
     "asak": {
       "version": "0.3.3"
@@ -117,9 +119,9 @@
       "url": "https://github.com/Canop/broot/releases/tag/v1.43.0"
     },
     "btlescan": {
-      "version": "0.1.2",
-      "gitref": "refs/tags/0.1.2",
-      "url": "https://github.com/ztroop/btlescan/releases/tag/0.1.2"
+      "version": "0.1.3",
+      "gitref": "refs/tags/0.1.3",
+      "url": "https://github.com/ztroop/btlescan/releases/tag/0.1.3"
     },
     "bugstalker": {
       "version": "0.2.2",
@@ -205,9 +207,9 @@
       "version": "cargo-geiger@v0.11.7"
     },
     "cargo-generate": {
-      "version": "0.21.3",
-      "gitref": "refs/tags/v0.21.3",
-      "url": "https://github.com/cargo-generate/cargo-generate/releases/tag/v0.21.3"
+      "version": "0.22.0",
+      "gitref": "refs/tags/v0.22.0",
+      "url": "https://github.com/cargo-generate/cargo-generate/releases/tag/v0.22.0"
     },
     "cargo-generate-rpm": {
       "version": "0.15.2",
@@ -230,9 +232,9 @@
       "version": "1.39.0"
     },
     "cargo-llvm-cov": {
-      "version": "0.6.11",
-      "gitref": "refs/tags/v0.6.11",
-      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/tag/v0.6.11"
+      "version": "0.6.12",
+      "gitref": "refs/tags/v0.6.12",
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/tag/v0.6.12"
     },
     "cargo-machete": {
       "version": "0.6.2"
@@ -294,9 +296,9 @@
       "version": "0.1.0"
     },
     "cargo-semver-checks": {
-      "version": "0.34.0",
-      "gitref": "refs/tags/v0.34.0",
-      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.34.0"
+      "version": "0.35.0",
+      "gitref": "refs/tags/v0.35.0",
+      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.35.0"
     },
     "cargo-show-asm": {
       "version": "0.2.38",
@@ -536,10 +538,10 @@
       "version": "3.0.0"
     },
     "gitu": {
-      "version": "0.24.0",
-      "gitref": "refs/tags/v0.24.0",
-      "revision": "a384ba73b4967da0dc61010d3ba7cf02f79a42bd",
-      "url": "https://github.com/altsem/gitu/releases/tag/v0.24.0"
+      "version": "0.25.0",
+      "gitref": "refs/tags/v0.25.0",
+      "revision": "7e6ff73959c0f9fc44ae9695ca0e252420b4da36",
+      "url": "https://github.com/altsem/gitu/releases/tag/v0.25.0"
     },
     "glicol-cli": {
       "version": "0.2.0"
@@ -825,7 +827,9 @@
       "version": "20201203.035643"
     },
     "monolith": {
-      "version": "2.8.1"
+      "version": "2.8.2",
+      "gitref": "refs/tags/v2.8.2",
+      "url": "https://github.com/Y2Z/monolith/releases/tag/v2.8.2"
     },
     "mqttui": {
       "version": "0.21.1",
@@ -857,6 +861,11 @@
       "gitref": "refs/tags/0.9.4",
       "revision": "f56c596ccd0033bbff49bb5b8cf6b6c9ea89b388",
       "url": "https://github.com/zaghaghi/openapi-tui/releases/tag/0.9.4"
+    },
+    "oryx": {
+      "version": "0.1",
+      "gitref": "refs/tags/v0.1",
+      "url": "https://github.com/pythops/oryx/releases/tag/v0.1"
     },
     "otree": {
       "version": "0.2.0",
@@ -1014,7 +1023,9 @@
       "version": "2.1.36"
     },
     "rust-script": {
-      "version": "0.34.0"
+      "version": "0.35.0",
+      "gitref": "refs/tags/0.35.0",
+      "url": "https://github.com/fornwall/rust-script/releases/tag/0.35.0"
     },
     "rustfilt": {
       "version": "0.2.1"
@@ -1052,9 +1063,9 @@
       "version": "1.11.1"
     },
     "serie": {
-      "version": "0.2.0",
-      "gitref": "refs/tags/v0.2.0",
-      "url": "https://github.com/lusingander/serie/releases/tag/v0.2.0"
+      "version": "0.3.0",
+      "gitref": "refs/tags/v0.3.0",
+      "url": "https://github.com/lusingander/serie/releases/tag/v0.3.0"
     },
     "serpl": {
       "version": "0.3.3",
@@ -1245,9 +1256,9 @@
       "version": "2.1.4"
     },
     "typos": {
-      "version": "1.24.3",
-      "gitref": "refs/tags/v1.24.3",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.24.3"
+      "version": "1.24.4",
+      "gitref": "refs/tags/v1.24.4",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.24.4"
     },
     "tz": {
       "version": "0.7.0"
