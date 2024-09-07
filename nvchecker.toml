@@ -2063,3 +2063,9 @@ source = "github"
 github = "pythops/oryx"
 use_latest_release = true
 prefix = "v"
+
+[thoth]
+source = "github"
+github = "jooaf/thoth"
+use_latest_release = true
+prefix = "v"
