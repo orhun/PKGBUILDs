@@ -47,6 +47,12 @@ github = "orhun/linuxwave"
 use_latest_release = true
 prefix = "v"
 
+[binsider]
+source = "github"
+github = "orhun/binsider"
+use_latest_release = true
+prefix = "v"
+
 [lychee]
 source = "github"
 github = "lycheeverse/lychee"
