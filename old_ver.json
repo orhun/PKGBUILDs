@@ -16,9 +16,9 @@
       "version": "1.3.4"
     },
     "aliyun-cli": {
-      "version": "3.0.221",
-      "gitref": "refs/tags/v3.0.221",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.221"
+      "version": "3.0.222",
+      "gitref": "refs/tags/v3.0.222",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.222"
     },
     "alpine-chroot-install": {
       "version": "0.14.0"
@@ -70,6 +70,11 @@
     },
     "binocle": {
       "version": "0.3.2"
+    },
+    "binsider": {
+      "version": "0.1.0",
+      "gitref": "refs/tags/v0.1.0",
+      "url": "https://github.com/orhun/binsider/releases/tag/v0.1.0"
     },
     "biodiff": {
       "version": "1.2.1"
@@ -143,9 +148,9 @@
       "version": "0.6.4"
     },
     "cargo-binstall": {
-      "version": "1.10.4",
-      "gitref": "refs/tags/v1.10.4",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.4"
+      "version": "1.10.5",
+      "gitref": "refs/tags/v1.10.5",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.5"
     },
     "cargo-bloat": {
       "version": "0.12.1"
@@ -477,10 +482,10 @@
       "version": "0.17.0"
     },
     "eza": {
-      "version": "0.19.2",
-      "gitref": "refs/tags/v0.19.2",
-      "revision": "99725d90d0aa0dffc2b4bb4973c5a6e91ed4e491",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.19.2"
+      "version": "0.19.3",
+      "gitref": "refs/tags/v0.19.3",
+      "revision": "55152c797c483e30078719f3af8db49cd7778dea",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.19.3"
     },
     "fblog": {
       "version": "4.10.0"
@@ -735,9 +740,9 @@
       "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.5.3"
     },
     "kubie": {
-      "version": "0.23.1",
-      "gitref": "refs/tags/v0.23.1",
-      "url": "https://github.com/sbstp/kubie/releases/tag/v0.23.1"
+      "version": "0.24.0",
+      "gitref": "refs/tags/v0.24.0",
+      "url": "https://github.com/sbstp/kubie/releases/tag/v0.24.0"
     },
     "lan-mouse": {
       "version": "0.9.1",

@@ -1373,6 +1373,12 @@ github = "Etto48/HexPatch"
 use_latest_release = true
 prefix = "v"
 
+[cyme]
+source = "github"
+github = "tuna-f1sh/cyme"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

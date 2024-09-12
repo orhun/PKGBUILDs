@@ -189,9 +189,9 @@
       "url": "https://github.com/rust-secure-code/cargo-auditable/releases/tag/v0.6.4"
     },
     "cargo-binstall": {
-      "version": "1.10.4",
-      "gitref": "refs/tags/v1.10.4",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.4"
+      "version": "1.10.5",
+      "gitref": "refs/tags/v1.10.5",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.5"
     },
     "cargo-bloat": {
       "version": "0.12.1",
@@ -536,6 +536,11 @@
       "revision": "6021402eaf872584cceab3b72a5279035c7ffde0",
       "url": "https://github.com/PThorpe92/CuTE/releases/tag/v0.1.1"
     },
+    "cyme": {
+      "version": "1.8.2",
+      "gitref": "refs/tags/v1.8.2",
+      "url": "https://github.com/tuna-f1sh/cyme/releases/tag/v1.8.2"
+    },
     "daktilo": {
       "version": "0.6.0",
       "gitref": "refs/tags/v0.6.0",
@@ -620,10 +625,10 @@
       "url": "https://github.com/evcxr/evcxr/releases/tag/v0.17.0"
     },
     "eza": {
-      "version": "0.19.2",
-      "gitref": "refs/tags/v0.19.2",
-      "revision": "99725d90d0aa0dffc2b4bb4973c5a6e91ed4e491",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.19.2"
+      "version": "0.19.3",
+      "gitref": "refs/tags/v0.19.3",
+      "revision": "55152c797c483e30078719f3af8db49cd7778dea",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.19.3"
     },
     "fblog": {
       "version": "4.10.0",
@@ -966,9 +971,9 @@
       "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.5.3"
     },
     "kubie": {
-      "version": "0.23.1",
-      "gitref": "refs/tags/v0.23.1",
-      "url": "https://github.com/sbstp/kubie/releases/tag/v0.23.1"
+      "version": "0.24.0",
+      "gitref": "refs/tags/v0.24.0",
+      "url": "https://github.com/sbstp/kubie/releases/tag/v0.24.0"
     },
     "lan-mouse": {
       "version": "0.9.1",
@@ -1240,10 +1245,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.4"
     },
     "rainfrog": {
-      "version": "0.1.16",
-      "gitref": "refs/tags/v0.1.16",
-      "revision": "c78982233ab2eb69b1792b42ba164f449208bf4c",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.16"
+      "version": "0.1.17",
+      "gitref": "refs/tags/v0.1.17",
+      "revision": "17291033c1aad741064b0e70256572220c66d528",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.17"
     },
     "ratatui-snake": {
       "version": "0.1",
@@ -1476,9 +1481,9 @@
       "url": "https://github.com/DimitarPetrov/stegify/releases/tag/v1.2"
     },
     "stu": {
-      "version": "0.6.0",
-      "gitref": "refs/tags/v0.6.0",
-      "url": "https://github.com/lusingander/stu/releases/tag/v0.6.0"
+      "version": "0.6.1",
+      "gitref": "refs/tags/v0.6.1",
+      "url": "https://github.com/lusingander/stu/releases/tag/v0.6.1"
     },
     "suckit": {
       "version": "0.2.0",
