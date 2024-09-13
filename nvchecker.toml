@@ -1379,6 +1379,12 @@ github = "tuna-f1sh/cyme"
 use_latest_release = true
 prefix = "v"
 
+[macchina]
+source = "github"
+github = "Macchina-CLI/macchina"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

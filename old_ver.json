@@ -88,9 +88,9 @@
       "url": "https://github.com/pythops/bluetui/releases/tag/v0.5.1"
     },
     "bob": {
-      "version": "4.0.1",
-      "gitref": "refs/tags/v4.0.1",
-      "url": "https://github.com/MordechaiHadad/bob/releases/tag/v4.0.1"
+      "version": "4.0.2",
+      "gitref": "refs/tags/v4.0.2",
+      "url": "https://github.com/MordechaiHadad/bob/releases/tag/v4.0.2"
     },
     "bonnie": {
       "version": "0.3.2"
@@ -399,9 +399,9 @@
       "version": "23.11.0"
     },
     "cotp": {
-      "version": "1.9.0",
-      "gitref": "refs/tags/v1.9.0",
-      "url": "https://github.com/replydev/cotp/releases/tag/v1.9.0"
+      "version": "1.9.1",
+      "gitref": "refs/tags/v1.9.1",
+      "url": "https://github.com/replydev/cotp/releases/tag/v1.9.1"
     },
     "crates-tui": {
       "version": "0.1.7"
@@ -417,6 +417,11 @@
     },
     "cute": {
       "version": "0.1.1"
+    },
+    "cyme": {
+      "version": "1.8.2",
+      "gitref": "refs/tags/v1.8.2",
+      "url": "https://github.com/tuna-f1sh/cyme/releases/tag/v1.8.2"
     },
     "daktilo": {
       "version": "0.6.0"
@@ -440,7 +445,9 @@
       "version": "0.1.0"
     },
     "dotter-rs": {
-      "version": "0.13.2"
+      "version": "0.13.3",
+      "gitref": "refs/tags/v0.13.3",
+      "url": "https://github.com/SuperCuber/dotter/releases/tag/v0.13.3"
     },
     "dra": {
       "version": "0.6.2",
@@ -958,10 +965,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.4"
     },
     "rainfrog": {
-      "version": "0.1.16",
-      "gitref": "refs/tags/v0.1.16",
-      "revision": "c78982233ab2eb69b1792b42ba164f449208bf4c",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.16"
+      "version": "0.1.17",
+      "gitref": "refs/tags/v0.1.17",
+      "revision": "17291033c1aad741064b0e70256572220c66d528",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.1.17"
     },
     "ratatui-snake": {
       "version": "0.1"
@@ -1028,9 +1035,9 @@
       "version": "0.9.1"
     },
     "rust-analyzer": {
-      "version": "2024-09-02",
-      "gitref": "refs/tags/2024-09-02",
-      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-09-02"
+      "version": "2024-09-09",
+      "gitref": "refs/tags/2024-09-09",
+      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-09-09"
     },
     "rust-bindgen": {
       "version": "0.70.1",
@@ -1146,9 +1153,9 @@
       "version": "1.2"
     },
     "stu": {
-      "version": "0.5.2",
-      "gitref": "refs/tags/v0.5.2",
-      "url": "https://github.com/lusingander/stu/releases/tag/v0.5.2"
+      "version": "0.6.1",
+      "gitref": "refs/tags/v0.6.1",
+      "url": "https://github.com/lusingander/stu/releases/tag/v0.6.1"
     },
     "suckit": {
       "version": "0.2.0"
@@ -1267,9 +1274,9 @@
       "url": "https://github.com/AmmarAbouZor/tui-journal/releases/tag/v0.11.0"
     },
     "tui-slides": {
-      "version": "0.1.2",
-      "gitref": "refs/tags/v0.1.2",
-      "url": "https://github.com/Chleba/tui-slides/releases/tag/v0.1.2"
+      "version": "0.1.4",
+      "gitref": "refs/tags/v0.1.4",
+      "url": "https://github.com/Chleba/tui-slides/releases/tag/v0.1.4"
     },
     "tuisky": {
       "version": "0.1.1",

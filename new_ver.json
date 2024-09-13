@@ -118,9 +118,9 @@
       "url": "https://github.com/pythops/bluetui/releases/tag/v0.5.1"
     },
     "bob": {
-      "version": "4.0.1",
-      "gitref": "refs/tags/v4.0.1",
-      "url": "https://github.com/MordechaiHadad/bob/releases/tag/v4.0.1"
+      "version": "4.0.2",
+      "gitref": "refs/tags/v4.0.2",
+      "url": "https://github.com/MordechaiHadad/bob/releases/tag/v4.0.2"
     },
     "bonnie": {
       "version": "0.3.2",
@@ -510,9 +510,9 @@
       "url": "https://github.com/sourcefrog/conserve/releases/tag/v23.11.0"
     },
     "cotp": {
-      "version": "1.9.0",
-      "gitref": "refs/tags/v1.9.0",
-      "url": "https://github.com/replydev/cotp/releases/tag/v1.9.0"
+      "version": "1.9.1",
+      "gitref": "refs/tags/v1.9.1",
+      "url": "https://github.com/replydev/cotp/releases/tag/v1.9.1"
     },
     "crates-tui": {
       "version": "0.1.7",
@@ -547,10 +547,10 @@
       "url": "https://github.com/orhun/daktilo/releases/tag/v0.6.0"
     },
     "dart": {
-      "version": "3.5.2",
-      "gitref": "refs/tags/3.5.2",
-      "revision": "64ff78ae46a14e90430943c88ba9e88c79edba83",
-      "url": "https://github.com/dart-lang/sdk/releases/tag/3.5.2"
+      "version": "3.5.3",
+      "gitref": "refs/tags/3.5.3",
+      "revision": "fcbffb76a6f32daf87257301813b9c2a55f76b6f",
+      "url": "https://github.com/dart-lang/sdk/releases/tag/3.5.3"
     },
     "dead-ringer": {
       "version": "1.0.4",
@@ -573,9 +573,9 @@
       "url": "https://github.com/ogham/dog/releases/tag/v0.1.0"
     },
     "dotter-rs": {
-      "version": "0.13.2",
-      "gitref": "refs/tags/v0.13.2",
-      "url": "https://github.com/SuperCuber/dotter/releases/tag/v0.13.2"
+      "version": "0.13.3",
+      "gitref": "refs/tags/v0.13.3",
+      "url": "https://github.com/SuperCuber/dotter/releases/tag/v0.13.3"
     },
     "dra": {
       "version": "0.6.2",
@@ -1052,6 +1052,11 @@
       "version": "0.15.1",
       "gitref": "refs/tags/v0.15.1",
       "url": "https://github.com/lycheeverse/lychee/releases/tag/v0.15.1"
+    },
+    "macchina": {
+      "version": "6.2.1",
+      "gitref": "refs/tags/v6.2.1",
+      "url": "https://github.com/Macchina-CLI/macchina/releases/tag/v6.2.1"
     },
     "manga-tui": {
       "version": "0.3.1",
@@ -1620,9 +1625,9 @@
       "url": "https://github.com/AmmarAbouZor/tui-journal/releases/tag/v0.11.0"
     },
     "tui-slides": {
-      "version": "0.1.2",
-      "gitref": "refs/tags/v0.1.2",
-      "url": "https://github.com/Chleba/tui-slides/releases/tag/v0.1.2"
+      "version": "0.1.4",
+      "gitref": "refs/tags/v0.1.4",
+      "url": "https://github.com/Chleba/tui-slides/releases/tag/v0.1.4"
     },
     "tuisky": {
       "version": "0.1.1",
@@ -1661,10 +1666,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.0.27"
     },
     "uv": {
-      "version": "0.4.9",
-      "gitref": "refs/tags/0.4.9",
-      "revision": "77d278f68a61bda2c7e1a1c43d01c8f0db15eeb8",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.4.9"
+      "version": "0.4.10",
+      "gitref": "refs/tags/0.4.10",
+      "revision": "6907164841a9c82ee4fb3f2350c533ed7abd1b29",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.4.10"
     },
     "uwuifyy": {
       "version": "0.3.0",
