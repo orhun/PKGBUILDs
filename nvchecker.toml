@@ -1385,6 +1385,12 @@ github = "Macchina-CLI/macchina"
 use_latest_release = true
 prefix = "v"
 
+[watchexec]
+source = "github"
+github = "watchexec/watchexec"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
