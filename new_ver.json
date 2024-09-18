@@ -816,6 +816,11 @@
       "gitref": "refs/tags/v1.9.0",
       "url": "https://github.com/Etto48/HexPatch/releases/tag/v1.9.0"
     },
+    "hextazy": {
+      "version": "0.6",
+      "gitref": "refs/tags/0.6",
+      "url": "https://github.com/0xfalafel/hextazy/releases/tag/0.6"
+    },
     "hexyl": {
       "version": "0.14.0",
       "gitref": "refs/tags/v0.14.0",
@@ -1250,10 +1255,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.4"
     },
     "rainfrog": {
-      "version": "0.2.0",
-      "gitref": "refs/tags/v0.2.0",
-      "revision": "2f5f88f5a2b5586736bf96e0e704696be5082e57",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.2.0"
+      "version": "0.2.1",
+      "gitref": "refs/tags/v0.2.1",
+      "revision": "8ebd6c950eed79bebad8f206a69c6356a6cde409",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.2.1"
     },
     "ratatui-snake": {
       "version": "0.1",
@@ -1277,15 +1282,15 @@
       "url": "https://github.com/Wafelack/rdfm/releases/tag/0.1.3"
     },
     "rebels-in-the-sky": {
-      "version": "1.0.14",
-      "gitref": "refs/tags/v1.0.14",
-      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.14"
+      "version": "1.0.15",
+      "gitref": "refs/tags/v1.0.15",
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.15"
     },
     "release-plz": {
-      "version": "0.3.90",
-      "gitref": "refs/tags/release-plz-v0.3.90",
-      "revision": "498424d9c4ae93fdeebe5e9fe3a5427ed9bf2ee9",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.90"
+      "version": "0.3.91",
+      "gitref": "refs/tags/release-plz-v0.3.91",
+      "revision": "658a54d12bfa1e5088d1f4f296ffe69a2e9f3477",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.91"
     },
     "repgrep": {
       "version": "0.15.0",
@@ -1666,10 +1671,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.0.27"
     },
     "uv": {
-      "version": "0.4.10",
-      "gitref": "refs/tags/0.4.10",
-      "revision": "6907164841a9c82ee4fb3f2350c533ed7abd1b29",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.4.10"
+      "version": "0.4.11",
+      "gitref": "refs/tags/0.4.11",
+      "revision": "e5dd67f58e2fa0773a243ccc22623cbf12398f43",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.4.11"
     },
     "uwuifyy": {
       "version": "0.3.0",
