@@ -1391,6 +1391,12 @@ github = "watchexec/watchexec"
 use_latest_release = true
 prefix = "v"
 
+[pik]
+source = "github"
+github = "jacek-kurlit/pik"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
