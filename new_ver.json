@@ -420,9 +420,9 @@
       "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.31.2"
     },
     "cargo-tauri": {
-      "version": "tauri-cli-v2.0.0-rc.16",
-      "gitref": "refs/tags/tauri-cli-v2.0.0-rc.16",
-      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.0.0-rc.16"
+      "version": "tauri-cli-v2.0.0-rc.17",
+      "gitref": "refs/tags/tauri-cli-v2.0.0-rc.17",
+      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.0.0-rc.17"
     },
     "cargo-udeps": {
       "version": "0.1.50",
@@ -1297,10 +1297,10 @@
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.17"
     },
     "release-plz": {
-      "version": "0.3.91",
-      "gitref": "refs/tags/release-plz-v0.3.91",
-      "revision": "658a54d12bfa1e5088d1f4f296ffe69a2e9f3477",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.91"
+      "version": "0.3.92",
+      "gitref": "refs/tags/release-plz-v0.3.92",
+      "revision": "79c41cb9519f3b1bf2d064448f2d64043699c6f6",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.92"
     },
     "repgrep": {
       "version": "0.15.0",
@@ -1323,6 +1323,11 @@
       "gitref": "refs/tags/release-0.7.0",
       "revision": "049dc21e5c4031f3fef0e6b6c71fe15508710414",
       "url": "https://github.com/cortex/ripasso/releases/tag/release-0.7.0"
+    },
+    "rmpc": {
+      "version": "0.5.0",
+      "gitref": "refs/tags/v0.5.0",
+      "url": "https://github.com/mierak/rmpc/releases/tag/v0.5.0"
     },
     "rnote": {
       "version": "0.11.0",

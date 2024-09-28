@@ -1397,6 +1397,12 @@ github = "jacek-kurlit/pik"
 use_latest_release = true
 prefix = "v"
 
+[rmpc]
+source = "github"
+github = "mierak/rmpc"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
