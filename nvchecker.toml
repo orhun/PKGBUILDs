@@ -2105,3 +2105,9 @@ source = "github"
 github = "0xfalafel/hextazy"
 use_latest_release = true
 prefix = "v"
+
+[kty]
+source = "github"
+github = "grampelberg/kty"
+use_latest_release = true
+prefix = "v"
