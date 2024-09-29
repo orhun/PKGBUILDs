@@ -12,6 +12,11 @@
       "revision": "4e683ab8014a63fafa117492a0c6053758e6d593",
       "url": "https://github.com/rhysd/actionlint/releases/tag/v1.7.3"
     },
+    "adsb_deku": {
+      "version": "2024.09.02",
+      "gitref": "refs/tags/v2024.09.02",
+      "url": "https://github.com/rsadsb/adsb_deku/releases/tag/v2024.09.02"
+    },
     "ali": {
       "version": "0.7.5",
       "gitref": "refs/tags/v0.7.5",

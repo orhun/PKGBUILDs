@@ -1409,6 +1409,12 @@ github = "rsadsb/dump1090_rs"
 use_latest_release = true
 prefix = "v"
 
+[adsb_deku]
+source = "github"
+github = "rsadsb/adsb_deku"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
