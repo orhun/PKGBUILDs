@@ -1415,6 +1415,12 @@ github = "rsadsb/adsb_deku"
 use_latest_release = true
 prefix = "v"
 
+[dioxus-cli]
+source = "github"
+github = "DioxusLabs/dioxus"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
