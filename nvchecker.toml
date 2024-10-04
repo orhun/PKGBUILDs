@@ -1421,6 +1421,12 @@ github = "DioxusLabs/dioxus"
 use_latest_release = true
 prefix = "v"
 
+[ttysvr]
+source = "github"
+github = "cxreiff/ttysvr"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
