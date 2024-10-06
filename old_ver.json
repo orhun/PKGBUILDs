@@ -156,9 +156,9 @@
       "version": "0.6.4"
     },
     "cargo-binstall": {
-      "version": "1.10.6",
-      "gitref": "refs/tags/v1.10.6",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.6"
+      "version": "1.10.7",
+      "gitref": "refs/tags/v1.10.7",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.7"
     },
     "cargo-bloat": {
       "version": "0.12.1"
@@ -260,9 +260,9 @@
       "url": "https://github.com/bnjbvr/cargo-machete/releases/tag/v0.7.0"
     },
     "cargo-make": {
-      "version": "0.37.20",
-      "gitref": "refs/tags/0.37.20",
-      "url": "https://github.com/sagiegurari/cargo-make/releases/tag/0.37.20"
+      "version": "0.37.21",
+      "gitref": "refs/tags/0.37.21",
+      "url": "https://github.com/sagiegurari/cargo-make/releases/tag/0.37.21"
     },
     "cargo-modules": {
       "version": "0.17.0",
@@ -282,10 +282,10 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v3.5.7"
     },
     "cargo-nextest": {
-      "version": "0.9.78",
-      "gitref": "refs/tags/cargo-nextest-0.9.78",
-      "revision": "856c4f4fd8da4fb23ab49d86cca54beff92802a1",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.78"
+      "version": "0.9.80",
+      "gitref": "refs/tags/cargo-nextest-0.9.80",
+      "revision": "cf68a917aa18570537e7ec25d913b955605f805f",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.80"
     },
     "cargo-outdated": {
       "version": "0.15.0"
@@ -929,10 +929,10 @@
       "url": "https://github.com/o2sh/onefetch/releases/tag/2.22.0"
     },
     "openapi-tui": {
-      "version": "0.9.4",
-      "gitref": "refs/tags/0.9.4",
-      "revision": "f56c596ccd0033bbff49bb5b8cf6b6c9ea89b388",
-      "url": "https://github.com/zaghaghi/openapi-tui/releases/tag/0.9.4"
+      "version": "0.10.0",
+      "gitref": "refs/tags/0.10.0",
+      "revision": "67fc6e3ef223ae6c43a0cd0ad624807a30828a42",
+      "url": "https://github.com/zaghaghi/openapi-tui/releases/tag/0.10.0"
     },
     "oryx": {
       "version": "0.3",
@@ -1054,10 +1054,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.3"
     },
     "rio": {
-      "version": "0.1.16",
-      "gitref": "refs/tags/v0.1.16",
-      "revision": "3069da31bb10a38636d4f9794597e6dc35a88cc2",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.16"
+      "version": "0.1.17",
+      "gitref": "refs/tags/v0.1.17",
+      "revision": "7891a89d789471c62b245e8e444abbe62a1540fc",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.17"
     },
     "ripasso": {
       "version": "0.7.0",
@@ -1333,6 +1333,11 @@
       "gitref": "refs/tags/v1.6.0",
       "url": "https://github.com/max-niederman/ttyper/releases/tag/v1.6.0"
     },
+    "ttysvr": {
+      "version": "0.3.0",
+      "gitref": "refs/tags/v0.3.0",
+      "url": "https://github.com/cxreiff/ttysvr/releases/tag/v0.3.0"
+    },
     "tui-journal": {
       "version": "0.12.0",
       "gitref": "refs/tags/v0.12.0",
@@ -1422,7 +1427,9 @@
       "version": "0.1.0-alpha.3"
     },
     "wthrr": {
-      "version": "1.2.0"
+      "version": "1.2.1",
+      "gitref": "refs/tags/v1.2.1",
+      "url": "https://github.com/ttytm/wthrr-the-weathercrab/releases/tag/v1.2.1"
     },
     "xdo": {
       "version": "0.5.7"

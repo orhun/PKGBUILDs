@@ -1427,6 +1427,12 @@ github = "cxreiff/ttysvr"
 use_latest_release = true
 prefix = "v"
 
+[glim]
+source = "github"
+github = "junkdog/glim"
+use_latest_release = true
+prefix = "glim-"
+
 # AUR #
 
 [kermit]
