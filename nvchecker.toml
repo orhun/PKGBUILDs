@@ -57,7 +57,7 @@ prefix = "v"
 source = "github"
 github = "lycheeverse/lychee"
 use_latest_release = true
-prefix = "v"
+prefix = "lychee-v"
 
 [cargo-tarpaulin]
 source = "github"
@@ -2145,5 +2145,11 @@ prefix = "v"
 [kty]
 source = "github"
 github = "grampelberg/kty"
+use_latest_release = true
+prefix = "v"
+
+[plastic]
+source = "github"
+github = "Amjad50/plastic"
 use_latest_release = true
 prefix = "v"
