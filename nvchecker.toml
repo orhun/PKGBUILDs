@@ -1433,6 +1433,12 @@ github = "junkdog/glim"
 use_latest_release = true
 prefix = "glim-"
 
+[ueberzugpp]
+source = "github"
+github = "jstkdng/ueberzugpp"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
