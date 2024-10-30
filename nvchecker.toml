@@ -2159,3 +2159,9 @@ source = "github"
 github = "Amjad50/plastic"
 use_latest_release = true
 prefix = "v"
+
+[glues]
+source = "github"
+github = "gluesql/glues"
+use_latest_release = true
+prefix = "v"
