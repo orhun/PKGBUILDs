@@ -1439,6 +1439,12 @@ github = "jstkdng/ueberzugpp"
 use_latest_release = true
 prefix = "v"
 
+[tdf]
+source = "github"
+github = "itsjunetime/tdf"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
