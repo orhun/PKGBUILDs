@@ -1439,9 +1439,9 @@ github = "jstkdng/ueberzugpp"
 use_latest_release = true
 prefix = "v"
 
-[tdf]
+[bacon]
 source = "github"
-github = "itsjunetime/tdf"
+github = "Canop/bacon"
 use_max_tag = true
 prefix = "v"
 
@@ -2170,4 +2170,10 @@ prefix = "v"
 source = "github"
 github = "gluesql/glues"
 use_latest_release = true
+prefix = "v"
+
+[tdf]
+source = "github"
+github = "itsjunetime/tdf"
+use_max_tag = true
 prefix = "v"
