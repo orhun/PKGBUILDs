@@ -24,9 +24,9 @@
       "version": "1.3.4"
     },
     "aliyun-cli": {
-      "version": "3.0.227",
-      "gitref": "refs/tags/v3.0.227",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.227"
+      "version": "3.0.228",
+      "gitref": "refs/tags/v3.0.228",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.228"
     },
     "alpine-chroot-install": {
       "version": "0.14.0"
@@ -58,6 +58,12 @@
     },
     "aws-vault": {
       "version": "7.2.0"
+    },
+    "bacon": {
+      "version": "3.2.0",
+      "gitref": "refs/tags/v3.2.0",
+      "revision": "f1d0da82ce83ce7aad06164b271332e29658ce85",
+      "url": "https://github.com/Canop/bacon/releases/tag/v3.2.0"
     },
     "bandwhich": {
       "version": "0.23.1",
@@ -158,9 +164,9 @@
       "version": "0.6.4"
     },
     "cargo-binstall": {
-      "version": "1.10.10",
-      "gitref": "refs/tags/v1.10.10",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.10"
+      "version": "1.10.11",
+      "gitref": "refs/tags/v1.10.11",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.11"
     },
     "cargo-bloat": {
       "version": "0.12.1"
@@ -217,9 +223,9 @@
       "url": "https://github.com/killercup/cargo-edit/releases/tag/v0.13.0"
     },
     "cargo-expand": {
-      "version": "1.0.94",
-      "gitref": "refs/tags/1.0.94",
-      "url": "https://github.com/dtolnay/cargo-expand/releases/tag/1.0.94"
+      "version": "1.0.95",
+      "gitref": "refs/tags/1.0.95",
+      "url": "https://github.com/dtolnay/cargo-expand/releases/tag/1.0.95"
     },
     "cargo-flamegraph": {
       "version": "0.5.1"
@@ -424,9 +430,9 @@
       "version": "23.11.0"
     },
     "cotp": {
-      "version": "1.9.1",
-      "gitref": "refs/tags/v1.9.1",
-      "url": "https://github.com/replydev/cotp/releases/tag/v1.9.1"
+      "version": "1.9.2",
+      "gitref": "refs/tags/v1.9.2",
+      "url": "https://github.com/replydev/cotp/releases/tag/v1.9.2"
     },
     "crates-tui": {
       "version": "0.1.7"
@@ -551,9 +557,9 @@
       "url": "https://github.com/Edu4rdSHL/fhc/releases/tag/0.8.2"
     },
     "flawz": {
-      "version": "0.2.2",
-      "gitref": "refs/tags/v0.2.2",
-      "url": "https://github.com/orhun/flawz/releases/tag/v0.2.2"
+      "version": "0.3.0",
+      "gitref": "refs/tags/v0.3.0",
+      "url": "https://github.com/orhun/flawz/releases/tag/v0.3.0"
     },
     "fq": {
       "version": "0.13.0",
@@ -599,10 +605,10 @@
       "version": "3.0.0"
     },
     "gitu": {
-      "version": "0.26.0",
-      "gitref": "refs/tags/v0.26.0",
-      "revision": "b0c6642e278ab219cdd300f3d3265e38aceb1fdc",
-      "url": "https://github.com/altsem/gitu/releases/tag/v0.26.0"
+      "version": "0.27.0",
+      "gitref": "refs/tags/v0.27.0",
+      "revision": "64cad265fa4eaf2e621bc7497623ca08c6722760",
+      "url": "https://github.com/altsem/gitu/releases/tag/v0.27.0"
     },
     "glicol-cli": {
       "version": "0.2.0"
@@ -1511,7 +1517,9 @@
       "url": "https://github.com/sxyazi/yazi/releases/tag/v0.3.3"
     },
     "zellij": {
-      "version": "0.40.1"
+      "version": "0.41.1",
+      "gitref": "refs/tags/v0.41.1",
+      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.41.1"
     },
     "zenith": {
       "version": "0.14.1"

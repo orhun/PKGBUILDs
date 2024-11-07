@@ -1289,7 +1289,7 @@ github = "feschber/lan-mouse"
 use_latest_release = true
 prefix = "v"
 
-[jj]
+[jujutsu]
 source = "github"
 github = "martinvonz/jj"
 use_latest_release = true
