@@ -232,9 +232,9 @@
       "url": "https://github.com/qryxip/cargo-compete/releases/tag/v0.10.7"
     },
     "cargo-crev": {
-      "version": "0.25.11",
-      "gitref": "refs/tags/v0.25.11",
-      "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.25.11"
+      "version": "0.26.0",
+      "gitref": "refs/tags/v0.26.0",
+      "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.26.0"
     },
     "cargo-deb": {
       "version": "2.8.0",
@@ -1270,6 +1270,12 @@
       "gitref": "refs/tags/v0.3.1",
       "url": "https://github.com/Amjad50/plastic/releases/tag/v0.3.1"
     },
+    "pls": {
+      "version": "6.0.0",
+      "gitref": "refs/tags/6.0.0",
+      "revision": "f89bdc511aacefc6f8657c3a47d42dbc0ff80b2e",
+      "url": "https://github.com/pls-rs/pls/releases/tag/6.0.0"
+    },
     "poketex": {
       "version": "1.16.2",
       "gitref": "refs/tags/v1.16.2",
@@ -1333,10 +1339,10 @@
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.19"
     },
     "release-plz": {
-      "version": "0.3.106",
-      "gitref": "refs/tags/release-plz-v0.3.106",
-      "revision": "dfda5e143aed4c8e04ab3110ac197098062be919",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.106"
+      "version": "0.3.107",
+      "gitref": "refs/tags/release-plz-v0.3.107",
+      "revision": "d069d7e7ee352863483affc5f6521c191432178e",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.107"
     },
     "repgrep": {
       "version": "0.15.0",
@@ -1713,9 +1719,9 @@
       "url": "https://gitlab.com/ttyperacer/terminal-typeracer/-/tags/v2.1.5"
     },
     "typos": {
-      "version": "1.27.2",
-      "gitref": "refs/tags/v1.27.2",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.27.2"
+      "version": "1.27.3",
+      "gitref": "refs/tags/v1.27.3",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.27.3"
     },
     "tz": {
       "version": "0.7.0",

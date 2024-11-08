@@ -2177,3 +2177,9 @@ source = "github"
 github = "itsjunetime/tdf"
 use_max_tag = true
 prefix = "v"
+
+[pls]
+source = "github"
+github = "pls-rs/pls"
+use_max_tag = true
+prefix = "v"
