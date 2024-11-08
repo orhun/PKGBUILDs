@@ -194,10 +194,10 @@
       "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.25.11"
     },
     "cargo-deb": {
-      "version": "2.7.0",
-      "gitref": "refs/tags/v2.7.0",
-      "revision": "261a3b57b2a87bc5b5b261814fa0b04e8ee9856a",
-      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.7.0"
+      "version": "2.8.0",
+      "gitref": "refs/tags/v2.8.0",
+      "revision": "2eba67e7a1b959cef02c4de6425e959357eb224a",
+      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.8.0"
     },
     "cargo-deny": {
       "version": "0.16.1",
@@ -311,10 +311,10 @@
       "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.40.0"
     },
     "cargo-rdme": {
-      "version": "1.4.5",
-      "gitref": "refs/tags/v1.4.5",
-      "revision": "02c73490a49a5c54c3cdcf34d5bf09c4d9e0fc3a",
-      "url": "https://github.com/orium/cargo-rdme/releases/tag/v1.4.5"
+      "version": "1.4.7",
+      "gitref": "refs/tags/v1.4.7",
+      "revision": "ce1c494dc235c55e78d421db80b5fc5d24022290",
+      "url": "https://github.com/orium/cargo-rdme/releases/tag/v1.4.7"
     },
     "cargo-run-bin": {
       "version": "1.7.3",
@@ -533,10 +533,10 @@
       "url": "https://github.com/evcxr/evcxr/releases/tag/v0.18.0"
     },
     "eza": {
-      "version": "0.20.6",
-      "gitref": "refs/tags/v0.20.6",
-      "revision": "58932e0736c685141c3ac9fd69eeb2fa5aebfe61",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.20.6"
+      "version": "0.20.7",
+      "gitref": "refs/tags/v0.20.7",
+      "revision": "a5ceec24efdf088bb3cb8d045e7e5bad1ec053e8",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.20.7"
     },
     "fblog": {
       "version": "4.13.1",
@@ -778,6 +778,11 @@
       "revision": "2a392e85633d73a7bfc55feb80c62ecabe70de75",
       "url": "https://github.com/kamiyaa/joshuto/releases/tag/v0.9.8"
     },
+    "jujutsu": {
+      "version": "0.23.0",
+      "gitref": "refs/tags/v0.23.0",
+      "url": "https://github.com/martinvonz/jj/releases/tag/v0.23.0"
+    },
     "jwt-cli": {
       "version": "6.1.1",
       "gitref": "refs/tags/6.1.1",
@@ -885,9 +890,9 @@
       "url": "https://github.com/JakWai01/lurk/releases/tag/v0.3.9"
     },
     "lychee": {
-      "version": "0.16.1",
-      "gitref": "refs/tags/lychee-v0.16.1",
-      "url": "https://github.com/lycheeverse/lychee/releases/tag/lychee-v0.16.1"
+      "version": "0.17.0",
+      "gitref": "refs/tags/lychee-v0.17.0",
+      "url": "https://github.com/lycheeverse/lychee/releases/tag/lychee-v0.17.0"
     },
     "macchina": {
       "version": "6.4.0",
@@ -922,7 +927,9 @@
       "url": "https://github.com/henriklovhaug/md-tui/releases/tag/v0.8.7"
     },
     "mdbook": {
-      "version": "0.4.40"
+      "version": "0.4.41",
+      "gitref": "refs/tags/v0.4.41",
+      "url": "https://github.com/rust-lang/mdBook/releases/tag/v0.4.41"
     },
     "mdp": {
       "version": "1.0.15"
@@ -1151,10 +1158,10 @@
       "url": "https://github.com/rust-lang/rust-bindgen/releases/tag/v0.70.1"
     },
     "rust-kanban": {
-      "version": "0.10.4",
-      "gitref": "refs/tags/v0.10.4",
-      "revision": "1281a9a47a1c6443477267a4f7219eff4ab9f919",
-      "url": "https://github.com/yashs662/rust_kanban/releases/tag/v0.10.4"
+      "version": "0.10.5",
+      "gitref": "refs/tags/v0.10.5",
+      "revision": "5ac972c88be27082aeabb28448c2e843a482560e",
+      "url": "https://github.com/yashs662/rust_kanban/releases/tag/v0.10.5"
     },
     "rust-racer": {
       "version": "2.1.36"
@@ -1419,9 +1426,9 @@
       "url": "https://gitlab.com/ttyperacer/terminal-typeracer/-/tags/v2.1.5"
     },
     "typos": {
-      "version": "1.27.0",
-      "gitref": "refs/tags/v1.27.0",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.27.0"
+      "version": "1.27.2",
+      "gitref": "refs/tags/v1.27.2",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.27.2"
     },
     "tz": {
       "version": "0.7.0"

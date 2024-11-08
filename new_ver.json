@@ -237,10 +237,10 @@
       "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.25.11"
     },
     "cargo-deb": {
-      "version": "2.7.0",
-      "gitref": "refs/tags/v2.7.0",
-      "revision": "261a3b57b2a87bc5b5b261814fa0b04e8ee9856a",
-      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.7.0"
+      "version": "2.8.0",
+      "gitref": "refs/tags/v2.8.0",
+      "revision": "2eba67e7a1b959cef02c4de6425e959357eb224a",
+      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.8.0"
     },
     "cargo-deny": {
       "version": "0.16.1",
@@ -371,10 +371,10 @@
       "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.40.0"
     },
     "cargo-rdme": {
-      "version": "1.4.6",
-      "gitref": "refs/tags/v1.4.6",
-      "revision": "8f0e9837a9b98f82fd49a26ef91ea6a503e4b421",
-      "url": "https://github.com/orium/cargo-rdme/releases/tag/v1.4.6"
+      "version": "1.4.7",
+      "gitref": "refs/tags/v1.4.7",
+      "revision": "ce1c494dc235c55e78d421db80b5fc5d24022290",
+      "url": "https://github.com/orium/cargo-rdme/releases/tag/v1.4.7"
     },
     "cargo-run-bin": {
       "version": "1.7.3",
@@ -646,10 +646,10 @@
       "url": "https://github.com/evcxr/evcxr/releases/tag/v0.18.0"
     },
     "eza": {
-      "version": "0.20.6",
-      "gitref": "refs/tags/v0.20.6",
-      "revision": "58932e0736c685141c3ac9fd69eeb2fa5aebfe61",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.20.6"
+      "version": "0.20.7",
+      "gitref": "refs/tags/v0.20.7",
+      "revision": "a5ceec24efdf088bb3cb8d045e7e5bad1ec053e8",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.20.7"
     },
     "fblog": {
       "version": "4.13.1",
@@ -792,9 +792,9 @@
       "url": "https://github.com/pemistahl/grex/releases/tag/v1.4.5"
     },
     "gsmartcontrol": {
-      "version": "1.1.4",
-      "gitref": "refs/tags/v1.1.4",
-      "url": "https://github.com/ashaduri/gsmartcontrol/releases/tag/v1.1.4"
+      "version": "2.0.0",
+      "gitref": "refs/tags/v2.0.0",
+      "url": "https://github.com/ashaduri/gsmartcontrol/releases/tag/v2.0.0"
     },
     "hadlock": {
       "version": "1.1.6",
@@ -1017,9 +1017,9 @@
       "url": "https://github.com/sbstp/kubie/releases/tag/v0.24.0"
     },
     "lan-mouse": {
-      "version": "0.9.1",
-      "gitref": "refs/tags/v0.9.1",
-      "url": "https://github.com/feschber/lan-mouse/releases/tag/v0.9.1"
+      "version": "0.10.0",
+      "gitref": "refs/tags/v0.10.0",
+      "url": "https://github.com/feschber/lan-mouse/releases/tag/v0.10.0"
     },
     "lazyjj": {
       "version": "0.4.2",
@@ -1131,9 +1131,9 @@
       "url": "https://github.com/henriklovhaug/md-tui/releases/tag/v0.8.7"
     },
     "mdbook": {
-      "version": "0.4.41",
-      "gitref": "refs/tags/v0.4.41",
-      "url": "https://github.com/rust-lang/mdBook/releases/tag/v0.4.41"
+      "version": "0.4.42",
+      "gitref": "refs/tags/v0.4.42",
+      "url": "https://github.com/rust-lang/mdBook/releases/tag/v0.4.42"
     },
     "mdp": {
       "version": "1.0.15",
@@ -1402,10 +1402,10 @@
       "url": "https://github.com/rust-lang/rust-bindgen/releases/tag/v0.70.1"
     },
     "rust-kanban": {
-      "version": "0.10.4",
-      "gitref": "refs/tags/v0.10.4",
-      "revision": "1281a9a47a1c6443477267a4f7219eff4ab9f919",
-      "url": "https://github.com/yashs662/rust_kanban/releases/tag/v0.10.4"
+      "version": "0.10.5",
+      "gitref": "refs/tags/v0.10.5",
+      "revision": "5ac972c88be27082aeabb28448c2e843a482560e",
+      "url": "https://github.com/yashs662/rust_kanban/releases/tag/v0.10.5"
     },
     "rust-racer": {
       "version": "2.1.36",
@@ -1738,10 +1738,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.0.27"
     },
     "uv": {
-      "version": "0.4.30",
-      "gitref": "refs/tags/0.4.30",
-      "revision": "61ed2a236ade13703fd6cd3271e2c4d627398f38",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.4.30"
+      "version": "0.5.0",
+      "gitref": "refs/tags/0.5.0",
+      "revision": "8d665267cdd45fd8cf00f690dc8d9399f6147d4e",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.5.0"
     },
     "uwuifyy": {
       "version": "0.3.0",
