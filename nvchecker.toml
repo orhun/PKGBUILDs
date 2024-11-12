@@ -1445,6 +1445,12 @@ github = "Canop/bacon"
 use_max_tag = true
 prefix = "v"
 
+[kani]
+source = "github"
+github = "model-checking/kani"
+use_latest_release = true
+prefix = "kani-"
+
 # AUR #
 
 [kermit]
