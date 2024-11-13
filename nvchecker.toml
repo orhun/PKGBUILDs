@@ -1451,6 +1451,12 @@ github = "model-checking/kani"
 use_latest_release = true
 prefix = "kani-"
 
+[gitoxide]
+source = "github"
+github = "GitoxideLabs/gitoxide"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
