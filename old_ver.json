@@ -24,9 +24,9 @@
       "version": "1.3.4"
     },
     "aliyun-cli": {
-      "version": "3.0.231",
-      "gitref": "refs/tags/v3.0.231",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.231"
+      "version": "3.0.232",
+      "gitref": "refs/tags/v3.0.232",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.232"
     },
     "alpine-chroot-install": {
       "version": "0.14.0"
@@ -345,9 +345,9 @@
       "url": "https://github.com/pacak/cargo-show-asm/releases/tag/0.2.42"
     },
     "cargo-shuttle": {
-      "version": "0.48.3",
-      "gitref": "refs/tags/v0.48.3",
-      "url": "https://github.com/shuttle-hq/shuttle/releases/tag/v0.48.3"
+      "version": "0.49.0",
+      "gitref": "refs/tags/v0.49.0",
+      "url": "https://github.com/shuttle-hq/shuttle/releases/tag/v0.49.0"
     },
     "cargo-sonar": {
       "version": "1.2.0"
@@ -536,10 +536,10 @@
       "url": "https://github.com/evcxr/evcxr/releases/tag/v0.18.0"
     },
     "eza": {
-      "version": "0.20.7",
-      "gitref": "refs/tags/v0.20.7",
-      "revision": "a5ceec24efdf088bb3cb8d045e7e5bad1ec053e8",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.20.7"
+      "version": "0.20.8",
+      "gitref": "refs/tags/v0.20.8",
+      "revision": "7396906b647b26f30dbd3edc7128e821ab2b6f8d",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.20.8"
     },
     "fblog": {
       "version": "4.13.1",
@@ -606,6 +606,11 @@
     },
     "git-grab": {
       "version": "3.0.0"
+    },
+    "gitoxide": {
+      "version": "0.38.0",
+      "gitref": "refs/tags/v0.38.0",
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/tag/v0.38.0"
     },
     "gitu": {
       "version": "0.27.0",
@@ -728,9 +733,9 @@
       "version": "20240126.084119"
     },
     "hwatch": {
-      "version": "0.3.16",
-      "gitref": "refs/tags/0.3.16",
-      "url": "https://github.com/blacknon/hwatch/releases/tag/0.3.16"
+      "version": "0.3.17",
+      "gitref": "refs/tags/0.3.17",
+      "url": "https://github.com/blacknon/hwatch/releases/tag/0.3.17"
     },
     "hyperfine": {
       "version": "1.19.0",
@@ -1113,10 +1118,10 @@
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.19"
     },
     "release-plz": {
-      "version": "0.3.107",
-      "gitref": "refs/tags/release-plz-v0.3.107",
-      "revision": "d069d7e7ee352863483affc5f6521c191432178e",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.107"
+      "version": "0.3.108",
+      "gitref": "refs/tags/release-plz-v0.3.108",
+      "revision": "f738387e05d34fa16cacec90888c17829160932c",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.108"
     },
     "repgrep": {
       "version": "0.15.0"
@@ -1127,10 +1132,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.3"
     },
     "rio": {
-      "version": "0.1.17",
-      "gitref": "refs/tags/v0.1.17",
-      "revision": "7891a89d789471c62b245e8e444abbe62a1540fc",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.1.17"
+      "version": "0.2.0",
+      "gitref": "refs/tags/v0.2.0",
+      "revision": "faf155abcae249fe8decd69f3a4d2a0ec95f8b12",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.2.0"
     },
     "ripasso": {
       "version": "0.7.0",
@@ -1316,9 +1321,9 @@
       "version": "0.7.6"
     },
     "tabiew": {
-      "version": "0.7.0",
-      "gitref": "refs/tags/v0.7.0",
-      "url": "https://github.com/shshemi/tabiew/releases/tag/v0.7.0"
+      "version": "0.7.1",
+      "gitref": "refs/tags/v0.7.1",
+      "url": "https://github.com/shshemi/tabiew/releases/tag/v0.7.1"
     },
     "tage": {
       "version": "0.1",
@@ -1430,10 +1435,10 @@
       "url": "https://github.com/Chleba/tui-slides/releases/tag/v0.1.4"
     },
     "tuisky": {
-      "version": "0.1.3",
-      "gitref": "refs/tags/v0.1.3",
-      "revision": "06ad94dd253426040f6b1002c6659714e2390d37",
-      "url": "https://github.com/sugyan/tuisky/releases/tag/v0.1.3"
+      "version": "0.1.4",
+      "gitref": "refs/tags/v0.1.4",
+      "revision": "690c9151445782c76f4effb7640f9cdb912c695c",
+      "url": "https://github.com/sugyan/tuisky/releases/tag/v0.1.4"
     },
     "twitch-tui": {
       "version": "2.6.17",

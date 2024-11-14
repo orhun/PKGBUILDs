@@ -1457,6 +1457,12 @@ github = "GitoxideLabs/gitoxide"
 use_latest_release = true
 prefix = "v"
 
+[meilisearch]
+source = "github"
+github = "meilisearch/MeiliSearch"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
