@@ -1463,6 +1463,12 @@ github = "meilisearch/MeiliSearch"
 use_latest_release = true
 prefix = "v"
 
+[starship]
+source = "github"
+github = "starship/starship"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

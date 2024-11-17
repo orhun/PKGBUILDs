@@ -24,9 +24,9 @@
       "version": "1.3.4"
     },
     "aliyun-cli": {
-      "version": "3.0.232",
-      "gitref": "refs/tags/v3.0.232",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.232"
+      "version": "3.0.233",
+      "gitref": "refs/tags/v3.0.233",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.233"
     },
     "alpine-chroot-install": {
       "version": "0.14.0"
@@ -60,10 +60,10 @@
       "version": "7.2.0"
     },
     "bacon": {
-      "version": "3.2.0",
-      "gitref": "refs/tags/v3.2.0",
-      "revision": "f1d0da82ce83ce7aad06164b271332e29658ce85",
-      "url": "https://github.com/Canop/bacon/releases/tag/v3.2.0"
+      "version": "3.3.0",
+      "gitref": "refs/tags/v3.3.0",
+      "revision": "0228f515d77db3e0b81c28a936c609c89d0178e2",
+      "url": "https://github.com/Canop/bacon/releases/tag/v3.3.0"
     },
     "bandwhich": {
       "version": "0.23.1",
@@ -203,9 +203,9 @@
       "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.8.0"
     },
     "cargo-deny": {
-      "version": "0.16.1",
-      "gitref": "refs/tags/0.16.1",
-      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/tag/0.16.1"
+      "version": "0.16.2",
+      "gitref": "refs/tags/0.16.2",
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/tag/0.16.2"
     },
     "cargo-depgraph": {
       "version": "1.6.0"
@@ -297,10 +297,10 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v3.5.7"
     },
     "cargo-nextest": {
-      "version": "0.9.82",
-      "gitref": "refs/tags/cargo-nextest-0.9.82",
-      "revision": "272c7e5359b4ff8a4052f8b6641140269bdac147",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.82"
+      "version": "0.9.84",
+      "gitref": "refs/tags/cargo-nextest-0.9.84",
+      "revision": "71c12d04849f02b644480c88409df7b6b34d706e",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.84"
     },
     "cargo-outdated": {
       "version": "0.15.0"
@@ -309,9 +309,9 @@
       "version": "0.3.2"
     },
     "cargo-public-api": {
-      "version": "0.40.0",
-      "gitref": "refs/tags/v0.40.0",
-      "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.40.0"
+      "version": "0.41.0",
+      "gitref": "refs/tags/v0.41.0",
+      "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.41.0"
     },
     "cargo-rdme": {
       "version": "1.4.7",
@@ -402,7 +402,9 @@
       "version": "0.1.13"
     },
     "chess-tui": {
-      "version": "1.2.1"
+      "version": "1.3.0",
+      "gitref": "refs/tags/1.3.0",
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/1.3.0"
     },
     "cicero": {
       "version": "0.4.0"
@@ -1113,9 +1115,9 @@
       "version": "0.1.3"
     },
     "rebels-in-the-sky": {
-      "version": "1.0.19",
-      "gitref": "refs/tags/v1.0.19",
-      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.19"
+      "version": "1.0.21",
+      "gitref": "refs/tags/v1.0.21",
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.21"
     },
     "release-plz": {
       "version": "0.3.108",
@@ -1132,10 +1134,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.3"
     },
     "rio": {
-      "version": "0.2.0",
-      "gitref": "refs/tags/v0.2.0",
-      "revision": "faf155abcae249fe8decd69f3a4d2a0ec95f8b12",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.2.0"
+      "version": "0.2.1",
+      "gitref": "refs/tags/v0.2.1",
+      "revision": "77369fe4c619231ccea734bac5c1c077244be1de",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.2.1"
     },
     "ripasso": {
       "version": "0.7.0",
@@ -1285,6 +1287,11 @@
     "spotify-tui": {
       "version": "0.25.0"
     },
+    "starship": {
+      "version": "1.21.1",
+      "gitref": "refs/tags/v1.21.1",
+      "url": "https://github.com/starship/starship/releases/tag/v1.21.1"
+    },
     "stegano": {
       "version": "0.5.3"
     },
@@ -1350,9 +1357,9 @@
       "url": "https://github.com/itsjunetime/tdf/releases/tag/v0.1.0"
     },
     "tealdeer": {
-      "version": "1.7.0",
-      "gitref": "refs/tags/v1.7.0",
-      "url": "https://github.com/tealdeer-rs/tealdeer/releases/tag/v1.7.0"
+      "version": "1.7.1",
+      "gitref": "refs/tags/v1.7.1",
+      "url": "https://github.com/tealdeer-rs/tealdeer/releases/tag/v1.7.1"
     },
     "tenki": {
       "version": "1.11.0"
@@ -1435,10 +1442,10 @@
       "url": "https://github.com/Chleba/tui-slides/releases/tag/v0.1.4"
     },
     "tuisky": {
-      "version": "0.1.4",
-      "gitref": "refs/tags/v0.1.4",
-      "revision": "690c9151445782c76f4effb7640f9cdb912c695c",
-      "url": "https://github.com/sugyan/tuisky/releases/tag/v0.1.4"
+      "version": "0.1.5",
+      "gitref": "refs/tags/v0.1.5",
+      "revision": "22eba9fe1b2446cc240b7c1fdbd4cf95ad9ef17b",
+      "url": "https://github.com/sugyan/tuisky/releases/tag/v0.1.5"
     },
     "twitch-tui": {
       "version": "2.6.17",
@@ -1467,15 +1474,15 @@
       "version": "0.6.0"
     },
     "uutils-coreutils": {
-      "version": "0.0.27",
-      "gitref": "refs/tags/0.0.27",
-      "url": "https://github.com/uutils/coreutils/releases/tag/0.0.27"
+      "version": "0.0.28",
+      "gitref": "refs/tags/0.0.28",
+      "url": "https://github.com/uutils/coreutils/releases/tag/0.0.28"
     },
     "uv": {
-      "version": "0.4.29",
-      "gitref": "refs/tags/0.4.29",
-      "revision": "85f9a0d0ec6d8dd703bf188744bad726703352bc",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.4.29"
+      "version": "0.5.2",
+      "gitref": "refs/tags/0.5.2",
+      "revision": "195f4b634ff0230fcef5445c6023a74faab92184",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.5.2"
     },
     "uwuifyy": {
       "version": "0.3.0"
