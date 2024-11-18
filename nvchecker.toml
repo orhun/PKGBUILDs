@@ -2219,3 +2219,9 @@ source = "github"
 github = "theiskaa/markdown2pdf"
 use_latest_release = true
 prefix = "v"
+
+[passepartui]
+source = "github"
+github = "kardwen/passepartui"
+use_latest_release = true
+prefix = "v"
