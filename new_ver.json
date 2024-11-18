@@ -237,10 +237,10 @@
       "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.26.0"
     },
     "cargo-deb": {
-      "version": "2.8.0",
-      "gitref": "refs/tags/v2.8.0",
-      "revision": "2eba67e7a1b959cef02c4de6425e959357eb224a",
-      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.8.0"
+      "version": "2.9.0",
+      "gitref": "refs/tags/v2.9.0",
+      "revision": "3275a48d31ec0a6ff0766053c8776f2603b117c8",
+      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.9.0"
     },
     "cargo-deny": {
       "version": "0.16.2",
@@ -474,9 +474,9 @@
       "url": "https://github.com/johnterickson/cargo2junit/releases/tag/v0.1.13"
     },
     "chess-tui": {
-      "version": "1.3.0",
-      "gitref": "refs/tags/1.3.0",
-      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/1.3.0"
+      "version": "1.4.0",
+      "gitref": "refs/tags/1.4.0",
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/1.4.0"
     },
     "cicero": {
       "version": "0.4.0",
@@ -776,9 +776,9 @@
       "url": "https://github.com/orhun/god/releases/tag/1.10"
     },
     "gping": {
-      "version": "1.17.3",
-      "gitref": "refs/tags/gping-v1.17.3",
-      "url": "https://github.com/orf/gping/releases/tag/gping-v1.17.3"
+      "version": "1.18.0",
+      "gitref": "refs/tags/gping-v1.18.0",
+      "url": "https://github.com/orf/gping/releases/tag/gping-v1.18.0"
     },
     "grcov": {
       "version": "0.8.20",
@@ -919,9 +919,9 @@
       "url": "https://github.com/trashhalo/imgcat/releases/tag/v1.2.0"
     },
     "impala": {
-      "version": "0.2.3",
-      "gitref": "refs/tags/v0.2.3",
-      "url": "https://github.com/pythops/impala/releases/tag/v0.2.3"
+      "version": "0.2.4",
+      "gitref": "refs/tags/v0.2.4",
+      "url": "https://github.com/pythops/impala/releases/tag/v0.2.4"
     },
     "innernet": {
       "version": "1.6.1",
@@ -1207,6 +1207,11 @@
       "gitref": "refs/tags/v2.1.0",
       "url": "https://github.com/kondanta/notp/releases/tag/v2.1.0"
     },
+    "nvrs": {
+      "version": "0.1.3",
+      "gitref": "refs/tags/v0.1.3",
+      "url": "https://github.com/adamperkowski/nvrs/releases/tag/v0.1.3"
+    },
     "onefetch": {
       "version": "2.22.0",
       "gitref": "refs/tags/2.22.0",
@@ -1412,9 +1417,9 @@
       "url": "https://github.com/Edu4rdSHL/rusolver/releases/tag/0.9.1"
     },
     "rust-analyzer": {
-      "version": "2024-11-11",
-      "gitref": "refs/tags/2024-11-11",
-      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-11-11"
+      "version": "2024-11-18",
+      "gitref": "refs/tags/2024-11-18",
+      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2024-11-18"
     },
     "rust-bindgen": {
       "version": "0.70.1",

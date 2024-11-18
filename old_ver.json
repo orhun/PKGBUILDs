@@ -197,10 +197,10 @@
       "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.26.0"
     },
     "cargo-deb": {
-      "version": "2.8.0",
-      "gitref": "refs/tags/v2.8.0",
-      "revision": "2eba67e7a1b959cef02c4de6425e959357eb224a",
-      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.8.0"
+      "version": "2.9.0",
+      "gitref": "refs/tags/v2.9.0",
+      "revision": "3275a48d31ec0a6ff0766053c8776f2603b117c8",
+      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.9.0"
     },
     "cargo-deny": {
       "version": "0.16.2",
@@ -402,9 +402,9 @@
       "version": "0.1.13"
     },
     "chess-tui": {
-      "version": "1.3.0",
-      "gitref": "refs/tags/1.3.0",
-      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/1.3.0"
+      "version": "1.4.0",
+      "gitref": "refs/tags/1.4.0",
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/1.4.0"
     },
     "cicero": {
       "version": "0.4.0"
@@ -643,9 +643,9 @@
       "version": "1.10"
     },
     "gping": {
-      "version": "1.17.3",
-      "gitref": "refs/tags/gping-v1.17.3",
-      "url": "https://github.com/orf/gping/releases/tag/gping-v1.17.3"
+      "version": "1.18.0",
+      "gitref": "refs/tags/gping-v1.18.0",
+      "url": "https://github.com/orf/gping/releases/tag/gping-v1.18.0"
     },
     "grcov": {
       "version": "0.8.20",
@@ -762,9 +762,9 @@
       "version": "1.2.0"
     },
     "impala": {
-      "version": "0.2.3",
-      "gitref": "refs/tags/v0.2.3",
-      "url": "https://github.com/pythops/impala/releases/tag/v0.2.3"
+      "version": "0.2.4",
+      "gitref": "refs/tags/v0.2.4",
+      "url": "https://github.com/pythops/impala/releases/tag/v0.2.4"
     },
     "innernet": {
       "version": "1.6.1"
@@ -991,6 +991,11 @@
     },
     "notp": {
       "version": "2.1.0"
+    },
+    "nvrs": {
+      "version": "0.1.3",
+      "gitref": "refs/tags/v0.1.3",
+      "url": "https://github.com/adamperkowski/nvrs/releases/tag/v0.1.3"
     },
     "onefetch": {
       "version": "2.22.0",

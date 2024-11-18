@@ -2207,3 +2207,9 @@ source = "github"
 github = "pls-rs/pls"
 use_max_tag = true
 prefix = "v"
+
+[nvrs]
+source = "github"
+github = "adamperkowski/nvrs"
+use_latest_release = true
+prefix = "v"
