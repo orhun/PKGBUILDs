@@ -1120,6 +1120,11 @@
       "gitref": "refs/tags/1.6.2",
       "url": "https://github.com/Stabyourself/mari0/releases/tag/1.6.2"
     },
+    "markdown2pdf": {
+      "version": "0.1.0",
+      "gitref": "refs/tags/v0.1.0",
+      "url": "https://github.com/theiskaa/markdown2pdf/releases/tag/v0.1.0"
+    },
     "markuplinkchecker": {
       "version": "0.18.0",
       "gitref": "refs/tags/v0.18.0",

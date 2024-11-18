@@ -2213,3 +2213,9 @@ source = "github"
 github = "adamperkowski/nvrs"
 use_latest_release = true
 prefix = "v"
+
+[markdown2pdf]
+source = "github"
+github = "theiskaa/markdown2pdf"
+use_latest_release = true
+prefix = "v"
