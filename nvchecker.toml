@@ -1469,6 +1469,12 @@ github = "starship/starship"
 use_latest_release = true
 prefix = "v"
 
+[television]
+source = "github"
+github = "alexpasmantier/television"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
