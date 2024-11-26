@@ -27,7 +27,8 @@ build() {
 
 check() {
   cd "$pkgname-$pkgver"
-  cargo test --frozen
+  cargo test --release --frozen --lib
+  cargo test --release --frozen --bin nvrs
 }
 
 package() {
