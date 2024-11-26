@@ -1,6 +1,6 @@
 pkgbase = nvrs
 	pkgdesc = Fast new version checker for software releases
-	pkgver = 0.1.3
+	pkgver = 0.1.4
 	pkgrel = 1
 	url = https://github.com/adamperkowski/nvrs
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = nvrs
 	makedepends = cargo
 	depends = gcc-libs
 	depends = openssl
-	source = nvrs-0.1.3.tar.gz::https://github.com/adamperkowski/nvrs/archive/v0.1.3.tar.gz
-	sha512sums = 06d6c1f65cb4586e81be33fbe5bac87accc06d87777f14f14a5cee98e75d0b1aa402e1d30f23d7a89fb6053add9c69366011185fe379075df2e5f549a14556ca
+	source = nvrs-0.1.4.tar.gz::https://github.com/adamperkowski/nvrs/archive/v0.1.4.tar.gz
+	sha512sums = 6dc9e105ee759cf6b7ecddb02a88c6dd535a05282a099ca876ab075cde09774eac8e3d5a5a08b549c20ca59db7a5b0d176b44c538cf2c45c1ade73a0e4c2cea5
 
 pkgname = nvrs

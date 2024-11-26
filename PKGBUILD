@@ -1,8 +1,10 @@
 # Maintainer: orhun <orhunparmaksiz@gmail.com>
 # https://github.com/orhun/pkgbuilds
+# Maintainer: Adam Perkowski <adas1per@protonmail.com>
+# https://github.com/adamperkowski/pkgbuilds
 
 pkgname=nvrs
-pkgver=0.1.3
+pkgver=0.1.4
 pkgrel=1
 pkgdesc="Fast new version checker for software releases"
 arch=('x86_64')
@@ -11,7 +13,7 @@ license=('MIT')
 depends=('gcc-libs' 'openssl')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('06d6c1f65cb4586e81be33fbe5bac87accc06d87777f14f14a5cee98e75d0b1aa402e1d30f23d7a89fb6053add9c69366011185fe379075df2e5f549a14556ca')
+sha512sums=('6dc9e105ee759cf6b7ecddb02a88c6dd535a05282a099ca876ab075cde09774eac8e3d5a5a08b549c20ca59db7a5b0d176b44c538cf2c45c1ade73a0e4c2cea5')
 
 prepare() {
   cd "$pkgname-$pkgver"
