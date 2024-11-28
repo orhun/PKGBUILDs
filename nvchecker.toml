@@ -1475,6 +1475,12 @@ github = "alexpasmantier/television"
 use_latest_release = true
 prefix = "v"
 
+[hl]
+source = "github"
+github = "pamburus/hl"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -2226,5 +2232,11 @@ prefix = "v"
 [passepartui]
 source = "github"
 github = "kardwen/passepartui"
+use_latest_release = true
+prefix = "v"
+
+[vault-tasks]
+source = "github"
+github = "louis-thevenet/vault-tasks"
 use_latest_release = true
 prefix = "v"
