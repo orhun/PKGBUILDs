@@ -1352,7 +1352,7 @@ prefix = "v"
 [i3status]
 source = "github"
 github = "i3/i3status"
-use_latest_release = true
+use_max_tag = true
 prefix = "v"
 
 [zola]
@@ -1571,10 +1571,6 @@ github = "Skallwar/suckit"
 use_latest_release = true
 prefix = "v"
 
-[funkicrab]
-source = "github"
-github = "zesterer/funkicrab"
-
 [fhc]
 source = "github"
 github = "Edu4rdSHL/fhc"
@@ -1602,6 +1598,7 @@ prefix = "v"
 [huniq]
 source = "github"
 github = "koraa/huniq"
+use_max_tag = true
 
 [slicer]
 source = "github"
