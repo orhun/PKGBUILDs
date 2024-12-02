@@ -2240,3 +2240,9 @@ source = "github"
 github = "louis-thevenet/vault-tasks"
 use_latest_release = true
 prefix = "v"
+
+[hf]
+source = "github"
+github = "sorairolake/hf"
+use_latest_release = true
+prefix = "v"
