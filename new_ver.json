@@ -511,14 +511,19 @@
       "url": "https://gitlab.com/dns2utf8/color_blinder/-/tags/1.0.2"
     },
     "committed": {
-      "version": "1.1.1",
-      "gitref": "refs/tags/v1.1.1",
-      "url": "https://github.com/crate-ci/committed/releases/tag/v1.1.1"
+      "version": "1.1.2",
+      "gitref": "refs/tags/v1.1.2",
+      "url": "https://github.com/crate-ci/committed/releases/tag/v1.1.2"
     },
     "conserve": {
       "version": "23.11.0",
       "gitref": "refs/tags/v23.11.0",
       "url": "https://github.com/sourcefrog/conserve/releases/tag/v23.11.0"
+    },
+    "cookcli": {
+      "version": "0.8.0",
+      "gitref": "refs/tags/v0.8.0",
+      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.8.0"
     },
     "cotp": {
       "version": "1.9.2",

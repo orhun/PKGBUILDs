@@ -1481,6 +1481,12 @@ github = "pamburus/hl"
 use_latest_release = true
 prefix = "v"
 
+[cookcli]
+source = "github"
+github = "cooklang/cookcli"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
