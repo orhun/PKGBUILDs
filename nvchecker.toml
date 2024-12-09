@@ -2252,3 +2252,9 @@ source = "github"
 github = "sorairolake/hf"
 use_latest_release = true
 prefix = "v"
+
+[tracker]
+source = "github"
+github = "ShenMian/tracker"
+use_latest_release = true
+prefix = "v"
