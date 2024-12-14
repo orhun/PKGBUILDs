@@ -1487,7 +1487,7 @@ github = "cooklang/cookcli"
 use_latest_release = true
 prefix = "v"
 
-[taplo]
+[taplo-cli]
 source = "github"
 github = "tamasfe/taplo"
 use_latest_release = true
