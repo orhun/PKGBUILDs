@@ -873,9 +873,9 @@
       "url": "https://github.com/pimalaya/himalaya/releases/tag/v1.0.0"
     },
     "hl": {
-      "version": "0.29.9",
-      "gitref": "refs/tags/v0.29.9",
-      "url": "https://github.com/pamburus/hl/releases/tag/v0.29.9"
+      "version": "0.29.10",
+      "gitref": "refs/tags/v0.29.10",
+      "url": "https://github.com/pamburus/hl/releases/tag/v0.29.10"
     },
     "hoard": {
       "version": "1.4.2",
@@ -1647,6 +1647,11 @@
       "gitref": "refs/tags/4.0.0",
       "url": "https://github.com/bensadeh/tailspin/releases/tag/4.0.0"
     },
+    "taplo": {
+      "version": "0.9.3",
+      "gitref": "refs/tags/0.9.3",
+      "url": "https://github.com/tamasfe/taplo/releases/tag/0.9.3"
+    },
     "task": {
       "version": "3.2.0",
       "gitref": "refs/tags/v3.2.0",
@@ -1735,9 +1740,9 @@
       "url": "https://github.com/kxxt/tracexec/releases/tag/v0.8.0"
     },
     "tracker": {
-      "version": "0.1.1",
-      "gitref": "refs/tags/v0.1.1",
-      "url": "https://github.com/ShenMian/tracker/releases/tag/v0.1.1"
+      "version": "0.1.2",
+      "gitref": "refs/tags/v0.1.2",
+      "url": "https://github.com/ShenMian/tracker/releases/tag/v0.1.2"
     },
     "trippy": {
       "version": "0.12.0",
@@ -1806,10 +1811,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.0.28"
     },
     "uv": {
-      "version": "0.5.8",
-      "gitref": "refs/tags/0.5.8",
-      "revision": "80d41671bccba1c85d2ab159b361fd6ebfa75b80",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.5.8"
+      "version": "0.5.9",
+      "gitref": "refs/tags/0.5.9",
+      "revision": "0652800cb018eb086fbbf220a1f73af7e320be54",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.5.9"
     },
     "uwuifyy": {
       "version": "0.3.0",

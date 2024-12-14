@@ -1487,6 +1487,12 @@ github = "cooklang/cookcli"
 use_latest_release = true
 prefix = "v"
 
+[taplo]
+source = "github"
+github = "tamasfe/taplo"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
