@@ -1493,6 +1493,12 @@ github = "tamasfe/taplo"
 use_latest_release = true
 prefix = "v"
 
+[tukai]
+source = "github"
+github = "hlsxx/tukai"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

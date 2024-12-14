@@ -200,9 +200,9 @@
       "url": "https://github.com/rust-secure-code/cargo-auditable/releases/tag/v0.6.6"
     },
     "cargo-binstall": {
-      "version": "1.10.16",
-      "gitref": "refs/tags/v1.10.16",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.16"
+      "version": "1.10.17",
+      "gitref": "refs/tags/v1.10.17",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.10.17"
     },
     "cargo-bloat": {
       "version": "0.12.1",
@@ -1774,6 +1774,11 @@
       "gitref": "refs/tags/v0.1.5",
       "revision": "22eba9fe1b2446cc240b7c1fdbd4cf95ad9ef17b",
       "url": "https://github.com/sugyan/tuisky/releases/tag/v0.1.5"
+    },
+    "tukai": {
+      "version": "0.1.2",
+      "gitref": "refs/tags/v0.1.2",
+      "url": "https://github.com/hlsxx/tukai/releases/tag/v0.1.2"
     },
     "twitch-tui": {
       "version": "2.6.17",

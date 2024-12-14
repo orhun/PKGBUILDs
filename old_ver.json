@@ -1413,6 +1413,11 @@
       "gitref": "refs/tags/4.0.0",
       "url": "https://github.com/bensadeh/tailspin/releases/tag/4.0.0"
     },
+    "taplo-cli": {
+      "version": "0.9.3",
+      "gitref": "refs/tags/0.9.3",
+      "url": "https://github.com/tamasfe/taplo/releases/tag/0.9.3"
+    },
     "task": {
       "version": "3.2.0",
       "gitref": "refs/tags/v3.2.0",
