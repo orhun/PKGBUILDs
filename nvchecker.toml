@@ -2258,3 +2258,9 @@ source = "github"
 github = "ShenMian/tracker"
 use_latest_release = true
 prefix = "v"
+
+[yozefu]
+source = "github"
+github = "MAIF/yozefu"
+use_latest_release = true
+prefix = "v"
