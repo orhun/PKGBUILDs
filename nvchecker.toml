@@ -1499,6 +1499,12 @@ github = "hlsxx/tukai"
 use_latest_release = true
 prefix = "v"
 
+[smartcat]
+source = "github"
+github = "efugier/smartcat"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -2274,11 +2280,5 @@ prefix = "v"
 [yozefu]
 source = "github"
 github = "MAIF/yozefu"
-use_latest_release = true
-prefix = "v"
-
-[smartcat]
-source = "github"
-github = "efugier/smartcat"
 use_latest_release = true
 prefix = "v"
