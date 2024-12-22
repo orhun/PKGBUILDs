@@ -1505,6 +1505,12 @@ github = "efugier/smartcat"
 use_latest_release = true
 prefix = "v"
 
+[codesnap]
+source = "github"
+github = "mistricky/CodeSnap"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
