@@ -2288,3 +2288,9 @@ source = "github"
 github = "MAIF/yozefu"
 use_latest_release = true
 prefix = "v"
+
+[mdfried]
+source = "github"
+github = "benjajaja/mdfried"
+use_latest_release = true
+prefix = "v"
