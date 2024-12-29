@@ -2294,3 +2294,9 @@ source = "github"
 github = "benjajaja/mdfried"
 use_latest_release = true
 prefix = "v"
+
+[revq]
+source = "github"
+github = "k3ii/revq"
+use_latest_release = true
+prefix = "v"
