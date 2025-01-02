@@ -4,7 +4,7 @@
 # https://github.com/adamperkowski/pkgbuilds
 
 pkgname=nvrs
-pkgver=0.1.5
+pkgver=0.1.6
 pkgrel=1
 pkgdesc="Fast new version checker for software releases"
 arch=('x86_64')
@@ -13,7 +13,7 @@ license=('MIT')
 depends=('gcc-libs' 'openssl')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha512sums=('6079f3522067ea764950a8c5a52d5ad3ef1dccf599b9a9c07422ad33e01018571248637d8ee1f7392903b26fb47c7419981311c7feece3f8384cb5fa81b7f978')
+sha512sums=('d8bb078911bcedf97fc5688f406b653d79249cebbddaea12bab5627fb5125a80c897acedff6fe9ebad34377d815a11f352a4fec2bb68502141ef647e910ca34a')
 
 prepare() {
   cd "$pkgname-$pkgver"
@@ -22,17 +22,13 @@ prepare() {
 
 build() {
   cd "$pkgname-$pkgver"
-  cargo build --release --frozen
+  cargo build --release --frozen --bin "$pkgname" --features="${pkgname}_cli"
 }
 
-# tests may be failing due to
-# https://github.com/adamperkowski/nvrs/issues/7
-
-#check() {
-#  cd "$pkgname-$pkgver"
-#  cargo test --release --frozen --lib
-#  cargo test --release --frozen --bin nvrs
-#}
+check() {
+  cd "$pkgname-$pkgver"
+  cargo test --release --frozen --features="${pkgname}_cli"
+}
 
 package() {
   cd "$pkgname-$pkgver"
@@ -41,3 +37,5 @@ package() {
   install -Dm 644 LICENSE -t "$pkgdir/usr/share/licenses/$pkgname"
   install -Dm 644 "man/$pkgname.1" -t "$pkgdir/usr/share/man/man1"
 }
+
+# vim: ts=2 sw=2 et:
