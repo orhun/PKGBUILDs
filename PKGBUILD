@@ -22,11 +22,13 @@ prepare() {
 
 build() {
   cd "$pkgname-$pkgver"
+  export CARGO_TARGET_DIR=target
   cargo build --release --frozen --bin "$pkgname" --features="${pkgname}_cli"
 }
 
 check() {
   cd "$pkgname-$pkgver"
+  export CARGO_TARGET_DIR=target
   cargo test --release --frozen --features="${pkgname}_cli"
 }
 
