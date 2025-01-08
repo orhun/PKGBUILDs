@@ -2300,3 +2300,9 @@ source = "github"
 github = "k3ii/revq"
 use_latest_release = true
 prefix = "v"
+
+[timr]
+source = "github"
+github = "sectore/timr-tui"
+use_latest_release = true
+prefix = "v"
