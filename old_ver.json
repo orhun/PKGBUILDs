@@ -762,9 +762,9 @@
       "url": "https://github.com/pimalaya/himalaya/releases/tag/v1.0.0"
     },
     "hl": {
-      "version": "0.30.1",
-      "gitref": "refs/tags/v0.30.1",
-      "url": "https://github.com/pamburus/hl/releases/tag/v0.30.1"
+      "version": "0.30.2",
+      "gitref": "refs/tags/v0.30.2",
+      "url": "https://github.com/pamburus/hl/releases/tag/v0.30.2"
     },
     "hoard": {
       "version": "1.4.2"
@@ -907,9 +907,9 @@
       "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.5.4"
     },
     "kubie": {
-      "version": "0.24.0",
-      "gitref": "refs/tags/v0.24.0",
-      "url": "https://github.com/sbstp/kubie/releases/tag/v0.24.0"
+      "version": "0.24.1",
+      "gitref": "refs/tags/v0.24.1",
+      "url": "https://github.com/sbstp/kubie/releases/tag/v0.24.1"
     },
     "lan-mouse": {
       "version": "0.9.1",
