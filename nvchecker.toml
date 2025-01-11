@@ -1511,12 +1511,6 @@ github = "mistricky/CodeSnap"
 use_latest_release = true
 prefix = "v"
 
-[spiko]
-source = "github"
-github = "trinhminhtriet/spiko"
-use_latest_release = true
-prefix = "v"
-
 # AUR #
 
 [kermit]
