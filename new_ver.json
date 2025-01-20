@@ -1784,6 +1784,11 @@
       "gitref": "refs/tags/0.12.2",
       "url": "https://github.com/fujiapple852/trippy/releases/tag/0.12.2"
     },
+    "trunk": {
+      "version": "0.21.6",
+      "gitref": "refs/tags/v0.21.6",
+      "url": "https://github.com/trunk-rs/trunk/releases/tag/v0.21.6"
+    },
     "ttyper": {
       "version": "1.6.0",
       "gitref": "refs/tags/v1.6.0",

@@ -603,6 +603,11 @@
     "frankenwm": {
       "version": "1.0.23"
     },
+    "fum": {
+      "version": "0.4.3",
+      "gitref": "refs/tags/v0.4.3",
+      "url": "https://github.com/qxb3/fum/releases/tag/v0.4.3"
+    },
     "funkicrab": {
       "version": "20190222.121930"
     },

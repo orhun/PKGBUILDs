@@ -1517,6 +1517,12 @@ github = "KSXGitHub/parallel-disk-usage"
 use_latest_release = true
 prefix = "v"
 
+[trunk]
+source = "github"
+github = "trunk-rs/trunk"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
