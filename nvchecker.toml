@@ -2312,3 +2312,9 @@ source = "github"
 github = "sectore/timr-tui"
 use_latest_release = true
 prefix = "v"
+
+[fum]
+source = "github"
+github = "qxb3/fum"
+use_latest_release = true
+prefix = "v"
