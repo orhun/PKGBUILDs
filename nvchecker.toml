@@ -1529,6 +1529,12 @@ github = "cdown/tzupdate"
 use_max_tag = true
 prefix = "v"
 
+[spotify-player]
+source = "github"
+github = "aome510/spotify-player"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

@@ -1613,6 +1613,11 @@
       "gitref": "refs/tags/v0.4.1",
       "url": "https://github.com/spicylobstergames/SpicyLauncher/releases/tag/v0.4.1"
     },
+    "spotify-player": {
+      "version": "0.20.4",
+      "gitref": "refs/tags/v0.20.4",
+      "url": "https://github.com/aome510/spotify-player/releases/tag/v0.20.4"
+    },
     "spotify-tui": {
       "version": "0.25.0",
       "gitref": "refs/tags/v0.25.0",
