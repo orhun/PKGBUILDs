@@ -2330,3 +2330,9 @@ source = "github"
 github = "qxb3/fum"
 use_latest_release = true
 prefix = "v"
+
+[git-metrics]
+source = "github"
+github = "jdrouet/git-metrics"
+use_latest_release = true
+prefix = "v"

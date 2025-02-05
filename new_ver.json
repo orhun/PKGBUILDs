@@ -366,9 +366,9 @@
       "url": "https://github.com/itmettkeDE/cargo-patch/releases/tag/v0.3.2"
     },
     "cargo-public-api": {
-      "version": "0.43.0",
-      "gitref": "refs/tags/v0.43.0",
-      "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.43.0"
+      "version": "0.44.0",
+      "gitref": "refs/tags/v0.44.0",
+      "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.44.0"
     },
     "cargo-rdme": {
       "version": "1.4.8",
@@ -500,9 +500,9 @@
       "url": "https://github.com/cocogitto/cocogitto/releases/tag/6.2.0"
     },
     "codesnap": {
-      "version": "0.10.1",
-      "gitref": "refs/tags/v0.10.1",
-      "url": "https://github.com/mistricky/CodeSnap/releases/tag/v0.10.1"
+      "version": "0.10.5",
+      "gitref": "refs/tags/v0.10.5",
+      "url": "https://github.com/mistricky/CodeSnap/releases/tag/v0.10.5"
     },
     "codevis": {
       "version": "0.8.4",
@@ -742,6 +742,11 @@
       "version": "3.0.0",
       "gitref": "refs/tags/3.0.0",
       "url": "https://github.com/wezm/git-grab/releases/tag/3.0.0"
+    },
+    "git-metrics": {
+      "version": "0.2.4",
+      "gitref": "refs/tags/v0.2.4",
+      "url": "https://github.com/jdrouet/git-metrics/releases/tag/v0.2.4"
     },
     "gitoxide": {
       "version": "0.41.0",
@@ -1153,9 +1158,9 @@
       "url": "https://github.com/theiskaa/markdown2pdf/releases/tag/v0.1.2"
     },
     "markuplinkchecker": {
-      "version": "0.19.1",
-      "gitref": "refs/tags/v0.19.1",
-      "url": "https://github.com/becheran/mlc/releases/tag/v0.19.1"
+      "version": "0.19.2",
+      "gitref": "refs/tags/v0.19.2",
+      "url": "https://github.com/becheran/mlc/releases/tag/v0.19.2"
     },
     "mastodon-twitter-sync": {
       "version": "1.10.0",
@@ -1862,10 +1867,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.0.29"
     },
     "uv": {
-      "version": "0.5.27",
-      "gitref": "refs/tags/0.5.27",
-      "revision": "73e9928d406e9ea45eea7f69fb9ec578f38b4657",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.5.27"
+      "version": "0.5.28",
+      "gitref": "refs/tags/0.5.28",
+      "revision": "ee2bdc21fab077aaef17c94242b4cf6a10c013e1",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.5.28"
     },
     "uwuifyy": {
       "version": "0.3.0",

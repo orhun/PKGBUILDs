@@ -440,9 +440,9 @@
       "url": "https://github.com/cocogitto/cocogitto/releases/tag/6.2.0"
     },
     "codesnap": {
-      "version": "0.10.1",
-      "gitref": "refs/tags/v0.10.1",
-      "url": "https://github.com/mistricky/CodeSnap/releases/tag/v0.10.1"
+      "version": "0.10.5",
+      "gitref": "refs/tags/v0.10.5",
+      "url": "https://github.com/mistricky/CodeSnap/releases/tag/v0.10.5"
     },
     "codevis": {
       "version": "0.8.4"
@@ -647,6 +647,11 @@
     },
     "git-grab": {
       "version": "3.0.0"
+    },
+    "git-metrics": {
+      "version": "0.2.4",
+      "gitref": "refs/tags/v0.2.4",
+      "url": "https://github.com/jdrouet/git-metrics/releases/tag/v0.2.4"
     },
     "gitoxide": {
       "version": "0.41.0",
@@ -1004,9 +1009,9 @@
       "url": "https://github.com/theiskaa/markdown2pdf/releases/tag/v0.1.2"
     },
     "markuplinkchecker": {
-      "version": "0.19.1",
-      "gitref": "refs/tags/v0.19.1",
-      "url": "https://github.com/becheran/mlc/releases/tag/v0.19.1"
+      "version": "0.19.2",
+      "gitref": "refs/tags/v0.19.2",
+      "url": "https://github.com/becheran/mlc/releases/tag/v0.19.2"
     },
     "mastodon-twitter-sync": {
       "version": "1.10.0"
