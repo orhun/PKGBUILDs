@@ -324,9 +324,9 @@
       "version": "0.3.2"
     },
     "cargo-public-api": {
-      "version": "0.43.0",
-      "gitref": "refs/tags/v0.43.0",
-      "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.43.0"
+      "version": "0.44.0",
+      "gitref": "refs/tags/v0.44.0",
+      "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.44.0"
     },
     "cargo-rdme": {
       "version": "1.4.8",
@@ -604,9 +604,9 @@
       "version": "1.0.23"
     },
     "fum": {
-      "version": "0.8.2",
-      "gitref": "refs/tags/v0.8.2",
-      "url": "https://github.com/qxb3/fum/releases/tag/v0.8.2"
+      "version": "0.9.6",
+      "gitref": "refs/tags/v0.9.6",
+      "url": "https://github.com/qxb3/fum/releases/tag/v0.9.6"
     },
     "funkicrab": {
       "version": "20190222.121930"
@@ -1068,9 +1068,9 @@
       "url": "https://github.com/EdJoPaTo/mqttui/releases/tag/v0.21.1"
     },
     "muffet": {
-      "version": "2.10.7",
-      "gitref": "refs/tags/v2.10.7",
-      "url": "https://github.com/raviqqe/muffet/releases/tag/v2.10.7"
+      "version": "2.10.8",
+      "gitref": "refs/tags/v2.10.8",
+      "url": "https://github.com/raviqqe/muffet/releases/tag/v2.10.8"
     },
     "navi": {
       "version": "2.24.0",
@@ -1409,6 +1409,11 @@
       "gitref": "refs/tags/v0.1.6",
       "url": "https://github.com/trinhminhtriet/spiko/releases/tag/v0.1.6"
     },
+    "spotify-player": {
+      "version": "0.20.4",
+      "gitref": "refs/tags/v0.20.4",
+      "url": "https://github.com/aome510/spotify-player/releases/tag/v0.20.4"
+    },
     "spotify-tui": {
       "version": "0.25.0"
     },
@@ -1728,9 +1733,9 @@
       "url": "https://github.com/sxyazi/yazi/releases/tag/v0.4.2"
     },
     "yozefu": {
-      "version": "0.0.5",
-      "gitref": "refs/tags/v0.0.5",
-      "url": "https://github.com/MAIF/yozefu/releases/tag/v0.0.5"
+      "version": "0.0.6",
+      "gitref": "refs/tags/v0.0.6",
+      "url": "https://github.com/MAIF/yozefu/releases/tag/v0.0.6"
     },
     "zellij": {
       "version": "0.41.2",

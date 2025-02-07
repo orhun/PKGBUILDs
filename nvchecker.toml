@@ -2342,3 +2342,9 @@ source = "github"
 github = "jdrouet/git-metrics"
 use_latest_release = true
 prefix = "v"
+
+[journalview]
+source = "github"
+github = "codervijo/journalview"
+use_latest_release = true
+prefix = "v"
