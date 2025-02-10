@@ -2348,3 +2348,9 @@ source = "github"
 github = "codervijo/journalview"
 use_latest_release = true
 prefix = "v"
+
+[rwalk]
+source = "github"
+github = "cestef/rwalk"
+use_latest_release = true
+prefix = "v"
