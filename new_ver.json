@@ -349,10 +349,10 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v3.5.7"
     },
     "cargo-nextest": {
-      "version": "0.9.89",
-      "gitref": "refs/tags/cargo-nextest-0.9.89",
-      "revision": "d06a699643a8efbf3811d8e63ce7c053d441fffb",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.89"
+      "version": "0.9.90",
+      "gitref": "refs/tags/cargo-nextest-0.9.90",
+      "revision": "a74f56184e515ad82c88047fed3b4df430308e5e",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.90"
     },
     "cargo-outdated": {
       "version": "0.16.0",
@@ -698,9 +698,9 @@
       "url": "https://github.com/sulami/FrankenWM/releases/tag/v1.0.23"
     },
     "fum": {
-      "version": "0.9.17",
-      "gitref": "refs/tags/v0.9.17",
-      "url": "https://github.com/qxb3/fum/releases/tag/v0.9.17"
+      "version": "1.0.1",
+      "gitref": "refs/tags/v1.0.1",
+      "url": "https://github.com/qxb3/fum/releases/tag/v1.0.1"
     },
     "fw": {
       "version": "2.20.0",
@@ -1100,9 +1100,9 @@
       "url": "https://github.com/yxdunc/lipl/releases/tag/v0.1.3"
     },
     "lnav": {
-      "version": "0.12.3",
-      "gitref": "refs/tags/v0.12.3",
-      "url": "https://github.com/tstack/lnav/releases/tag/v0.12.3"
+      "version": "0.12.4",
+      "gitref": "refs/tags/v0.12.4",
+      "url": "https://github.com/tstack/lnav/releases/tag/v0.12.4"
     },
     "lobtui": {
       "version": "0.3",
@@ -1683,9 +1683,9 @@
       "url": "https://github.com/sassman/t-rec-rs/releases/tag/v0.7.8"
     },
     "tabiew": {
-      "version": "0.8.2",
-      "gitref": "refs/tags/v0.8.2",
-      "url": "https://github.com/shshemi/tabiew/releases/tag/v0.8.2"
+      "version": "0.8.3",
+      "gitref": "refs/tags/v0.8.3",
+      "url": "https://github.com/shshemi/tabiew/releases/tag/v0.8.3"
     },
     "tage": {
       "version": "0.1",
@@ -1887,10 +1887,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.0.29"
     },
     "uv": {
-      "version": "0.5.30",
-      "gitref": "refs/tags/0.5.30",
-      "revision": "ddbc6e3150f33d2ce92a80a59bb0f81b6b753604",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.5.30"
+      "version": "0.5.31",
+      "gitref": "refs/tags/0.5.31",
+      "revision": "e38ac4900d50c85ccff72be2a0b9e2b41554f2da",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.5.31"
     },
     "uwuifyy": {
       "version": "0.3.0",
@@ -1962,6 +1962,11 @@
       "version": "1.2.1",
       "gitref": "refs/tags/v1.2.1",
       "url": "https://github.com/ttytm/wthrr-the-weathercrab/releases/tag/v1.2.1"
+    },
+    "xan": {
+      "version": "0.45.0",
+      "gitref": "refs/tags/0.45.0",
+      "url": "https://github.com/medialab/xan/releases/tag/0.45.0"
     },
     "xdo": {
       "version": "0.5.7",

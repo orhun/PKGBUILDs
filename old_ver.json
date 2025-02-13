@@ -309,10 +309,10 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v3.5.7"
     },
     "cargo-nextest": {
-      "version": "0.9.89",
-      "gitref": "refs/tags/cargo-nextest-0.9.89",
-      "revision": "d06a699643a8efbf3811d8e63ce7c053d441fffb",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.89"
+      "version": "0.9.90",
+      "gitref": "refs/tags/cargo-nextest-0.9.90",
+      "revision": "a74f56184e515ad82c88047fed3b4df430308e5e",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.90"
     },
     "cargo-outdated": {
       "version": "0.16.0",
@@ -604,9 +604,9 @@
       "version": "1.0.23"
     },
     "fum": {
-      "version": "0.9.17",
-      "gitref": "refs/tags/v0.9.17",
-      "url": "https://github.com/qxb3/fum/releases/tag/v0.9.17"
+      "version": "1.0.1",
+      "gitref": "refs/tags/v1.0.1",
+      "url": "https://github.com/qxb3/fum/releases/tag/v1.0.1"
     },
     "funkicrab": {
       "version": "20190222.121930"
@@ -1194,9 +1194,9 @@
       "url": "https://github.com/dalance/procs/releases/tag/v0.14.9"
     },
     "pueue": {
-      "version": "4.0.0-rc.1",
-      "gitref": "refs/tags/v4.0.0-rc.1",
-      "url": "https://github.com/Nukesor/pueue/releases/tag/v4.0.0-rc.1"
+      "version": "3.4.1",
+      "gitref": "refs/tags/v3.4.1",
+      "url": "https://github.com/Nukesor/pueue/releases/tag/v3.4.1"
     },
     "pwninit": {
       "version": "3.3.1"
@@ -1241,7 +1241,9 @@
       "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.118"
     },
     "repgrep": {
-      "version": "0.15.0"
+      "version": "0.16.0",
+      "gitref": "refs/tags/0.16.0",
+      "url": "https://github.com/acheronfail/repgrep/releases/tag/0.16.0"
     },
     "revq": {
       "version": "0.1.0",
