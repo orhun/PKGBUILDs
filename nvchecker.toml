@@ -1541,6 +1541,12 @@ github = "medialab/xan"
 use_latest_release = true
 prefix = "v"
 
+[gurk]
+source = "github"
+github = "boxdot/gurk-rs"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
