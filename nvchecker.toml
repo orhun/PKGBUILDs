@@ -1547,6 +1547,12 @@ github = "boxdot/gurk-rs"
 use_latest_release = true
 prefix = "v"
 
+[flamelens]
+source = "github"
+github = "YS-L/flamelens"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
