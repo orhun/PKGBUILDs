@@ -1553,6 +1553,12 @@ github = "YS-L/flamelens"
 use_latest_release = true
 prefix = "v"
 
+[inferno]
+source = "github"
+github = "jonhoo/inferno"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

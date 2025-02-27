@@ -243,9 +243,9 @@
       "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.11.2"
     },
     "cargo-deny": {
-      "version": "0.18.0",
-      "gitref": "refs/tags/0.18.0",
-      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/tag/0.18.0"
+      "version": "0.18.1",
+      "gitref": "refs/tags/0.18.1",
+      "url": "https://github.com/EmbarkStudios/cargo-deny/releases/tag/0.18.1"
     },
     "cargo-depgraph": {
       "version": "1.6.0",
@@ -366,9 +366,9 @@
       "url": "https://github.com/itmettkeDE/cargo-patch/releases/tag/v0.3.2"
     },
     "cargo-public-api": {
-      "version": "0.44.1",
-      "gitref": "refs/tags/v0.44.1",
-      "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.44.1"
+      "version": "0.44.2",
+      "gitref": "refs/tags/v0.44.2",
+      "url": "https://github.com/cargo-public-api/cargo-public-api/releases/tag/v0.44.2"
     },
     "cargo-rdme": {
       "version": "1.4.8",
@@ -661,10 +661,10 @@
       "url": "https://github.com/evcxr/evcxr/releases/tag/v0.18.0"
     },
     "eza": {
-      "version": "0.20.22",
-      "gitref": "refs/tags/v0.20.22",
-      "revision": "144fbf3b105521e1e604e952112c940f757c9905",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.20.22"
+      "version": "0.20.23",
+      "gitref": "refs/tags/v0.20.23",
+      "revision": "1d2e201e4fb159809bf3f779dbb2d3307a12f883",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.20.23"
     },
     "fblog": {
       "version": "4.13.1",
@@ -970,6 +970,12 @@
       "gitref": "refs/tags/v0.2.4",
       "url": "https://github.com/pythops/impala/releases/tag/v0.2.4"
     },
+    "inferno": {
+      "version": "0.12.1",
+      "gitref": "refs/tags/v0.12.1",
+      "revision": "c7f9d316cb7e65db5c429901c1e7726f416c0dcb",
+      "url": "https://github.com/jonhoo/inferno/releases/tag/v0.12.1"
+    },
     "innernet": {
       "version": "1.6.1",
       "gitref": "refs/tags/v1.6.1",
@@ -1214,9 +1220,9 @@
       "url": "https://github.com/visit1985/mdp/releases/tag/1.0.15"
     },
     "meilisearch": {
-      "version": "1.13.1",
-      "gitref": "refs/tags/v1.13.1",
-      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.13.1"
+      "version": "1.13.2",
+      "gitref": "refs/tags/v1.13.2",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.13.2"
     },
     "menyoki": {
       "version": "1.7.0",
@@ -1399,10 +1405,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.11.7"
     },
     "rainfrog": {
-      "version": "0.2.13",
-      "gitref": "refs/tags/v0.2.13",
-      "revision": "081d923018751f7f04eb1bcf110116d7ca72d9e6",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.2.13"
+      "version": "0.2.14",
+      "gitref": "refs/tags/v0.2.14",
+      "revision": "5b65bcddf444675a0c91a04b4887c18267214ad9",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.2.14"
     },
     "ratatui-snake": {
       "version": "0.1",
@@ -1552,9 +1558,9 @@
       "url": "https://github.com/cestef/rwalk/releases/tag/v0.9.0"
     },
     "rye": {
-      "version": "0.43.0",
-      "gitref": "refs/tags/0.43.0",
-      "url": "https://github.com/astral-sh/rye/releases/tag/0.43.0"
+      "version": "0.44.0",
+      "gitref": "refs/tags/0.44.0",
+      "url": "https://github.com/astral-sh/rye/releases/tag/0.44.0"
     },
     "samply": {
       "version": "0.13.1",
