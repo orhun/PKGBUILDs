@@ -1559,6 +1559,12 @@ github = "jonhoo/inferno"
 use_max_tag = true
 prefix = "v"
 
+[kwaak]
+source = "github"
+github = "bosun-ai/kwaak"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

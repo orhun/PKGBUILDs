@@ -484,9 +484,9 @@
       "url": "https://github.com/eyeplum/cicero-tui/releases/tag/v0.4.0"
     },
     "clipcat": {
-      "version": "0.20.1",
-      "gitref": "refs/tags/v0.20.1",
-      "url": "https://github.com/xrelkd/clipcat/releases/tag/v0.20.1"
+      "version": "0.21.0",
+      "gitref": "refs/tags/v0.21.0",
+      "url": "https://github.com/xrelkd/clipcat/releases/tag/v0.21.0"
     },
     "cns": {
       "version": "0.1.1",
@@ -728,10 +728,10 @@
       "url": "https://github.com/josueBarretogit/get_blessed_rs/releases/tag/v0.2.1"
     },
     "gfold": {
-      "version": "4.6.0",
-      "gitref": "refs/tags/4.6.0",
-      "revision": "c1ad4d6791df747c20dfe1d2c63775d7c82493e1",
-      "url": "https://github.com/nickgerace/gfold/releases/tag/4.6.0"
+      "version": "2025.2.1",
+      "gitref": "refs/tags/2025.2.1",
+      "revision": "524e14357880a93fa26efbbf24db6697f6ddc316",
+      "url": "https://github.com/nickgerace/gfold/releases/tag/2025.2.1"
     },
     "gifski": {
       "version": "1.32.0",
@@ -1084,6 +1084,11 @@
       "gitref": "refs/tags/v0.25.0",
       "url": "https://github.com/sbstp/kubie/releases/tag/v0.25.0"
     },
+    "kwaak": {
+      "version": "0.11.1",
+      "gitref": "refs/tags/v0.11.1",
+      "url": "https://github.com/bosun-ai/kwaak/releases/tag/v0.11.1"
+    },
     "lan-mouse": {
       "version": "0.10.0",
       "gitref": "refs/tags/v0.10.0",
@@ -1421,9 +1426,9 @@
       "url": "https://github.com/rapiz1/rathole/releases/tag/v0.5.0"
     },
     "rattler-build": {
-      "version": "0.36.0",
-      "gitref": "refs/tags/v0.36.0",
-      "url": "https://github.com/prefix-dev/rattler-build/releases/tag/v0.36.0"
+      "version": "0.37.0",
+      "gitref": "refs/tags/v0.37.0",
+      "url": "https://github.com/prefix-dev/rattler-build/releases/tag/v0.37.0"
     },
     "rdfm": {
       "version": "0.1.3",
