@@ -2396,3 +2396,9 @@ source = "github"
 github = "k3ii/conze"
 use_latest_release = true
 prefix = "v"
+
+[bmm]
+source = "github"
+github = "dhth/bmm"
+use_latest_release = true
+prefix = "v"
