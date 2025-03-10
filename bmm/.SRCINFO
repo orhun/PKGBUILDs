@@ -1,0 +1,15 @@
+pkgbase = bmm
+	pkgdesc = Get to your bookmarks in a flash
+	pkgver = 0.2.0
+	pkgrel = 1
+	url = https://github.com/dhth/bmm
+	arch = x86_64
+	license = MIT
+	makedepends = cargo
+	makedepends = sqlite
+	depends = gcc-libs
+	options = !lto
+	source = bmm-0.2.0.tar.gz::https://github.com/dhth/bmm/archive/v0.2.0.tar.gz
+	sha256sums = 9d2210caddc9233fbecce7262344b1e03a272f4e7e836c1cad2447e54e003949
+
+pkgname = bmm
