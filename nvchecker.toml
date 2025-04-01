@@ -2402,3 +2402,9 @@ source = "github"
 github = "dhth/bmm"
 use_latest_release = true
 prefix = "v"
+
+[astroterm]
+source = "github"
+github = "da-luce/astroterm"
+use_latest_release = true
+prefix = "v"
