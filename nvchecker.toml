@@ -1565,6 +1565,12 @@ github = "bosun-ai/kwaak"
 use_latest_release = true
 prefix = "v"
 
+[typos-lsp]
+source = "github"
+github = "tekumara/typos-lsp"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
