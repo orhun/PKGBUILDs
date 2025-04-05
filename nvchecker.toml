@@ -2414,3 +2414,9 @@ source = "github"
 github = "da-luce/astroterm"
 use_latest_release = true
 prefix = "v"
+
+[tongo]
+source = "github"
+github = "drewzemke/tongo"
+use_latest_release = true
+prefix = "v"
