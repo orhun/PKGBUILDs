@@ -1577,6 +1577,12 @@ github = "nik-rev/countryfetch"
 use_latest_release = true
 prefix = "v"
 
+[heretek]
+source = "github"
+github = "wcampbell0x2a/heretek"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

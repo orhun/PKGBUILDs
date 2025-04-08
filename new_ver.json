@@ -887,6 +887,11 @@
       "gitref": "refs/tags/25.01.1",
       "url": "https://github.com/helix-editor/helix/releases/tag/25.01.1"
     },
+    "heretek": {
+      "version": "0.5.0",
+      "gitref": "refs/tags/v0.5.0",
+      "url": "https://github.com/wcampbell0x2a/heretek/releases/tag/v0.5.0"
+    },
     "hex": {
       "version": "0.6.0",
       "gitref": "refs/tags/v0.6.0",
@@ -2041,10 +2046,10 @@
       "url": "https://github.com/mptre/yank/releases/tag/v1.3.0"
     },
     "yazi": {
-      "version": "25.3.2",
-      "gitref": "refs/tags/v25.3.2",
-      "revision": "46125eda6e7ca4c5c91ecf933b5409cca232dd1c",
-      "url": "https://github.com/sxyazi/yazi/releases/tag/v25.3.2"
+      "version": "25.4.8",
+      "gitref": "refs/tags/v25.4.8",
+      "revision": "99ea3b74c4260a724b43af812df0f68ef59395b7",
+      "url": "https://github.com/sxyazi/yazi/releases/tag/v25.4.8"
     },
     "yozefu": {
       "version": "0.0.10",
