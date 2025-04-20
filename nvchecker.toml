@@ -2432,3 +2432,9 @@ source = "github"
 github = "drewzemke/tongo"
 use_latest_release = true
 prefix = "v"
+
+[regname]
+source = "github"
+github = "linkdd/regname"
+use_latest_release = true
+prefix = "v"

@@ -28,9 +28,9 @@
       "url": "https://github.com/arafato/alicloud-vault/releases/tag/v1.3.4"
     },
     "aliyun-cli": {
-      "version": "3.0.265",
-      "gitref": "refs/tags/v3.0.265",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.265"
+      "version": "3.0.270",
+      "gitref": "refs/tags/v3.0.270",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.270"
     },
     "alpine-chroot-install": {
       "version": "0.14.0",
@@ -70,9 +70,9 @@
       "url": "https://github.com/Julien-cpsn/ATAC/releases/tag/v0.19.0"
     },
     "atuin": {
-      "version": "18.4.0",
-      "gitref": "refs/tags/v18.4.0",
-      "url": "https://github.com/atuinsh/atuin/releases/tag/v18.4.0"
+      "version": "18.5.0",
+      "gitref": "refs/tags/v18.5.0",
+      "url": "https://github.com/atuinsh/atuin/releases/tag/v18.5.0"
     },
     "aws-vault": {
       "version": "7.2.0",
@@ -154,9 +154,9 @@
       "url": "https://github.com/Szymongib/bookmark/releases/tag/v0.2.3"
     },
     "bore": {
-      "version": "0.5.2",
-      "gitref": "refs/tags/v0.5.2",
-      "url": "https://github.com/ekzhang/bore/releases/tag/v0.5.2"
+      "version": "0.5.3",
+      "gitref": "refs/tags/v0.5.3",
+      "url": "https://github.com/ekzhang/bore/releases/tag/v0.5.3"
     },
     "boxxy": {
       "version": "0.8.5",
@@ -174,9 +174,9 @@
       "url": "https://github.com/Netflix/bpftop/releases/tag/v0.6.0"
     },
     "broot": {
-      "version": "1.45.1",
-      "gitref": "refs/tags/v1.45.1",
-      "url": "https://github.com/Canop/broot/releases/tag/v1.45.1"
+      "version": "1.46.0",
+      "gitref": "refs/tags/v1.46.0",
+      "url": "https://github.com/Canop/broot/releases/tag/v1.46.0"
     },
     "btlescan": {
       "version": "0.1.3",
@@ -242,15 +242,15 @@
       "url": "https://github.com/qryxip/cargo-compete/releases/tag/v0.10.7"
     },
     "cargo-crev": {
-      "version": "0.26.1",
-      "gitref": "refs/tags/v0.26.1",
-      "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.26.1"
+      "version": "0.26.4",
+      "gitref": "refs/tags/v0.26.4",
+      "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.26.4"
     },
     "cargo-deb": {
-      "version": "2.12.0",
-      "gitref": "refs/tags/v2.12.0",
-      "revision": "5761d1a6b0668fc50a8b84c923d99d28c30cfc53",
-      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.12.0"
+      "version": "2.12.1",
+      "gitref": "refs/tags/v2.12.1",
+      "revision": "8baaff2a592f15aa940122834541925235034931",
+      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v2.12.1"
     },
     "cargo-deny": {
       "version": "0.18.2",
@@ -289,9 +289,9 @@
       "url": "https://github.com/flamegraph-rs/flamegraph/releases/tag/v0.6.7"
     },
     "cargo-geiger": {
-      "version": "cargo-geiger@v0.11.7",
-      "gitref": "refs/tags/cargo-geiger@v0.11.7",
-      "url": "https://github.com/geiger-rs/cargo-geiger/releases/tag/cargo-geiger%40v0.11.7"
+      "version": "0.12.0",
+      "gitref": "refs/tags/cargo-geiger-0.12.0",
+      "url": "https://github.com/geiger-rs/cargo-geiger/releases/tag/cargo-geiger-0.12.0"
     },
     "cargo-generate": {
       "version": "0.23.3",
@@ -359,10 +359,10 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v3.5.7"
     },
     "cargo-nextest": {
-      "version": "0.9.93",
-      "gitref": "refs/tags/cargo-nextest-0.9.93",
-      "revision": "b887ae8598c0fe688d9965082b28d06bd8234c32",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.93"
+      "version": "0.9.94",
+      "gitref": "refs/tags/cargo-nextest-0.9.94",
+      "revision": "87e417985def7cb7485604d7959e869a5fdf6855",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.94"
     },
     "cargo-outdated": {
       "version": "0.17.0",
@@ -441,9 +441,9 @@
       "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.32.3"
     },
     "cargo-tauri": {
-      "version": "tauri-cli-v2.4.1",
-      "gitref": "refs/tags/tauri-cli-v2.4.1",
-      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.4.1"
+      "version": "tauri-driver-v2.0.4",
+      "gitref": "refs/tags/tauri-driver-v2.0.4",
+      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-driver-v2.0.4"
     },
     "cargo-udeps": {
       "version": "0.1.55",
@@ -510,9 +510,9 @@
       "url": "https://github.com/cocogitto/cocogitto/releases/tag/6.3.0"
     },
     "codesnap": {
-      "version": "0.10.5",
-      "gitref": "refs/tags/v0.10.5",
-      "url": "https://github.com/codesnap-rs/codesnap/releases/tag/v0.10.5"
+      "version": "0.10.8",
+      "gitref": "refs/tags/v0.10.8",
+      "url": "https://github.com/codesnap-rs/codesnap/releases/tag/v0.10.8"
     },
     "codevis": {
       "version": "0.8.4",
@@ -588,10 +588,10 @@
       "url": "https://github.com/orhun/daktilo/releases/tag/v0.6.0"
     },
     "dart": {
-      "version": "3.7.2",
-      "gitref": "refs/tags/3.7.2",
-      "revision": "45fb5fd96b10a96e0a90225097d65ecd93f3a9f2",
-      "url": "https://github.com/dart-lang/sdk/releases/tag/3.7.2"
+      "version": "3.7.3",
+      "gitref": "refs/tags/3.7.3",
+      "revision": "6ec59ad8714da759b79131d88298fe7e209826b6",
+      "url": "https://github.com/dart-lang/sdk/releases/tag/3.7.3"
     },
     "dead-ringer": {
       "version": "1.0.4",
@@ -676,10 +676,10 @@
       "url": "https://github.com/evcxr/evcxr/releases/tag/v0.19.0"
     },
     "eza": {
-      "version": "0.21.0",
-      "gitref": "refs/tags/v0.21.0",
-      "revision": "98c87718c2744734feb3f4ef9089b11890752231",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.21.0"
+      "version": "0.21.1",
+      "gitref": "refs/tags/v0.21.1",
+      "revision": "87a815a7b81c7c302d1dc950c72ff15e3873ad2a",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.21.1"
     },
     "fblog": {
       "version": "4.13.1",
@@ -692,9 +692,9 @@
       "url": "https://github.com/pkolaczk/fclones/releases/tag/v0.35.0"
     },
     "felix-rs": {
-      "version": "2.16.0",
-      "gitref": "refs/tags/v2.16.0",
-      "url": "https://github.com/kyoheiu/felix/releases/tag/v2.16.0"
+      "version": "2.16.1",
+      "gitref": "refs/tags/v2.16.1",
+      "url": "https://github.com/kyoheiu/felix/releases/tag/v2.16.1"
     },
     "fhc": {
       "version": "0.8.2",
@@ -712,9 +712,9 @@
       "url": "https://github.com/orhun/flawz/releases/tag/v0.3.0"
     },
     "fq": {
-      "version": "0.14.0",
-      "gitref": "refs/tags/v0.14.0",
-      "url": "https://github.com/wader/fq/releases/tag/v0.14.0"
+      "version": "0.15.0",
+      "gitref": "refs/tags/v0.15.0",
+      "url": "https://github.com/wader/fq/releases/tag/v0.15.0"
     },
     "frankenwm": {
       "version": "1.0.23",
@@ -821,10 +821,10 @@
       "url": "https://github.com/orf/gping/releases/tag/gping-v1.19.0"
     },
     "grcov": {
-      "version": "0.8.24",
-      "gitref": "refs/tags/v0.8.24",
-      "revision": "b8e7bd0789065d08f189d6fdf2673b1da9b1bb53",
-      "url": "https://github.com/mozilla/grcov/releases/tag/v0.8.24"
+      "version": "0.9.1",
+      "gitref": "refs/tags/v0.9.1",
+      "revision": "2cbc55385c3a4d6239dddf56d44b908bb7d67191",
+      "url": "https://github.com/mozilla/grcov/releases/tag/v0.9.1"
     },
     "greetd-tuigreet": {
       "version": "0.9.1",
@@ -872,9 +872,9 @@
       "url": "https://github.com/mrjackwills/havn/releases/tag/v0.2.1"
     },
     "hawkeye": {
-      "version": "6.0.2",
-      "gitref": "refs/tags/v6.0.2",
-      "url": "https://github.com/korandoru/hawkeye/releases/tag/v6.0.2"
+      "version": "6.0.3",
+      "gitref": "refs/tags/v6.0.3",
+      "url": "https://github.com/korandoru/hawkeye/releases/tag/v6.0.3"
     },
     "heh": {
       "version": "0.6.1",
@@ -888,9 +888,9 @@
       "url": "https://github.com/helix-editor/helix/releases/tag/25.01.1"
     },
     "heretek": {
-      "version": "0.5.0",
-      "gitref": "refs/tags/v0.5.0",
-      "url": "https://github.com/wcampbell0x2a/heretek/releases/tag/v0.5.0"
+      "version": "0.5.1",
+      "gitref": "refs/tags/v0.5.1",
+      "url": "https://github.com/wcampbell0x2a/heretek/releases/tag/v0.5.1"
     },
     "hex": {
       "version": "0.6.0",
@@ -898,9 +898,9 @@
       "url": "https://github.com/sitkevij/hex/releases/tag/v0.6.0"
     },
     "hexpatch": {
-      "version": "1.11.0",
-      "gitref": "refs/tags/v1.11.0",
-      "url": "https://github.com/Etto48/HexPatch/releases/tag/v1.11.0"
+      "version": "1.11.1",
+      "gitref": "refs/tags/v1.11.1",
+      "url": "https://github.com/Etto48/HexPatch/releases/tag/v1.11.1"
     },
     "hextazy": {
       "version": "0.7",
@@ -923,9 +923,9 @@
       "url": "https://github.com/pimalaya/himalaya/releases/tag/v1.1.0"
     },
     "hl": {
-      "version": "0.31.0",
-      "gitref": "refs/tags/v0.31.0",
-      "url": "https://github.com/pamburus/hl/releases/tag/v0.31.0"
+      "version": "0.31.1",
+      "gitref": "refs/tags/v0.31.1",
+      "url": "https://github.com/pamburus/hl/releases/tag/v0.31.1"
     },
     "hoard": {
       "version": "1.4.2",
@@ -1100,14 +1100,14 @@
       "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.7.0"
     },
     "kubie": {
-      "version": "0.25.1",
-      "gitref": "refs/tags/v0.25.1",
-      "url": "https://github.com/sbstp/kubie/releases/tag/v0.25.1"
+      "version": "0.25.2",
+      "gitref": "refs/tags/v0.25.2",
+      "url": "https://github.com/sbstp/kubie/releases/tag/v0.25.2"
     },
     "kwaak": {
-      "version": "0.16.0",
-      "gitref": "refs/tags/v0.16.0",
-      "url": "https://github.com/bosun-ai/kwaak/releases/tag/v0.16.0"
+      "version": "0.17.0",
+      "gitref": "refs/tags/v0.17.0",
+      "url": "https://github.com/bosun-ai/kwaak/releases/tag/v0.17.0"
     },
     "lan-mouse": {
       "version": "0.10.0",
@@ -1245,9 +1245,9 @@
       "url": "https://github.com/visit1985/mdp/releases/tag/1.0.15"
     },
     "meilisearch": {
-      "version": "1.13.3",
-      "gitref": "refs/tags/v1.13.3",
-      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.13.3"
+      "version": "1.14.0",
+      "gitref": "refs/tags/v1.14.0",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.14.0"
     },
     "menyoki": {
       "version": "1.7.0",
@@ -1306,9 +1306,9 @@
       "url": "https://github.com/adamperkowski/nvrs/releases/tag/v0.1.7"
     },
     "onefetch": {
-      "version": "2.23.1",
-      "gitref": "refs/tags/2.23.1",
-      "url": "https://github.com/o2sh/onefetch/releases/tag/2.23.1"
+      "version": "2.24.0",
+      "gitref": "refs/tags/2.24.0",
+      "url": "https://github.com/o2sh/onefetch/releases/tag/2.24.0"
     },
     "openapi-tui": {
       "version": "0.10.2",
@@ -1327,9 +1327,9 @@
       "url": "https://github.com/fioncat/otree/releases/tag/v0.4.0"
     },
     "ouch": {
-      "version": "0.5.1",
-      "gitref": "refs/tags/0.5.1",
-      "url": "https://github.com/ouch-org/ouch/releases/tag/0.5.1"
+      "version": "0.6.0",
+      "gitref": "refs/tags/0.6.0",
+      "url": "https://github.com/ouch-org/ouch/releases/tag/0.6.0"
     },
     "oxipng": {
       "version": "9.1.4",
@@ -1338,9 +1338,9 @@
       "url": "https://github.com/shssoichiro/oxipng/releases/tag/v9.1.4"
     },
     "oxker": {
-      "version": "0.10.0",
-      "gitref": "refs/tags/v0.10.0",
-      "url": "https://github.com/mrjackwills/oxker/releases/tag/v0.10.0"
+      "version": "0.10.2",
+      "gitref": "refs/tags/v0.10.2",
+      "url": "https://github.com/mrjackwills/oxker/releases/tag/v0.10.2"
     },
     "parallel-disk-usage": {
       "version": "0.11.0",
@@ -1446,9 +1446,9 @@
       "url": "https://github.com/rapiz1/rathole/releases/tag/v0.5.0"
     },
     "rattler-build": {
-      "version": "0.39.0",
-      "gitref": "refs/tags/v0.39.0",
-      "url": "https://github.com/prefix-dev/rattler-build/releases/tag/v0.39.0"
+      "version": "0.40.0",
+      "gitref": "refs/tags/v0.40.0",
+      "url": "https://github.com/prefix-dev/rattler-build/releases/tag/v0.40.0"
     },
     "rdfm": {
       "version": "0.1.3",
@@ -1461,11 +1461,16 @@
       "gitref": "refs/tags/v1.0.29",
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.29"
     },
+    "regname": {
+      "version": "0.1.0",
+      "gitref": "refs/tags/v0.1.0",
+      "url": "https://github.com/linkdd/regname/releases/tag/v0.1.0"
+    },
     "release-plz": {
-      "version": "0.3.130",
-      "gitref": "refs/tags/release-plz-v0.3.130",
-      "revision": "8453547140f207fa41e74f9bc9a87e93de828c66",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.130"
+      "version": "0.3.133",
+      "gitref": "refs/tags/release-plz-v0.3.133",
+      "revision": "32837a3e705e4ad3a52c16e0376abeb7c21be5dd",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.133"
     },
     "repgrep": {
       "version": "0.16.0",
@@ -1500,9 +1505,9 @@
       "url": "https://github.com/mierak/rmpc/releases/tag/v0.8.0"
     },
     "rnote": {
-      "version": "0.11.0",
-      "gitref": "refs/tags/v0.11.0",
-      "url": "https://github.com/flxzt/rnote/releases/tag/v0.11.0"
+      "version": "0.12.0",
+      "gitref": "refs/tags/v0.12.0",
+      "url": "https://github.com/flxzt/rnote/releases/tag/v0.12.0"
     },
     "rpg-cli": {
       "version": "1.2.0",
@@ -1525,9 +1530,9 @@
       "url": "https://github.com/Edu4rdSHL/rusolver/releases/tag/0.9.1"
     },
     "rust-analyzer": {
-      "version": "2025-04-07",
-      "gitref": "refs/tags/2025-04-07",
-      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2025-04-07"
+      "version": "2025-04-14",
+      "gitref": "refs/tags/2025-04-14",
+      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2025-04-14"
     },
     "rust-bindgen": {
       "version": "0.71.1",
@@ -1603,9 +1608,9 @@
       "url": "https://github.com/resurrecting-open-source-projects/scrot/releases/tag/1.12.1"
     },
     "serie": {
-      "version": "0.4.4",
-      "gitref": "refs/tags/v0.4.4",
-      "url": "https://github.com/lusingander/serie/releases/tag/v0.4.4"
+      "version": "0.4.5",
+      "gitref": "refs/tags/v0.4.5",
+      "url": "https://github.com/lusingander/serie/releases/tag/v0.4.5"
     },
     "serpl": {
       "version": "0.3.3",
@@ -1739,9 +1744,9 @@
       "url": "https://github.com/jacopograndi/tage/releases/tag/v0.1"
     },
     "tailspin": {
-      "version": "5.1.0",
-      "gitref": "refs/tags/5.1.0",
-      "url": "https://github.com/bensadeh/tailspin/releases/tag/5.1.0"
+      "version": "5.4.1",
+      "gitref": "refs/tags/5.4.1",
+      "url": "https://github.com/bensadeh/tailspin/releases/tag/5.4.1"
     },
     "taplo-cli": {
       "version": "0.9.3",
@@ -1770,9 +1775,9 @@
       "url": "https://github.com/tealdeer-rs/tealdeer/releases/tag/v1.7.2"
     },
     "television": {
-      "version": "0.11.5",
-      "gitref": "refs/tags/0.11.5",
-      "url": "https://github.com/alexpasmantier/television/releases/tag/0.11.5"
+      "version": "0.11.7",
+      "gitref": "refs/tags/0.11.7",
+      "url": "https://github.com/alexpasmantier/television/releases/tag/0.11.7"
     },
     "tenki": {
       "version": "1.11.0",
@@ -1811,9 +1816,9 @@
       "url": "https://github.com/tramhao/termusic/releases/tag/v0.10.0"
     },
     "thoth": {
-      "version": "0.1.78",
-      "gitref": "refs/tags/v0.1.78",
-      "url": "https://github.com/jooaf/thoth/releases/tag/v0.1.78"
+      "version": "0.1.82",
+      "gitref": "refs/tags/v0.1.82",
+      "url": "https://github.com/jooaf/thoth/releases/tag/v0.1.82"
     },
     "tickrs": {
       "version": "0.14.11",
@@ -1821,9 +1826,9 @@
       "url": "https://github.com/tarkah/tickrs/releases/tag/v0.14.11"
     },
     "timr": {
-      "version": "1.2.0",
-      "gitref": "refs/tags/v1.2.0",
-      "url": "https://github.com/sectore/timr-tui/releases/tag/v1.2.0"
+      "version": "1.2.1",
+      "gitref": "refs/tags/v1.2.1",
+      "url": "https://github.com/sectore/timr-tui/releases/tag/v1.2.1"
     },
     "tokei": {
       "version": "13.0.0-alpha.8",
@@ -1897,9 +1902,9 @@
       "url": "https://github.com/hlsxx/tukai/releases/tag/v0.2.2"
     },
     "twitch-tui": {
-      "version": "2.6.18",
-      "gitref": "refs/tags/v2.6.18",
-      "url": "https://github.com/Xithrius/twitch-tui/releases/tag/v2.6.18"
+      "version": "2.6.19",
+      "gitref": "refs/tags/v2.6.19",
+      "url": "https://github.com/Xithrius/twitch-tui/releases/tag/v2.6.19"
     },
     "typeracer": {
       "version": "2.1.5",
@@ -1943,10 +1948,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.0.30"
     },
     "uv": {
-      "version": "0.6.13",
-      "gitref": "refs/tags/0.6.13",
-      "revision": "a0f5c7250bbc570404fa8cc17deb8aa5d939c9b8",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.6.13"
+      "version": "0.6.14",
+      "gitref": "refs/tags/0.6.14",
+      "revision": "a4cec56dcafa432b7d21f6f1fe26d041cf12b1cb",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.6.14"
     },
     "uwuifyy": {
       "version": "0.3.0",
@@ -1954,9 +1959,9 @@
       "url": "https://github.com/sgoudham/uwuifyy/releases/tag/v0.3.0"
     },
     "vault-tasks": {
-      "version": "0.10.0",
-      "gitref": "refs/tags/v0.10.0",
-      "url": "https://github.com/louis-thevenet/vault-tasks/releases/tag/v0.10.0"
+      "version": "0.11.0",
+      "gitref": "refs/tags/v0.11.0",
+      "url": "https://github.com/louis-thevenet/vault-tasks/releases/tag/v0.11.0"
     },
     "verco": {
       "version": "6.12.0",
@@ -2020,9 +2025,9 @@
       "url": "https://github.com/ttytm/wthrr-the-weathercrab/releases/tag/v1.2.1"
     },
     "xan": {
-      "version": "0.48.0",
-      "gitref": "refs/tags/0.48.0",
-      "url": "https://github.com/medialab/xan/releases/tag/0.48.0"
+      "version": "0.49.2",
+      "gitref": "refs/tags/0.49.2",
+      "url": "https://github.com/medialab/xan/releases/tag/0.49.2"
     },
     "xdo": {
       "version": "0.5.7",
@@ -2057,9 +2062,9 @@
       "url": "https://github.com/MAIF/yozefu/releases/tag/v0.0.10"
     },
     "zellij": {
-      "version": "0.42.1",
-      "gitref": "refs/tags/v0.42.1",
-      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.42.1"
+      "version": "0.42.2",
+      "gitref": "refs/tags/v0.42.2",
+      "url": "https://github.com/zellij-org/zellij/releases/tag/v0.42.2"
     },
     "zenith": {
       "version": "0.14.1",
@@ -2067,9 +2072,9 @@
       "url": "https://github.com/bvaisvil/zenith/releases/tag/0.14.1"
     },
     "zigmod": {
-      "version": "r94",
-      "gitref": "refs/tags/r94",
-      "url": "https://github.com/nektro/zigmod/releases/tag/r94"
+      "version": "r95",
+      "gitref": "refs/tags/r95",
+      "url": "https://github.com/nektro/zigmod/releases/tag/r95"
     },
     "zip-password-finder": {
       "version": "0.9.2",
