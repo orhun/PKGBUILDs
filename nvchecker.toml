@@ -2438,3 +2438,9 @@ source = "github"
 github = "linkdd/regname"
 use_latest_release = true
 prefix = "v"
+
+[brush]
+source = "github"
+github = "reubeno/brush"
+use_latest_release = true
+prefix = "brush-shell-v"
