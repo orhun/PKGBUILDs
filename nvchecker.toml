@@ -2444,3 +2444,9 @@ source = "github"
 github = "reubeno/brush"
 use_latest_release = true
 prefix = "brush-shell-v"
+
+[jjj]
+source = "github"
+github = "icorbrey/jjj"
+use_latest_release = true
+prefix = "v"
