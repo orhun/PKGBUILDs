@@ -2450,3 +2450,9 @@ source = "github"
 github = "icorbrey/jjj"
 use_latest_release = true
 prefix = "v"
+
+[scream_cypher]
+source = "github"
+github = "icorbrey/scream_cypher"
+use_latest_release = true
+prefix = "v"
