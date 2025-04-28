@@ -1768,9 +1768,9 @@ github = "brocode/goat"
 use_latest_release = true
 prefix = "v"
 
-[sic-image-cli]
+[imagineer]
 source = "github"
-github = "foresterre/sic"
+github = "foresterre/imagineer"
 use_latest_release = true
 prefix = "v"
 
