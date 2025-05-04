@@ -2456,3 +2456,15 @@ source = "github"
 github = "icorbrey/scream_cypher"
 use_latest_release = true
 prefix = "v"
+
+[sudoku-term]
+source = "github"
+github = "mhmtipek/sudoku-term"
+use_latest_release = true
+prefix = "v"
+
+[kanash]
+source = "github"
+github = "benoitlx/kanash"
+use_latest_release = true
+prefix = "v"
