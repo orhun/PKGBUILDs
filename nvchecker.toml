@@ -1583,6 +1583,12 @@ github = "wcampbell0x2a/heretek"
 use_latest_release = true
 prefix = "v"
 
+[scooter]
+source = "github"
+github = "thomasschafer/scooter"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
