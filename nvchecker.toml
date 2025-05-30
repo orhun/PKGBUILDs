@@ -1595,6 +1595,12 @@ github = "tsowell/wiremix"
 use_max_tag = true
 prefix = "v"
 
+[zizmor]
+source = "github"
+github = "zizmorcore/zizmor"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
