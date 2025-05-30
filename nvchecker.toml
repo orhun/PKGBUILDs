@@ -1589,6 +1589,12 @@ github = "thomasschafer/scooter"
 use_latest_release = true
 prefix = "v"
 
+[wiremix]
+source = "github"
+github = "tsowell/wiremix"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
