@@ -2486,3 +2486,9 @@ source = "github"
 github = "benoitlx/kanash"
 use_latest_release = true
 prefix = "v"
+
+[trmt]
+source = "github"
+github = "cenonym/trmt"
+use_latest_release = true
+prefix = "v"
