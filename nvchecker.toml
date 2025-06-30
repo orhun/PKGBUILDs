@@ -1607,6 +1607,12 @@ github = "pythops/oryx"
 use_latest_release = true
 prefix = "v"
 
+[cargo-sonar]
+source = "gitlab"
+gitlab = "woshilapin/cargo-sonar"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
@@ -1886,12 +1892,6 @@ prefix = "v"
 source = "github"
 github = "o2sh/miro"
 use_latest_release = true
-prefix = "v"
-
-[cargo-sonar]
-source = "gitlab"
-gitlab = "woshilapin/cargo-sonar"
-use_max_tag = true
 prefix = "v"
 
 [toml2json]
