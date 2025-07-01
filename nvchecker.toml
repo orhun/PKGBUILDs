@@ -1613,6 +1613,12 @@ gitlab = "woshilapin/cargo-sonar"
 use_max_tag = true
 prefix = "v"
 
+[espflash]
+source = "github"
+github = "esp-rs/espflash"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

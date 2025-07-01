@@ -2,9 +2,9 @@
   "version": 2,
   "data": {
     "act": {
-      "version": "0.2.78",
-      "gitref": "refs/tags/v0.2.78",
-      "url": "https://github.com/nektos/act/releases/tag/v0.2.78"
+      "version": "0.2.79",
+      "gitref": "refs/tags/v0.2.79",
+      "url": "https://github.com/nektos/act/releases/tag/v0.2.79"
     },
     "actionlint": {
       "version": "1.7.7",
@@ -189,9 +189,9 @@
       "url": "https://github.com/ztroop/btlescan/releases/tag/0.1.3"
     },
     "bugstalker": {
-      "version": "0.3.1",
-      "gitref": "refs/tags/v0.3.1",
-      "url": "https://github.com/godzie44/BugStalker/releases/tag/v0.3.1"
+      "version": "0.3.2",
+      "gitref": "refs/tags/v0.3.2",
+      "url": "https://github.com/godzie44/BugStalker/releases/tag/v0.3.2"
     },
     "caligula": {
       "version": "0.4.8",
@@ -252,10 +252,10 @@
       "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.26.4"
     },
     "cargo-deb": {
-      "version": "3.1.0",
-      "gitref": "refs/tags/v3.1.0",
-      "revision": "e137096bab7d1bcefabb404be533289899c2fda1",
-      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v3.1.0"
+      "version": "3.2.0",
+      "gitref": "refs/tags/v3.2.0",
+      "revision": "0ad91bc046079947dc4aea53ed0ed3befbf68915",
+      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v3.2.0"
     },
     "cargo-deny": {
       "version": "0.18.3",
@@ -639,9 +639,9 @@
       "url": "https://github.com/Byron/dua-cli/releases/tag/v2.30.1"
     },
     "ducker": {
-      "version": "0.3.1",
-      "gitref": "refs/tags/v0.3.1",
-      "url": "https://github.com/robertpsoane/ducker/releases/tag/v0.3.1"
+      "version": "0.4.0",
+      "gitref": "refs/tags/v0.4.0",
+      "url": "https://github.com/robertpsoane/ducker/releases/tag/v0.4.0"
     },
     "dumb": {
       "version": "2.0.3",
@@ -668,6 +668,11 @@
       "version": "0.14.0",
       "gitref": "refs/tags/v0.14.0",
       "url": "https://github.com/tvrzna/emptty/releases/tag/v0.14.0"
+    },
+    "espflash": {
+      "version": "4.0.0",
+      "gitref": "refs/tags/v4.0.0",
+      "url": "https://github.com/esp-rs/espflash/releases/tag/v4.0.0"
     },
     "eva": {
       "version": "0.3.1",
@@ -1363,9 +1368,9 @@
       "url": "https://github.com/mrjackwills/oxker/releases/tag/v0.10.5"
     },
     "parallel-disk-usage": {
-      "version": "0.12.0",
-      "gitref": "refs/tags/0.12.0",
-      "url": "https://github.com/KSXGitHub/parallel-disk-usage/releases/tag/0.12.0"
+      "version": "0.13.0",
+      "gitref": "refs/tags/0.13.0",
+      "url": "https://github.com/KSXGitHub/parallel-disk-usage/releases/tag/0.13.0"
     },
     "parui": {
       "version": "1.0.18",
@@ -1840,10 +1845,10 @@
       "url": "https://github.com/veeso/termscp/releases/tag/v0.18.0"
     },
     "termusic": {
-      "version": "0.10.0",
-      "gitref": "refs/tags/v0.10.0",
-      "revision": "89cf05b2ef15c29ca6d76f2b910486fb79b53513",
-      "url": "https://github.com/tramhao/termusic/releases/tag/v0.10.0"
+      "version": "0.11.0",
+      "gitref": "refs/tags/v0.11.0",
+      "revision": "542fc67b4328af4ba57328ba4f8fd41fe8d96797",
+      "url": "https://github.com/tramhao/termusic/releases/tag/v0.11.0"
     },
     "thoth": {
       "version": "0.1.84",
@@ -1891,9 +1896,9 @@
       "url": "https://github.com/fujiapple852/trippy/releases/tag/0.13.0"
     },
     "trmt": {
-      "version": "0.5.0",
-      "gitref": "refs/tags/v0.5.0",
-      "url": "https://github.com/cenonym/trmt/releases/tag/v0.5.0"
+      "version": "0.6.0",
+      "gitref": "refs/tags/v0.6.0",
+      "url": "https://github.com/cenonym/trmt/releases/tag/v0.6.0"
     },
     "trunk": {
       "version": "0.21.14",
@@ -1952,9 +1957,9 @@
       "url": "https://github.com/crate-ci/typos/releases/tag/v1.34.0"
     },
     "typos-lsp": {
-      "version": "0.1.39",
-      "gitref": "refs/tags/v0.1.39",
-      "url": "https://github.com/tekumara/typos-lsp/releases/tag/v0.1.39"
+      "version": "0.1.40",
+      "gitref": "refs/tags/v0.1.40",
+      "url": "https://github.com/tekumara/typos-lsp/releases/tag/v0.1.40"
     },
     "tz": {
       "version": "0.8.0",
@@ -2123,10 +2128,10 @@
       "url": "https://github.com/agourlay/zip-password-finder/releases/tag/v0.10.1"
     },
     "zizmor": {
-      "version": "1.10.0",
-      "gitref": "refs/tags/v1.10.0",
-      "revision": "39f229f7c50cbb7be66f76e935c15bf33b17e7bd",
-      "url": "https://github.com/zizmorcore/zizmor/releases/tag/v1.10.0"
+      "version": "1.11.0",
+      "gitref": "refs/tags/v1.11.0",
+      "revision": "1cc8f934e6fad1414fbfc420bd02b0c325d9daab",
+      "url": "https://github.com/zizmorcore/zizmor/releases/tag/v1.11.0"
     },
     "zls": {
       "version": "0.14.0",
