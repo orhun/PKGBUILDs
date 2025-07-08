@@ -2498,3 +2498,9 @@ source = "github"
 github = "cenonym/trmt"
 use_latest_release = true
 prefix = "v"
+
+[ferriby]
+source = "github"
+github = "dawedawe/ferriby"
+use_latest_release = true
+prefix = "v"
