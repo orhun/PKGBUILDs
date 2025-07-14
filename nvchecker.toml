@@ -2510,3 +2510,9 @@ source = "github"
 github = "PottierLoic/Fractouille"
 use_latest_release = true
 prefix = "v"
+
+[rust-i18n-cli]
+source = "github"
+github = "longbridge/rust-i18n"
+use_latest_release = true
+prefix = "v"
