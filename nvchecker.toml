@@ -2504,3 +2504,9 @@ source = "github"
 github = "dawedawe/ferriby"
 use_latest_release = true
 prefix = "v"
+
+[fractouille]
+source = "github"
+github = "PottierLoic/Fractouille"
+use_latest_release = true
+prefix = "v"
