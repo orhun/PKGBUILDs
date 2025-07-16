@@ -252,10 +252,10 @@
       "url": "https://github.com/crev-dev/cargo-crev/releases/tag/v0.26.4"
     },
     "cargo-deb": {
-      "version": "3.2.0",
-      "gitref": "refs/tags/v3.2.0",
-      "revision": "0ad91bc046079947dc4aea53ed0ed3befbf68915",
-      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v3.2.0"
+      "version": "3.2.1",
+      "gitref": "refs/tags/v3.2.1",
+      "revision": "770f7d11c308a84c524f8d9e4810d66a1b096abd",
+      "url": "https://github.com/kornelski/cargo-deb/releases/tag/v3.2.1"
     },
     "cargo-deny": {
       "version": "0.18.3",
@@ -686,10 +686,10 @@
       "url": "https://github.com/evcxr/evcxr/releases/tag/v0.20.0"
     },
     "eza": {
-      "version": "0.22.0",
-      "gitref": "refs/tags/v0.22.0",
-      "revision": "e844afa643f1dd89053036ec8904def5b5e2ba84",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.22.0"
+      "version": "0.22.1",
+      "gitref": "refs/tags/v0.22.1",
+      "revision": "e6dd619df4a42a51bb02bce461c013466e431660",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.22.1"
     },
     "fblog": {
       "version": "4.14.0",
@@ -707,9 +707,9 @@
       "url": "https://github.com/kyoheiu/felix/releases/tag/v2.16.1"
     },
     "ferriby": {
-      "version": "0.1.1",
-      "gitref": "refs/tags/v0.1.1",
-      "url": "https://github.com/dawedawe/ferriby/releases/tag/v0.1.1"
+      "version": "0.2.0",
+      "gitref": "refs/tags/v0.2.0",
+      "url": "https://github.com/dawedawe/ferriby/releases/tag/v0.2.0"
     },
     "fhc": {
       "version": "0.8.2",
@@ -732,9 +732,9 @@
       "url": "https://github.com/wader/fq/releases/tag/v0.15.1"
     },
     "fractouille": {
-      "version": "1.0.2",
-      "gitref": "refs/tags/v1.0.2",
-      "url": "https://github.com/PottierLoic/Fractouille/releases/tag/v1.0.2"
+      "version": "1.0.3",
+      "gitref": "refs/tags/v1.0.3",
+      "url": "https://github.com/PottierLoic/Fractouille/releases/tag/v1.0.3"
     },
     "frankenwm": {
       "version": "1.0.23",
@@ -906,9 +906,9 @@
       "url": "https://github.com/ndd7xv/heh/releases/tag/v0.6.1"
     },
     "helix": {
-      "version": "25.01.1",
-      "gitref": "refs/tags/25.01.1",
-      "url": "https://github.com/helix-editor/helix/releases/tag/25.01.1"
+      "version": "25.07",
+      "gitref": "refs/tags/25.07",
+      "url": "https://github.com/helix-editor/helix/releases/tag/25.07"
     },
     "heretek": {
       "version": "0.5.1",
@@ -1275,9 +1275,9 @@
       "url": "https://github.com/henriklovhaug/md-tui/releases/tag/v0.9.0"
     },
     "mdbook": {
-      "version": "0.4.51",
-      "gitref": "refs/tags/v0.4.51",
-      "url": "https://github.com/rust-lang/mdBook/releases/tag/v0.4.51"
+      "version": "0.4.52",
+      "gitref": "refs/tags/v0.4.52",
+      "url": "https://github.com/rust-lang/mdBook/releases/tag/v0.4.52"
     },
     "mdfried": {
       "version": "0.12.2",
@@ -1588,6 +1588,11 @@
       "gitref": "refs/tags/v0.72.0",
       "revision": "43bbcd0e04dd30fa52012ccbef2303633cf8a27c",
       "url": "https://github.com/rust-lang/rust-bindgen/releases/tag/v0.72.0"
+    },
+    "rust-i18n-cli": {
+      "version": "3.1.5",
+      "gitref": "refs/tags/v3.1.5",
+      "url": "https://github.com/longbridge/rust-i18n/releases/tag/v3.1.5"
     },
     "rust-kanban": {
       "version": "0.10.5",
@@ -2100,10 +2105,10 @@
       "url": "https://github.com/preiter93/wireman/releases/tag/v0.2.7"
     },
     "wiremix": {
-      "version": "0.5.0",
-      "gitref": "refs/tags/v0.5.0",
-      "revision": "ad527dd7b3ffba3e188fbdceb04e1b04a7b82510",
-      "url": "https://github.com/tsowell/wiremix/releases/tag/v0.5.0"
+      "version": "0.6.2",
+      "gitref": "refs/tags/v0.6.2",
+      "revision": "2138affd9590bb4fb68198d673d3bf0aa50cd2c3",
+      "url": "https://github.com/tsowell/wiremix/releases/tag/v0.6.2"
     },
     "wthrr": {
       "version": "1.2.1",

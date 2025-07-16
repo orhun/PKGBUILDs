@@ -28,9 +28,9 @@
       "url": "https://github.com/arafato/alicloud-vault/releases/tag/v1.3.4"
     },
     "aliyun-cli": {
-      "version": "3.0.289",
-      "gitref": "refs/tags/v3.0.289",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.289"
+      "version": "3.0.290",
+      "gitref": "refs/tags/v3.0.290",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.290"
     },
     "alpine-chroot-install": {
       "version": "0.14.0",
@@ -396,6 +396,11 @@
       "gitref": "refs/tags/v1.7.4",
       "url": "https://github.com/dustinblackman/cargo-run-bin/releases/tag/v1.7.4"
     },
+    "cargo-seek": {
+      "version": "0.1.0",
+      "gitref": "refs/tags/v0.1.0",
+      "url": "https://github.com/tareqimbasher/cargo-seek/releases/tag/v0.1.0"
+    },
     "cargo-selector": {
       "version": "0.9.0",
       "gitref": "refs/tags/v0.9.0",
@@ -732,9 +737,9 @@
       "url": "https://github.com/wader/fq/releases/tag/v0.15.1"
     },
     "fractouille": {
-      "version": "1.0.2",
-      "gitref": "refs/tags/v1.0.2",
-      "url": "https://github.com/PottierLoic/Fractouille/releases/tag/v1.0.2"
+      "version": "1.0.3",
+      "gitref": "refs/tags/v1.0.3",
+      "url": "https://github.com/PottierLoic/Fractouille/releases/tag/v1.0.3"
     },
     "frankenwm": {
       "version": "1.0.23",
@@ -794,9 +799,9 @@
       "url": "https://github.com/jdrouet/git-metrics/releases/tag/v0.2.6"
     },
     "gitoxide": {
-      "version": "gix-archive-v0.21.2",
-      "gitref": "refs/tags/gix-archive-v0.21.2",
-      "url": "https://github.com/GitoxideLabs/gitoxide/releases/tag/gix-archive-v0.21.2"
+      "version": "0.45.0",
+      "gitref": "refs/tags/v0.45.0",
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/tag/v0.45.0"
     },
     "gitu": {
       "version": "0.34.0",
@@ -903,9 +908,9 @@
       "url": "https://github.com/ndd7xv/heh/releases/tag/v0.6.1"
     },
     "helix": {
-      "version": "25.01.1",
-      "gitref": "refs/tags/25.01.1",
-      "url": "https://github.com/helix-editor/helix/releases/tag/25.01.1"
+      "version": "25.07",
+      "gitref": "refs/tags/25.07",
+      "url": "https://github.com/helix-editor/helix/releases/tag/25.07"
     },
     "heretek": {
       "version": "0.5.1",
@@ -1264,9 +1269,9 @@
       "url": "https://github.com/henriklovhaug/md-tui/releases/tag/v0.9.0"
     },
     "mdbook": {
-      "version": "0.4.51",
-      "gitref": "refs/tags/v0.4.51",
-      "url": "https://github.com/rust-lang/mdBook/releases/tag/v0.4.51"
+      "version": "0.4.52",
+      "gitref": "refs/tags/v0.4.52",
+      "url": "https://github.com/rust-lang/mdBook/releases/tag/v0.4.52"
     },
     "mdfried": {
       "version": "0.12.2",
@@ -1523,10 +1528,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.3"
     },
     "rio": {
-      "version": "0.2.20",
-      "gitref": "refs/tags/v0.2.20",
-      "revision": "3a51a09924016670e0982b6785233a171e8fdb48",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.2.20"
+      "version": "0.2.21",
+      "gitref": "refs/tags/v0.2.21",
+      "revision": "3afc6ca91bad4d0faf78dd1bd8718b24aa9ff70c",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.2.21"
     },
     "ripasso": {
       "version": "0.7.0",
@@ -2003,10 +2008,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.1.0"
     },
     "uv": {
-      "version": "0.7.20",
-      "gitref": "refs/tags/0.7.20",
-      "revision": "2514203964449fcd3a5cac3320963aa57383e6b6",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.7.20"
+      "version": "0.7.21",
+      "gitref": "refs/tags/0.7.21",
+      "revision": "77c771c7f33df1040c854aeea462c18b74d39987",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.7.21"
     },
     "uwuifyy": {
       "version": "0.3.0",
@@ -2075,10 +2080,10 @@
       "url": "https://github.com/preiter93/wireman/releases/tag/v0.2.7"
     },
     "wiremix": {
-      "version": "0.5.0",
-      "gitref": "refs/tags/v0.5.0",
-      "revision": "ad527dd7b3ffba3e188fbdceb04e1b04a7b82510",
-      "url": "https://github.com/tsowell/wiremix/releases/tag/v0.5.0"
+      "version": "0.6.2",
+      "gitref": "refs/tags/v0.6.2",
+      "revision": "2138affd9590bb4fb68198d673d3bf0aa50cd2c3",
+      "url": "https://github.com/tsowell/wiremix/releases/tag/v0.6.2"
     },
     "wthrr": {
       "version": "1.2.1",
@@ -2154,9 +2159,9 @@
       "url": "https://github.com/zigtools/zls/releases/tag/0.14.0"
     },
     "zola": {
-      "version": "0.20.0",
-      "gitref": "refs/tags/v0.20.0",
-      "url": "https://github.com/getzola/zola/releases/tag/v0.20.0"
+      "version": "0.21.0",
+      "gitref": "refs/tags/v0.21.0",
+      "url": "https://github.com/getzola/zola/releases/tag/v0.21.0"
     },
     "zps": {
       "version": "2.0.0",

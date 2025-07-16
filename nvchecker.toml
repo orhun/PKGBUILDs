@@ -2516,3 +2516,9 @@ source = "github"
 github = "longbridge/rust-i18n"
 use_latest_release = true
 prefix = "v"
+
+[cargo-seek]
+source = "github"
+github = "tareqimbasher/cargo-seek"
+use_latest_release = true
+prefix = "v"
