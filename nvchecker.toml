@@ -1619,6 +1619,12 @@ github = "esp-rs/espflash"
 use_latest_release = true
 prefix = "v"
 
+[jnv]
+source = "github"
+github = "ynqa/jnv"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

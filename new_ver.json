@@ -1057,6 +1057,11 @@
       "revision": "21dd6100edb47145bb9570931bec29697bcd0d9b",
       "url": "https://github.com/PaulJuliusMartinez/jless/releases/tag/v0.9.0"
     },
+    "jnv": {
+      "version": "0.6.1",
+      "gitref": "refs/tags/v0.6.1",
+      "url": "https://github.com/ynqa/jnv/releases/tag/v0.6.1"
+    },
     "joshuto": {
       "version": "0.9.9",
       "gitref": "refs/tags/v0.9.9",
