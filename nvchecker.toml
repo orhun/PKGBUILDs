@@ -2522,3 +2522,9 @@ source = "github"
 github = "tareqimbasher/cargo-seek"
 use_latest_release = true
 prefix = "v"
+
+[comchan]
+source = "github"
+github = "Vaishnav-Sabari-Girish/ComChan"
+use_latest_release = true
+prefix = "v"
