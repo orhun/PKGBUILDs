@@ -1431,7 +1431,7 @@ prefix = "v"
 source = "github"
 github = "junkdog/glim"
 use_latest_release = true
-prefix = "glim-"
+prefix = "glim-v"
 
 [ueberzugpp]
 source = "github"
