@@ -1625,6 +1625,12 @@ github = "ynqa/jnv"
 use_latest_release = true
 prefix = "v"
 
+[resvg]
+source = "github"
+github = "linebender/resvg"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
