@@ -2540,3 +2540,9 @@ source = "github"
 github = "Vaishnav-Sabari-Girish/ComChan"
 use_latest_release = true
 prefix = "v"
+
+[ssh-list]
+source = "github"
+github = "akinoiro/ssh-list"
+use_latest_release = true
+prefix = "v"
