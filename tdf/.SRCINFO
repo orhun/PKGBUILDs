@@ -1,6 +1,6 @@
 pkgbase = tdf
 	pkgdesc = A TUI-based PDF viewer
-	pkgver = 0.3.0
+	pkgver = 0.4.0
 	pkgrel = 1
 	url = https://github.com/itsjunetime/tdf
 	arch = x86_64
@@ -13,7 +13,7 @@ pkgbase = tdf
 	depends = poppler
 	depends = poppler-glib
 	options = !lto
-	source = tdf-0.3.0.tar.gz::https://github.com/itsjunetime/tdf/archive/v0.3.0.tar.gz
-	sha256sums = 97dda80e0725a5b93c54704cf2e00798a0c8c85eb67bf9779a83e162c48545cb
+	source = tdf-0.4.0.tar.gz::https://github.com/itsjunetime/tdf/archive/v0.4.0.tar.gz
+	sha256sums = ca0f62e120c1009a9607a02d03df98e6a7ca9e4344a2b1c225d4e47cff052909
 
 pkgname = tdf

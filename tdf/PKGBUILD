@@ -1,7 +1,7 @@
 # Maintainer: Orhun Parmaksız <orhun@archlinux.org>
 
 pkgname=tdf
-pkgver=0.3.0
+pkgver=0.4.0
 pkgrel=1
 pkgdesc="A TUI-based PDF viewer"
 arch=('x86_64')
@@ -10,7 +10,7 @@ license=('MPL-2.0')
 depends=('gcc-libs' 'glib2' 'cairo' 'poppler' 'poppler-glib')
 makedepends=('cargo-nightly' 'clang')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('97dda80e0725a5b93c54704cf2e00798a0c8c85eb67bf9779a83e162c48545cb')
+sha256sums=('ca0f62e120c1009a9607a02d03df98e6a7ca9e4344a2b1c225d4e47cff052909')
 options=('!lto')
 
 prepare() {
