@@ -2546,3 +2546,9 @@ source = "github"
 github = "akinoiro/ssh-list"
 use_latest_release = true
 prefix = "v"
+
+[tiny-dc]
+source = "github"
+github = "n1ghtmare/tiny-dc"
+use_latest_release = true
+prefix = "v"
