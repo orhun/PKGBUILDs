@@ -2552,3 +2552,9 @@ source = "github"
 github = "n1ghtmare/tiny-dc"
 use_latest_release = true
 prefix = "v"
+
+[yap-rs]
+source = "github"
+github = "nullstalgia/yap"
+use_latest_release = true
+prefix = "v"
