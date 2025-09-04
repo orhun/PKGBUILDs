@@ -1753,6 +1753,11 @@
       "gitref": "refs/tags/v1.4.0",
       "url": "https://github.com/GyulyVGC/sniffnet/releases/tag/v1.4.0"
     },
+    "socktop": {
+      "version": "1.40.0",
+      "gitref": "refs/tags/v1.40.0",
+      "url": "https://github.com/jasonwitty/socktop/releases/tag/v1.40.0"
+    },
     "soft-serve": {
       "version": "0.10.0",
       "gitref": "refs/tags/v0.10.0",

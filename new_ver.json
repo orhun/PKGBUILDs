@@ -1046,6 +1046,11 @@
       "gitref": "refs/tags/v1.7.0",
       "url": "https://github.com/tonarino/innernet/releases/tag/v1.7.0"
     },
+    "intelli-shell": {
+      "version": "2.0.1",
+      "gitref": "refs/tags/v2.0.1",
+      "url": "https://github.com/lasantosr/intelli-shell/releases/tag/v2.0.1"
+    },
     "jilu": {
       "version": "0.13.1",
       "gitref": "refs/tags/v0.13.1",

@@ -1643,6 +1643,12 @@ github = "esp-rs/esp-generate"
 use_latest_release = true
 prefix = "v"
 
+[intelli-shell]
+source = "github"
+github = "lasantosr/intelli-shell"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
