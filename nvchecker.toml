@@ -1637,6 +1637,12 @@ github = "bgreenwell/doxx"
 use_latest_release = true
 prefix = "v"
 
+[esp-generate]
+source = "github"
+github = "esp-rs/esp-generate"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

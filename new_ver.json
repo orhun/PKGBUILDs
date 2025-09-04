@@ -494,9 +494,9 @@
       "url": "https://github.com/johnterickson/cargo2junit/releases/tag/v0.1.14"
     },
     "chess-tui": {
-      "version": "1.6.1",
-      "gitref": "refs/tags/1.6.1",
-      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/1.6.1"
+      "version": "1.6.2",
+      "gitref": "refs/tags/1.6.2",
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/1.6.2"
     },
     "cicero": {
       "version": "0.4.0",
@@ -561,9 +561,9 @@
       "url": "https://github.com/cooklang/cookcli/releases/tag/v0.15.1"
     },
     "cotp": {
-      "version": "1.9.6",
-      "gitref": "refs/tags/v1.9.6",
-      "url": "https://github.com/replydev/cotp/releases/tag/v1.9.6"
+      "version": "1.9.7",
+      "gitref": "refs/tags/v1.9.7",
+      "url": "https://github.com/replydev/cotp/releases/tag/v1.9.7"
     },
     "countryfetch": {
       "version": "0.2.0",
@@ -683,6 +683,11 @@
       "version": "0.14.0",
       "gitref": "refs/tags/v0.14.0",
       "url": "https://github.com/tvrzna/emptty/releases/tag/v0.14.0"
+    },
+    "esp-generate": {
+      "version": "0.5.0",
+      "gitref": "refs/tags/v0.5.0",
+      "url": "https://github.com/esp-rs/esp-generate/releases/tag/v0.5.0"
     },
     "espflash": {
       "version": "4.0.1",
@@ -1079,9 +1084,9 @@
       "url": "https://github.com/codervijo/journalview/releases/tag/v0.0.41"
     },
     "jujutsu": {
-      "version": "0.32.0",
-      "gitref": "refs/tags/v0.32.0",
-      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.32.0"
+      "version": "0.33.0",
+      "gitref": "refs/tags/v0.33.0",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.33.0"
     },
     "jwt-cli": {
       "version": "6.2.0",
@@ -1434,9 +1439,9 @@
       "url": "https://github.com/RusticFlare/pixel-sorter/releases/tag/v4.0.3"
     },
     "pixi": {
-      "version": "0.54.0",
-      "gitref": "refs/tags/v0.54.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.54.0"
+      "version": "0.54.1",
+      "gitref": "refs/tags/v0.54.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.54.1"
     },
     "pkgtop": {
       "version": "2.5.1",
@@ -1512,9 +1517,9 @@
       "url": "https://github.com/Wafelack/rdfm/releases/tag/0.1.3"
     },
     "rebels-in-the-sky": {
-      "version": "1.0.30",
-      "gitref": "refs/tags/v1.0.30",
-      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.30"
+      "version": "1.0.31",
+      "gitref": "refs/tags/v1.0.31",
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.0.31"
     },
     "regname": {
       "version": "0.1.0",
@@ -1699,9 +1704,9 @@
       "url": "https://github.com/xvxx/shy/releases/tag/v0.1.10"
     },
     "sig": {
-      "version": "0.2.0",
-      "gitref": "refs/tags/v0.2.0",
-      "url": "https://github.com/ynqa/sig/releases/tag/v0.2.0"
+      "version": "0.2.1",
+      "gitref": "refs/tags/v0.2.1",
+      "url": "https://github.com/ynqa/sig/releases/tag/v0.2.1"
     },
     "silicon": {
       "version": "0.5.3",
@@ -2007,9 +2012,9 @@
       "url": "https://gitlab.com/ttyperacer/terminal-typeracer/-/tags/v2.1.5"
     },
     "typos": {
-      "version": "1.36.0",
-      "gitref": "refs/tags/v1.36.0",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.36.0"
+      "version": "1.36.1",
+      "gitref": "refs/tags/v1.36.1",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.36.1"
     },
     "typos-lsp": {
       "version": "0.1.42",
@@ -2043,10 +2048,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.1.0"
     },
     "uv": {
-      "version": "0.8.14",
-      "gitref": "refs/tags/0.8.14",
-      "revision": "af856fb8834606f2caf7bc8c4558cc90fd1b52d2",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.8.14"
+      "version": "0.8.15",
+      "gitref": "refs/tags/0.8.15",
+      "revision": "8473ecba11664c70628d776c44f60afefee0b49f",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.8.15"
     },
     "uwuifyy": {
       "version": "0.3.0",
