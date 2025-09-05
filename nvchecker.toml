@@ -2582,3 +2582,9 @@ source = "github"
 github = "jasonwitty/socktop"
 use_latest_release = true
 prefix = "v"
+
+[envx]
+source = "github"
+github = "mikeleppane/envx"
+use_latest_release = true
+prefix = "v"

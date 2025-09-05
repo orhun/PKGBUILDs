@@ -199,9 +199,9 @@
       "url": "https://github.com/ifd3f/caligula/releases/tag/v0.4.8"
     },
     "cargo-about": {
-      "version": "0.7.1",
-      "gitref": "refs/tags/0.7.1",
-      "url": "https://github.com/EmbarkStudios/cargo-about/releases/tag/0.7.1"
+      "version": "0.8.0",
+      "gitref": "refs/tags/0.8.0",
+      "url": "https://github.com/EmbarkStudios/cargo-about/releases/tag/0.8.0"
     },
     "cargo-audit": {
       "version": "cvss/v2.1.1",
@@ -284,9 +284,9 @@
       "url": "https://github.com/killercup/cargo-edit/releases/tag/v0.13.7"
     },
     "cargo-expand": {
-      "version": "1.0.115",
-      "gitref": "refs/tags/1.0.115",
-      "url": "https://github.com/dtolnay/cargo-expand/releases/tag/1.0.115"
+      "version": "1.0.116",
+      "gitref": "refs/tags/1.0.116",
+      "url": "https://github.com/dtolnay/cargo-expand/releases/tag/1.0.116"
     },
     "cargo-flamegraph": {
       "version": "0.6.8",
@@ -326,10 +326,10 @@
       "url": "https://github.com/0xPoe/cargo-information/releases/tag/v0.7.0"
     },
     "cargo-insta": {
-      "version": "1.43.1",
-      "gitref": "refs/tags/1.43.1",
-      "revision": "82c62242a6764855046a8874a42c6a4a00f221ad",
-      "url": "https://github.com/mitsuhiko/insta/releases/tag/1.43.1"
+      "version": "1.43.2",
+      "gitref": "refs/tags/1.43.2",
+      "revision": "01fc57f115b8b5a2c22f5c0be4f5427f3e5ac5ac",
+      "url": "https://github.com/mitsuhiko/insta/releases/tag/1.43.2"
     },
     "cargo-llvm-cov": {
       "version": "0.6.18",
@@ -477,10 +477,10 @@
       "url": "https://github.com/Kobzol/cargo-wizard/releases/tag/v0.2.2"
     },
     "cargo-workspaces": {
-      "version": "0.4.0",
-      "gitref": "refs/tags/v0.4.0",
-      "revision": "53c95deef79ef36fade0c92469780f7270c42698",
-      "url": "https://github.com/pksunkara/cargo-workspaces/releases/tag/v0.4.0"
+      "version": "0.4.1",
+      "gitref": "refs/tags/v0.4.1",
+      "revision": "7532415677041df493894acc0c93cf43411b39b5",
+      "url": "https://github.com/pksunkara/cargo-workspaces/releases/tag/v0.4.1"
     },
     "cargo-zigbuild": {
       "version": "0.20.1",
@@ -683,6 +683,11 @@
       "version": "0.14.0",
       "gitref": "refs/tags/v0.14.0",
       "url": "https://github.com/tvrzna/emptty/releases/tag/v0.14.0"
+    },
+    "envx": {
+      "version": "0.5.0",
+      "gitref": "refs/tags/v0.5.0",
+      "url": "https://github.com/mikeleppane/envx/releases/tag/v0.5.0"
     },
     "esp-generate": {
       "version": "0.5.0",
@@ -1052,9 +1057,9 @@
       "url": "https://github.com/lasantosr/intelli-shell/releases/tag/v2.0.1"
     },
     "jilu": {
-      "version": "0.13.1",
-      "gitref": "refs/tags/v0.13.1",
-      "url": "https://github.com/rustic-games/jilu/releases/tag/v0.13.1"
+      "version": "0.13.2",
+      "gitref": "refs/tags/v0.13.2",
+      "url": "https://github.com/rustic-games/jilu/releases/tag/v0.13.2"
     },
     "jirust": {
       "version": "1.2.1",
@@ -1511,9 +1516,9 @@
       "url": "https://github.com/rathole-org/rathole/releases/tag/v0.5.0"
     },
     "rattler-build": {
-      "version": "0.47.0",
-      "gitref": "refs/tags/v0.47.0",
-      "url": "https://github.com/prefix-dev/rattler-build/releases/tag/v0.47.0"
+      "version": "0.47.1",
+      "gitref": "refs/tags/v0.47.1",
+      "url": "https://github.com/prefix-dev/rattler-build/releases/tag/v0.47.1"
     },
     "rdfm": {
       "version": "0.1.3",
@@ -1532,10 +1537,10 @@
       "url": "https://github.com/linkdd/regname/releases/tag/v0.1.0"
     },
     "release-plz": {
-      "version": "0.3.142",
-      "gitref": "refs/tags/release-plz-v0.3.142",
-      "revision": "83c512f3d040b5c4ca86c3fd24f0098012010082",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.142"
+      "version": "0.3.143",
+      "gitref": "refs/tags/release-plz-v0.3.143",
+      "revision": "bc012509a425cfa5700ea99c3cd5f6bec421c7e2",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.143"
     },
     "repgrep": {
       "version": "0.16.1",
@@ -2017,14 +2022,14 @@
       "url": "https://gitlab.com/ttyperacer/terminal-typeracer/-/tags/v2.1.5"
     },
     "typos": {
-      "version": "1.36.1",
-      "gitref": "refs/tags/v1.36.1",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.36.1"
+      "version": "1.36.2",
+      "gitref": "refs/tags/v1.36.2",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.36.2"
     },
     "typos-lsp": {
-      "version": "0.1.42",
-      "gitref": "refs/tags/v0.1.42",
-      "url": "https://github.com/tekumara/typos-lsp/releases/tag/v0.1.42"
+      "version": "0.1.43",
+      "gitref": "refs/tags/v0.1.43",
+      "url": "https://github.com/tekumara/typos-lsp/releases/tag/v0.1.43"
     },
     "tz": {
       "version": "0.8.0",
@@ -2079,9 +2084,9 @@
       "url": "https://github.com/atanunq/viu/releases/tag/v1.5.1"
     },
     "wasm-bindgen": {
-      "version": "0.2.100",
-      "gitref": "refs/tags/0.2.100",
-      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/tag/0.2.100"
+      "version": "0.2.101",
+      "gitref": "refs/tags/0.2.101",
+      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/tag/0.2.101"
     },
     "wasm-pack": {
       "version": "0.13.1",
@@ -2173,9 +2178,9 @@
       "url": "https://github.com/sxyazi/yazi/releases/tag/v25.5.31"
     },
     "yozefu": {
-      "version": "0.0.14",
-      "gitref": "refs/tags/v0.0.14",
-      "url": "https://github.com/MAIF/yozefu/releases/tag/v0.0.14"
+      "version": "0.0.15",
+      "gitref": "refs/tags/v0.0.15",
+      "url": "https://github.com/MAIF/yozefu/releases/tag/v0.0.15"
     },
     "zellij": {
       "version": "0.43.1",
