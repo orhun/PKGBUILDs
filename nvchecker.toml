@@ -1649,6 +1649,12 @@ github = "lasantosr/intelli-shell"
 use_latest_release = true
 prefix = "v"
 
+[cargo-binutils]
+source = "github"
+github = "rust-embedded/cargo-binutils"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
