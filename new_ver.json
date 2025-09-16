@@ -973,9 +973,9 @@
       "url": "https://github.com/pimalaya/himalaya/releases/tag/v1.1.0"
     },
     "hl": {
-      "version": "0.31.2",
-      "gitref": "refs/tags/v0.31.2",
-      "url": "https://github.com/pamburus/hl/releases/tag/v0.31.2"
+      "version": "0.32.0",
+      "gitref": "refs/tags/v0.32.0",
+      "url": "https://github.com/pamburus/hl/releases/tag/v0.32.0"
     },
     "hoard": {
       "version": "1.4.2",
@@ -1320,9 +1320,9 @@
       "url": "https://github.com/visit1985/mdp/releases/tag/1.0.18"
     },
     "meilisearch": {
-      "version": "1.20.0",
-      "gitref": "refs/tags/v1.20.0",
-      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.20.0"
+      "version": "1.21.0",
+      "gitref": "refs/tags/v1.21.0",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.21.0"
     },
     "menyoki": {
       "version": "1.7.0",
@@ -1454,9 +1454,9 @@
       "url": "https://github.com/RusticFlare/pixel-sorter/releases/tag/v4.0.3"
     },
     "pixi": {
-      "version": "0.54.2",
-      "gitref": "refs/tags/v0.54.2",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.54.2"
+      "version": "0.55.0",
+      "gitref": "refs/tags/v0.55.0",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.55.0"
     },
     "pkgtop": {
       "version": "2.5.1",
@@ -2123,6 +2123,11 @@
       "version": "2.14.1",
       "gitref": "refs/tags/2.14.1",
       "url": "https://github.com/filiparag/wikiman/releases/tag/2.14.1"
+    },
+    "wild": {
+      "version": "0.5.0",
+      "gitref": "refs/tags/0.5.0",
+      "url": "https://github.com/davidlattimore/wild/releases/tag/0.5.0"
     },
     "wiper": {
       "version": "0.2.1",

@@ -28,9 +28,9 @@
       "url": "https://github.com/arafato/alicloud-vault/releases/tag/v1.3.4"
     },
     "aliyun-cli": {
-      "version": "3.0.300",
-      "gitref": "refs/tags/v3.0.300",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.300"
+      "version": "3.0.301",
+      "gitref": "refs/tags/v3.0.301",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.0.301"
     },
     "alpine-chroot-install": {
       "version": "0.14.0",
@@ -174,9 +174,9 @@
       "url": "https://github.com/Netflix/bpftop/releases/tag/v0.7.1"
     },
     "broot": {
-      "version": "1.49.0",
-      "gitref": "refs/tags/v1.49.0",
-      "url": "https://github.com/Canop/broot/releases/tag/v1.49.0"
+      "version": "1.49.1",
+      "gitref": "refs/tags/v1.49.1",
+      "url": "https://github.com/Canop/broot/releases/tag/v1.49.1"
     },
     "brush": {
       "version": "0.2.23",
@@ -215,9 +215,14 @@
       "url": "https://github.com/rust-secure-code/cargo-auditable/releases/tag/v0.7.0"
     },
     "cargo-binstall": {
-      "version": "1.15.4",
-      "gitref": "refs/tags/v1.15.4",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.15.4"
+      "version": "1.15.5",
+      "gitref": "refs/tags/v1.15.5",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.15.5"
+    },
+    "cargo-binutils": {
+      "version": "0.4.0",
+      "gitref": "refs/tags/v0.4.0",
+      "url": "https://github.com/rust-embedded/cargo-binutils/releases/tag/v0.4.0"
     },
     "cargo-bloat": {
       "version": "0.12.1",
@@ -649,9 +654,9 @@
       "url": "https://github.com/devmatteini/dra/releases/tag/0.9.0"
     },
     "dua-cli": {
-      "version": "2.31.0",
-      "gitref": "refs/tags/v2.31.0",
-      "url": "https://github.com/Byron/dua-cli/releases/tag/v2.31.0"
+      "version": "2.32.0",
+      "gitref": "refs/tags/v2.32.0",
+      "url": "https://github.com/Byron/dua-cli/releases/tag/v2.32.0"
     },
     "ducker": {
       "version": "0.4.1",
@@ -711,10 +716,10 @@
       "url": "https://github.com/evcxr/evcxr/releases/tag/v0.21.1"
     },
     "eza": {
-      "version": "0.23.2",
-      "gitref": "refs/tags/v0.23.2",
-      "revision": "410bb5d9fc0d37fdb58e211a494ea95920f7a675",
-      "url": "https://github.com/eza-community/eza/releases/tag/v0.23.2"
+      "version": "0.23.3",
+      "gitref": "refs/tags/v0.23.3",
+      "revision": "2f7fcd90b366ee1553afe93da5c38797233d8044",
+      "url": "https://github.com/eza-community/eza/releases/tag/v0.23.3"
     },
     "fblog": {
       "version": "4.14.0",
@@ -732,9 +737,9 @@
       "url": "https://github.com/kyoheiu/felix/releases/tag/v2.16.1"
     },
     "ferriby": {
-      "version": "0.3.0",
-      "gitref": "refs/tags/v0.3.0",
-      "url": "https://github.com/dawedawe/ferriby/releases/tag/v0.3.0"
+      "version": "0.4.0",
+      "gitref": "refs/tags/v0.4.0",
+      "url": "https://github.com/dawedawe/ferriby/releases/tag/v0.4.0"
     },
     "fhc": {
       "version": "0.9.1",
@@ -971,9 +976,9 @@
       "url": "https://github.com/pimalaya/himalaya/releases/tag/v1.1.0"
     },
     "hl": {
-      "version": "0.31.2",
-      "gitref": "refs/tags/v0.31.2",
-      "url": "https://github.com/pamburus/hl/releases/tag/v0.31.2"
+      "version": "0.32.0",
+      "gitref": "refs/tags/v0.32.0",
+      "url": "https://github.com/pamburus/hl/releases/tag/v0.32.0"
     },
     "hoard": {
       "version": "1.4.2",
@@ -1748,10 +1753,10 @@
       "url": "https://github.com/mzfr/slicer/releases/tag/v1.5"
     },
     "slumber": {
-      "version": "4.0.0",
-      "gitref": "refs/tags/v4.0.0",
-      "revision": "ba627038203bbd8b0fead0ba19e2dbf59a83a02b",
-      "url": "https://github.com/LucasPickering/slumber/releases/tag/v4.0.0"
+      "version": "4.0.1",
+      "gitref": "refs/tags/v4.0.1",
+      "revision": "1c525b5766436cd769de84024310cdd6418791ae",
+      "url": "https://github.com/LucasPickering/slumber/releases/tag/v4.0.1"
     },
     "smartcat": {
       "version": "2.2.0",

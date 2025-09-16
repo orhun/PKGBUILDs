@@ -1655,6 +1655,12 @@ github = "rust-embedded/cargo-binutils"
 use_latest_release = true
 prefix = "v"
 
+[wild]
+source = "github"
+github = "davidlattimore/wild"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
