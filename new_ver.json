@@ -561,9 +561,9 @@
       "url": "https://github.com/k3ii/conze/releases/tag/v0.1.2"
     },
     "cookcli": {
-      "version": "0.15.1",
-      "gitref": "refs/tags/v0.15.1",
-      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.15.1"
+      "version": "0.16.0",
+      "gitref": "refs/tags/v0.16.0",
+      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.16.0"
     },
     "cotp": {
       "version": "1.9.7",
@@ -828,11 +828,16 @@
       "gitref": "refs/tags/v0.45.0",
       "url": "https://github.com/GitoxideLabs/gitoxide/releases/tag/v0.45.0"
     },
+    "gittype": {
+      "version": "0.6.2",
+      "gitref": "refs/tags/v0.6.2",
+      "url": "https://github.com/unhappychoice/gittype/releases/tag/v0.6.2"
+    },
     "gitu": {
-      "version": "0.35.0",
-      "gitref": "refs/tags/v0.35.0",
-      "revision": "4d02d58b61163bac161d301756d9cdfe4d7bf3b2",
-      "url": "https://github.com/altsem/gitu/releases/tag/v0.35.0"
+      "version": "0.36.0",
+      "gitref": "refs/tags/v0.36.0",
+      "revision": "e8a72b16bc64f96d459b1a17536e622d4989a8fb",
+      "url": "https://github.com/altsem/gitu/releases/tag/v0.36.0"
     },
     "glicol-cli": {
       "version": "0.2.0",
@@ -2089,9 +2094,9 @@
       "url": "https://github.com/atanunq/viu/releases/tag/v1.5.1"
     },
     "wasm-bindgen": {
-      "version": "0.2.101",
-      "gitref": "refs/tags/0.2.101",
-      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/tag/0.2.101"
+      "version": "0.2.102",
+      "gitref": "refs/tags/0.2.102",
+      "url": "https://github.com/wasm-bindgen/wasm-bindgen/releases/tag/0.2.102"
     },
     "wasm-pack": {
       "version": "0.13.1",

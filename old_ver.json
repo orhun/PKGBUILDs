@@ -369,10 +369,10 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v4.1.2"
     },
     "cargo-nextest": {
-      "version": "0.9.102",
-      "gitref": "refs/tags/cargo-nextest-0.9.102",
-      "revision": "b4b172fb9cd2868ec255266a90539d79f55b8a5f",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.102"
+      "version": "0.9.104",
+      "gitref": "refs/tags/cargo-nextest-0.9.104",
+      "revision": "27272365569618ee858a616c0c5f3ddc642f3b99",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.104"
     },
     "cargo-outdated": {
       "version": "0.17.0",
@@ -561,9 +561,9 @@
       "url": "https://github.com/k3ii/conze/releases/tag/v0.1.2"
     },
     "cookcli": {
-      "version": "0.15.1",
-      "gitref": "refs/tags/v0.15.1",
-      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.15.1"
+      "version": "0.16.0",
+      "gitref": "refs/tags/v0.16.0",
+      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.16.0"
     },
     "cotp": {
       "version": "1.9.7",
@@ -1582,10 +1582,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.3"
     },
     "rio": {
-      "version": "0.2.29",
-      "gitref": "refs/tags/v0.2.29",
-      "revision": "126cd31cf15156c63f0ca7ef400e452de1143651",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.2.29"
+      "version": "0.2.30",
+      "gitref": "refs/tags/v0.2.30",
+      "revision": "ab8b2a5bc92a844f46f7e3e80b9a22e342b7b9ba",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.2.30"
     },
     "ripasso": {
       "version": "0.7.0",
@@ -1981,9 +1981,9 @@
       "url": "https://github.com/woodruffw/toml2json/releases/tag/v1.3.2"
     },
     "tongo": {
-      "version": "0.15.1",
-      "gitref": "refs/tags/v0.15.1",
-      "url": "https://github.com/drewzemke/tongo/releases/tag/v0.15.1"
+      "version": "0.15.2",
+      "gitref": "refs/tags/v0.15.2",
+      "url": "https://github.com/drewzemke/tongo/releases/tag/v0.15.2"
     },
     "tracexec": {
       "version": "0.13.1",
