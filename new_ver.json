@@ -1494,6 +1494,11 @@
       "gitref": "refs/tags/v0.15.1",
       "url": "https://github.com/mfontanini/presenterm/releases/tag/v0.15.1"
     },
+    "probe-rs": {
+      "version": "0.29.1",
+      "gitref": "refs/tags/v0.29.1",
+      "url": "https://github.com/probe-rs/probe-rs/releases/tag/v0.29.1"
+    },
     "procs": {
       "version": "0.14.10",
       "gitref": "refs/tags/v0.14.10",

@@ -1661,6 +1661,12 @@ github = "davidlattimore/wild"
 use_latest_release = true
 prefix = "v"
 
+[probe-rs]
+source = "github"
+github = "probe-rs/probe-rs"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
