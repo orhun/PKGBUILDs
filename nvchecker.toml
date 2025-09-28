@@ -2606,3 +2606,9 @@ source = "github"
 github = "unhappychoice/gittype"
 use_latest_release = true
 prefix = "v"
+
+[esp-web-flash-server]
+source = "github"
+github = "esp-rs/esp-web-flash-server"
+use_latest_release = true
+prefix = "v"
