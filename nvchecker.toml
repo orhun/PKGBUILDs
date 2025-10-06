@@ -1673,6 +1673,12 @@ github = "lusingander/cargo-sort-derives"
 use_latest_release = true
 prefix = "v"
 
+[soundscope]
+source = "github"
+github = "bananaofhappiness/soundscope"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
