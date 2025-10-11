@@ -1685,6 +1685,12 @@ github = "RohanAdwankar/taskim"
 use_latest_release = true
 prefix = "v"
 
+[cargo-sweep]
+source = "github"
+github = "holmgr/cargo-sweep"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

@@ -454,6 +454,11 @@
       "gitref": "refs/tags/v0.15.5",
       "url": "https://github.com/drahnr/cargo-spellcheck/releases/tag/v0.15.5"
     },
+    "cargo-sweep": {
+      "version": "0.8.0",
+      "gitref": "refs/tags/v0.8.0",
+      "url": "https://github.com/holmgr/cargo-sweep/releases/tag/v0.8.0"
+    },
     "cargo-tarpaulin": {
       "version": "0.33.0",
       "gitref": "refs/tags/0.33.0",
