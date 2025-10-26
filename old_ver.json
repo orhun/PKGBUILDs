@@ -129,9 +129,9 @@
       "url": "https://github.com/dmtrKovalenko/blendr/releases/tag/v1.3.3"
     },
     "bluetui": {
-      "version": "0.7",
-      "gitref": "refs/tags/v0.7",
-      "url": "https://github.com/pythops/bluetui/releases/tag/v0.7"
+      "version": "0.7.1",
+      "gitref": "refs/tags/v0.7.1",
+      "url": "https://github.com/pythops/bluetui/releases/tag/v0.7.1"
     },
     "bmm": {
       "version": "0.3.0",
@@ -215,9 +215,9 @@
       "url": "https://github.com/rust-secure-code/cargo-auditable/releases/tag/v0.7.1"
     },
     "cargo-binstall": {
-      "version": "1.15.7",
-      "gitref": "refs/tags/v1.15.7",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.15.7"
+      "version": "1.15.9",
+      "gitref": "refs/tags/v1.15.9",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.15.9"
     },
     "cargo-binutils": {
       "version": "0.4.0",
@@ -231,9 +231,9 @@
       "url": "https://github.com/RazrFalcon/cargo-bloat/releases/tag/v0.12.1"
     },
     "cargo-bundle-licenses": {
-      "version": "4.0.0",
-      "gitref": "refs/tags/v4.0.0",
-      "url": "https://github.com/sstadick/cargo-bundle-licenses/releases/tag/v4.0.0"
+      "version": "4.2.0",
+      "gitref": "refs/tags/v4.2.0",
+      "url": "https://github.com/sstadick/cargo-bundle-licenses/releases/tag/v4.2.0"
     },
     "cargo-careful": {
       "version": "0.4.8",
@@ -369,10 +369,10 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v4.1.2"
     },
     "cargo-nextest": {
-      "version": "0.9.105",
-      "gitref": "refs/tags/cargo-nextest-0.9.105",
-      "revision": "f68c5d5e500570a68fc526259e8e3b83d54da80a",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.105"
+      "version": "0.9.108",
+      "gitref": "refs/tags/cargo-nextest-0.9.108",
+      "revision": "3e8d02d64f81016bf639ee4889046eb9fcac5412",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.108"
     },
     "cargo-outdated": {
       "version": "0.17.0",
@@ -460,10 +460,10 @@
       "url": "https://github.com/holmgr/cargo-sweep/releases/tag/v0.8.0"
     },
     "cargo-tarpaulin": {
-      "version": "0.34.0",
-      "gitref": "refs/tags/0.34.0",
-      "revision": "da10d8cdc3448b4968f1fa4471498ae87477c38f",
-      "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.34.0"
+      "version": "0.34.1",
+      "gitref": "refs/tags/0.34.1",
+      "revision": "fa22750f9973f985f91a8adbc5c6e264e0eaf098",
+      "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.34.1"
     },
     "cargo-tauri": {
       "version": "tauri-cli-v1.6.6",
@@ -1064,9 +1064,9 @@
       "url": "https://github.com/trashhalo/imgcat/releases/tag/v1.2.0"
     },
     "impala": {
-      "version": "0.4.0",
-      "gitref": "refs/tags/v0.4.0",
-      "url": "https://github.com/pythops/impala/releases/tag/v0.4.0"
+      "version": "0.4.1",
+      "gitref": "refs/tags/v0.4.1",
+      "url": "https://github.com/pythops/impala/releases/tag/v0.4.1"
     },
     "inferno": {
       "version": "0.12.3",
@@ -1200,10 +1200,10 @@
       "url": "https://github.com/grampelberg/kty/releases/tag/v0.3.1"
     },
     "kubetui": {
-      "version": "1.9.1",
-      "gitref": "refs/tags/v1.9.1",
-      "revision": "33f7efe1c8aa067361eb5dbe4ef757955b268ad2",
-      "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.9.1"
+      "version": "1.10.0",
+      "gitref": "refs/tags/v1.10.0",
+      "revision": "df22842c1b0fc24872c2d3a6e4512364b0b0f650",
+      "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.10.0"
     },
     "kubie": {
       "version": "0.26.0",
@@ -1634,9 +1634,9 @@
       "url": "https://github.com/facundoolano/rpg-cli/releases/tag/1.2.0"
     },
     "rucola": {
-      "version": "0.6.0",
-      "gitref": "refs/tags/v0.6.0",
-      "url": "https://github.com/Linus-Mussmaecher/rucola/releases/tag/v0.6.0"
+      "version": "0.7.0",
+      "gitref": "refs/tags/v0.7.0",
+      "url": "https://github.com/Linus-Mussmaecher/rucola/releases/tag/v0.7.0"
     },
     "runst": {
       "version": "0.1.7",
@@ -1742,9 +1742,9 @@
       "url": "https://github.com/resurrecting-open-source-projects/scrot/releases/tag/1.12.1"
     },
     "serie": {
-      "version": "0.5.2",
-      "gitref": "refs/tags/v0.5.2",
-      "url": "https://github.com/lusingander/serie/releases/tag/v0.5.2"
+      "version": "0.5.3",
+      "gitref": "refs/tags/v0.5.3",
+      "url": "https://github.com/lusingander/serie/releases/tag/v0.5.3"
     },
     "serpl": {
       "version": "0.3.4",
@@ -2123,9 +2123,9 @@
       "url": "https://github.com/Edu4rdSHL/unimap/releases/tag/0.7.0"
     },
     "uutils-coreutils": {
-      "version": "0.2.2",
-      "gitref": "refs/tags/0.2.2",
-      "url": "https://github.com/uutils/coreutils/releases/tag/0.2.2"
+      "version": "0.3.0",
+      "gitref": "refs/tags/0.3.0",
+      "url": "https://github.com/uutils/coreutils/releases/tag/0.3.0"
     },
     "uv": {
       "version": "0.9.4",
@@ -2278,10 +2278,10 @@
       "url": "https://github.com/agourlay/zip-password-finder/releases/tag/v0.10.2"
     },
     "zizmor": {
-      "version": "1.15.2",
-      "gitref": "refs/tags/v1.15.2",
-      "revision": "a4c6c3bb9f28d73aa75605af2bacf69eb177cefa",
-      "url": "https://github.com/zizmorcore/zizmor/releases/tag/v1.15.2"
+      "version": "1.16.0",
+      "gitref": "refs/tags/v1.16.0",
+      "revision": "b40d0d2b6e111696a566740db7137b3df557d122",
+      "url": "https://github.com/zizmorcore/zizmor/releases/tag/v1.16.0"
     },
     "zls": {
       "version": "0.14.0",
