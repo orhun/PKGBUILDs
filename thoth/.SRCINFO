@@ -1,6 +1,6 @@
 pkgbase = thoth
 	pkgdesc = Terminal scratchpad inspired by the Heynote app
-	pkgver = 0.1.84
+	pkgver = 0.1.87
 	pkgrel = 1
 	url = https://github.com/jooaf/thoth
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = thoth
 	makedepends = oniguruma
 	depends = gcc-libs
 	options = !lto
-	source = thoth-0.1.84.tar.gz::https://github.com/jooaf/thoth/archive/v0.1.84.tar.gz
-	sha512sums = f56619e99675b33999faed522cf237bc9f030b09a0369afb1a13e1aba367c9da3a520f562eceabcdbc114244cb8f69f7303dbc64b6db7b44b08e5bcdfaf4ceaa
+	source = thoth-0.1.87.tar.gz::https://github.com/jooaf/thoth/archive/v0.1.87.tar.gz
+	sha512sums = c2ee988e5690b3c735f01338b06aa7014edec4f951d6c272114d5b148f3b3424ef5c7f75d0b38ebaec47702cb3a501bc9e6e188e8548f4b75b1d3c1a4d7f60fa
 
 pkgname = thoth
