@@ -1691,6 +1691,12 @@ github = "holmgr/cargo-sweep"
 use_latest_release = true
 prefix = "v"
 
+[regect]
+source = "github"
+github = "kloki/regect"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

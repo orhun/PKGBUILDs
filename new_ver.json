@@ -1561,6 +1561,11 @@
       "gitref": "refs/tags/v1.1.0",
       "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.1.0"
     },
+    "regect": {
+      "version": "0.2.6",
+      "gitref": "refs/tags/v0.2.6",
+      "url": "https://github.com/kloki/regect/releases/tag/v0.2.6"
+    },
     "regname": {
       "version": "0.1.0",
       "gitref": "refs/tags/v0.1.0",
