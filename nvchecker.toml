@@ -2648,3 +2648,9 @@ source = "github"
 github = "esp-rs/esp-web-flash-server"
 use_latest_release = true
 prefix = "v"
+
+[openai-codex]
+source = "github"
+github = "openai/codex"
+use_latest_release = true
+prefix = "rust-v"
