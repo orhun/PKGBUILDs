@@ -1703,6 +1703,12 @@ github = "epic-64/binbreak"
 use_max_tag = true
 prefix = "v"
 
+[gitlogue]
+source = "github"
+github = "unhappychoice/gitlogue"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

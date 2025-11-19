@@ -48,11 +48,6 @@
       "gitref": "refs/tags/v1.23.0",
       "url": "https://github.com/sigoden/argc/releases/tag/v1.23.0"
     },
-    "arti": {
-      "version": "tor-circmgr-v0.18.1",
-      "revision": "1e75ff593938d1d3b049a3c051b77d675780952d",
-      "url": "https://gitlab.torproject.org/tpo/core/arti/-/tags/tor-circmgr-v0.18.1"
-    },
     "asak": {
       "version": "0.3.5",
       "gitref": "refs/tags/v0.3.5",
@@ -838,6 +833,12 @@
       "version": "0.2.6",
       "gitref": "refs/tags/v0.2.6",
       "url": "https://github.com/jdrouet/git-metrics/releases/tag/v0.2.6"
+    },
+    "gitlogue": {
+      "version": "0.2.0",
+      "gitref": "refs/tags/v0.2.0",
+      "revision": "e18f25004ae033ed622f3e5f15fda3f9fce9ac46",
+      "url": "https://github.com/unhappychoice/gitlogue/releases/tag/v0.2.0"
     },
     "gitoxide": {
       "version": "0.46.0",

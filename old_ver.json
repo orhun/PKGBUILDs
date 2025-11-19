@@ -1855,9 +1855,9 @@
       "url": "https://github.com/akinoiro/ssh-list/releases/tag/v1.5.1"
     },
     "starship": {
-      "version": "1.24.0",
-      "gitref": "refs/tags/v1.24.0",
-      "url": "https://github.com/starship/starship/releases/tag/v1.24.0"
+      "version": "1.24.1",
+      "gitref": "refs/tags/v1.24.1",
+      "url": "https://github.com/starship/starship/releases/tag/v1.24.1"
     },
     "stegano": {
       "version": "0.6.0",
@@ -1985,9 +1985,9 @@
       "url": "https://github.com/sumoduduk/terminusdm/releases/tag/v1.0.2"
     },
     "termscp": {
-      "version": "0.18.0",
-      "gitref": "refs/tags/v0.18.0",
-      "url": "https://github.com/veeso/termscp/releases/tag/v0.18.0"
+      "version": "0.19.0",
+      "gitref": "refs/tags/v0.19.0",
+      "url": "https://github.com/veeso/termscp/releases/tag/v0.19.0"
     },
     "termusic": {
       "version": "0.12.0",
