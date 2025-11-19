@@ -1697,6 +1697,12 @@ github = "kloki/regect"
 use_latest_release = true
 prefix = "v"
 
+[binbreak]
+source = "github"
+github = "epic-64/binbreak"
+use_max_tag = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
