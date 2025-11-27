@@ -1709,6 +1709,12 @@ github = "unhappychoice/gitlogue"
 use_max_tag = true
 prefix = "v"
 
+[swaptop]
+source = "github"
+github = "luis-ota/swaptop"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
