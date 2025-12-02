@@ -2,9 +2,9 @@
   "version": 2,
   "data": {
     "act": {
-      "version": "0.2.82",
-      "gitref": "refs/tags/v0.2.82",
-      "url": "https://github.com/nektos/act/releases/tag/v0.2.82"
+      "version": "0.2.83",
+      "gitref": "refs/tags/v0.2.83",
+      "url": "https://github.com/nektos/act/releases/tag/v0.2.83"
     },
     "actionlint": {
       "version": "1.7.9",
@@ -337,10 +337,10 @@
       "url": "https://github.com/0xPoe/cargo-information/releases/tag/v0.7.0"
     },
     "cargo-insta": {
-      "version": "1.44.2",
-      "gitref": "refs/tags/1.44.2",
-      "revision": "6cb41aff12a732cbe45204d3137fddfc2afe0ce3",
-      "url": "https://github.com/mitsuhiko/insta/releases/tag/1.44.2"
+      "version": "1.44.3",
+      "gitref": "refs/tags/1.44.3",
+      "revision": "dcbb11fdc1ceb99a8cf45a1dae1f5c1f0aade75f",
+      "url": "https://github.com/mitsuhiko/insta/releases/tag/1.44.3"
     },
     "cargo-llvm-cov": {
       "version": "0.6.21",
@@ -577,9 +577,9 @@
       "url": "https://github.com/k3ii/conze/releases/tag/v0.1.2"
     },
     "cookcli": {
-      "version": "0.18.2",
-      "gitref": "refs/tags/v0.18.2",
-      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.18.2"
+      "version": "0.19.0",
+      "gitref": "refs/tags/v0.19.0",
+      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.19.0"
     },
     "cotp": {
       "version": "1.9.7",
@@ -848,10 +848,10 @@
       "url": "https://github.com/jdrouet/git-metrics/releases/tag/v0.2.6"
     },
     "gitlogue": {
-      "version": "0.4.1",
-      "gitref": "refs/tags/v0.4.1",
-      "revision": "2ff5ace5c96e77620eda8338394d6ff2f0587117",
-      "url": "https://github.com/unhappychoice/gitlogue/releases/tag/v0.4.1"
+      "version": "0.5.0",
+      "gitref": "refs/tags/v0.5.0",
+      "revision": "907efeccc04ce42808ec318926486d8ac5721151",
+      "url": "https://github.com/unhappychoice/gitlogue/releases/tag/v0.5.0"
     },
     "gitoxide": {
       "version": "0.47.0",
@@ -978,9 +978,9 @@
       "url": "https://github.com/wcampbell0x2a/heretek/releases/tag/v0.7.0"
     },
     "hex": {
-      "version": "0.6.0",
-      "gitref": "refs/tags/v0.6.0",
-      "url": "https://github.com/sitkevij/hex/releases/tag/v0.6.0"
+      "version": "0.7.0",
+      "gitref": "refs/tags/v0.7.0",
+      "url": "https://github.com/sitkevij/hex/releases/tag/v0.7.0"
     },
     "hexpatch": {
       "version": "1.12.4",
@@ -1212,10 +1212,10 @@
       "url": "https://github.com/grampelberg/kty/releases/tag/v0.3.1"
     },
     "kubetui": {
-      "version": "1.10.1",
-      "gitref": "refs/tags/v1.10.1",
-      "revision": "69241547d2624b7d41c4ff8bb15c9bf07cd887ad",
-      "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.10.1"
+      "version": "1.10.2",
+      "gitref": "refs/tags/v1.10.2",
+      "revision": "3044f88eceaac8a3ba2f355c417f11e923a96a02",
+      "url": "https://github.com/sarub0b0/kubetui/releases/tag/v1.10.2"
     },
     "kubie": {
       "version": "0.26.0",
@@ -1588,9 +1588,9 @@
       "url": "https://github.com/Wafelack/rdfm/releases/tag/0.1.3"
     },
     "rebels-in-the-sky": {
-      "version": "1.3.0",
-      "gitref": "refs/tags/v1.3.0",
-      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.3.0"
+      "version": "1.3.1",
+      "gitref": "refs/tags/v1.3.1",
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.3.1"
     },
     "regect": {
       "version": "0.2.7",
@@ -1891,6 +1891,11 @@
       "gitref": "refs/tags/1.0.1",
       "url": "https://github.com/mhmtipek/sudoku-term/releases/tag/1.0.1"
     },
+    "swaptop": {
+      "version": "1.0.4",
+      "gitref": "refs/tags/v1.0.4",
+      "url": "https://github.com/luis-ota/swaptop/releases/tag/v1.0.4"
+    },
     "sxtetris": {
       "version": "1.4.0",
       "gitref": "refs/tags/1.4.0",
@@ -1910,9 +1915,9 @@
       "url": "https://github.com/rgwood/systemctl-tui/releases/tag/v0.4.0"
     },
     "t-rec": {
-      "version": "0.7.10",
-      "gitref": "refs/tags/v0.7.10",
-      "url": "https://github.com/sassman/t-rec-rs/releases/tag/v0.7.10"
+      "version": "0.7.11",
+      "gitref": "refs/tags/v0.7.11",
+      "url": "https://github.com/sassman/t-rec-rs/releases/tag/v0.7.11"
     },
     "tabiew": {
       "version": "0.11.1",
@@ -1961,9 +1966,9 @@
       "url": "https://github.com/tealdeer-rs/tealdeer/releases/tag/v1.8.1"
     },
     "television": {
-      "version": "0.13.11",
-      "gitref": "refs/tags/0.13.11",
-      "url": "https://github.com/alexpasmantier/television/releases/tag/0.13.11"
+      "version": "0.13.12",
+      "gitref": "refs/tags/0.13.12",
+      "url": "https://github.com/alexpasmantier/television/releases/tag/0.13.12"
     },
     "tenki": {
       "version": "1.11.0",
@@ -2043,9 +2048,9 @@
       "url": "https://github.com/drewzemke/tongo/releases/tag/v0.15.2"
     },
     "tracexec": {
-      "version": "0.15.0",
-      "gitref": "refs/tags/v0.15.0",
-      "url": "https://github.com/kxxt/tracexec/releases/tag/v0.15.0"
+      "version": "0.15.1",
+      "gitref": "refs/tags/v0.15.1",
+      "url": "https://github.com/kxxt/tracexec/releases/tag/v0.15.1"
     },
     "tracker": {
       "version": "0.1.15",
@@ -2238,9 +2243,9 @@
       "url": "https://github.com/ttytm/wthrr-the-weathercrab/releases/tag/v1.2.1"
     },
     "xan": {
-      "version": "0.54.0",
-      "gitref": "refs/tags/0.54.0",
-      "url": "https://github.com/medialab/xan/releases/tag/0.54.0"
+      "version": "0.54.1",
+      "gitref": "refs/tags/0.54.1",
+      "url": "https://github.com/medialab/xan/releases/tag/0.54.1"
     },
     "xdo": {
       "version": "0.5.7",
@@ -2300,10 +2305,10 @@
       "url": "https://github.com/agourlay/zip-password-finder/releases/tag/v0.10.2"
     },
     "zizmor": {
-      "version": "1.17.0",
-      "gitref": "refs/tags/v1.17.0",
-      "revision": "06ec8d881b48960bb7d4546d4fb9e5dbda744191",
-      "url": "https://github.com/zizmorcore/zizmor/releases/tag/v1.17.0"
+      "version": "1.18.0",
+      "gitref": "refs/tags/v1.18.0",
+      "revision": "f203b457f66d9cd0d372d6c6ba0afe63d46f1b5b",
+      "url": "https://github.com/zizmorcore/zizmor/releases/tag/v1.18.0"
     },
     "zls": {
       "version": "0.14.0",

@@ -1715,6 +1715,12 @@ github = "luis-ota/swaptop"
 use_latest_release = true
 prefix = "v"
 
+[treemd]
+source = "github"
+github = "Epistates/treemd"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
