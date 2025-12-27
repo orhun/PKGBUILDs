@@ -1,0 +1,16 @@
+pkgbase = oyo
+	pkgdesc = A step-through diff viewer
+	pkgver = 0.1.12
+	pkgrel = 1
+	url = https://github.com/ahkohd/oyo
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = rust
+	depends = glibc
+	depends = gcc-libs
+	provides = oy
+	source = https://github.com/ahkohd/oyo/archive/refs/tags/v0.1.12.tar.gz
+	sha256sums = 776c8498af8ad75b5e9dd2d1e9e78127ef926fccb5cad5ed5868fc68e013b6d9
+
+pkgname = oyo
