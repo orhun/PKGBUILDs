@@ -1721,6 +1721,12 @@ github = "Epistates/treemd"
 use_latest_release = true
 prefix = "v"
 
+[rustnet]
+source = "github"
+github = "domcyrus/rustnet"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
