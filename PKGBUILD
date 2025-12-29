@@ -4,7 +4,7 @@ _execname=oy
 _pkgauthor=ahkohd
 _pkgname=oyo
 pkgname=${_pkgname}
-pkgver=0.1.15
+pkgver=0.1.16
 pkgrel=1
 pkgdesc="A step-through diff viewer"
 arch=('x86_64' 'aarch64')
@@ -16,7 +16,7 @@ provides=("${_execname}")
 makedepends=('rust')
 
 source=("https://github.com/${_pkgauthor}/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('5c2d2b9e0b7895e3dd210ce3c9678f3ae4b6d449e4a3c3b98808c09c1574e456')
+sha256sums=('c7f4ac032e13aee626df7c99249c29254fba0a20940e68365414264d68245daa')
 
 build() {
 	cd ${pkgname}-${pkgver} || exit 1
