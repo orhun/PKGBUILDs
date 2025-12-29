@@ -1,6 +1,6 @@
 pkgbase = oyo
 	pkgdesc = A step-through diff viewer
-	pkgver = 0.1.14
+	pkgver = 0.1.15
 	pkgrel = 1
 	url = https://github.com/ahkohd/oyo
 	arch = x86_64
@@ -10,7 +10,7 @@ pkgbase = oyo
 	depends = glibc
 	depends = gcc-libs
 	provides = oy
-	source = https://github.com/ahkohd/oyo/archive/refs/tags/v0.1.14.tar.gz
-	sha256sums = 287c5f527f855756d7387d17e3c05bcfb6ed9f91beaba5bcbcfa4d5209797b7a
+	source = https://github.com/ahkohd/oyo/archive/refs/tags/v0.1.15.tar.gz
+	sha256sums = 5c2d2b9e0b7895e3dd210ce3c9678f3ae4b6d449e4a3c3b98808c09c1574e456
 
 pkgname = oyo
