@@ -3,13 +3,15 @@
 _execname=oy
 _pkgauthor=ahkohd
 _pkgname=oyo
+
 pkgname=${_pkgname}
 pkgver=0.1.16
 pkgrel=1
-pkgdesc="A step-through diff viewer"
+pkgdesc="A diff-erent viewer"
+
 arch=('x86_64' 'aarch64')
-url="https://github.com/${_pkgauthor}/${pkgname}"
 license=('MIT')
+url="https://github.com/${_pkgauthor}/${pkgname}"
 
 depends=('glibc' 'gcc-libs')
 provides=("${_execname}")
