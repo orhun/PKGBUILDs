@@ -320,10 +320,10 @@
       "url": "https://github.com/cat-in-136/cargo-generate-rpm/releases/tag/v0.20.0"
     },
     "cargo-hack": {
-      "version": "0.6.39",
-      "gitref": "refs/tags/v0.6.39",
-      "revision": "8b197831a92d54d783e5181966901094ce0a0553",
-      "url": "https://github.com/taiki-e/cargo-hack/releases/tag/v0.6.39"
+      "version": "0.6.40",
+      "gitref": "refs/tags/v0.6.40",
+      "revision": "1965be570e095ec7fc938daae9e02184c814fdcd",
+      "url": "https://github.com/taiki-e/cargo-hack/releases/tag/v0.6.40"
     },
     "cargo-hakari": {
       "version": "0.9.14",
@@ -337,15 +337,15 @@
       "url": "https://github.com/0xPoe/cargo-information/releases/tag/v0.7.0"
     },
     "cargo-insta": {
-      "version": "1.45.0",
-      "gitref": "refs/tags/1.45.0",
-      "revision": "681a02612b2030e7fb39fe216dba0a1a9c5c46c9",
-      "url": "https://github.com/mitsuhiko/insta/releases/tag/1.45.0"
+      "version": "1.45.1",
+      "gitref": "refs/tags/1.45.1",
+      "revision": "55f6999fd44715d73d66b74db35a0a0b07f9da2e",
+      "url": "https://github.com/mitsuhiko/insta/releases/tag/1.45.1"
     },
     "cargo-llvm-cov": {
-      "version": "0.6.21",
-      "gitref": "refs/tags/v0.6.21",
-      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/tag/v0.6.21"
+      "version": "0.6.22",
+      "gitref": "refs/tags/v0.6.22",
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/tag/v0.6.22"
     },
     "cargo-machete": {
       "version": "0.9.1",
@@ -577,9 +577,9 @@
       "url": "https://github.com/k3ii/conze/releases/tag/v0.1.2"
     },
     "cookcli": {
-      "version": "0.19.1",
-      "gitref": "refs/tags/v0.19.1",
-      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.19.1"
+      "version": "0.19.2",
+      "gitref": "refs/tags/v0.19.2",
+      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.19.2"
     },
     "cotp": {
       "version": "1.9.7",
@@ -1076,9 +1076,9 @@
       "url": "https://github.com/trashhalo/imgcat/releases/tag/v1.2.0"
     },
     "impala": {
-      "version": "0.6.0",
-      "gitref": "refs/tags/v0.6.0",
-      "url": "https://github.com/pythops/impala/releases/tag/v0.6.0"
+      "version": "0.7.0",
+      "gitref": "refs/tags/v0.7.0",
+      "url": "https://github.com/pythops/impala/releases/tag/v0.7.0"
     },
     "inferno": {
       "version": "0.12.4",
@@ -1588,9 +1588,9 @@
       "url": "https://github.com/Wafelack/rdfm/releases/tag/0.1.3"
     },
     "rebels-in-the-sky": {
-      "version": "1.4.0",
-      "gitref": "refs/tags/v1.4.0",
-      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.4.0"
+      "version": "1.5.1",
+      "gitref": "refs/tags/v1.5.1",
+      "url": "https://github.com/ricott1/rebels-in-the-sky/releases/tag/v1.5.1"
     },
     "regect": {
       "version": "0.2.7",
@@ -1711,6 +1711,11 @@
       "version": "6.5.0",
       "gitref": "refs/tags/v6.5.0",
       "url": "https://github.com/rust-lang/rustlings/releases/tag/v6.5.0"
+    },
+    "rustnet": {
+      "version": "0.17.0",
+      "gitref": "refs/tags/v0.17.0",
+      "url": "https://github.com/domcyrus/rustnet/releases/tag/v0.17.0"
     },
     "rustscan": {
       "version": "2.4.1",
@@ -2124,9 +2129,9 @@
       "url": "https://gitlab.com/ttyperacer/terminal-typeracer/-/tags/v2.1.5"
     },
     "typos": {
-      "version": "1.40.0",
-      "gitref": "refs/tags/v1.40.0",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.40.0"
+      "version": "1.40.1",
+      "gitref": "refs/tags/v1.40.1",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.40.1"
     },
     "typos-lsp": {
       "version": "0.1.46",
@@ -2160,10 +2165,10 @@
       "url": "https://github.com/uutils/coreutils/releases/tag/0.5.0"
     },
     "uv": {
-      "version": "0.9.18",
-      "gitref": "refs/tags/0.9.18",
-      "revision": "0cee76417ff30d1e9329ca9b7bf3d03f4f1f33b2",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.9.18"
+      "version": "0.9.20",
+      "gitref": "refs/tags/0.9.20",
+      "revision": "765a967236ffd71e6f82e794adf4165fedc2541f",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.9.20"
     },
     "uwuifyy": {
       "version": "0.3.0",
