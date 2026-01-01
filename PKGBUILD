@@ -5,7 +5,7 @@ _pkgauthor=ahkohd
 _pkgname=oyo
 
 pkgname=${_pkgname}
-pkgver=0.1.17
+pkgver=0.1.18
 pkgrel=1
 pkgdesc="A diff-erent viewer"
 
@@ -18,7 +18,7 @@ provides=("${_execname}")
 makedepends=('rust')
 
 source=("https://github.com/${_pkgauthor}/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('99cf72d334fc7f8096fc46cb58bc87ab591336fc93018849d5241e2849d25617')
+sha256sums=('6ca4b7419c5b59ec5536433ef5692dba002e38cb139fa613d2278eb4580f5f1c')
 
 build() {
 	cd ${pkgname}-${pkgver} || exit 1
