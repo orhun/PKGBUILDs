@@ -5,7 +5,7 @@ _pkgauthor=ahkohd
 _pkgname=oyo
 
 pkgname=${_pkgname}
-pkgver=0.1.18
+pkgver=0.1.19
 pkgrel=1
 pkgdesc="A diff-erent viewer"
 
@@ -17,17 +17,17 @@ depends=('glibc' 'gcc-libs')
 provides=("${_execname}")
 makedepends=('rust')
 
-source=("https://github.com/${_pkgauthor}/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('6ca4b7419c5b59ec5536433ef5692dba002e38cb139fa613d2278eb4580f5f1c')
+source=("${pkgname}-${pkgver}.tgz::https://github.com/${_pkgauthor}/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
+sha256sums=('8a45fb71c298aa10420cc6f778b0ff61169e6925500169646579717ccfda7de2')
 
 build() {
-	cd ${pkgname}-${pkgver} || exit 1
+	cd ${srcdir}/${pkgname}-${pkgver}/ || exit 1
 
 	RUSTFLAGS="--remap-path-prefix=$(pwd)=/build/" cargo build --release --locked
 }
 
 package() {
-	cd ${srcdir}/${pkgname}-${pkgver} || exit 1
+	cd ${srcdir}/${pkgname}-${pkgver}/ || exit 1
 
 	install -Dm755 "target/release/${_execname}" -t "${pkgdir}/usr/bin/"
 
