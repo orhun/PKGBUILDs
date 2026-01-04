@@ -7,7 +7,7 @@ _pkgname=oyo
 pkgname=${_pkgname}
 pkgver=0.1.23
 pkgrel=1
-pkgdesc="A diff-erent viewer"
+pkgdesc="A diff viewer that works two ways: step through changes or review a classic scrollable diff"
 
 arch=('x86_64' 'aarch64')
 license=('MIT')

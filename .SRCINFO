@@ -1,5 +1,5 @@
 pkgbase = oyo
-	pkgdesc = A diff-erent viewer
+	pkgdesc = A diff viewer that works two ways: step through changes or review a classic scrollable diff
 	pkgver = 0.1.23
 	pkgrel = 1
 	url = https://github.com/ahkohd/oyo
