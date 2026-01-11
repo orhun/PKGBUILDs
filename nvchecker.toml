@@ -1733,6 +1733,12 @@ github = "ahkohd/oyo"
 use_latest_release = true
 prefix = "v"
 
+[cloudflare-speed-cli]
+source = "github"
+github = "kavehtehrani/cloudflare-speed-cli"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
