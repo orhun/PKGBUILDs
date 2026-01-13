@@ -6,7 +6,7 @@ _pkgname=oyo
 
 pkgname=${_pkgname}
 pkgver=0.1.23
-pkgrel=1
+pkgrel=2
 pkgdesc="A diff viewer that works two ways: step through changes or review a classic scrollable diff"
 
 arch=('x86_64' 'aarch64')
@@ -23,7 +23,7 @@ sha256sums=('f02de2b26ac7f851e2f962f608bf108baef559ec9638ba84b7150015f0251c83')
 build() {
 	cd ${srcdir}/${pkgname}-${pkgver}/ || exit 1
 
-	RUSTFLAGS="--remap-path-prefix=$(pwd)=/build/" cargo build --release --locked
+	CFLAGS+=" -ffat-lto-objects" RUSTFLAGS+=" --remap-path-prefix=$(pwd)=/build/" cargo build --release --locked
 }
 
 package() {
