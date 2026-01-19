@@ -2702,3 +2702,9 @@ source = "github"
 github = "am2rican5/sigye"
 use_latest_release = true
 prefix = "v"
+
+[memex]
+source = "github"
+github = "nicosuave/memex"
+use_latest_release = true
+prefix = "v"
