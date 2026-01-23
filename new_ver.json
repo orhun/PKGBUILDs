@@ -343,9 +343,9 @@
       "url": "https://github.com/mitsuhiko/insta/releases/tag/1.46.1"
     },
     "cargo-llvm-cov": {
-      "version": "0.6.23",
-      "gitref": "refs/tags/v0.6.23",
-      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/tag/v0.6.23"
+      "version": "0.6.24",
+      "gitref": "refs/tags/v0.6.24",
+      "url": "https://github.com/taiki-e/cargo-llvm-cov/releases/tag/v0.6.24"
     },
     "cargo-machete": {
       "version": "0.9.1",
@@ -375,10 +375,10 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v4.1.2"
     },
     "cargo-nextest": {
-      "version": "0.9.123-b.3",
-      "gitref": "refs/tags/cargo-nextest-0.9.123-b.3",
-      "revision": "a6f132b6ab4bf6d0b740d3c8a9de3b45b780368b",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.123-b.3"
+      "version": "0.9.123-b.4",
+      "gitref": "refs/tags/cargo-nextest-0.9.123-b.4",
+      "revision": "e1e4b2c1cc8683edd5ab91c3fc51f51587722dbe",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.123-b.4"
     },
     "cargo-outdated": {
       "version": "0.18.0",
@@ -420,9 +420,9 @@
       "url": "https://github.com/markhaehnel/cargo-semver-bump/releases/tag/0.1.0"
     },
     "cargo-semver-checks": {
-      "version": "0.45.0",
-      "gitref": "refs/tags/v0.45.0",
-      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.45.0"
+      "version": "0.46.0",
+      "gitref": "refs/tags/v0.46.0",
+      "url": "https://github.com/obi1kenobi/cargo-semver-checks/releases/tag/v0.46.0"
     },
     "cargo-show-asm": {
       "version": "0.2.55",
@@ -622,6 +622,12 @@
       "version": "0.6.0",
       "gitref": "refs/tags/v0.6.0",
       "url": "https://github.com/orhun/daktilo/releases/tag/v0.6.0"
+    },
+    "dart": {
+      "version": "3.10.7",
+      "gitref": "refs/tags/3.10.7",
+      "revision": "da0e3f9b45f2727953a1d0c6bad1756b41b52357",
+      "url": "https://github.com/dart-lang/sdk/releases/tag/3.10.7"
     },
     "dead-ringer": {
       "version": "1.0.4",
@@ -1175,9 +1181,9 @@
       "url": "https://github.com/orhun/kmon/releases/tag/v1.7.1"
     },
     "kondo": {
-      "version": "0.8",
-      "gitref": "refs/tags/v0.8",
-      "url": "https://github.com/tbillington/kondo/releases/tag/v0.8"
+      "version": "0.9",
+      "gitref": "refs/tags/v0.9",
+      "url": "https://github.com/tbillington/kondo/releases/tag/v0.9"
     },
     "kooha": {
       "version": "2.3.1",
@@ -1417,9 +1423,9 @@
       "url": "https://github.com/o2sh/onefetch/releases/tag/2.26.1"
     },
     "openai-codex": {
-      "version": "0.88.0",
-      "gitref": "refs/tags/rust-v0.88.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.88.0"
+      "version": "0.89.0",
+      "gitref": "refs/tags/rust-v0.89.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.89.0"
     },
     "openapi-tui": {
       "version": "0.10.2",
@@ -1788,6 +1794,11 @@
       "version": "0.5.3",
       "gitref": "refs/tags/v0.5.3",
       "url": "https://github.com/Aloxaf/silicon/releases/tag/v0.5.3"
+    },
+    "skim": {
+      "version": "1.5.3",
+      "gitref": "refs/tags/v1.5.3",
+      "url": "https://github.com/skim-rs/skim/releases/tag/v1.5.3"
     },
     "slicer": {
       "version": "1.5",

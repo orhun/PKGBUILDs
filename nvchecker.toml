@@ -1739,6 +1739,12 @@ github = "kavehtehrani/cloudflare-speed-cli"
 use_latest_release = true
 prefix = "v"
 
+[skim]
+source = "github"
+github = "skim-rs/skim"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
