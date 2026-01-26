@@ -1745,6 +1745,12 @@ github = "skim-rs/skim"
 use_latest_release = true
 prefix = "v"
 
+[tmmpr]
+source = "github"
+github = "tanciaku/tmmpr"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
