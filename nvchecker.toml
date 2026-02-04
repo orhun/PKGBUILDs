@@ -1751,6 +1751,12 @@ github = "tanciaku/tmmpr"
 use_latest_release = true
 prefix = "v"
 
+[rumdl]
+source = "github"
+github = "rvben/rumdl"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
