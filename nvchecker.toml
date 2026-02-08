@@ -1757,6 +1757,12 @@ github = "rvben/rumdl"
 use_latest_release = true
 prefix = "v"
 
+[vortix]
+source = "github"
+github = "Harry-kp/vortix"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
