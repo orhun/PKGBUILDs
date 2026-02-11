@@ -1763,6 +1763,12 @@ github = "Harry-kp/vortix"
 use_latest_release = true
 prefix = "v"
 
+[hazelnut]
+source = "github"
+github = "ricardodantas/hazelnut"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
