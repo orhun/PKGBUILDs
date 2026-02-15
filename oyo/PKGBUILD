@@ -2,7 +2,7 @@
 # https://github.com/orhun/pkgbuilds
 
 pkgname=oyo
-pkgver=0.1.23
+pkgver=0.1.24
 pkgrel=1
 pkgdesc="A different viewer"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('gcc-libs' 'oniguruma')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('f02de2b26ac7f851e2f962f608bf108baef559ec9638ba84b7150015f0251c83')
+sha256sums=('5283d39438fa71e25a096ade1c755ca80f3eb3f2adbadd7b56936e1e83f3f197')
 
 prepare() {
   cd "$pkgname-$pkgver"

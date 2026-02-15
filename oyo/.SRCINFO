@@ -1,6 +1,6 @@
 pkgbase = oyo
 	pkgdesc = A different viewer
-	pkgver = 0.1.23
+	pkgver = 0.1.24
 	pkgrel = 1
 	url = https://github.com/ahkohd/oyo
 	arch = x86_64
@@ -8,7 +8,7 @@ pkgbase = oyo
 	makedepends = cargo
 	depends = gcc-libs
 	depends = oniguruma
-	source = oyo-0.1.23.tar.gz::https://github.com/ahkohd/oyo/archive/v0.1.23.tar.gz
-	sha256sums = f02de2b26ac7f851e2f962f608bf108baef559ec9638ba84b7150015f0251c83
+	source = oyo-0.1.24.tar.gz::https://github.com/ahkohd/oyo/archive/v0.1.24.tar.gz
+	sha256sums = 5283d39438fa71e25a096ade1c755ca80f3eb3f2adbadd7b56936e1e83f3f197
 
 pkgname = oyo
