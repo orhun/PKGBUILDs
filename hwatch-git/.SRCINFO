@@ -1,6 +1,6 @@
 pkgbase = hwatch-git
 	pkgdesc = A modern alternative to the watch command (git)
-	pkgver = 0.3.14.r0.gdf88367
+	pkgver = 0.3.20.r0.g5ab14c8
 	pkgrel = 1
 	url = https://github.com/blacknon/hwatch
 	arch = x86_64

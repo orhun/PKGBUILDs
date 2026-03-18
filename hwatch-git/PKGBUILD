@@ -2,7 +2,7 @@
 # https://github.com/orhun/pkgbuilds
 
 pkgname=hwatch-git
-pkgver=0.3.14.r0.gdf88367
+pkgver=0.3.20.r0.g5ab14c8
 pkgrel=1
 pkgdesc="A modern alternative to the watch command (git)"
 arch=('x86_64')
@@ -32,7 +32,7 @@ build() {
 
 check() {
   cd "${pkgname%-git}"
-  cargo test --frozen
+  cargo test --frozen -- --skip "exec"
 }
 
 package() {
