@@ -1769,6 +1769,12 @@ github = "ricardodantas/hazelnut"
 use_latest_release = true
 prefix = "v"
 
+[termcraft]
+source = "github"
+github = "pagel-s/termcraft"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
