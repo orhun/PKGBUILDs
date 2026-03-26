@@ -1775,6 +1775,12 @@ github = "pagel-s/termcraft"
 use_latest_release = true
 prefix = "v"
 
+[lpx]
+source = "github"
+github = "lusingander/lpx"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

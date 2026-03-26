@@ -1273,6 +1273,11 @@
       "revision": "1123d92644744d223558c144fd9c46109cc690ef",
       "url": "https://github.com/SOF3/lpl/releases/tag/0.1.0"
     },
+    "lpx": {
+      "version": "0.1.0",
+      "gitref": "refs/tags/v0.1.0",
+      "url": "https://github.com/lusingander/lpx/releases/tag/v0.1.0"
+    },
     "lsd": {
       "version": "1.2.0",
       "gitref": "refs/tags/v1.2.0",
@@ -1597,6 +1602,12 @@
       "version": "0.1.0",
       "gitref": "refs/tags/v0.1.0",
       "url": "https://github.com/linkdd/regname/releases/tag/v0.1.0"
+    },
+    "release-plz": {
+      "version": "0.3.157",
+      "gitref": "refs/tags/release-plz-v0.3.157",
+      "revision": "2eb48177bd639bd391069a80a6c906cd0897394b",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.3.157"
     },
     "repgrep": {
       "version": "0.16.1",
