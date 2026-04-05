@@ -32,6 +32,8 @@ package() {
 	install -Dm755 "target/release/${_execname}" -t "${pkgdir}/usr/bin/"
 
 	install -Dm644 "README.md" "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+	install -Dm644 "PROFILING.md" "${pkgdir}/usr/share/doc/${pkgname}/PROFILING.md"
+
 	install -Dm644 "docs/PERF.md" "${pkgdir}/usr/share/doc/${pkgname}/PERF.md"
 	install -Dm644 "docs/THEME.md" "${pkgdir}/usr/share/doc/${pkgname}/THEME.md"
 	install -Dm644 "docs/DEBUG.md" "${pkgdir}/usr/share/doc/${pkgname}/DEBUG.md"
