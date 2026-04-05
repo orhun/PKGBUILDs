@@ -5,20 +5,20 @@ _pkgauthor=ahkohd
 _pkgname=oyo
 
 pkgname=${_pkgname}
-pkgver=0.1.25
+pkgver=0.1.26
 pkgrel=1
 pkgdesc="A diff viewer that works two ways: step through changes or review a classic scrollable diff"
 
+url="https://github.com/${_pkgauthor}/${pkgname}"
 arch=('x86_64' 'aarch64')
 license=('MIT')
-url="https://github.com/${_pkgauthor}/${pkgname}"
 
 depends=('glibc' 'gcc-libs')
 provides=("${_execname}")
 makedepends=('rust')
 
 source=("${pkgname}-${pkgver}.tgz::https://github.com/${_pkgauthor}/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('18a9da8f29f364a2ab41bf292ab841944de4fbb965c2dc95ede702eeb00a3b44')
+sha256sums=('8f98d7f50fa1026faf051802cb17ca8821974d82595ca127771ea9b4584cf11c')
 
 build() {
 	cd ${srcdir}/${pkgname}-${pkgver}/ || exit 1
