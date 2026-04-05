@@ -13,7 +13,7 @@ url="https://github.com/${_pkgauthor}/${pkgname}"
 arch=('x86_64' 'aarch64')
 license=('MIT')
 
-depends=('glibc' 'gcc-libs')
+depends=('glibc' 'libgcc')
 provides=("${_execname}")
 makedepends=('rust')
 
@@ -32,7 +32,9 @@ package() {
 	install -Dm755 "target/release/${_execname}" -t "${pkgdir}/usr/bin/"
 
 	install -Dm644 "README.md" "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+	install -Dm644 "docs/PERF.md" "${pkgdir}/usr/share/doc/${pkgname}/PERF.md"
 	install -Dm644 "docs/THEME.md" "${pkgdir}/usr/share/doc/${pkgname}/THEME.md"
+	install -Dm644 "docs/DEBUG.md" "${pkgdir}/usr/share/doc/${pkgname}/DEBUG.md"
 	install -Dm644 "docs/DIFF_VIEWER.md" "${pkgdir}/usr/share/doc/${pkgname}/DIFF_VIEWER.md"
 	install -Dm644 "docs/DIFF_PREVIEWS.md" "${pkgdir}/usr/share/doc/${pkgname}/DIFF_PREVIEWS.md"
 
