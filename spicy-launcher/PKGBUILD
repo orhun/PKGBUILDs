@@ -2,11 +2,11 @@
 
 pkgname=spicy-launcher
 pkgver=0.4.1
-pkgrel=1
+pkgrel=2
 pkgdesc="The launcher for Spicy Lobster games"
 arch=('x86_64')
 url="https://github.com/spicylobstergames/SpicyLauncher"
-license=('MIT' 'Apache')
+license=('MIT' 'Apache-2.0')
 depends=('pkg-config' 'mesa-libgl' 'alsa-lib' 'systemd-libs' 'libudev.so' 'gtk3' 'libsoup' 'webkit2gtk')
 makedepends=('cargo' 'yarn' 'npm')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
@@ -15,13 +15,13 @@ options=('!lto')
 
 prepare() {
 	cd "SpicyLauncher-$pkgver"
-	cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+	cargo fetch --locked --target "$(rustc -vV | sed -n 's/host: //p')"
 }
 
 build() {
 	cd "SpicyLauncher-$pkgver/gui"
 	yarn install --ignore-engines
-	yarn tauri build --target "$CARCH-unknown-linux-gnu" --bundles none
+	yarn tauri build --target "$(rustc -vV | sed -n 's/host: //p')" --bundles none
 	cd ..
 	cargo build --release --frozen
 }

@@ -1,11 +1,11 @@
 pkgbase = spicy-launcher
 	pkgdesc = The launcher for Spicy Lobster games
 	pkgver = 0.4.1
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/spicylobstergames/SpicyLauncher
 	arch = x86_64
 	license = MIT
-	license = Apache
+	license = Apache-2.0
 	makedepends = cargo
 	makedepends = yarn
 	makedepends = npm
