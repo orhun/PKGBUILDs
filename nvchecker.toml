@@ -1781,6 +1781,12 @@ github = "lusingander/lpx"
 use_latest_release = true
 prefix = "v"
 
+[tombi]
+source = "github"
+github = "tombi-toml/tombi"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
