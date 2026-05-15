@@ -1,6 +1,6 @@
 pkgbase = comchan
 	pkgdesc = A blazingly fast minimal serial monitor
-	pkgver = 0.3.6
+	pkgver = 0.4.0
 	pkgrel = 1
 	url = https://github.com/Vaishnav-Sabari-Girish/ComChan
 	arch = x86_64
@@ -9,7 +9,7 @@ pkgbase = comchan
 	depends = gcc-libs
 	depends = libudev.so
 	depends = fontconfig
-	source = comchan-0.3.6.tar.gz::https://github.com/Vaishnav-Sabari-Girish/ComChan/archive/v0.3.6.tar.gz
-	sha256sums = bf8f8923ce7e7459165a828c153f1dc46347c446139f767249abb1746b3fddfd
+	source = comchan-0.4.0.tar.gz::https://github.com/Vaishnav-Sabari-Girish/ComChan/archive/v0.4.0.tar.gz
+	sha256sums = 35ab030c6d6c0a6ed24f2ec995f2a340cf76bf61f7c3c7af53fe38344fa0072e
 
 pkgname = comchan
