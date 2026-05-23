@@ -2756,3 +2756,9 @@ source = "github"
 github = "nicosuave/memex"
 use_latest_release = true
 prefix = "v"
+
+[cargo-crap]
+source = "github"
+github = "minikin/cargo-crap"
+use_latest_release = true
+prefix = "v"
