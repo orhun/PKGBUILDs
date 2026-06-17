@@ -1,8 +1,8 @@
 # Maintainer: Rafael Dominiquini <rafaeldominiquini at gmail dot com>
 
-_execname=oy
 _pkgauthor=ahkohd
 _pkgname=oyo
+_execname=oy
 
 pkgname=${_pkgname}
 pkgver=0.1.35
@@ -20,9 +20,17 @@ makedepends=('rust')
 source=("${pkgname}-${pkgver}.tgz::https://github.com/${_pkgauthor}/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
 sha256sums=('fa62f3578935120fa526dd1251d5e88f5cf969b833db1217d9c3f1a65501f9ae')
 
+prepare() {
+	cd ${srcdir}/${pkgname}-${pkgver}/ || exit 1
+
+	export RUSTUP_TOOLCHAIN=stable
+	cargo fetch --locked --target "${CARCH}-unknown-linux-gnu"
+}
+
 build() {
 	cd ${srcdir}/${pkgname}-${pkgver}/ || exit 1
 
+	export CARGO_TARGET_DIR=target
 	CFLAGS+=" -ffat-lto-objects" RUSTFLAGS+=" --remap-path-prefix=$(pwd)=/build/" cargo build --release --locked
 }
 
