@@ -2762,3 +2762,9 @@ source = "github"
 github = "minikin/cargo-crap"
 use_latest_release = true
 prefix = "v"
+
+[flyline]
+source = "github"
+github = "HalFrgrd/flyline"
+use_latest_release = true
+prefix = "v"
