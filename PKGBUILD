@@ -5,7 +5,7 @@ _pkgname=oyo
 _execname=oy
 
 pkgname=${_pkgname}
-pkgver=0.1.37
+pkgver=0.1.39
 pkgrel=1
 pkgdesc="A diff viewer that works two ways: step through changes or review a classic scrollable diff"
 
@@ -18,7 +18,7 @@ provides=("${_execname}")
 makedepends=('rust')
 
 source=("${pkgname}-${pkgver}.tgz::https://github.com/${_pkgauthor}/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('d510a8db5615e2ef5cef2fb4cb8dfdaeb5cb9d2ddce1f81b5683b443f620c945')
+sha256sums=('4ea5ad871fb4bae148c3447c9e8c41884a9259fb5f0b1d49dbd0c59edc02f07f')
 
 prepare() {
 	cd ${srcdir}/${pkgname}-${pkgver}/ || exit 1
@@ -40,11 +40,11 @@ package() {
 	install -Dm755 "target/release/${_execname}" -t "${pkgdir}/usr/bin/"
 
 	install -Dm644 "README.md" "${pkgdir}/usr/share/doc/${pkgname}/README.md"
-	install -Dm644 "PROFILING.md" "${pkgdir}/usr/share/doc/${pkgname}/PROFILING.md"
 
 	install -Dm644 "docs/PERF.md" "${pkgdir}/usr/share/doc/${pkgname}/PERF.md"
 	install -Dm644 "docs/THEME.md" "${pkgdir}/usr/share/doc/${pkgname}/THEME.md"
 	install -Dm644 "docs/DEBUG.md" "${pkgdir}/usr/share/doc/${pkgname}/DEBUG.md"
+	install -Dm644 "docs/PROFILING.md" "${pkgdir}/usr/share/doc/${pkgname}/PROFILING.md"
 	install -Dm644 "docs/DIFF_VIEWER.md" "${pkgdir}/usr/share/doc/${pkgname}/DIFF_VIEWER.md"
 	install -Dm644 "docs/DIFF_PREVIEWS.md" "${pkgdir}/usr/share/doc/${pkgname}/DIFF_PREVIEWS.md"
 
