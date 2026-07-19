@@ -1787,6 +1787,12 @@ github = "tombi-toml/tombi"
 use_latest_release = true
 prefix = "v"
 
+[latuicon]
+source = "github"
+github = "coko7/latuicon"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
