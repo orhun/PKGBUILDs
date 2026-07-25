@@ -10,6 +10,7 @@ url="https://github.com/HalFrgrd/flyline"
 license=('MIT' 'GPL-3.0-only')
 depends=('bash' 'gcc-libs')
 makedepends=('cargo')
+options=('!lto')
 install="$pkgname.install"
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
 sha256sums=('cf6984e075286050f03e2b1550290db367cfb249b48d63d2d8e9d5d840e5ae8c')

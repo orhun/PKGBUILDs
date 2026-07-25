@@ -10,6 +10,7 @@ pkgbase = flyline
 	makedepends = cargo
 	depends = bash
 	depends = gcc-libs
+	options = !lto
 	source = flyline-1.3.0.tar.gz::https://github.com/HalFrgrd/flyline/archive/v1.3.0.tar.gz
 	sha256sums = cf6984e075286050f03e2b1550290db367cfb249b48d63d2d8e9d5d840e5ae8c
 
