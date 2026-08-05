@@ -2,7 +2,7 @@
 # https://github.com/orhun/pkgbuilds
 
 pkgname=gittype
-pkgver=0.10.1
+pkgver=0.10.2
 pkgrel=1
 pkgdesc="Turn your source code into typing challenges"
 arch=('x86_64')
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('gcc-libs' 'zlib')
 makedepends=('cargo')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/v$pkgver.tar.gz")
-sha256sums=('94f701fd87824c2d1ecb2b9e76e7d9665eb26eab1c97795d23213d12027d6407')
+sha256sums=('0a07bba8acc5bd95b0dfe2212c1f220abfb5181782502feecaaab14a5cccb6d5')
 options=('!lto')
 
 prepare() {
