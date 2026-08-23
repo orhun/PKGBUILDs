@@ -2774,3 +2774,9 @@ source = "github"
 github = "HalFrgrd/flyline"
 use_latest_release = true
 prefix = "v"
+
+[betamax]
+source = "github"
+github = "joshka/betamax"
+use_latest_release = true
+prefix = "v"
