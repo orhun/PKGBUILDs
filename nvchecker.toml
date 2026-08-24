@@ -1793,6 +1793,12 @@ github = "coko7/latuicon"
 use_latest_release = true
 prefix = "v"
 
+[kudu]
+source = "github"
+github = "pythops/kudu"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]

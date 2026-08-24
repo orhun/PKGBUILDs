@@ -578,9 +578,9 @@
       "url": "https://github.com/k3ii/conze/releases/tag/v0.1.2"
     },
     "cookcli": {
-      "version": "0.33.0",
-      "gitref": "refs/tags/v0.33.0",
-      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.33.0"
+      "version": "0.34.0",
+      "gitref": "refs/tags/v0.34.0",
+      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.34.0"
     },
     "cotp": {
       "version": "1.10.0",
@@ -1646,10 +1646,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.4"
     },
     "rio": {
-      "version": "0.5.25",
-      "gitref": "refs/tags/v0.5.25",
-      "revision": "24d4a984e87474c2673ec2fddd1e08188037d2f8",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.25"
+      "version": "0.5.26",
+      "gitref": "refs/tags/v0.5.26",
+      "revision": "8e7cb9e5425922da3551a272c19490032184286a",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.26"
     },
     "ripasso": {
       "version": "0.7.0",

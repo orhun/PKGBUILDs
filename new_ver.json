@@ -87,9 +87,9 @@
       "url": "https://github.com/imsnif/bandwhich/releases/tag/v0.23.1"
     },
     "bash-preexec": {
-      "version": "0.6.0",
-      "gitref": "refs/tags/0.6.0",
-      "url": "https://github.com/rcaloras/bash-preexec/releases/tag/0.6.0"
+      "version": "0.7.0",
+      "gitref": "refs/tags/0.7.0",
+      "url": "https://github.com/rcaloras/bash-preexec/releases/tag/0.7.0"
     },
     "basilk": {
       "version": "0.2.1",
@@ -506,9 +506,9 @@
       "url": "https://github.com/pksunkara/cargo-workspaces/releases/tag/v0.4.2"
     },
     "cargo-zigbuild": {
-      "version": "0.23.0",
-      "gitref": "refs/tags/v0.23.0",
-      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/tag/v0.23.0"
+      "version": "0.23.2",
+      "gitref": "refs/tags/v0.23.2",
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/tag/v0.23.2"
     },
     "cargo2junit": {
       "version": "0.1.14",
@@ -585,9 +585,9 @@
       "url": "https://github.com/k3ii/conze/releases/tag/v0.1.2"
     },
     "cookcli": {
-      "version": "0.33.1",
-      "gitref": "refs/tags/v0.33.1",
-      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.33.1"
+      "version": "0.34.0",
+      "gitref": "refs/tags/v0.34.0",
+      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.34.0"
     },
     "cotp": {
       "version": "1.10.0",
@@ -864,9 +864,9 @@
       "url": "https://github.com/unhappychoice/gitlogue/releases/tag/v0.10.0"
     },
     "gitoxide": {
-      "version": "gix-testtools-v0.20.0",
-      "gitref": "refs/tags/gix-testtools-v0.20.0",
-      "url": "https://github.com/GitoxideLabs/gitoxide/releases/tag/gix-testtools-v0.20.0"
+      "version": "0.58.0",
+      "gitref": "refs/tags/v0.58.0",
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/tag/v0.58.0"
     },
     "gittype": {
       "version": "0.10.2",
@@ -1229,6 +1229,11 @@
       "gitref": "refs/tags/v0.28.0",
       "url": "https://github.com/kubie-org/kubie/releases/tag/v0.28.0"
     },
+    "kudu": {
+      "version": "0.2",
+      "gitref": "refs/tags/v0.2",
+      "url": "https://github.com/pythops/kudu/releases/tag/v0.2"
+    },
     "kwaak": {
       "version": "0.19.0",
       "gitref": "refs/tags/v0.19.0",
@@ -1451,9 +1456,9 @@
       "url": "https://github.com/o2sh/onefetch/releases/tag/2.27.1"
     },
     "openai-codex": {
-      "version": "0.149.0",
-      "gitref": "refs/tags/rust-v0.149.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0"
+      "version": "0.149.1",
+      "gitref": "refs/tags/rust-v0.149.1",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1"
     },
     "openapi-tui": {
       "version": "0.10.2",
@@ -1529,9 +1534,9 @@
       "url": "https://github.com/RusticFlare/pixel-sorter/releases/tag/v4.0.3"
     },
     "pixi": {
-      "version": "0.77.0",
-      "gitref": "refs/tags/v0.77.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.0"
+      "version": "0.77.1",
+      "gitref": "refs/tags/v0.77.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.77.1"
     },
     "pkgtop": {
       "version": "2.5.1",
@@ -1653,10 +1658,10 @@
       "url": "https://github.com/Canop/rhit/releases/tag/v2.0.4"
     },
     "rio": {
-      "version": "0.5.25",
-      "gitref": "refs/tags/v0.5.25",
-      "revision": "24d4a984e87474c2673ec2fddd1e08188037d2f8",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.25"
+      "version": "0.5.26",
+      "gitref": "refs/tags/v0.5.26",
+      "revision": "8e7cb9e5425922da3551a272c19490032184286a",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.26"
     },
     "ripasso": {
       "version": "0.7.0",
@@ -1700,9 +1705,9 @@
       "url": "https://github.com/Edu4rdSHL/rusolver/releases/tag/0.11.0"
     },
     "rust-analyzer": {
-      "version": "2026-08-17.4",
-      "gitref": "refs/tags/2026-08-17.4",
-      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2026-08-17.4"
+      "version": "2026-08-24",
+      "gitref": "refs/tags/2026-08-24",
+      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2026-08-24"
     },
     "rust-bindgen": {
       "version": "0.72.1",
@@ -1855,9 +1860,9 @@
       "url": "https://github.com/GyulyVGC/sniffnet/releases/tag/v1.5.1"
     },
     "socktop": {
-      "version": "1.60.1",
-      "gitref": "refs/tags/v1.60.1",
-      "url": "https://github.com/jasonwitty/socktop/releases/tag/v1.60.1"
+      "version": "1.60.2",
+      "gitref": "refs/tags/v1.60.2",
+      "url": "https://github.com/jasonwitty/socktop/releases/tag/v1.60.2"
     },
     "soft-serve": {
       "version": "0.12.2",
@@ -1995,9 +2000,9 @@
       "url": "https://github.com/itsjunetime/tdf/releases/tag/v0.5.0"
     },
     "tealdeer": {
-      "version": "1.8.1",
-      "gitref": "refs/tags/v1.8.1",
-      "url": "https://github.com/tealdeer-rs/tealdeer/releases/tag/v1.8.1"
+      "version": "1.9.0",
+      "gitref": "refs/tags/v1.9.0",
+      "url": "https://github.com/tealdeer-rs/tealdeer/releases/tag/v1.9.0"
     },
     "television": {
       "version": "0.15.9",
@@ -2251,9 +2256,9 @@
       "url": "https://github.com/fritzrehde/watchbind/releases/tag/v0.2.1"
     },
     "watchexec": {
-      "version": "2.6.1",
-      "gitref": "refs/tags/v2.6.1",
-      "url": "https://github.com/watchexec/watchexec/releases/tag/v2.6.1"
+      "version": "2.7.0",
+      "gitref": "refs/tags/v2.7.0",
+      "url": "https://github.com/watchexec/watchexec/releases/tag/v2.7.0"
     },
     "wezterm": {
       "version": "20240203-110809-5046fc22",
