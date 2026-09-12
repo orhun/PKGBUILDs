@@ -1799,6 +1799,12 @@ github = "pythops/kudu"
 use_latest_release = true
 prefix = "v"
 
+[cargo-ratcn]
+source = "github"
+github = "kristoferlund/ratcn"
+use_latest_release = true
+prefix = "v"
+
 # AUR #
 
 [kermit]
