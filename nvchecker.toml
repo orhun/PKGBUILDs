@@ -1805,6 +1805,12 @@ github = "kristoferlund/ratcn"
 use_latest_release = true
 prefix = "v"
 
+[symposium]
+source = "github"
+github = "symposium-dev/symposium"
+use_latest_release = true
+prefix = "symposium-v"
+
 # AUR #
 
 [kermit]
