@@ -2798,3 +2798,9 @@ source = "github"
 github = "joshka/betamax"
 use_latest_release = true
 prefix = "v"
+
+[coolercontrol]
+source = "gitlab"
+gitlab = "coolercontrol/coolercontrol"
+use_latest_release = true
+prefix = "v"
