@@ -177,9 +177,10 @@
       "url": "https://github.com/aya-rs/bpf-linker/releases/tag/v0.11.0"
     },
     "bpftop": {
-      "version": "0.9.0",
-      "gitref": "refs/tags/v0.9.0",
-      "url": "https://github.com/jfernandez/bpftop/releases/tag/v0.9.0"
+      "version": "0.9.1",
+      "gitref": "refs/tags/v0.9.1",
+      "url": "https://github.com/jfernandez/bpftop/releases/tag/v0.9.1",
+      "creation_time": "2026-11-04T15:14:32Z"
     },
     "broot": {
       "version": "1.61.0",
@@ -392,11 +393,11 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v4.1.2"
     },
     "cargo-nextest": {
-      "version": "0.9.150",
-      "gitref": "refs/tags/cargo-nextest-0.9.150",
-      "revision": "f5b556b3a0cfad159e2c2325a5ff14e10973cb31",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.150",
-      "revision_creation_time": "2026-10-26T11:15:40-07:00"
+      "version": "0.9.151",
+      "gitref": "refs/tags/cargo-nextest-0.9.151",
+      "revision": "cb0e61d1fc7f255076c783b2532f3452b750c86a",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.151",
+      "revision_creation_time": "2026-11-02T15:45:57-08:00"
     },
     "cargo-outdated": {
       "version": "0.19.0",
@@ -524,10 +525,10 @@
       "url": "https://github.com/pksunkara/cargo-workspaces/releases/tag/v0.4.2"
     },
     "cargo-zigbuild": {
-      "version": "0.24.0",
-      "gitref": "refs/tags/v0.24.0",
-      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/tag/v0.24.0",
-      "creation_time": "2026-10-21T13:25:15Z"
+      "version": "0.24.1",
+      "gitref": "refs/tags/v0.24.1",
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/tag/v0.24.1",
+      "creation_time": "2026-11-04T13:47:43Z"
     },
     "cargo2junit": {
       "version": "0.1.14",
@@ -552,10 +553,10 @@
       "url": "https://github.com/xrelkd/clipcat/releases/tag/v0.26.0"
     },
     "cloudflare-speed-cli": {
-      "version": "1.0.11",
-      "gitref": "refs/tags/v1.0.11",
-      "url": "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/tag/v1.0.11",
-      "creation_time": "2026-10-26T11:05:19Z"
+      "version": "1.0.12",
+      "gitref": "refs/tags/v1.0.12",
+      "url": "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/tag/v1.0.12",
+      "creation_time": "2026-11-03T15:28:13Z"
     },
     "cns": {
       "version": "0.1.1",
@@ -610,6 +611,12 @@
       "version": "0.34.0",
       "gitref": "refs/tags/v0.34.0",
       "url": "https://github.com/cooklang/cookcli/releases/tag/v0.34.0"
+    },
+    "coolercontrol": {
+      "version": "20261101",
+      "revision": "6941cfaec9b1930cbcbec08e47d77d781cd12418",
+      "url": "https://gitlab.com/coolercontrol/coolercontrol/-/commit/6941cfaec9b1930cbcbec08e47d77d781cd12418",
+      "revision_creation_time": "2026-11-01T21:13:17.000+01:00"
     },
     "cotp": {
       "version": "1.11.1",
@@ -1265,10 +1272,10 @@
       "url": "https://github.com/kubie-org/kubie/releases/tag/v0.28.0"
     },
     "kudu": {
-      "version": "0.5.0",
-      "gitref": "refs/tags/v0.5.0",
-      "url": "https://github.com/pythops/kudu/releases/tag/v0.5.0",
-      "creation_time": "2026-10-31T19:51:21Z"
+      "version": "0.6.0",
+      "gitref": "refs/tags/v0.6.0",
+      "url": "https://github.com/pythops/kudu/releases/tag/v0.6.0",
+      "creation_time": "2026-11-01T14:26:39Z"
     },
     "kwaak": {
       "version": "0.19.0",
@@ -1925,10 +1932,10 @@
       "creation_time": "2026-10-27T11:40:42Z"
     },
     "soundscope": {
-      "version": "1.10.1",
-      "gitref": "refs/tags/v1.10.1",
-      "url": "https://github.com/bananaofhappiness/soundscope/releases/tag/v1.10.1",
-      "creation_time": "2026-09-07T11:31:32Z"
+      "version": "1.11.0",
+      "gitref": "refs/tags/v1.11.0",
+      "url": "https://github.com/bananaofhappiness/soundscope/releases/tag/v1.11.0",
+      "creation_time": "2026-11-06T20:18:22Z"
     },
     "spicy-launcher": {
       "version": "0.4.1",
@@ -2239,10 +2246,10 @@
       "url": "https://gitlab.com/ttyperacer/terminal-typeracer/-/tags/v2.1.5"
     },
     "typos": {
-      "version": "1.51.1",
-      "gitref": "refs/tags/v1.51.1",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.51.1",
-      "creation_time": "2026-10-06T21:06:35Z"
+      "version": "1.52.0",
+      "gitref": "refs/tags/v1.52.0",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.52.0",
+      "creation_time": "2026-11-02T21:00:37Z"
     },
     "typos-lsp": {
       "version": "0.1.56",

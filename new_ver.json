@@ -2,10 +2,10 @@
   "version": 2,
   "data": {
     "act": {
-      "version": "0.2.94",
-      "gitref": "refs/tags/v0.2.94",
-      "url": "https://github.com/nektos/act/releases/tag/v0.2.94",
-      "creation_time": "2026-10-31T19:36:11Z"
+      "version": "0.2.97",
+      "gitref": "refs/tags/v0.2.97",
+      "url": "https://github.com/nektos/act/releases/tag/v0.2.97",
+      "creation_time": "2026-11-04T16:35:28Z"
     },
     "actionlint": {
       "version": "1.7.12",
@@ -32,10 +32,10 @@
       "creation_time": "2021-03-08T08:41:59Z"
     },
     "aliyun-cli": {
-      "version": "3.5.2",
-      "gitref": "refs/tags/v3.5.2",
-      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.5.2",
-      "creation_time": "2026-10-22T16:44:21Z"
+      "version": "3.5.3",
+      "gitref": "refs/tags/v3.5.3",
+      "url": "https://github.com/aliyun/aliyun-cli/releases/tag/v3.5.3",
+      "creation_time": "2026-11-05T04:58:16Z"
     },
     "alpine-chroot-install": {
       "version": "0.14.0",
@@ -56,12 +56,12 @@
       "creation_time": "2026-05-20T03:36:32Z"
     },
     "arti": {
-      "version": "arti-v2.7.0",
-      "gitref": "refs/tags/arti-v2.7.0",
-      "revision": "ce8bc6e0998bd5a4efdf06dd62dce53c98ea1087",
-      "url": "https://gitlab.torproject.org/tpo/core/arti/-/tags/arti-v2.7.0",
-      "creation_time": "2026-10-01T17:07:25.000Z",
-      "revision_creation_time": "2026-10-01T12:32:57.000-04:00"
+      "version": "arti-v2.8.0",
+      "gitref": "refs/tags/arti-v2.8.0",
+      "revision": "7c038125baef924a4bf287429c192c5af606f79c",
+      "url": "https://gitlab.torproject.org/tpo/core/arti/-/tags/arti-v2.8.0",
+      "creation_time": "2026-11-04T14:31:28.000Z",
+      "revision_creation_time": "2026-11-04T13:18:17.000+00:00"
     },
     "asak": {
       "version": "0.4.0",
@@ -183,6 +183,11 @@
       "url": "https://github.com/Szymongib/bookmark/releases/tag/v0.2.3",
       "creation_time": "2025-01-02T13:44:25Z"
     },
+    "bootvine": {
+      "version": "0.1.3",
+      "gitref": "refs/tags/v0.1.3",
+      "url": "https://codeberg.org/wvhulle/bootvine/releases/tag/v0.1.3"
+    },
     "bore": {
       "version": "0.6.0",
       "gitref": "refs/tags/v0.6.0",
@@ -196,22 +201,22 @@
       "creation_time": "2024-07-07T16:41:09Z"
     },
     "bpf-linker": {
-      "version": "0.12.0",
-      "gitref": "refs/tags/v0.12.0",
-      "url": "https://github.com/aya-rs/bpf-linker/releases/tag/v0.12.0",
-      "creation_time": "2026-10-13T21:16:24Z"
+      "version": "0.13.0",
+      "gitref": "refs/tags/v0.13.0",
+      "url": "https://github.com/aya-rs/bpf-linker/releases/tag/v0.13.0",
+      "creation_time": "2026-11-02T09:30:10Z"
     },
     "bpftop": {
-      "version": "0.9.0",
-      "gitref": "refs/tags/v0.9.0",
-      "url": "https://github.com/jfernandez/bpftop/releases/tag/v0.9.0",
-      "creation_time": "2026-05-02T20:22:24Z"
+      "version": "0.9.1",
+      "gitref": "refs/tags/v0.9.1",
+      "url": "https://github.com/jfernandez/bpftop/releases/tag/v0.9.1",
+      "creation_time": "2026-11-04T15:14:32Z"
     },
     "broot": {
-      "version": "1.61.0",
-      "gitref": "refs/tags/v1.61.0",
-      "url": "https://github.com/Canop/broot/releases/tag/v1.61.0",
-      "creation_time": "2026-10-03T13:01:05Z"
+      "version": "1.62.0",
+      "gitref": "refs/tags/v1.62.0",
+      "url": "https://github.com/Canop/broot/releases/tag/v1.62.0",
+      "creation_time": "2026-11-01T16:41:53Z"
     },
     "brush": {
       "version": "0.4.0",
@@ -328,10 +333,10 @@
       "url": "https://github.com/jplatte/cargo-depgraph/releases/tag/v1.6.0"
     },
     "cargo-dist": {
-      "version": "0.33.1",
-      "gitref": "refs/tags/v0.33.1",
-      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.33.1",
-      "creation_time": "2026-10-21T18:22:23Z"
+      "version": "0.34.0",
+      "gitref": "refs/tags/v0.34.0",
+      "url": "https://github.com/axodotdev/cargo-dist/releases/tag/v0.34.0",
+      "creation_time": "2026-11-02T05:56:43Z"
     },
     "cargo-docs-rs": {
       "version": "1.0.4",
@@ -352,10 +357,10 @@
       "creation_time": "2026-10-09T15:10:20Z"
     },
     "cargo-flamegraph": {
-      "version": "0.6.14",
-      "gitref": "refs/tags/v0.6.14",
-      "url": "https://github.com/flamegraph-rs/flamegraph/releases/tag/v0.6.14",
-      "creation_time": "2026-08-12T10:11:56Z"
+      "version": "0.6.15",
+      "gitref": "refs/tags/v0.6.15",
+      "url": "https://github.com/flamegraph-rs/flamegraph/releases/tag/v0.6.15",
+      "creation_time": "2026-11-02T11:36:32Z"
     },
     "cargo-geiger": {
       "version": "geiger-0.14.0",
@@ -376,10 +381,10 @@
       "creation_time": "2026-10-17T05:05:42Z"
     },
     "cargo-hack": {
-      "version": "0.6.45",
-      "gitref": "refs/tags/v0.6.45",
-      "revision": "aad44e470198c08385a7b0c6d81284942a21a14b",
-      "url": "https://github.com/taiki-e/cargo-hack/releases/tag/v0.6.45"
+      "version": "0.6.46",
+      "gitref": "refs/tags/v0.6.46",
+      "revision": "a9acf71d3d85185a5f1244146a184c52f7b4caf5",
+      "url": "https://github.com/taiki-e/cargo-hack/releases/tag/v0.6.46"
     },
     "cargo-hakari": {
       "version": "0.9.14",
@@ -437,11 +442,11 @@
       "url": "https://github.com/bbqsrc/cargo-ndk/releases/tag/v4.1.2"
     },
     "cargo-nextest": {
-      "version": "0.9.150",
-      "gitref": "refs/tags/cargo-nextest-0.9.150",
-      "revision": "f5b556b3a0cfad159e2c2325a5ff14e10973cb31",
-      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.150",
-      "revision_creation_time": "2026-10-26T11:15:40-07:00"
+      "version": "0.9.151",
+      "gitref": "refs/tags/cargo-nextest-0.9.151",
+      "revision": "cb0e61d1fc7f255076c783b2532f3452b750c86a",
+      "url": "https://github.com/nextest-rs/nextest/releases/tag/cargo-nextest-0.9.151",
+      "revision_creation_time": "2026-11-02T15:45:57-08:00"
     },
     "cargo-outdated": {
       "version": "0.19.0",
@@ -542,16 +547,16 @@
       "creation_time": "2025-10-11T05:40:23Z"
     },
     "cargo-tarpaulin": {
-      "version": "0.37.5",
-      "gitref": "refs/tags/0.37.5",
-      "revision": "205a3ee8831ec5da43aaeeb633f8965301189282",
-      "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.37.5"
+      "version": "0.37.6",
+      "gitref": "refs/tags/0.37.6",
+      "revision": "89383abda97dd0681706e5d8e8b1aa2105f6d1c4",
+      "url": "https://github.com/xd009642/tarpaulin/releases/tag/0.37.6"
     },
     "cargo-tauri": {
-      "version": "tauri-cli-v2.12.4",
-      "gitref": "refs/tags/tauri-cli-v2.12.4",
-      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-cli-v2.12.4",
-      "creation_time": "2026-10-21T11:56:45Z"
+      "version": "tauri-v3.0.0-alpha.6",
+      "gitref": "refs/tags/tauri-v3.0.0-alpha.6",
+      "url": "https://github.com/tauri-apps/tauri/releases/tag/tauri-v3.0.0-alpha.6",
+      "creation_time": "2026-11-06T11:54:54Z"
     },
     "cargo-udeps": {
       "version": "0.1.61",
@@ -584,10 +589,10 @@
       "url": "https://github.com/pksunkara/cargo-workspaces/releases/tag/v0.4.2"
     },
     "cargo-zigbuild": {
-      "version": "0.24.0",
-      "gitref": "refs/tags/v0.24.0",
-      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/tag/v0.24.0",
-      "creation_time": "2026-10-21T13:25:15Z"
+      "version": "0.24.1",
+      "gitref": "refs/tags/v0.24.1",
+      "url": "https://github.com/rust-cross/cargo-zigbuild/releases/tag/v0.24.1",
+      "creation_time": "2026-11-04T13:47:43Z"
     },
     "cargo2junit": {
       "version": "0.1.14",
@@ -596,10 +601,10 @@
       "url": "https://github.com/johnterickson/cargo2junit/releases/tag/v0.1.14"
     },
     "chess-tui": {
-      "version": "2.8.0",
-      "gitref": "refs/tags/2.8.0",
-      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/2.8.0",
-      "creation_time": "2026-10-21T19:05:51Z"
+      "version": "2.8.1",
+      "gitref": "refs/tags/2.8.1",
+      "url": "https://github.com/thomas-mauran/chess-tui/releases/tag/2.8.1",
+      "creation_time": "2026-11-07T18:58:40Z"
     },
     "cicero": {
       "version": "0.4.0",
@@ -614,10 +619,10 @@
       "creation_time": "2026-07-25T22:54:19Z"
     },
     "cloudflare-speed-cli": {
-      "version": "1.0.11",
-      "gitref": "refs/tags/v1.0.11",
-      "url": "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/tag/v1.0.11",
-      "creation_time": "2026-10-26T11:05:19Z"
+      "version": "1.0.12",
+      "gitref": "refs/tags/v1.0.12",
+      "url": "https://github.com/kavehtehrani/cloudflare-speed-cli/releases/tag/v1.0.12",
+      "creation_time": "2026-11-03T15:28:13Z"
     },
     "cns": {
       "version": "0.1.1",
@@ -657,10 +662,10 @@
       "creation_time": "2026-08-26T06:40:48Z"
     },
     "committed": {
-      "version": "1.1.11",
-      "gitref": "refs/tags/v1.1.11",
-      "url": "https://github.com/crate-ci/committed/releases/tag/v1.1.11",
-      "creation_time": "2026-02-25T15:05:51Z"
+      "version": "1.1.12",
+      "gitref": "refs/tags/v1.1.12",
+      "url": "https://github.com/crate-ci/committed/releases/tag/v1.1.12",
+      "creation_time": "2026-11-04T22:33:16Z"
     },
     "conserve": {
       "version": "23.11.0",
@@ -675,16 +680,16 @@
       "creation_time": "2025-01-22T18:59:24Z"
     },
     "cookcli": {
-      "version": "0.39.0",
-      "gitref": "refs/tags/v0.39.0",
-      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.39.0",
-      "creation_time": "2026-10-24T19:01:31Z"
+      "version": "0.41.0",
+      "gitref": "refs/tags/v0.41.0",
+      "url": "https://github.com/cooklang/cookcli/releases/tag/v0.41.0",
+      "creation_time": "2026-11-07T15:34:30Z"
     },
     "coolercontrol": {
-      "version": "20261029",
-      "revision": "40c9d78888c3eebf40e136d759cd7206af70c724",
-      "url": "https://gitlab.com/coolercontrol/coolercontrol/-/commit/40c9d78888c3eebf40e136d759cd7206af70c724",
-      "revision_creation_time": "2026-10-29T09:08:29.000+01:00"
+      "version": "20261108",
+      "revision": "1b98e256ebcadbcbacbe4ffd688d64da1a2b9265",
+      "url": "https://gitlab.com/coolercontrol/coolercontrol/-/commit/1b98e256ebcadbcbacbe4ffd688d64da1a2b9265",
+      "revision_creation_time": "2026-11-08T22:10:05.000+01:00"
     },
     "cotp": {
       "version": "1.11.1",
@@ -789,10 +794,10 @@
       "creation_time": "2026-08-28T17:17:44Z"
     },
     "dua-cli": {
-      "version": "dua-core-v5.0.2",
-      "gitref": "refs/tags/dua-core-v5.0.2",
-      "url": "https://github.com/Byron/dua-cli/releases/tag/dua-core-v5.0.2",
-      "creation_time": "2026-10-31T03:40:04Z"
+      "version": "3.0.0",
+      "gitref": "refs/tags/v3.0.0",
+      "url": "https://github.com/Byron/dua-cli/releases/tag/v3.0.0",
+      "creation_time": "2026-11-02T09:36:38Z"
     },
     "ducker": {
       "version": "0.6.5",
@@ -813,10 +818,10 @@
       "creation_time": "2024-09-04T02:29:34Z"
     },
     "dysk": {
-      "version": "3.8.1",
-      "gitref": "refs/tags/v3.8.1",
-      "url": "https://github.com/Canop/dysk/releases/tag/v3.8.1",
-      "creation_time": "2026-10-17T16:16:02Z"
+      "version": "3.8.2",
+      "gitref": "refs/tags/v3.8.2",
+      "url": "https://github.com/Canop/dysk/releases/tag/v3.8.2",
+      "creation_time": "2026-11-02T17:01:26Z"
     },
     "editorconfig-checker": {
       "version": "4.0.2",
@@ -1005,10 +1010,10 @@
       "url": "https://github.com/unhappychoice/gitlogue/releases/tag/v0.12.2"
     },
     "gitoxide": {
-      "version": "gix-testtools-v0.22.0",
-      "gitref": "refs/tags/gix-testtools-v0.22.0",
-      "url": "https://github.com/GitoxideLabs/gitoxide/releases/tag/gix-testtools-v0.22.0",
-      "creation_time": "2026-10-24T16:08:18Z"
+      "version": "gix-v0.90.0",
+      "gitref": "refs/tags/gix-v0.90.0",
+      "url": "https://github.com/GitoxideLabs/gitoxide/releases/tag/gix-v0.90.0",
+      "creation_time": "2026-10-22T14:01:21Z"
     },
     "gittype": {
       "version": "0.10.4",
@@ -1125,10 +1130,10 @@
       "creation_time": "2026-10-02T14:03:05Z"
     },
     "hawkeye": {
-      "version": "7.2.0",
-      "gitref": "refs/tags/v7.2.0",
-      "url": "https://github.com/fast/hawkeye/releases/tag/v7.2.0",
-      "creation_time": "2026-09-11T22:11:02Z"
+      "version": "7.3.0",
+      "gitref": "refs/tags/v7.3.0",
+      "url": "https://github.com/fast/hawkeye/releases/tag/v7.3.0",
+      "creation_time": "2026-11-02T05:37:00Z"
     },
     "hazelnut": {
       "version": "0.3.0",
@@ -1335,10 +1340,10 @@
       "creation_time": "2026-05-20T23:13:38Z"
     },
     "jujutsu": {
-      "version": "0.46.0",
-      "gitref": "refs/tags/v0.46.0",
-      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.46.0",
-      "creation_time": "2026-10-07T21:28:17Z"
+      "version": "0.47.1",
+      "gitref": "refs/tags/v0.47.1",
+      "url": "https://github.com/jj-vcs/jj/releases/tag/v0.47.1",
+      "creation_time": "2026-11-05T00:34:13Z"
     },
     "jwt-cli": {
       "version": "6.2.0",
@@ -1431,10 +1436,10 @@
       "creation_time": "2026-05-25T03:22:13Z"
     },
     "kudu": {
-      "version": "0.5.0",
-      "gitref": "refs/tags/v0.5.0",
-      "url": "https://github.com/pythops/kudu/releases/tag/v0.5.0",
-      "creation_time": "2026-10-31T19:51:21Z"
+      "version": "0.6.0",
+      "gitref": "refs/tags/v0.6.0",
+      "url": "https://github.com/pythops/kudu/releases/tag/v0.6.0",
+      "creation_time": "2026-11-01T14:26:39Z"
     },
     "kwaak": {
       "version": "0.19.0",
@@ -1449,10 +1454,10 @@
       "creation_time": "2026-06-12T13:41:27Z"
     },
     "latuicon": {
-      "version": "0.1.7",
-      "gitref": "refs/tags/v0.1.7",
-      "url": "https://github.com/coko7/latuicon/releases/tag/v0.1.7",
-      "creation_time": "2026-09-22T06:57:11Z"
+      "version": "0.1.8",
+      "gitref": "refs/tags/v0.1.8",
+      "url": "https://github.com/coko7/latuicon/releases/tag/v0.1.8",
+      "creation_time": "2026-11-06T16:09:03Z"
     },
     "lazyjj": {
       "version": "0.6.1",
@@ -1551,10 +1556,10 @@
       "creation_time": "2024-11-03T15:36:46Z"
     },
     "manga-tui": {
-      "version": "0.10.0",
-      "gitref": "refs/tags/v0.10.0",
-      "revision": "60c4d5ba535c93fc0ada267664643abbe94ab814",
-      "url": "https://github.com/josueBarretogit/manga-tui/releases/tag/v0.10.0"
+      "version": "0.10.1",
+      "gitref": "refs/tags/v0.10.1",
+      "revision": "5a191e561eb467b592a6d5cf5428a0d8adf98b95",
+      "url": "https://github.com/josueBarretogit/manga-tui/releases/tag/v0.10.1"
     },
     "mari0": {
       "version": "1.6.2",
@@ -1611,16 +1616,16 @@
       "url": "https://github.com/visit1985/mdp/releases/tag/1.0.19"
     },
     "meilisearch": {
-      "version": "1.56.0",
-      "gitref": "refs/tags/v1.56.0",
-      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.56.0",
-      "creation_time": "2026-10-26T09:51:16Z"
+      "version": "1.56.2",
+      "gitref": "refs/tags/v1.56.2",
+      "url": "https://github.com/meilisearch/meilisearch/releases/tag/v1.56.2",
+      "creation_time": "2026-11-09T12:48:04Z"
     },
     "memex": {
-      "version": "0.31.1",
-      "gitref": "refs/tags/v0.31.1",
-      "url": "https://github.com/nicosuave/memex/releases/tag/v0.31.1",
-      "creation_time": "2026-10-24T15:43:17Z"
+      "version": "0.33.0",
+      "gitref": "refs/tags/v0.33.0",
+      "url": "https://github.com/nicosuave/memex/releases/tag/v0.33.0",
+      "creation_time": "2026-11-06T15:17:06Z"
     },
     "menyoki": {
       "version": "1.8.0",
@@ -1647,10 +1652,10 @@
       "revision_creation_time": "2020-12-03T03:56:43Z"
     },
     "monolith": {
-      "version": "2.11.7",
-      "gitref": "refs/tags/v2.11.7",
-      "url": "https://github.com/Y2Z/monolith/releases/tag/v2.11.7",
-      "creation_time": "2026-10-29T22:50:38Z"
+      "version": "2.12.0",
+      "gitref": "refs/tags/v2.12.0",
+      "url": "https://github.com/Y2Z/monolith/releases/tag/v2.12.0",
+      "creation_time": "2026-11-02T13:55:44Z"
     },
     "mqttui": {
       "version": "0.24.0",
@@ -1695,10 +1700,10 @@
       "creation_time": "2026-10-31T12:55:36Z"
     },
     "openai-codex": {
-      "version": "0.166.0",
-      "gitref": "refs/tags/rust-v0.166.0",
-      "url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
-      "creation_time": "2026-10-29T19:47:53Z"
+      "version": "0.167.0",
+      "gitref": "refs/tags/rust-v0.167.0",
+      "url": "https://github.com/openai/codex/releases/tag/rust-v0.167.0",
+      "creation_time": "2026-11-06T01:40:00Z"
     },
     "openapi-tui": {
       "version": "0.10.2",
@@ -1737,10 +1742,10 @@
       "creation_time": "2026-08-22T20:30:27Z"
     },
     "oyo": {
-      "version": "0.1.61",
-      "gitref": "refs/tags/v0.1.61",
-      "url": "https://github.com/ahkohd/oyo/releases/tag/v0.1.61",
-      "creation_time": "2026-10-28T03:13:32Z"
+      "version": "0.1.72",
+      "gitref": "refs/tags/v0.1.72",
+      "url": "https://github.com/ahkohd/oyo/releases/tag/v0.1.72",
+      "creation_time": "2026-11-07T00:51:55Z"
     },
     "parallel-disk-usage": {
       "version": "0.24.0",
@@ -1785,10 +1790,10 @@
       "creation_time": "2021-04-09T16:43:53Z"
     },
     "pixi": {
-      "version": "0.83.0",
-      "gitref": "refs/tags/v0.83.0",
-      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.83.0",
-      "creation_time": "2026-10-22T16:17:15Z"
+      "version": "0.84.1",
+      "gitref": "refs/tags/v0.84.1",
+      "url": "https://github.com/prefix-dev/pixi/releases/tag/v0.84.1",
+      "creation_time": "2026-11-04T17:01:29Z"
     },
     "pkgtop": {
       "version": "2.5.1",
@@ -1899,10 +1904,10 @@
       "creation_time": "2026-05-27T23:34:00Z"
     },
     "release-plz": {
-      "version": "0.4.2",
-      "gitref": "refs/tags/release-plz-v0.4.2",
-      "revision": "44158bbd3284c9b022de7eb2ce87f9f2d0f0eeba",
-      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.4.2"
+      "version": "0.4.3",
+      "gitref": "refs/tags/release-plz-v0.4.3",
+      "revision": "8375dd600aa8dc28fe6ee77013851d8cf220b79f",
+      "url": "https://github.com/MarcoIeni/release-plz/releases/tag/release-plz-v0.4.3"
     },
     "repgrep": {
       "version": "0.17.1",
@@ -1929,10 +1934,10 @@
       "creation_time": "2025-12-04T13:42:00Z"
     },
     "rio": {
-      "version": "0.5.28",
-      "gitref": "refs/tags/v0.5.28",
-      "revision": "37624389e8dde79ba25a8147a5e809c01d16d1c9",
-      "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.28"
+      "version": "0.5.29",
+      "gitref": "refs/tags/v0.5.29",
+      "revision": "6dc89d10ead6d8662212c4bce513c4c8b247ca5e",
+      "url": "https://github.com/raphamorim/rio/releases/tag/v0.5.29"
     },
     "ripasso": {
       "version": "0.7.0",
@@ -1983,10 +1988,10 @@
       "creation_time": "2026-08-16T18:33:35Z"
     },
     "rust-analyzer": {
-      "version": "2026-10-26",
-      "gitref": "refs/tags/2026-10-26",
-      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2026-10-26",
-      "creation_time": "2026-10-26T08:21:15Z"
+      "version": "2026-11-09",
+      "gitref": "refs/tags/2026-11-09",
+      "url": "https://github.com/rust-lang/rust-analyzer/releases/tag/2026-11-09",
+      "creation_time": "2026-11-09T05:46:26Z"
     },
     "rust-bindgen": {
       "version": "0.73.2",
@@ -2043,10 +2048,10 @@
       "creation_time": "2025-02-23T15:03:50Z"
     },
     "rustup": {
-      "version": "1.29.2",
-      "gitref": "refs/tags/1.29.2",
-      "revision": "f4f7c055e24e77f41662e9f9034b0d4285768585",
-      "url": "https://github.com/rust-lang/rustup/releases/tag/1.29.2"
+      "version": "1.29.3",
+      "gitref": "refs/tags/1.29.3",
+      "revision": "01300f71c5ea4f7df9b95b763b507187131fb3a6",
+      "url": "https://github.com/rust-lang/rustup/releases/tag/1.29.3"
     },
     "rusty-krab-manager": {
       "version": "2",
@@ -2175,16 +2180,16 @@
       "creation_time": "2026-10-23T06:59:33Z"
     },
     "songrec": {
-      "version": "0.8.0",
-      "gitref": "refs/tags/0.8.0",
-      "url": "https://github.com/marin-m/SongRec/releases/tag/0.8.0",
-      "creation_time": "2026-10-27T11:40:42Z"
+      "version": "0.8.1",
+      "gitref": "refs/tags/0.8.1",
+      "url": "https://github.com/marin-m/SongRec/releases/tag/0.8.1",
+      "creation_time": "2026-11-03T21:37:56Z"
     },
     "soundscope": {
-      "version": "1.10.1",
-      "gitref": "refs/tags/v1.10.1",
-      "url": "https://github.com/bananaofhappiness/soundscope/releases/tag/v1.10.1",
-      "creation_time": "2026-09-07T11:31:32Z"
+      "version": "1.11.0",
+      "gitref": "refs/tags/v1.11.0",
+      "url": "https://github.com/bananaofhappiness/soundscope/releases/tag/v1.11.0",
+      "creation_time": "2026-11-06T20:18:22Z"
     },
     "spicy-launcher": {
       "version": "0.4.1",
@@ -2193,10 +2198,10 @@
       "creation_time": "2023-12-31T12:40:04Z"
     },
     "spotify-player": {
-      "version": "0.25.1",
-      "gitref": "refs/tags/v0.25.1",
-      "url": "https://github.com/aome510/spotify-player/releases/tag/v0.25.1",
-      "creation_time": "2026-09-09T01:52:39Z"
+      "version": "0.25.2",
+      "gitref": "refs/tags/v0.25.2",
+      "url": "https://github.com/aome510/spotify-player/releases/tag/v0.25.2",
+      "creation_time": "2026-11-05T14:33:02Z"
     },
     "spotify-tui": {
       "version": "0.25.0",
@@ -2380,10 +2385,10 @@
       "creation_time": "2024-04-10T18:03:57Z"
     },
     "termscp": {
-      "version": "1.2.1",
-      "gitref": "refs/tags/v1.2.1",
-      "url": "https://github.com/veeso/termscp/releases/tag/v1.2.1",
-      "creation_time": "2026-10-19T16:24:33Z"
+      "version": "1.2.2",
+      "gitref": "refs/tags/v1.2.2",
+      "url": "https://github.com/veeso/termscp/releases/tag/v1.2.2",
+      "creation_time": "2026-11-02T13:25:16Z"
     },
     "termusic": {
       "version": "0.13.2",
@@ -2428,10 +2433,10 @@
       "creation_time": "2026-09-06T17:29:00Z"
     },
     "tombi": {
-      "version": "1.9.8",
-      "gitref": "refs/tags/v1.9.8",
-      "url": "https://github.com/tombi-toml/tombi/releases/tag/v1.9.8",
-      "creation_time": "2026-10-29T15:12:36Z"
+      "version": "1.11.1",
+      "gitref": "refs/tags/v1.11.1",
+      "url": "https://github.com/tombi-toml/tombi/releases/tag/v1.11.1",
+      "creation_time": "2026-11-09T00:12:35Z"
     },
     "toml2json": {
       "version": "1.4.0",
@@ -2537,16 +2542,16 @@
       "revision_creation_time": "2026-09-22T21:29:50.000-04:00"
     },
     "typos": {
-      "version": "1.51.1",
-      "gitref": "refs/tags/v1.51.1",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.51.1",
-      "creation_time": "2026-10-06T21:06:35Z"
+      "version": "1.52.0",
+      "gitref": "refs/tags/v1.52.0",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.52.0",
+      "creation_time": "2026-11-02T21:00:37Z"
     },
     "typos-lsp": {
-      "version": "0.1.57",
-      "gitref": "refs/tags/v0.1.57",
-      "url": "https://github.com/tekumara/typos-lsp/releases/tag/v0.1.57",
-      "creation_time": "2026-10-12T08:45:56Z"
+      "version": "0.1.58",
+      "gitref": "refs/tags/v0.1.58",
+      "url": "https://github.com/tekumara/typos-lsp/releases/tag/v0.1.58",
+      "creation_time": "2026-11-06T03:11:34Z"
     },
     "tz": {
       "version": "0.8.0",
@@ -2561,10 +2566,10 @@
       "url": "https://github.com/cdown/tzupdate/releases/tag/3.1.0"
     },
     "ueberzugpp": {
-      "version": "2.9.10",
-      "gitref": "refs/tags/v2.9.10",
-      "url": "https://github.com/jstkdng/ueberzugpp/releases/tag/v2.9.10",
-      "creation_time": "2026-05-18T01:42:42Z"
+      "version": "2.9.11",
+      "gitref": "refs/tags/v2.9.11",
+      "url": "https://github.com/jstkdng/ueberzugpp/releases/tag/v2.9.11",
+      "creation_time": "2026-11-05T02:50:53Z"
     },
     "unimap": {
       "version": "0.8.0",
@@ -2579,10 +2584,10 @@
       "creation_time": "2026-09-17T06:31:42Z"
     },
     "uv": {
-      "version": "0.13.6",
-      "gitref": "refs/tags/0.13.6",
-      "revision": "329bf9448afd9f9088d14a4d57fbc61eb454f117",
-      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.6"
+      "version": "0.13.7",
+      "gitref": "refs/tags/0.13.7",
+      "revision": "316c827e058c16b71d5c507a20729c2995a7bcce",
+      "url": "https://github.com/astral-sh/uv/releases/tag/0.13.7"
     },
     "uwuifyy": {
       "version": "0.3.0",
@@ -2609,10 +2614,10 @@
       "creation_time": "2025-12-15T10:27:30Z"
     },
     "vortix": {
-      "version": "0.5.5",
-      "gitref": "refs/tags/v0.5.5",
-      "url": "https://github.com/Harry-kp/vortix/releases/tag/v0.5.5",
-      "creation_time": "2026-10-24T19:44:36Z"
+      "version": "0.6.0",
+      "gitref": "refs/tags/v0.6.0",
+      "url": "https://github.com/Harry-kp/vortix/releases/tag/v0.6.0",
+      "creation_time": "2026-11-01T20:37:04Z"
     },
     "wasm-bindgen": {
       "version": "0.2.130",
@@ -2759,10 +2764,10 @@
       "creation_time": "2026-10-14T05:34:19Z"
     },
     "zizmor": {
-      "version": "1.32.0-rc1",
-      "gitref": "refs/tags/v1.32.0-rc1",
-      "revision": "d253b4b2bb1e62cba3627995332f643d8336421d",
-      "url": "https://github.com/zizmorcore/zizmor/releases/tag/v1.32.0-rc1"
+      "version": "1.32.0",
+      "gitref": "refs/tags/v1.32.0",
+      "revision": "21bd300700d43d9ba04b0c1fce72a89391ac80b4",
+      "url": "https://github.com/zizmorcore/zizmor/releases/tag/v1.32.0"
     },
     "zls": {
       "version": "0.17.0",

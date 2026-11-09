@@ -53,6 +53,13 @@ github = "orhun/binsider"
 use_latest_release = true
 prefix = "v"
 
+[bootvine]
+source = "gitea"
+gitea = "wvhulle/bootvine"
+host = "codeberg.org"
+use_latest_release = true
+prefix = "v"
+
 [lychee]
 source = "github"
 github = "lycheeverse/lychee"
