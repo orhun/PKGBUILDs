@@ -161,6 +161,11 @@
       "gitref": "refs/tags/v0.2.3",
       "url": "https://github.com/Szymongib/bookmark/releases/tag/v0.2.3"
     },
+    "bootvine": {
+      "version": "0.1.3",
+      "gitref": "refs/tags/v0.1.3",
+      "url": "https://codeberg.org/wvhulle/bootvine/releases/tag/v0.1.3"
+    },
     "bore": {
       "version": "0.6.0",
       "gitref": "refs/tags/v0.6.0",
@@ -226,10 +231,10 @@
       "url": "https://github.com/rust-secure-code/cargo-auditable/releases/tag/v0.7.7"
     },
     "cargo-binstall": {
-      "version": "1.26.2",
-      "gitref": "refs/tags/v1.26.2",
-      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.26.2",
-      "creation_time": "2026-10-31T13:30:29Z"
+      "version": "1.27.0",
+      "gitref": "refs/tags/v1.27.0",
+      "url": "https://github.com/cargo-bins/cargo-binstall/releases/tag/v1.27.0",
+      "creation_time": "2026-11-11T09:51:30Z"
     },
     "cargo-binutils": {
       "version": "0.4.0",
@@ -472,9 +477,10 @@
       "creation_time": "2026-10-23T18:06:08Z"
     },
     "cargo-sort-derives": {
-      "version": "0.13.0",
-      "gitref": "refs/tags/v0.13.0",
-      "url": "https://github.com/lusingander/cargo-sort-derives/releases/tag/v0.13.0"
+      "version": "0.15.0",
+      "gitref": "refs/tags/v0.15.0",
+      "url": "https://github.com/lusingander/cargo-sort-derives/releases/tag/v0.15.0",
+      "creation_time": "2026-11-10T07:21:58Z"
     },
     "cargo-spellcheck": {
       "version": "0.15.7",
@@ -1148,9 +1154,10 @@
       "url": "https://github.com/tonarino/innernet/releases/tag/v2.0.0"
     },
     "intelli-shell": {
-      "version": "3.4.5",
-      "gitref": "refs/tags/v3.4.5",
-      "url": "https://github.com/lasantosr/intelli-shell/releases/tag/v3.4.5"
+      "version": "3.4.8",
+      "gitref": "refs/tags/v3.4.8",
+      "url": "https://github.com/lasantosr/intelli-shell/releases/tag/v3.4.8",
+      "creation_time": "2026-11-10T17:57:12Z"
     },
     "jilu": {
       "version": "0.13.2",
@@ -1639,10 +1646,10 @@
       "url": "https://github.com/sorairolake/qrtool/releases/tag/v0.13.2"
     },
     "rainfrog": {
-      "version": "0.4.6",
-      "gitref": "refs/tags/v0.4.6",
-      "revision": "6f84061fcc987c1a6db4a70f3a1b7d2cd4e702d0",
-      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.4.6"
+      "version": "0.4.7",
+      "gitref": "refs/tags/v0.4.7",
+      "revision": "2c7b5e61be6b842385cfc643a949dc7824a43366",
+      "url": "https://github.com/achristmascarl/rainfrog/releases/tag/v0.4.7"
     },
     "ratatui-snake": {
       "version": "0.1",
@@ -2001,9 +2008,10 @@
       "url": "https://github.com/shixinhuang99/sxtetris/releases/tag/1.4.0"
     },
     "symposium": {
-      "version": "0.5.1",
-      "gitref": "refs/tags/symposium-v0.5.1",
-      "url": "https://github.com/symposium-dev/symposium/releases/tag/symposium-v0.5.1"
+      "version": "0.6.0",
+      "gitref": "refs/tags/symposium-v0.6.0",
+      "url": "https://github.com/symposium-dev/symposium/releases/tag/symposium-v0.6.0",
+      "creation_time": "2026-11-13T12:18:22Z"
     },
     "syndicationd": {
       "version": "0.3.2",
@@ -2236,9 +2244,10 @@
       "url": "https://github.com/hlsxx/tukai/releases/tag/v0.2.3"
     },
     "twitch-tui": {
-      "version": "2.6.19",
-      "gitref": "refs/tags/v2.6.19",
-      "url": "https://github.com/Xithrius/twitch-tui/releases/tag/v2.6.19"
+      "version": "3.0.0",
+      "gitref": "refs/tags/v3.0.0",
+      "url": "https://github.com/Xithrius/twitch-tui/releases/tag/v3.0.0",
+      "creation_time": "2026-11-12T04:07:07Z"
     },
     "typeracer": {
       "version": "2.1.5",
@@ -2246,10 +2255,10 @@
       "url": "https://gitlab.com/ttyperacer/terminal-typeracer/-/tags/v2.1.5"
     },
     "typos": {
-      "version": "1.52.0",
-      "gitref": "refs/tags/v1.52.0",
-      "url": "https://github.com/crate-ci/typos/releases/tag/v1.52.0",
-      "creation_time": "2026-11-02T21:00:37Z"
+      "version": "1.52.2",
+      "gitref": "refs/tags/v1.52.2",
+      "url": "https://github.com/crate-ci/typos/releases/tag/v1.52.2",
+      "creation_time": "2026-11-11T02:19:00Z"
     },
     "typos-lsp": {
       "version": "0.1.56",

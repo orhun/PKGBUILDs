@@ -2811,3 +2811,9 @@ source = "gitlab"
 gitlab = "coolercontrol/coolercontrol"
 use_latest_release = true
 prefix = "v"
+
+[adbtop]
+source = "github"
+github = "aabolfazl/adbtop"
+use_latest_release = true
+prefix = "v"
